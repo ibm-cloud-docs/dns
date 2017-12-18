@@ -12,15 +12,10 @@ lastupdated: "2017-07-21"
 Domains may be transferred to {{site.data.keyword.BluSoftlayer_notm}} in bulk at any time, rather than individually, if there is an active credit card or an available credit on the account. Follow these steps to transfer multiple domains for {{site.data.keyword.BluSoftlayer_notm}}.
 
 * Navigate to the **Domain Registration** screen on the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/). Refer to [Using the Domain Registration Screen](use-domain-reg-screen.html){:new_window}.
-
 * Choose the **Transfer** tab.
-
 * Select the **Transfer Multiple Domains?** option within the **Transfer** tab.
-
 * Enter the existing domain name in the **Domain Name** field.
-
 * Select the domain type from the **Domain Type** drop down list.
-
 * Select the amount of time for which the transferred domain will remain active from the **Registration Time** drop down list.
 
   * **Note:** The price for each time period is displayed next to the amount of time and will be charged to the credit card or deducted from the credit on the account when the domain is renewed.

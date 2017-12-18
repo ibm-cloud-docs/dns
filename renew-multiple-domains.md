@@ -12,13 +12,9 @@ lastupdated: "2017-10-12"
 If multiple domains require renewal, you may renew them all once, if there is an active credit card linked to you accont, or an available credit on the account. Follow the steps in this article to renew the registration for multiple domains at once.
 
 * Navigate to the **Domain Registration** screen on the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/). Refer to [Using the Domain Registration Screen](use-domain-reg-screen.html){:new_window}.
-
 * Choose the **Renew** tab.
-
 * Select the **Renew Multiple Domains?** option within the **Renew** tab.
-
 * Select the domain requiring renewal from the **Domain** drop down list.
-
 * Select the amount of time to renew the domain from the **Registration Time** drop down list.
 
   * **Note:** The price for each time period is displayed next to the amount of time and will be charged to the credit card or deducted from the credit on the account when the domain is renewed.
