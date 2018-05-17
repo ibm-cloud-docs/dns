@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-10-12"
+lastupdated: "2018-05-17"
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,7 +13,7 @@ Reverse DNS enables users to identify the domain that's associated with an IP ad
 
 Please note, this tool works only when existing PTRs are associated with the Server or VLAN. If no PTRs exist, no details are listed and attempts to update will result in an error. 
 
-To add a Reverse DNS PTR record, refer to [Add and Edit a PTR (Pointer) Record](add-and-edit-ptr-pointer-record.html). Follow these steps to update a Reverse DNS record:
+To add a Reverse DNS PTR record, refer to [Add and Edit a PTR (Pointer) Record](add-edit-ptr-record.html). Follow these steps to update a Reverse DNS record:
 
  * Navigate to the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/) using your unique credentials.
  * Select **DNS** from the **Network** drop down menu.

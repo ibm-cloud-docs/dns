@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-10-11"
+lastupdated: "2018-05-17"
 ---
 
 {:shortdesc: .shortdesc}
@@ -76,7 +76,7 @@ Our customers have free DNS services that are fully managed through the [Custome
 
 ## How do I set up my Reverse DNS?
 
-Reverse DNS setup takes place using our [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/)  For instructions on how to set up your Reverse DNS, refer to [Update a Reverse DNS Record](update-reverse-dns-record.html).
+Reverse DNS setup takes place using our [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/)  For instructions on how to set up your Reverse DNS, refer to [Update a Reverse DNS Record](update-reverse-dns.html).
 
 <a name="29"></a>
 ## How long does it take for DNS changes to propagate?

@@ -11,7 +11,7 @@ lastupdated: "2017-10-11"
 
 In general, DNS Zone transfers are completed automatically, based on the Secondary DNS transfer interval you've specified. You can use a Manual Zone transfer to force content to transfer that would otherwise wait until the next automatic transfer. To complete a manual transfer, a [Secondary DNS Zone must be established](add-secondary-dns-zone.html). Follow the steps in this article to make a Manual Zone transfer for a Secondary DNS.
 
-1. Navigate to the **Secondary DNS Zones** screen in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/). Refer to [Using the DNS Zones Screen](delete-secondary-dns-record.html){:new_window}.
+1. Navigate to the **Secondary DNS Zones** screen in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/). Refer to [Using the DNS Zones Screen](use-dns-zones-screen.html){:new_window}.
 2. Select **Force Transfer** from the **Actions** drop-down list to begin the transfer.
 
 ## What Happens Next

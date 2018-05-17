@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-10-11"
+lastupdated: "2018-05-17"
 ---
 
 {:shortdesc: .shortdesc}
@@ -9,7 +9,7 @@ lastupdated: "2017-10-11"
 
 # Create Private Nameservers in cPanel/WHM
 
-Using the cPanel/WHM product, you can create private nameservers at any time. Private nameservers allow the nameservers associated with a website (for example, `www.yourdomain.com`) to display the website's nameserver (for example, `ns1.yourdomain.com`) instead of the nameserver associated with the web host for the website (for example `ns1.webhostdomain.com`). Adding a private nameserver to a domain also opens up additional options for DNS management within cPanel/WHM. Follow the steps in this article to create a private nameserver. If issues arise during or after the execution of this procedure, please [open a ticket](/general/create-ticket.html).
+Using the cPanel/WHM product, you can create private nameservers at any time. Private nameservers allow the nameservers associated with a website (for example, `www.yourdomain.com`) to display the website's nameserver (for example, `ns1.yourdomain.com`) instead of the nameserver associated with the web host for the website (for example `ns1.webhostdomain.com`). Adding a private nameserver to a domain also opens up additional options for DNS management within cPanel/WHM. Follow the steps in this article to create a private nameserver. If issues arise during or after the execution of this procedure, [open a ticket](https://console.bluemix.net/docs/get-support/howtogetsupport.html#open-ticket).
 
 ## Name the Nameserver
 
@@ -28,7 +28,7 @@ Using the cPanel/WHM product, you can create private nameservers at any time. Pr
 * Enter the **IP address** for the domain in the **Ip** field.
 * Enter the **domain name** in the **Domain** field.
 
-**Note:** Alternately, a Domain Account may be created with the [Create an Account](http://docs.cpanel.net/twiki/bin/view/AllDocumentation/WHMDocs/CreateAccount) guide in cPanel's WHM documentation.
+**Note:** Alternately, a Domain Account may be created with the [Create an Account](https://docs.cpanel.net/display/70Docs/Create+a+New+Account) guide in cPanel's WHM documentation.
 
 ## Assign an IP to the Nameserver
 

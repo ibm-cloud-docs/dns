@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-10-11"
+lastupdated: "2018-05-17"
 ---
 
 {:shortdesc: .shortdesc}
@@ -19,4 +19,4 @@ DNS management by {{site.data.keyword.BluSoftlayer_notm}} extends to DNS Zones t
 
 ## What Happens Next
 
-After adding a DNS Zone, it appears in the list of DNS Zones on the [DNS Zones screen](access-dns-zones-screen.html) within the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/). The Zone may be [edited](edit-dns-zone-record.html) or [deleted](delete-dns-zone.html) at any time.
+After adding a DNS Zone, it appears in the list of DNS Zones on the [DNS Zones screen](use-dns-zones-screen.html) within the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/). The Zone may be [edited](edit-dns-zone-record.html) or [deleted](delete-dns-zone.html) at any time.

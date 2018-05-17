@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017
-lastupdated: "2017-10-11"
+lastupdated: "2018-05-17"
 ---
 
 {:shortdesc: .shortdesc}
@@ -20,4 +20,4 @@ lastupdated: "2017-10-11"
 
 ## What Happens Next
 
-After you create a Secondary DNS Zone, it appears in the list of Zones on the Secondary DNS Zones screen. Transfer of data from the Primary to the Secondary Zone occurs in intervals you specify when the zone is created. At any time, you may [edit](edit-secondary-dns-zone.html), [manually transfer](make-manual-zone-transfer-secondary-dns.html), or [convert](convert-secondary-dns-zone-primary-zone.html) the Zone to a Primary Zone. The Secondary DNS Zone also may be [deleted](delete-secondary-dns-zone.html) at any time.
+After you create a Secondary DNS Zone, it appears in the list of Zones on the Secondary DNS Zones screen. Transfer of data from the Primary to the Secondary Zone occurs in intervals you specify when the zone is created. At any time, you may [edit](edit-secondary-dns-zone.html), [manually transfer](manual-zone-transfer-secondary-dns.html), or [convert](convert-secondary-dns-primary.html) the Zone to a Primary Zone. The Secondary DNS Zone also may be [deleted](delete-secondary-dns-zone.html) at any time.
