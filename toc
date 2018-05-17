@@ -6,7 +6,6 @@ DNS
 
     {: .navgroup id="learn"}
     getting-started.md
-    about-dns.md
     about-dns-tool.md
     about-reverse-dns.md
     about-domains.md
@@ -17,7 +16,6 @@ DNS
     {: .navgroup id="howto"}
     using-the-dns-interface.md
     add-edit-custom-name-servers.md
-    add-edit-ptr-record.md
    
     {: .topicgroup}
     Domain Registration
@@ -33,7 +31,6 @@ DNS
     {: .topicgroup}
     DNS Management
         dns-records-overview.md
-        check-dns.md
         use-dns-zones-screen.md
         add-dns-zone.md
         add-dns-zone-record.md

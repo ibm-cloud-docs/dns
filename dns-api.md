@@ -14,7 +14,7 @@ Users can interact with the {{site.data.keyword.BluSoftlayer_notm}} authoritativ
 Each `SoftLayer_Dns_Domain` has a collection of `SoftLayer_DNS_Domain_ResourceRecords` referenced by the `resourceRecords` relational property. It is possible to interact with resource records through the `SoftLayer_Dns_Domain` service; however, it is best to use the `SoftLayer_Dns_Domain_ResourceRecord` service directly after initial zone creation.
 
 ## Domains
-### Listing
+### Listing domains
 A list of all domains currently hosted on the {{site.data.keyword.BluSoftlayer_notm}} nameservers can be retrieved with `SoftLayer_Account::getDomains` which returns an array of `SoftLayer_Dns_Domain` template objects. You can extend this call also to pull the records associated with these domains using an object mask.
 
 ```
@@ -25,7 +25,7 @@ $domains = $client->getDomains();
 print_r($domains);
 ```
 
-### Creating
+### Creating domains
 To create a new zone, a `SoftLayer_Dns_Domain` template object must be created and passed into `SoftLayer_Dns_Domain::createObject`. NS records for `ns1.softlayer.com` and `ns2.softlayer.com` are automatically added during creation. Include at least one A or AAAA record with the template object for successful creation. Domain serial numbers will be added or updated by the API so there is no need to include them in the template object.
 
 The following properties are necessary when creating a `SoftLayer_Dns_Domain` object.
@@ -47,10 +47,10 @@ print_r($result);
 
 `SoftLayer_Dns_Domain::createObject` returns a fully populated `SoftLayer_Dns_Domain` object.
 
-### Editing
+### Editing domains
 Modifying existing `SoftLayer_Dns_Domain` entries is not possible. Changes to zone names should be refactored to creation of new zones.
 
-### Deleting
+### Deleting domains
 Removal of a zone is accomplished with `SoftLayer_Dns_Domain::deleteObject`. This method requires only an init parameter to be provided.
 
 ```
@@ -66,7 +66,7 @@ print_r($result);
 `SoftLayer_Dns_Domain::deleteObject` returns a Boolean value: `true` for successful, `false` for failed.
 
 ## Records
-### Listing
+### Listing records
 In addition to the method mentioned above, domain resource records can be retrieved with `SoftLayer_Dns_Domain::getResourceRecords` which returns an array of `SoftLayer_Dns_DomainResourceRecord objects`.
 
 ```
@@ -77,7 +77,7 @@ $result = $client->getResourceRecords();
 print_r($result);
 ```
 
-### Creating
+### Creating records
 Creating records directly through the `SoftLayer_Dns_Domain_ResourceRecord` service is accomplished by creating a `SoftLayer_Dns_Domain_ResourceRecord` template object and passing it into `SoftLayer_Dns_Domain_ResourceRecord::createObject`. The use of '@' in the host property denotes a wildcard hostname.
 
 The {{site.data.keyword.BluSoftlayer_notm}} DNS system supports these record types:
@@ -111,7 +111,7 @@ print_r($result);
 
 ```
 
-### Editing
+### Editing records
 Edit resource records by passing a template object into `SoftLayer_Dns_Domain_ResourceRecord::editObject`. The template object must contain:
 
  * id - identifier for the `SoftLayer_Dns_Domain_ResourceRecord` to be edited.
@@ -134,7 +134,7 @@ print_r($result);
 ```
 It is also necessary to populate the init params with the resource record ID property. A Boolean is returned by `SoftLayer_Dns_Domain_ResourceRecord::editObject`
 
-### Deleting
+### Deleting records
 Removal of a record is accomplished with `SoftLayer_Dns_Domain_ResourceRecord::deleteObject`. This method requires only an init parameter to be provided.
 
 ```

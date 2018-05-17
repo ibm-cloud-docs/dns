@@ -21,7 +21,7 @@ Common "A" records include: www.domain.com, ftp.domain.com, mail.domain.com, web
 
 ## The `CNAME` section:
 
-CNAME records point to domain names instead of IP addresses. The benefit to using a CNAME record is that you can point a host to a particular domain name, then only modify the target domain name’s A records to have the change take place on both domains. This method is commonly used by those who own several TLD versions (.com, .net, .org, etc.) of the same domain.
+CNAME records point to domain names instead of IP addresses. The benefit to using a CNAME record is that you can point a host to a particular domain name, then only modify the target domain name’s A records to have the change take place on both domains. This method commonly is used by those who own several top-level domains (TLD) in different versions (.com, .net, .org, etc.) of the same domain.
 
 For example, you own _domain.com_ and you also own _domain.net_, and you want the records to point to the same IP. You can create CNAME records for the _www_ host of _domain.net_ that point to www.domain.com. Then, to change the _www_ host of _domain.net_ all you must do it modify the A record of www.domain.com to point to its new IP address, and www.domain.net also is automatically changed.
 
@@ -29,7 +29,7 @@ A common mistake to using this method is that you can accidentally modify the re
 
 **Host field:** The host name for that particular CNAME record. The host name should be what precedes the .domain.com in your FQDN. For instance, on www.domain.com, “www” is the host (without the quotation marks). Whatever is listed here, the lookup will automatically append “.domain.com” to the query. A blank "A record" (_domain.com_ rather than _host.domain.com_) is created by putting a ‘@’ sign in the host name field.
 
-**Points to field:** The name that the record points to. _This field must be a domain name, and not an IP address._ The domain name must also end with a dot. Otherwise, the domain record will wrap down when queried to the next period in the zone file.
+**Points to field:** The name that the record points to. _This field must be a domain name, and not an IP address._ The domain name must also end with a dot. Otherwise, when queried, the domain record will continue until it finds the next dot in the zone file.
 
 ## The `MX` section:
 
