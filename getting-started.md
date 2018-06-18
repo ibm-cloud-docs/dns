@@ -15,7 +15,7 @@ While the concept of DNS is simple, managing and storing records for your variou
 
 IBM Cloud DNS offers customers a central location from which to view and manage their domains, by using our basic DNS management interface. It also gives users the option to manage reverse and secondary DNS in the same location, free of charge.
 
-IBM Cloud also offers a suite of additional [network tools](https://console.bluemix.net/docs/infrastructure/network-tools/getting-started.html#getting-started-with-network-tools). For specific instructions about using our DNS interface through the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/), [see this document.](https://github.ibm.com/Bluemix-Docs/dns/blob/staging/using-the-dns-interface.html).
+IBM Cloud also offers a suite of additional [network tools](https://console.bluemix.net/docs/infrastructure/network-tools/getting-started.html#getting-started-with-network-tools). For specific instructions about using our DNS interface through the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/), [see this document](using-the-dns-interface.html).
 
 ## How it Works
 At a basic level, {{site.data.keyword.BluSoftlayer_notm}} DNS functions similarly to any DNS management tool that you would use. You have the ability to interact with and edit existing DNS records, add new records, and update information about reverse DNS. The primary benefit of using {{site.data.keyword.BluSoftlayer_notm}} over another DNS management service or even managing it yourself is that you have a central, reliable location in which all of your data is stored.
