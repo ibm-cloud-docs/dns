@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="dns" audience="dns" arm="3662738" href="/docs/infrastructure/dns/getting-started.html"}
+{: .toc subcollection="dns" audience="dns" arm="3662738" href="/docs/infrastructure/dns/getting-started.html" path="infrastructure/dns"}
 DNS
 
     {: .navgroup id="learn"}
