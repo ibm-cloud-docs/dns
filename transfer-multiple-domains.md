@@ -28,4 +28,4 @@ Domains may be transferred to {{site.data.keyword.BluSoftlayer_notm}} in bulk at
 
 ## What Happens Next
 
-After you transfer the domains, you can manage them within the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/). When a domain's registration is approaching expiration, it may be [renewed](renew-multiple-existing-domains.html) from the **Domain Management** screen.
+After you transfer the domains, you can manage them within the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/). When a domain's registration is approaching expiration, it may be [renewed](renew-multiple-domains.html) from the **Domain Management** screen.
