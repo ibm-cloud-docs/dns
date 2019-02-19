@@ -1,13 +1,18 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-01"
+  years: 1994, 2017-2019
+lastupdated: "2019-02-01"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:generic: data-hd-programlang="generic"}
 
-# Create your own nameservers in Cpanel/WHM
+# Create your own nameservers in cPanel/WHM
 
 This article gives steps for how to create your own nameservers using Web Host Manager (WHM). If you run into problems after following these steps, please submit a support ticket referencing this article.
 
@@ -21,13 +26,13 @@ This article gives steps for how to create your own nameservers using Web Host M
 
  * When you’re done, select the “Save” button.
 
-2. Now create the Zone file for “awesomeserverhosting.com” in your server. There are two ways to do this task:
+2. Now create the Zone file for `awesomeserverhosting.com` in your server. There are two ways to do this task:
 
 First method: Create the domain account for “awesomeserverhosting.com”. Instructions for this are outside of the scope of this article, please consult the [cPanel documentation](http://www.cpanel.net/support/docs/11//whm/account_functions_creatnewacct.html) for more information: 
 
    * Select “Add a DNS Zone” under “DNS Functions” in the left-hand sidebar.
 
-   * Provide the IP address where the main website is hosted for “awesomeserverhosting.com” and of course, the domain name.
+   * Provide the IP address where the main website is hosted for `awesomeserverhosting.com` and of course, the domain name.
 
    **Note: Do this only if you do not plan on hosting `awesomeserverhosting.com` on this server!**
 

@@ -1,11 +1,8 @@
 ---
 
-
-
 copyright:
-  years: 2017,2018
-lastupdated: "2018-11-14"
-
+  years: 2017-2019
+lastupdated: "2019-02-01"
 
 ---
 
@@ -32,7 +29,7 @@ lastupdated: "2018-11-14"
 # Getting Help and Support 
 {: #gettinghelp}
 
-If you have problems or questions when using DNS, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support ticket in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/).
+If you have problems or questions when using DNS, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support ticket in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/).
 {:shortdesc}
 
 When using the forums to ask a question, tag your question so that it is seen by the {{site.data.keyword.Bluemix_notm}} development teams.
@@ -41,7 +38,7 @@ When using the forums to ask a question, tag your question so that it is seen by
 <!--Insert the appropriate dW Answers tag for your service for <service_keyword> in URL below:  -->
 * For questions about the service and getting started instructions, use the [IBM developerWorks dW Answers ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://developer.ibm.com/answers/topics/dns.html?smartspace=ibm-cloud){:new_window} forum. Include the  "dns" and "ibm-cloud" tags.
 
-See [Getting help]({DomainName}/support/index.html#getting-help) for more details about using the forums.
+See [Getting help](/docs/get-support?topic=get-support-getting-customer-support) for more details about using the forums.
 
-For information about opening an IBM support ticket, or about support levels and ticket severities, see [Contacting support]({DomainName}/support/index.html#contacting-support).
+For information about opening an IBM support ticket, or about support levels and ticket severities, see [Contacting support](/docs/get-support?topic=get-support-getting-customer-support).
 

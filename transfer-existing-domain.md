@@ -11,7 +11,7 @@ lastupdated: "2017-10-12"
 
 Once a domain has been registered, it may be transferred at any time. Transferring a domain from a third-party registrar to {{site.data.keyword.BluSoftlayer_notm}} can streamline the domain management process. Transferring a domain does not affect the website, email, or DNS. It only changes the registrar that manages the domain records. Follow the steps in this article to transfer an existing domain to {{site.data.keyword.BluSoftlayer_notm}}.
 
-* Navigate to the **Domain Registration** screen in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/). Refer to [Access the Domain Registration Screen](use-domain-reg-screen.html).
+* Navigate to the **Domain Registration** screen in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/). Refer to [Access the Domain Registration Screen](/docs/infrastructure/dns?topic=dns-how-to-use-the-domain-registration-screen).
 * Choose the **Transfer** tab.
 * Enter the existing domain name in the **Domain Name** field.
 * Select the domain type from the **Domain Type** drop down list.
@@ -21,4 +21,4 @@ Once a domain has been registered, it may be transferred at any time. Transferri
 
 ## What Happens Next
 
-After you transfer a domain, you can manage it within the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/). When the domain's registration approaches its expiration date, it may be [renewed](renew-existing-domain.html) from the **Domain Management** screen.
+After you transfer a domain, you can manage it within the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/). When the domain's registration approaches its expiration date, it may be [renewed](/docs/infrastructure/dns?topic=dns-renew-an-existing-domain) from the **Domain Management** screen.

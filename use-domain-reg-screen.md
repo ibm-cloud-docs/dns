@@ -1,19 +1,25 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-29"
+  years: 1994, 2017-2019
+lastupdated: "2019-02-01"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:generic: data-hd-programlang="generic"}
 
 # How to use the Domain Registration Screen
 
-Use the Domain Registration screen for registering or renewing domains. Follow the steps below to display the Domain Registration screen.
+Use the Domain Registration screen for registering or renewing domains. Use the following steps to display the Domain Registration screen.
 
-1. Log in to the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/){:new_window} using your unique credentials.
-2. Select **Services > Domain Registration** from the **Navigation Bar** to display the Domain Registration screen.
+1. Log in to the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){:new_window} using your unique credentials.
+1. Select **Classic Infrastructure** from the Navigation Menu.
+1. Select **Services > Domain Registration** to display the Domain Registration screen.
 
 ## What Happens Next
 
-From the Domain Registration screen, you may [register](register-new-domain.html), [renew](renew-existing-domain.html), or [transfer](transfer-existing-domain.html) domains. You can perform these actions on single or multiple domains.
+From the Domain Registration screen, you may [register](/docs/infrastructure/dns?topic=dns-register-a-new-domain), [renew](/docs/infrastructure/dns?topic=dns-renew-an-existing-domain), or [transfer](/docs/infrastructure/dns?topic=dns-transfer-an-existing-domain-to-ibm-cloud) domains. You can perform these actions on single or multiple domains.

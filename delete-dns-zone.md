@@ -1,20 +1,26 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-10-11"
+  years: 1994, 2017-2019
+lastupdated: "2019-02-01"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:generic: data-hd-programlang="generic"}
 
 # Delete a DNS Zone
 
 After a DNS Zone has been added, it may be deleted at any time. DNS Zone deletions are permanent; they cannot be undone. Follow these steps to delete a DNS Zone:
 
-* Navigate to the desired **DNS Zone** screen. Refer to [Using the DNS Zones Screen](use-dns-zones-screen.html){:new_window}.
+* Navigate to the desired **DNS Zone** screen by selecting **Classic Infrastructure** from the navigation menu. 
+* Select **Network > DNS** from the Classic Infrastructure navigation menu and choosing the type of zone you need.
 * Select the **Delete** icon at then end of the row containing the desired DNS Zone. A pop-up confirmation box will appear.
 * Select the **Yes** button to confirm the deletion, or select the **No** button to cancel the action.
 
 ## What Happens Next
 
-After deleting a DNS Zone, it may no longer be managed using the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/). To manage the deleted zone in the Portal again, it must be [added as a new Zone](add-dns-zone.html).
+After deleting a DNS Zone, it may no longer be managed using the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). To manage the deleted zone in the Portal again, it must be [added as a new Zone](/docs/infrastructure/dns?topic=dns-add-a-dns-zone).

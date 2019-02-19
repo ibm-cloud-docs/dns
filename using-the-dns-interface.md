@@ -1,17 +1,24 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-29"
+  years: 1994, 2017-2019
+lastupdated: "2019-02-01"
 ---
+
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:generic: data-hd-programlang="generic"}
 
 # How to use the DNS interface
 
 Follow these steps to utilize the DNS interface through the IBM Cloud customer portal:
 
-* Navigate to the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/).
+* Navigate to the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/).
+* Select **Classic Infrastructure** from the Navigation Menu
 * Select **Network->DNS->Forward Zones**
 * Select the Domain you wish to manage, or select the **Add DNS Zone** button on the Right side of the page.
 
@@ -27,7 +34,8 @@ Upon reaching the DNS interface in the Portal, you will be routed directly to th
 
 ## Secondary DNS
 
-* Navigate to the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/).
+* Navigate to the [Customer Portal Classic Infrastructure ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/).
+* Select **Classic Infrastructure** from the Navigation Menu
 * Select **Network->DNS->Secondary Zones**
 
 From this screen you can add or modify secondary DNS settings.
@@ -39,7 +47,8 @@ From this screen you can add or modify secondary DNS settings.
 
 Follow these steps to utilize the DNS interface through Portal navigation:
 
-* Navigate to the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/).
+* Navigate to the [Customer Portal Classic Infrastructure ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/).
+* Select **Classic Infrastructure** from the Navigation Menu
 * Select **Network->DNS->Reverse Records**
 * In the dropdown menu, either select or type the IP address for which you wish to change Reverse DNS, then select **View IP**
   * To add the record, enter the Hostname you wish to use for the reverse DNS entry
@@ -51,12 +60,12 @@ You can modify an entire subnet by clicking **Edit RDNS for all IPs in this Subn
 * From this page, select the line for the IP you wish to update
 * Enter the information into the fields, and then select **Update**. The "notes" field is optional.
 
-## Propagation Check
+<!--## Propagation Check
 
-* Navigate to the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/).
+* Navigate to the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/).
 * Select **Network->Tools**
 
 On the page that loads, you can select from multiple tools; To check the propagation of your domain name through the DNS servers, use the bottom option.
 
 * Enter the appropriate information into the fields, then select **Check DNS**
-* After a few moments, the box to the right will update with the current DNS information for the domain.
+* After a few moments, the box to the right will update with the current DNS information for the domain.-->

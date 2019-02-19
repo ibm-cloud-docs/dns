@@ -1,11 +1,17 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-10-11"
+  years: 1994, 2017-2019
+lastupdated: "2019-02-01"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:generic: data-hd-programlang="generic"}
+
 
 # Nameserver FAQs
 
@@ -42,7 +48,7 @@ With a Bare Metal Server there are four typical options for name servers:
 
 For options 1, 2, & 3 you will use name servers of the third party (for example, `ns1.softlayer.com` and `ns2.softlayer.com`). For option number 4, you will use your domain as the name server (`ns1.yourdomain.com` & `ns2.yourdomain.com`). Option number 4 requires you to run DNS services on your server, and you also must register your domain as a name server with your registrar. This registration usually is free, but it requires an additional step beyond the basic domain name registration process.
 
-IBM Cloud offers free DNS services that are fully managed through the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/). We highly recommend allowing IBM Cloud to manage your DNS and to act as your name servers, because we have redundant systems, ease of management, and ability to  troubleshoot DNS-related issues quickly.
+IBM Cloud offers free DNS services that are fully managed through the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). We highly recommend allowing IBM Cloud to manage your DNS and to act as your name servers, because we have redundant systems, ease of management, and ability to  troubleshoot DNS-related issues quickly.
 
 
 # How can I run my own nameservers?

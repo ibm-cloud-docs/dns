@@ -1,11 +1,16 @@
 ---
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-27"
+  years: 1994, 2017-2019
+lastupdated: "2019-02-01"
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:generic: data-hd-programlang="generic"}
 
 # About our DNS Tool
 
