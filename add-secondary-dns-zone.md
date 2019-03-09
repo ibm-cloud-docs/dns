@@ -1,8 +1,15 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-03-08"
+
+keywords: Secondary DNS Zone, IBM Cloud, Add Zone, primary DNS Zones
+
+subcollection: dns
+
 ---
+
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
@@ -13,6 +20,7 @@ lastupdated: "2019-02-01"
 {:generic: data-hd-programlang="generic"}
 
 # Add a Secondary DNS Zone
+{:#add-a-secondary-dns-zone}
 
 {{site.data.keyword.BluSoftlayer_notm}} provides Secondary DNS to all customers as a means to cache primary DNS Zones in the event of a loss of data. Maintaining a Secondary DNS Zone is not mandatory, but it is strongly encouraged for users with multiple domains. Follow the steps below to add a Secondary DNS Zone:
 
@@ -25,5 +33,6 @@ lastupdated: "2019-02-01"
 * Select the **Add** button to add the Zone, or select **Cancel** to cancel the action.
 
 ## What Happens Next
+{:#add-a-secondary-dns-zone-next}
 
 After you create a Secondary DNS Zone, it appears in the list of Zones on the Secondary DNS Zones screen. Transfer of data from the Primary to the Secondary Zone occurs in intervals you specify when the zone is created. At any time, you may [edit](/docs/infrastructure/dns?topic=dns-edit-a-dns-zone-record), [manually transfer](/docs/infrastructure/dns?topic=dns-make-a-manual-zone-transfer-for-a-secondary-dns-zone), or [convert](/docs/infrastructure/dns?topic=dns-convert-a-secondary-dns-zone-to-a-primary-zone) the Zone to a Primary Zone. The Secondary DNS Zone also may be [deleted](/docs/infrastructure/dns?topic=dns-delete-a-secondary-dns-zone) at any time.

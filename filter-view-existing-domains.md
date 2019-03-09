@@ -1,7 +1,13 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-03-08"
+
+keywords: Filter tab, list all active domains, Lock Status Select
+
+subcollection: dns
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,6 +19,7 @@ lastupdated: "2019-02-01"
 {:generic: data-hd-programlang="generic"}
 
 # Filter the View of Existing Domains
+{:#filter-the-view-of-existing-domains}
 
 A list of all active domains associated with the account is displayed on the **Domains** screen. For accounts with multiple domains, the view may be filtered to view and interact with selected domains. Follow the steps below to filter the view of existing domains.
 
@@ -24,5 +31,6 @@ A list of all active domains associated with the account is displayed on the **D
 4. Choose the **Filter** button to filter the domains listed, or select **Cancel** to cancel the filter options.
 
 ## What Happens Next
+{:#filter-the-view-of-existing-domains-next}
 
 After filtering, all domains that meet the requirements set by the filters are displayed. You may change the filters that have been applied to the domains displayed, just by selecting the **Modify** button and repeating the steps above. To clear all filters, use the **Clear All** button.

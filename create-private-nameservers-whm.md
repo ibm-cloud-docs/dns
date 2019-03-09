@@ -1,8 +1,15 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-03-08"
+
+keywords: Select Basic cPanel, Private Nameservers
+
+subcollection: dns
+
 ---
+
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
@@ -13,10 +20,12 @@ lastupdated: "2019-02-01"
 {:generic: data-hd-programlang="generic"}
 
 # Create Private Nameservers in cPanel/WHM
+{:#create-private-nameservers-in-cpanel-whm}
 
 Using the cPanel/WHM product, you can create private nameservers at any time. Private nameservers allow the nameservers associated with a website (for example, `www.yourdomain.com`) to display the website's nameserver (for example, `ns1.yourdomain.com`) instead of the nameserver associated with the web host for the website (for example `ns1.webhostdomain.com`). Adding a private nameserver to a domain also opens up additional options for DNS management within cPanel/WHM. Follow the steps in this article to create a private nameserver. If issues arise during or after the execution of this procedure, [open a ticket](/docs/get-support?topic=get-support-getting-customer-support).
 
 ## Name the Nameserver
+{:#name-the-nameserver}
 
 * Log in to WHM on your server at the following URL: `http://xx.xx.xx.xx:2086`.
 * Select **Basic cPanel/WHM Setup** from the **Server Configuration** menu.
@@ -28,6 +37,7 @@ Using the cPanel/WHM product, you can create private nameservers at any time. Pr
 * Select the **Save** button.
 
 ## Create a Zone File for the Domain
+{:#create-a-zone-file-for-the-domain}
 
 * Select **Add a DNS Zone** from the **DNS Functions** menu.
 * Enter the **IP address** for the domain in the **Ip** field.
@@ -37,6 +47,7 @@ Alternately, a Domain Account may be created with the [Create an Account](https:
 {:note}
 
 ## Assign an IP to the Nameserver
+{:#assign-an-ip-to-the-nameserver}
 
 * Select **Nameserver IPs** from the **Network Setup** menu.
 * Enter the first **nameserver name** in the **Nameserver** field.
@@ -44,6 +55,7 @@ Alternately, a Domain Account may be created with the [Create an Account](https:
 * Repeat the steps above for each nameserver.
 
 ## Set Up the Nameserver
+{:#setup-the-nameserver}
 
 * Select **Nameserver Setup** from the **Service Configuration** menu.
 * Select the **Proceed** button on the pop-up message.

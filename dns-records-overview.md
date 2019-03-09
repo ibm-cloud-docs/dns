@@ -1,8 +1,15 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-03-08"
+
+keywords: domain names, Resource Records, host name
+
+subcollection: dns
+
 ---
+
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
@@ -13,8 +20,10 @@ lastupdated: "2019-02-01"
 {:generic: data-hd-programlang="generic"}
 
 # DNS Overview - Resource Records
+{:#dns-0verview-resource-records}
 
-## The `A` record Section:
+## The `A` record section
+{:#the-a-record-section}
 
 Most records will be **A** records. This allows the greatest versatility in pointing your domain names where you want them go. Each record consists of a host name and an IP address.
 
@@ -24,7 +33,8 @@ Common "A" records include: `www.domain.com`, `ftp.domain.com`, `mail.domain.com
 
 **Points to field:** This field is where you list the IP address to which the host name should point.
 
-## The `CNAME` section:
+## The `CNAME` section
+{:#the-cname-section}
 
 CNAME records point to domain names instead of IP addresses. The benefit to using a CNAME record is that you can point a host to a particular domain name, then only modify the target domain name’s A records to have the change take place on both domains. This method commonly is used by those who own several top-level domains (TLD) in different versions (.com, .net, .org, etc.) of the same domain.
 
@@ -36,7 +46,8 @@ A common mistake to using this method is that you can accidentally modify the re
 
 **Points to field:** The name that the record points to. _This field must be a domain name, and not an IP address._ The domain name must also end with a dot. Otherwise, when queried, the domain record will continue until it finds the next dot in the zone file.
 
-## The `MX` section:
+## The `MX` section
+{:#the-mx-section}
 
 The MX section is the area that handles the direction of mail.
 
@@ -48,7 +59,8 @@ The MX section is the area that handles the direction of mail.
 
 It is highly recommended that you point MX records to a domain name, and that domain name (just like a CNAME record) must end with a dot.
 
-## The `TXT` section:
+## The `TXT` section
+{:#the-txt-section}
 
 A TXT record generally is a record that you can query, and which returns information about a domain. These records can be used for SPF indicators, for crafting port and protocol connections, or just for returning information about a domain. They are most commonly used with the SPF protocol.
 

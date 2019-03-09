@@ -1,20 +1,30 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-11-17"
+  years: 1994, 2017-2019
+lastupdated: "2019-03-08"
+
+keywords: Domain service, DNS API, resource records
+
+subcollection: dns
+
 ---
+
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Getting started with the DNS API￼
+{:#getting-started-with-the-dns-api}
 
 Users can interact with the {{site.data.keyword.BluSoftlayer_notm}} authoritative DNS servers through the `SoftLayer_Dns_Domain` service. 
 
 Each `SoftLayer_Dns_Domain` has a collection of `SoftLayer_DNS_Domain_ResourceRecords` referenced by the `resourceRecords` relational property. It is possible to interact with resource records through the `SoftLayer_Dns_Domain` service; however, it is best to use the `SoftLayer_Dns_Domain_ResourceRecord` service directly after initial zone creation.
 
 ## Domains
+{:#dns-api-domains}
 ### Listing domains
+{:#dns-api-listing-domains}
 A list of all domains currently hosted on the {{site.data.keyword.BluSoftlayer_notm}} nameservers can be retrieved with `SoftLayer_Account::getDomains` which returns an array of `SoftLayer_Dns_Domain` template objects. You can extend this call also to pull the records associated with these domains using an object mask.
 
 ```
@@ -26,6 +36,7 @@ print_r($domains);
 ```
 
 ### Creating domains
+{:#dns-api-creating-domains}
 To create a new zone, a `SoftLayer_Dns_Domain` template object must be created and passed into `SoftLayer_Dns_Domain::createObject`. NS records for `ns1.softlayer.com` and `ns2.softlayer.com` are automatically added during creation. Include at least one A or AAAA record with the template object for successful creation. Domain serial numbers will be added or updated by the API so there is no need to include them in the template object.
 
 The following properties are necessary when creating a `SoftLayer_Dns_Domain` object.
@@ -48,9 +59,11 @@ print_r($result);
 `SoftLayer_Dns_Domain::createObject` returns a fully populated `SoftLayer_Dns_Domain` object.
 
 ### Editing domains
+{:#dns-api-existing-domains}
 Modifying existing `SoftLayer_Dns_Domain` entries is not possible. Changes to zone names should be refactored to creation of new zones.
 
 ### Deleting domains
+{:#dns-api-deleting-domains}
 Removal of a zone is accomplished with `SoftLayer_Dns_Domain::deleteObject`. This method requires only an init parameter to be provided.
 
 ```
@@ -66,7 +79,9 @@ print_r($result);
 `SoftLayer_Dns_Domain::deleteObject` returns a Boolean value: `true` for successful, `false` for failed.
 
 ## Records
+{:#dns-api-records}
 ### Listing records
+{:#dns-api-listing-records}
 In addition to the method mentioned above, domain resource records can be retrieved with `SoftLayer_Dns_Domain::getResourceRecords` which returns an array of `SoftLayer_Dns_DomainResourceRecord objects`.
 
 ```
@@ -78,6 +93,7 @@ print_r($result);
 ```
 
 ### Creating records
+{:#dns-api-creating-records}
 Creating records directly through the `SoftLayer_Dns_Domain_ResourceRecord` service is accomplished by creating a `SoftLayer_Dns_Domain_ResourceRecord` template object and passing it into `SoftLayer_Dns_Domain_ResourceRecord::createObject`. The use of '@' in the host property denotes a wildcard hostname.
 
 The {{site.data.keyword.BluSoftlayer_notm}} DNS system supports these record types:
@@ -112,6 +128,7 @@ print_r($result);
 ```
 
 ### Editing records
+{:#dns-api-editing-records}
 Edit resource records by passing a template object into `SoftLayer_Dns_Domain_ResourceRecord::editObject`. The template object must contain:
 
  * id - identifier for the `SoftLayer_Dns_Domain_ResourceRecord` to be edited.
@@ -135,6 +152,7 @@ print_r($result);
 It is also necessary to populate the init params with the resource record ID property. A Boolean is returned by `SoftLayer_Dns_Domain_ResourceRecord::editObject`
 
 ### Deleting records
+{:#dns-api-deleting-records}
 Removal of a record is accomplished with `SoftLayer_Dns_Domain_ResourceRecord::deleteObject`. This method requires only an init parameter to be provided.
 
 ```

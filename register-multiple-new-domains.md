@@ -1,7 +1,13 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-03-08"
+
+keywords: Register Multiple New Domains, Check Availability, new domains
+
+subcollection: dns
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,6 +19,7 @@ lastupdated: "2019-02-01"
 {:generic: data-hd-programlang="generic"}
 
 # Register Multiple New Domains
+{:#register-multiple-new-domains}
 
 Multiple domains may be registered simultaneously, on a single screen, if there is an active credit card linked to your account or an available credit on your account. Follow the steps in this article to register multiple new domains at one time.
 
@@ -35,5 +42,6 @@ Select the **Add Another** option to populate additional blank fields for more d
 * Select the **Continue** button to register the domains.
 
 ## What Happens Next
+{:#register-multiple-new-domains-next}
 
 After successfully registering the domains, they are reserved for the amount of time selected. They may be managed using the Customer Portal. When the registration period for the domains expires, they may be [renewed](/docs/infrastructure/dns?topic=dns-renew-multiple-existing-domains) through the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/)

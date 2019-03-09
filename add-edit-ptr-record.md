@@ -1,8 +1,15 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-03-08"
+
+keywords: Record PTR, IP addresses, Reverse DNS feature
+
+subcollection: dns
+
 ---
+
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
@@ -13,6 +20,7 @@ lastupdated: "2019-02-01"
 {:generic: data-hd-programlang="generic"}
 
 # Add or Edit a PTR (Pointer) Record
+{:#add-or-edit-a-ptr-pointer-record}
 
 PTR, or pointer, records resolve IP addresses into hostnames. Users may add PTR Records to be associated with an IP address by using the Reverse DNS feature on the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){:new_window}. Also, PTR Records may be edited in the same way they are added. Follow the steps below to add or edit a PTR Record for a device:
 
@@ -25,5 +33,6 @@ PTR, or pointer, records resolve IP addresses into hostnames. Users may add PTR 
 * Click the **Update** button to update the record. Click **Cancel** to cancel the action.
 
 ## What Happens Next
+{:#add-or-edit-a-ptr-pointer-record-next}
 
 After a PTR Record is added, the Public IP Address associated with that record will resolve to the hostname specified in the record. The record may be edited at any time. To remove details from the PTR Record, delete all information from the fields using the **Edit** process.

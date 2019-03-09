@@ -1,8 +1,15 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-03-08"
+
+keywords: create your own nameservers, cPanel, WHM
+
+subcollection: dns
+
 ---
+
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
@@ -13,6 +20,7 @@ lastupdated: "2019-02-01"
 {:generic: data-hd-programlang="generic"}
 
 # Create your own nameservers in cPanel/WHM
+{:#create-your-own-nameservers-in-cpanel-whm}
 
 This article gives steps for how to create your own nameservers using Web Host Manager (WHM). If you run into problems after following these steps, please submit a support ticket referencing this article.
 

@@ -1,8 +1,15 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-03-08"
+
+keywords: Secondary DNS Zone, Primary Zone, IBM Cloud nameservers
+
+subcollection: dns
+
 ---
+
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
@@ -13,6 +20,7 @@ lastupdated: "2019-02-01"
 {:generic: data-hd-programlang="generic"}
 
 # Convert a Secondary DNS Zone to a Primary Zone
+{:#convert-a-secondary-dns-zone-to-a-primary-zone}
 
 At any time, a [Secondary DNS Zone](/docs/infrastructure/dns?topic=dns-add-a-secondary-dns-zone){:new_window} may be converted to your Primary zone. When you convert a Secondary DNS Zone to Primary, {{site.data.keyword.BluSoftlayer_notm}} nameservers become the authoritative nameservers for the converted Zone. Follow the steps below to convert a Secondary DNS Zone to Primary:
 
@@ -22,5 +30,6 @@ At any time, a [Secondary DNS Zone](/docs/infrastructure/dns?topic=dns-add-a-sec
 * Select the **Yes** button to convert the Zone, or select **No** to cancel the action.
 
 ## What Happens Next
+{:#convert-a-secondary-dns-zone-to-a-primary-zone-next}
 
 After you convert the Secondary DNS Zone to Primary, you can view it on the **Forward Zones** screen. All SOA and NS records that previously existed for the Zone will be replaced by {{site.data.keyword.BluSoftlayer_notm}} SOA and NS records, which cannot be edited. You may still [edit remaining Zone records](/docs/infrastructure/dns?topic=dns-edit-a-dns-zone-record).

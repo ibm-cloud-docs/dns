@@ -1,7 +1,13 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-03-08"
+
+keywords: amount of time, Renew tab, time period, renew existing domains
+
+subcollection: dns
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,6 +19,7 @@ lastupdated: "2019-02-01"
 {:generic: data-hd-programlang="generic"}
 
 # Renew Multiple Existing Domains
+{:#rewew-multiple-existing-domains}
 
 If multiple domains require renewal, you may renew them all once, if there is an active credit card linked to you accont, or an available credit on the account. Follow the steps in this article to renew the registration for multiple domains at once.
 
@@ -32,5 +39,6 @@ The price for each time period is displayed next to the amount of time and will 
 * Select the **Continue** button to renew the domain.
 
 ## What Happens Next
+{:#rewew-multiple-existing-domains-next}
 
 Upon renewal, the domains are reserved for the amount of time selected. Repeat these steps at any time the domains require renewal.

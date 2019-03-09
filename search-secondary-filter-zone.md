@@ -1,7 +1,13 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-03-08"
+
+keywords: Secondary DNS Zone, search results, Filter tab
+
+subcollection: dns
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,6 +19,7 @@ lastupdated: "2019-02-01"
 {:generic: data-hd-programlang="generic"}
 
 # Search for a Secondary DNS Zone
+{:#search-for-a-secondary-dns-zone}
 
 After a Secondary DNS Zone is added, users may search for the Zone using the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). This tool is useful when looking to locate a single Zone among a large number of Secondary Zones. Follow these steps to search for a Secondary DNS Zone.
 
@@ -22,5 +29,6 @@ After a Secondary DNS Zone is added, users may search for the Zone using the [Cu
 * Choose the **Filter** button to filter the results to the desired zone, or select **Cancel** to cancel the action.
 
 ## What Happens Next
+{:#search-for-a-secondary-dns-zone-next}
 
 The search results for the Secondary DNS Zone are displayed below the **Filter** tab. The Secondary Zone may be [edited](/docs/infrastructure/dns?topic=dns-edit-a-secondary-dns-zone) or [deleted](/docs/infrastructure/dns?topic=dns-delete-a-secondary-dns-zone) at any time.

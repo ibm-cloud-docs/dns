@@ -1,7 +1,13 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-03-07"
+
+keywords: Transfer Multiple Domains, IBM Cloud Domains
+
+subcollection: dns
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,6 +19,7 @@ lastupdated: "2019-02-01"
 {:generic: data-hd-programlang="generic"}
 
 # Transfer Multiple Existing Domains to IBM Cloud
+{:#transfer-multiple-existing-domains-to-ibm-cloud}
 
 Domains may be transferred to {{site.data.keyword.BluSoftlayer_notm}} in bulk at any time, rather than individually, if there is an active credit card or an available credit on the account. Follow these steps to transfer multiple domains for {{site.data.keyword.BluSoftlayer_notm}}.
 
@@ -34,5 +41,6 @@ Select the **Add Another** option to populate additional blank fields for more d
 * Select the **Continue** button to transfer the domains.
 
 ## What Happens Next
+{:#transfer-multiple-existing-domains-to-ibm-cloud-next}
 
 After you transfer the domains, you can manage them within the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). When a domain's registration is approaching expiration, it may be [renewed](/docs/infrastructure/dns?topic=dns-renew-multiple-existing-domains) from the **Domain Management** screen.

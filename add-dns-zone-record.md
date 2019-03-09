@@ -1,8 +1,15 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-03-08"
+
+keywords: DNS Zone Record, TTL Select, Relative Weight
+
+subcollection: dns
+
 ---
+
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
@@ -13,6 +20,7 @@ lastupdated: "2019-02-01"
 {:generic: data-hd-programlang="generic"}
 
 # Add a DNS Zone Record
+{:#add-a-dns-zone-record}
 
 After [adding a DNS Zone](/docs/infrastructure/dns?topic=dns-add-a-dns-zone), Records may be added to the zone at any time. These records include:
 
@@ -32,5 +40,6 @@ Follow the steps below to add a DNS Zone Record:
 * Select the **Add Record** button to add the new Zone Record.
 
 ## What Happens Next
+{:#add-a-dns-zone-record-next}
 
 After adding the Zone Record, it appears in the **Existing Records** section of the screen. You may [edit](/docs/infrastructure/dns?topic=dns-edit-a-dns-zone-record) or [delete](/docs/infrastructure/dns?topic=dns-delete-a-dns-zone) the Zone Record at any time.

@@ -1,8 +1,15 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-03-08"
+
+keywords: Delete Custom Name Servers, Lock Domain Select, Domain Domains
+
+subcollection: dns
+
 ---
+
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
@@ -13,6 +20,7 @@ lastupdated: "2019-02-01"
 {:generic: data-hd-programlang="generic"}
 
 # Add, edit, or delete custom name servers for a domain
+{:#add-edit-or-delete-custom-name-servers-for-a-domain}
 
 Domains running on the {{site.data.keyword.BluSoftlayer_notm}} network may point to a maximum of five (5) custom name servers. Custom name servers may be added, deleted or changed by the user at any time. Follow these steps to add, edit, or delete custom name servers for a domain:
 
@@ -26,5 +34,6 @@ Domains running on the {{site.data.keyword.BluSoftlayer_notm}} network may point
 7. Select the **Associate** button to save the changes, or select **Cancel** to cancel the action.
 
 ## What happens next
+{:#add-edit-or-delete-custom-name-servers-for-a-domain-next}
 
 After you update the name server details, they appear under the **Custom Name Servers** section of the domain. You may update the details at any time.

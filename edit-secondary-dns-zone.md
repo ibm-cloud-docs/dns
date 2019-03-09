@@ -1,7 +1,13 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-03-08"
+
+keywords: Secondary DNS Zone, Master Nameserver
+
+subcollection: dns
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,6 +19,7 @@ lastupdated: "2019-02-01"
 {:generic: data-hd-programlang="generic"}
 
 # Edit a Secondary DNS Zone
+{:#edit-a-secondary-dns-zone}
 
 Secondary DNS Zones may be edited at any time to update the Master Nameserver or Transfer Interval. Follow the steps below to edit a Secondary DNS Zone.
 
@@ -25,5 +32,6 @@ Secondary DNS Zones may be edited at any time to update the Master Nameserver or
 * Select the **Update** button to update the Secondary DNS Zone, or select **Cancel** to cancel the action.
 
 ## What Happens Next
+{:#edit-a-secondary-dns-zone-next}
 
 After editing the Secondary DNS Zone, the **Master Nameserver** and **Transfer Interval** values will reflect the update and the Secondary Zone will begin receiving transfers based on the new information. At any time, the Zone may be edited again by repeating the steps above.

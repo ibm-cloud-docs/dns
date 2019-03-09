@@ -1,7 +1,13 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-05"
+lastupdated: "2019-02-25"
+
+keywords: View Error Messages, transfer error, Secondary DNS Zone
+
+subcollection: dns
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -12,7 +18,9 @@ lastupdated: "2019-02-05"
 {:deprecated: .deprecated}
 {:generic: data-hd-programlang="generic"}
 
+
 # View Error Messages for a Secondary DNS Zone
+{:#view-error-messages-secondary-dns-zone}
 
 When an transfer error associated with a Secondary DNS Zone occurs, it is reported within the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). Errors may be viewed at any time. Follow these steps to view all error messages associated with a Secondary DNS Zone.
 
@@ -21,4 +29,5 @@ When an transfer error associated with a Secondary DNS Zone occurs, it is report
 * Select the **Close** button when finished viewing errors.
 
 ## What Happens Next
+{:#dns-what-happens-next}
 Errors may be viewed again at any time by repeating the previous steps. Errors may not be deleted or hidden from view.

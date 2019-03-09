@@ -1,8 +1,12 @@
 ---
 
 copyright:
-  years: 2017-2019
-lastupdated: "2019-02-01"
+  years: 1994, 2017-2019
+lastupdated: "2019-03-08"
+
+keywords: support ticket, IBM support ticket
+
+subcollection: dns
 
 ---
 
@@ -27,7 +31,7 @@ lastupdated: "2019-02-01"
 
 <!-- Add a heading and content for how to get help and support. Use this template for beta and GA services:  -->
 # Getting Help and Support 
-{: #gettinghelp}
+{: #gettinghelp-with-dns}
 
 If you have problems or questions when using DNS, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support ticket in the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/).
 {:shortdesc}

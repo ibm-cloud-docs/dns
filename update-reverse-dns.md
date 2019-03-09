@@ -1,7 +1,12 @@
 ---
 copyright:
-  years: 1994, 2017-2019
-lastupdated: "2019-02-12"
+  years: 1994, 2017, 2018, 2019
+lastupdated: "2019-02-26"
+
+keywords: Reverse DNS Record, Reverse DNS, IP address, Individual IP Select
+
+subcollection: dns
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -11,7 +16,9 @@ lastupdated: "2019-02-12"
 {:important: .important}
 {:deprecated: .deprecated}
 {:generic: data-hd-programlang="generic"}
+
 # Update a Reverse DNS Record
+{:#update-reverse-dns-record}
 
 Reverse DNS enables users to identify the domain that's associated with an IP address. Customers can update their Reverse DNS records at any time to change the PTR and time to live (TTL). Within the **Manage** version [IBM Cloud Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/), you can update PTR records in bulk, using the **Search and Replace** tool. This tool allows you to enter a portion of a PTR or the full PTR in the Search field and replace each occurrence within corresponding PTRs with the desired information. 
 

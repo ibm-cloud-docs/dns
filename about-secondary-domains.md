@@ -1,13 +1,20 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-12-13"
+  years: 1994, 2017-2019
+lastupdated: "2019-03-08"
+
+keywords: Secondary Domains, secondary domain, IBM Cloud DNS servers transfer
+
+subcollection: dns
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # About Secondary Domains
+{:#about-secondary-domains}
 
 A secondary domain is a domain that {{site.data.keyword.BluSoftlayer_notm}} DNS servers transfer from your server to our Authoritative DNS servers, `ns1.softlayer.com` and `ns2.softlayer.com`.  You can configure a secondary domain in the portal by clicking on **<span style="text-decoration: underline">Domain Name System</span>** in the **<span style="text-decoration: underline">Public Network</span>** folder in the Portal, clicking on the **<span style="text-decoration: underline">Secondary DNS</span>** link, and finally, clicking on **<span style="text-decoration: underline">Add Secondary DNS Record</span>**.
 

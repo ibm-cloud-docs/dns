@@ -2,6 +2,11 @@
 copyright:
   years: 1994, 2017-2019
 lastupdated: "2019-02-01"
+
+subcollection: dns
+
+keywords: DNS interface, new records, Add DNS Zone button
+
 ---
 
 
@@ -14,6 +19,7 @@ lastupdated: "2019-02-01"
 {:generic: data-hd-programlang="generic"}
 
 # How to use the DNS interface
+{:#how-to-use-the-dns-interface}
 
 Follow these steps to utilize the DNS interface through the IBM Cloud customer portal:
 
@@ -23,9 +29,11 @@ Follow these steps to utilize the DNS interface through the IBM Cloud customer p
 * Select the Domain you wish to manage, or select the **Add DNS Zone** button on the Right side of the page.
 
 ## DNS Interface Overview
+{:#dns-interface-overview}
 Working in the DNS Interface on the Customer Portal gives you full capabilities for managing all aspects of your DNS. You can perform every type of DNS management from any screen in the interface, by using the static menu bar at the top of your screen.
 
 ## Manage DNS
+{:#manage-dns}
 Upon reaching the DNS interface in the Portal, you will be routed directly to the **Manage DNS** screen, which allows you view, edit, or delete any existing primary DNS associated with your account.
 
 * To add new records simply fill out the fields provided under **Add New Record** and click the **Add Record** button.
@@ -33,6 +41,7 @@ Upon reaching the DNS interface in the Portal, you will be routed directly to th
 * To delete a record, select the Red circle to the right of the record, and then click **Yes** on the prompt.
 
 ## Secondary DNS
+{:#secondary-dns}
 
 * Navigate to the [Customer Portal Classic Infrastructure ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/).
 * Select **Classic Infrastructure** from the Navigation Menu
@@ -44,6 +53,7 @@ From this screen you can add or modify secondary DNS settings.
 * To remove a Secondary DNS record, or convert it to a Primary record, use the **Actions** drop-down on the right of the page and choose the appropriate option.
 
 ## Reverse DNS
+{:#reverse-dns}
 
 Follow these steps to utilize the DNS interface through Portal navigation:
 

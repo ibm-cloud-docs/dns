@@ -1,7 +1,13 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-03-08"
+
+keywords: IBM Cloud name server addresses, Authoritative Name Servers, domain names
+
+subcollection: dns
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -14,8 +20,10 @@ lastupdated: "2019-02-01"
 
 
 # Nameserver FAQs
+{:#nameserver-faqs}
 
 ## What are the IBM Cloud name server addresses?
+{:#what-are-the-ibm-cloud-name-server-addresses}
 
 We have two addresses for Authoritative Name Servers and two addresses for Resolving Name Servers.
 
@@ -29,15 +37,16 @@ We have two addresses for Authoritative Name Servers and two addresses for Resol
 * rs1.service.softlayer.com 10.0.80.11
 * rs2.service.softlayer.com 10.0.80.12
 
-<a name="27"></a>
+
 ## What is the difference between the public and private name servers at SoftLayer?
+{:#what-is-the-difference-public-private-nameserver}
 
 Public name servers act as authoritative name servers for domain names that reside in our DNS servers and are managed through the Customer Portal. These servers "answer" and "resolve" domain names to your IP address for the general internet population.
 
 Resolving name servers are located on the private network and act as DNS resolvers for your server. The private resolvers query the internet's root nameservers for domain lookups. For example, sending mail from your server requires an NSlookup of the destination domain name. The private DNS servers resolve this information over the private network to keep your bandwidth usage down, reduce the load on the authoritative servers, and offer quick resolution. Private network resolvers are a convenience service for our customers.
 
-<a name="28"></a>
 ## What are my name server options?
+{:#what-are-my-name-server-options}
 
 With a Bare Metal Server there are four typical options for name servers:
 
@@ -51,7 +60,8 @@ For options 1, 2, & 3 you will use name servers of the third party (for example,
 IBM Cloud offers free DNS services that are fully managed through the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). We highly recommend allowing IBM Cloud to manage your DNS and to act as your name servers, because we have redundant systems, ease of management, and ability to  troubleshoot DNS-related issues quickly.
 
 
-# How can I run my own nameservers?
+## How can I run my own nameservers?
+{:#how-can-i-run-my-own-nameservers}
 
 The easiest way to run and manage your own nameservers is to use a control panel tool such as **Plesk** or **cPanel**. Both of these products have built in domain name servers that allow you to add, modify, or delete domain names.
 

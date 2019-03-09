@@ -1,8 +1,15 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-03-08"
+
+keywords: DNS servers, fast domain name resolution, DNS FAQ
+
+subcollection: dns
+
 ---
+
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
@@ -13,15 +20,18 @@ lastupdated: "2019-02-01"
 {:generic: data-hd-programlang="generic"}
 {:faq: data-hd-content-type='faq'}
 
-<a name="top"></a>
+
 # DNS FAQ
+{:#dns-faq}
 
 ## What are the DNS servers?
+{:#what-are-dns-servers}
 {: faq}
 
 161.26.0.10 and 161.26.0.11
 
 ## What are the local DNS Resolvers?
+{:#what-are-local-dns-resolvers}
 {: faq}
 
 The local resolving nameservers on our private network are:
@@ -32,16 +42,19 @@ The local resolving nameservers on our private network are:
 These nameservers provide fast domain name resolution that doesn't use up your public bandwidth allotment. To use them, please follow the correct procedure for adding resolving nameservers to your operating system.
 
 ## What are the {{site.data.keyword.BluSoftlayer_notm}} name server addresses?
+{:#what-are-name-server-addresses}
 {: faq}
 
 We have two addresses for Authoritative Name Servers and two addresses for Resolving Name Servers.
 
 ### Authoritative Name Servers
+{:#authoratative-name-servers}
 
 * ns1.softlayer.com 67.228.254.4
 * ns2.softlayer.com 67.228.255.5
 
 ### Resolving Name Servers
+{:#resolving-name-servers}
 
 * rs1.service.softlayer.com 10.0.80.11
 * rs2.service.softlayer.com 10.0.80.12
@@ -49,6 +62,7 @@ We have two addresses for Authoritative Name Servers and two addresses for Resol
 These local resolving nameservers are on our private network, so they don't use up your public bandwidth allotment. 
 
 ## What IBM Cloud DNS servers will answer for my secondary domains?
+{:#what-ibm-cloud-dns-server-answers-for-secondary-domain}
 {: faq}
 
 The {{site.data.keyword.BluSoftlayer_notm}} Anycast, IPv-enabled Authoritative DNS Servers will answer for your secondary domains. These servers are found at the following addresses:
@@ -57,6 +71,7 @@ The {{site.data.keyword.BluSoftlayer_notm}} Anycast, IPv-enabled Authoritative D
   * ns2.softlayer.com
   
 ## Which IP addresses will be used for my secondary domain zone transfers?
+{:#which-ipaddresses-secondary-domain-zone-transfers}
 {: faq}
 
 Transfers for your secondary domains will come from one of the following four IP addresses:
@@ -67,6 +82,7 @@ Transfers for your secondary domains will come from one of the following four IP
 * 12.96.161.249
 
 ## What is the difference between the public and private name servers?
+{:#public-v-private-nameservers}
 {: faq}
 
 Our public name servers act as authoritative name servers for domain names that reside in our DNS servers and are managed through the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). These servers "answer" and "resolve" domain names to your IP address for the general internet population.
@@ -74,6 +90,7 @@ Our public name servers act as authoritative name servers for domain names that 
 Our resolving name servers are located on the private network and act as DNS resolvers for your server. The private resolvers query the Internet's root nameservers for domain lookups. For example, sending mail from your server requires an NSlookup of the destination domain name. The private DNS servers resolve this information over the private network to keep your bandwidth usage down, reduce the load on the authoritative servers, and offer quick resolution. Private network resolvers are a convenience service for our customers.
 
 ## What are my name server options?
+{:#what-are-my-name-server-options}
 {: faq}
 
 With a Bare Metal Server there are four typical options for name servers:
@@ -88,12 +105,14 @@ For the first three options, you will use name servers of the third party (for e
 Our customers have free DNS services that are fully managed through the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). We highly recommend allowing {{site.data.keyword.BluSoftlayer_notm}} to manage your DNS and your name servers, due to our redundant systems, ease of management, and ability to troubleshoot DNS-related issues quickly.
 
 ## How do I set up my Reverse DNS?
+{:#how-do-i-setup-reverse-dns}
 {: faq}
 
 Reverse DNS setup takes place using our [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/)  For instructions on how to set up your Reverse DNS, refer to [Update a Reverse DNS Record](/docs/infrastructure/dns?topic=dns-update-a-reverse-dns-record).
 
-<a name="29"></a>
+
 ## How long does it take for DNS changes to propagate?
+{:#how-long-for-dns-changes-propagate}
 {: faq}
 
 DNS change propagation times depend on the time-to-live (TTL) setting for the DNS record.
@@ -108,11 +127,13 @@ TTL is listed in seconds.Divide by 60 to convert TTL to minutes, or by 3600 to c
 
 
 ## After transferring a domain, how long does it take for the domain and the changes made to become visible?
+{:#how-long-transfer-change-visiblity}
 {: faq}
 
 Your domain and/or changes to it are visible on IBM Cloud DNS servers immediately after the transfer completes. Due to the propagation nature of DNS, there will be a delay before changes are visible on other DNS servers.
 
 ## Can I complete AXFR requests on the private network?
+{:#axfr-request-private-network}
 {: faq}
 
 Currently, {{site.data.keyword.BluSoftlayer_notm}} does not support AXFR request on the private network. All AXFR requests must be completed on the public network.

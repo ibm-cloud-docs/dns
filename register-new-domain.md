@@ -1,7 +1,13 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-14"
+lastupdated: "2019-03-08"
+
+keywords: New Domain, time period, register new domain
+
+subcollection: dns
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,6 +19,7 @@ lastupdated: "2019-02-14"
 {:generic: data-hd-programlang="generic"}
 
 # Register a New Domain
+{:#register-a-new-domain}
 
 A new domain may be registered for an account at any time, if there is an active credit card linked to an account, or an available credit on the account. Follow the steps in this article to register a new domain.
 
@@ -30,5 +37,6 @@ The price for each time period is displayed next to the amount of time and will 
 * Select the **Continue** button to register the domain.
 
 ## What Happens Next
+{:#register-a-new-domain-next}
 
 After successfully registering a domain name, it is reserved for the amount of time selected. It may be managed using the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). When the registration period expires, the domain name may be [renewed](/docs/infrastructure/dns?topic=dns-renew-an-existing-domain).

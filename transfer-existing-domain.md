@@ -1,13 +1,20 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-10-12"
+  years: 1994, 2017-2019
+lastupdated: "2019-03-07"
+
+keywords: Transfer Existing Domain, Transfer tab
+
+subcollection: dns
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Transfer an Existing Domain to IBM Cloud
+{:#transfer-an-existing-domain-to-ibm-cloud}
 
 Once a domain has been registered, it may be transferred at any time. Transferring a domain from a third-party registrar to {{site.data.keyword.BluSoftlayer_notm}} can streamline the domain management process. Transferring a domain does not affect the website, email, or DNS. It only changes the registrar that manages the domain records. Follow the steps in this article to transfer an existing domain to {{site.data.keyword.BluSoftlayer_notm}}.
 
@@ -20,5 +27,6 @@ Once a domain has been registered, it may be transferred at any time. Transferri
 * Select the **Continue** button to transfer the domain.
 
 ## What Happens Next
+{:#transfer-an-existing-domain-to-ibm-cloud-next}
 
 After you transfer a domain, you can manage it within the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://control.softlayer.com/). When the domain's registration approaches its expiration date, it may be [renewed](/docs/infrastructure/dns?topic=dns-renew-an-existing-domain) from the **Domain Management** screen.

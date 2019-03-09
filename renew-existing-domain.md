@@ -1,7 +1,13 @@
 ---
+
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-03-08"
+
+keywords: renew existing domain, new domain, Renew
+
+subcollection: dns
+
 ---
 
 {:shortdesc: .shortdesc}
@@ -13,6 +19,7 @@ lastupdated: "2019-02-01"
 {:generic: data-hd-programlang="generic"}
 
 # Renew an Existing Domain
+{:#renew-an-existing-domain}
 
 When a new domain is registered, it is reserved for use by the registrant for a pre-determined amount of time that is chosen at the time the domain is registered. When that time period expires, the domain becomes inactive and available for purchase by any person or entity. To keep a registered domain active, it must be renewed prior to the date it is set to expire. Domains may be renewed if there is an active credit card linked to your account, or an available credit on your account. Follow the steps in this article to renew your registration for an existing domain.
 
@@ -28,5 +35,6 @@ The price for each time period is displayed next to the amount of time and will 
 * Select the **Continue** button to renew the domain.
 
 ## What Happens Next
+{:#renew-an-existing-domain-next}
 
 Upon renewal of the domain, it is reserved for the amount of time selected. Repeat these steps when the domain requires renewal.
