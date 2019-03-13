@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-03-08"
+lastupdated: "2019-03-13"
 
 keywords: DNS servers, fast domain name resolution, DNS FAQ
 
@@ -90,7 +90,7 @@ Our public name servers act as authoritative name servers for domain names that 
 Our resolving name servers are located on the private network and act as DNS resolvers for your server. The private resolvers query the Internet's root nameservers for domain lookups. For example, sending mail from your server requires an NSlookup of the destination domain name. The private DNS servers resolve this information over the private network to keep your bandwidth usage down, reduce the load on the authoritative servers, and offer quick resolution. Private network resolvers are a convenience service for our customers.
 
 ## What are my name server options?
-{:#what-are-my-name-server-options}
+{:#what-are-my-name-server-options-faq}
 {: faq}
 
 With a Bare Metal Server there are four typical options for name servers:
