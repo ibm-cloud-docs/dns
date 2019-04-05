@@ -1,0 +1,68 @@
+---
+
+copyright:
+  years: 1994, 2017-2019
+lastupdated: "2019-03-08"
+
+keywords: IBM Cloud name server addresses, Authoritative Name Servers, domain names
+
+subcollection: dns
+
+---
+
+{:shortdesc: .shortdesc}
+{:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:generic: data-hd-programlang="generic"}
+
+
+# 名称服务器常见问题
+{:#nameserver-faqs}
+
+## IBM Cloud 名称服务器的地址是什么？
+{:#what-are-the-ibm-cloud-name-server-addresses}
+
+有两个地址用于权威名称服务器，两个地址用于解析名称服务器。
+
+**权威名称服务器**
+
+* ns1.softlayer.com 67.228.254.4
+* ns2.softlayer.com 67.228.255.5
+
+**解析名称服务器**
+
+* rs1.service.softlayer.com 10.0.80.11
+* rs2.service.softlayer.com 10.0.80.12
+
+
+## SoftLayer 的公用和专用名称服务器有何区别？
+{:#what-is-the-difference-public-private-nameserver}
+
+公用名称服务器充当位于 DNS 服务器中且通过客户门户网站管理的域名的权威名称服务器。这些服务器“应答”域名并将其“解析”为 IP 地址以用于一般因特网填充内容。
+
+解析名称服务器位于专用网络上，并充当服务器的 DNS 解析器。专用解析器查询因特网的根名称服务器以查找域。例如，从服务器发送邮件需要对目标域名执行 NSlookup。专用 DNS 服务器通过专用网络解析此信息，以使带宽使用量保持在低水平，减少权威服务器上的负载，并提供快速解析。专用网络解析器是我们为客户提供的一项便捷服务。
+
+## 有哪些名称服务器选项？
+{:#what-are-my-name-server-options}
+
+对于裸机服务器，名称服务器有四个典型选项：
+
+1. 使用域名注册器的名称服务器来管理域名。
+2. 使用 IBM Cloud 名称服务器来管理域名。
+3. 使用第三方 DNS 服务来管理域名。
+4. 在服务器上运行自己的名称服务器来管理域名。
+
+对于选项 1、2 和 3，都将使用第三方的名称服务器（例如，`ns1.softlayer.com` 和 `ns2.softlayer.com`）。对于第 4 个选项，将使用您的域作为名称服务器（`ns1.yourdomain.com` 和 `ns2.yourdomain.com`）。第 4 个选项需要您在服务器上运行 DNS 服务，并且还必须使用注册器将您的域注册为名称服务器。此注册通常是免费的，但除了基本域名注册过程外，还需要执行一个额外的步骤。
+
+IBM Cloud 提供免费 DNS 服务，这些服务通过[客户门户网站 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/) 进行完全管理。我们强烈建议允许 IBM Cloud 来管理 DNS 并充当名称服务器，因为我们有冗余系统，易于管理，并且能够快速对 DNS 相关问题进行故障诊断。
+
+
+## 如何运行自己的名称服务器？
+{:#how-can-i-run-my-own-nameservers}
+
+运行和管理自己名称服务器的最简单方法是使用控制面板工具，例如 **Plesk** 或 **cPanel**。这两个产品都有内置的域名服务器，支持添加、修改或删除域名。
+
+首先，使用域名注册器将域名注册为名称服务器，然后从服务器 IP 范围中分配两个 IP 地址。

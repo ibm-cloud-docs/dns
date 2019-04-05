@@ -1,0 +1,61 @@
+---
+
+copyright:
+  years: 1994, 2017-2019
+lastupdated: "2019-03-08"
+
+keywords: Select Basic cPanel, Private Nameservers
+
+subcollection: dns
+
+---
+
+
+{:shortdesc: .shortdesc}
+{:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:generic: data-hd-programlang="generic"}
+
+# cPanel/WHM에서 사설 이름 서버 작성
+{:#create-private-nameservers-in-cpanel-whm}
+
+cPanel/WHM 제품을 사용하여 언제든지 사설 이름 서버를 작성할 수 있습니다. 사설 이름 서버를 사용하면 웹 사이트(예: `www.yourdomain.com`)와 연관된 이름 서버가 웹 사이트의 웹 호스트(예: `ns1.webhostdomain.com`)와 연관된 이름 서버 대신 웹 사이트의 이름 서버(예: `ns1.yourdomain.com`)를 표시할 수 있습니다. 사설 이름 서버를 도메인에 추가하면 cPanel/WHM 내에서 DNS 관리를 위한 추가 옵션이 열립니다. 사설 이름 서버를 작성하려면 이 문서의 단계를 따르십시오. 이 프로시저의 실행 중이나 그 후에 문제가 발생하는 경우 [티켓을 여십시오](/docs/get-support?topic=get-support-getting-customer-support).
+
+## 이름 서버 이름 지정
+{:#name-the-nameserver}
+
+* `http://xx.xx.xx.xx:2086` URL의 서버에서 WHM에 로그인하십시오.
+* **서버 구성** 메뉴에서 **기본 cPanel/WHM 설정**을 선택하십시오.
+* 다음 필드의 하나 이상에 원하는 이름 서버 호스트 이름을 입력하십시오.
+  * 기본 이름 서버
+  * 보조 이름 서버
+  * 3차 이름 서버
+  * 4차 이름 서버
+* **저장** 단추를 선택하십시오.
+
+## 도메인에 대한 구역 파일 작성
+{:#create-a-zone-file-for-the-domain}
+
+* **DNS 기능** 메뉴에서 **DNS 구역 추가**를 선택하십시오.
+* **IP** 필드에 도메인에 대한 **IP 주소**를 입력하십시오.
+* **도메인** 필드에 **도메인 이름**을 입력하십시오.
+
+다른 방법으로, cPanel의 WHM 문서에 있는 [계정 작성](https://docs.cpanel.net/display/70Docs/Create+a+New+Account) 안내를 사용하여 도메인 계정을 작성할 수 있습니다.
+{:note}
+
+## 이름 서버에 IP 지정
+{:#assign-an-ip-to-the-nameserver}
+
+* **네트워크 설정** 메뉴에서 **이름 서버 IP**를 선택하십시오.
+* **이름 서버** 필드에 첫 번째 **이름 서버 이름**을 입력하십시오.
+* **지정** 단추를 선택하십시오.
+* 각 이름 서버에 대해 위의 단계를 반복하십시오.
+
+## 이름 서버 설정
+{:#setup-the-nameserver}
+
+* **서비스 구성** 메뉴에서 **이름 서버 설정**을 선택하십시오.
+* 팝업 메시지의 **계속** 단추를 선택하십시오.

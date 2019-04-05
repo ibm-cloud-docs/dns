@@ -1,0 +1,69 @@
+{:navgroup: .navgroup}
+{:topicgroup: .topicgroup}
+
+{: .toc subcollection="dns" audience="service" arm="3662738" href="/docs/infrastructure/dns?topic=infrastructure/dns-getting-started-with-dns" path="infrastructure/dns"}
+DNS
+
+    {: .navgroup id="learn"}
+    getting-started.md
+    about-dns-tool.md
+    about-reverse-dns.md
+    about-domains.md
+    about-secondary-domains.md
+    dns-terminology.md
+    {: .navgroup-end}
+
+    {: .navgroup id="howto"}
+    using-the-dns-interface.md
+    add-edit-custom-name-servers.md
+   
+    {: .topicgroup}
+    ドメイン登録
+        filter-view-existing-domains.md
+        use-domain-reg-screen.md
+        register-new-domain.md
+        register-multiple-new-domains.md
+        renew-existing-domain.md
+        renew-multiple-domains.md
+        transfer-existing-domain.md
+        transfer-multiple-domains.md
+    
+    {: .topicgroup}
+    DNS 管理
+        dns-records-overview.md
+        use-dns-zones-screen.md
+        add-dns-zone.md
+        add-dns-zone-record.md
+        edit-dns-zone-record.md
+        delete-dns-zone.md
+        update-reverse-dns.md
+        add-edit-ptr-record.md
+        disable-recursion-dns.md
+    
+    {: .topicgroup}
+    2 次 DNS
+        add-secondary-dns-zone.md
+        edit-secondary-dns-zone.md
+        delete-secondary-dns-zone.md
+        search-secondary-filter-zone.md
+        view-secondary-dns-error-messages.md
+        manual-zone-transfer-secondary-dns.md
+        convert-secondary-dns-primary.md
+        
+    {: .topicgroup}
+    一般的に使用されるツール
+        create-nameservers-whm.md
+        create-private-nameservers-whm.md
+    {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    dns-faq.md
+    nameserver-faq.md
+    secondary-domain-faq.md
+    getting-help.md
+    {: .navgroup-end}
+
+    {: .navgroup id="reference"}
+    example-dns-config-images.md
+    dns-api.md
+    {: .navgroup-end}

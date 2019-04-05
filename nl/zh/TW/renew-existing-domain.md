@@ -1,0 +1,40 @@
+---
+
+copyright:
+  years: 1994, 2017-2019
+lastupdated: "2019-03-08"
+
+keywords: renew existing domain, new domain, Renew
+
+subcollection: dns
+
+---
+
+{:shortdesc: .shortdesc}
+{:new_window: target="_blank"}
+{:DomainName: data-hd-keyref="DomainName"}
+{:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:generic: data-hd-programlang="generic"}
+
+# 續約現有網域
+{:#renew-an-existing-domain}
+
+登錄新網域後，它會依登錄該網域時所選擇的預定時間量保留給登記者使用。當此時段到期時，該網域將變為非作用中，可由任何人員或實體購買。若要使已登錄的網域保持作用中，則必須在其設定的到期日之前續約。如果有有效的信用卡鏈結至您的帳戶，或您的帳戶有可用的額度，則可續約網域。請遵循本文章中的步驟，以續約現有網域的登錄。
+
+* 導覽至[客戶入口網站 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/) 上的**網域登錄**畫面。請參閱[使用網域登錄畫面](/docs/infrastructure/dns?topic=dns-how-to-use-the-domain-registration-screen)。
+* 選擇**續約**標籤。
+* 從**網域**下拉清單中選取或鍵入需要續約的網域名稱。
+* 按一下**繼續**。
+* 從**登錄時間**下拉清單中，選取要續約網域的時間量。
+
+每一個時段的價格會顯示在時間量的旁邊，並且會在續約網域時於信用卡中收取費用，或從帳戶的額度中扣除。
+{:note}
+
+* 選取**繼續**按鈕以續約網域。
+
+## 後續情形
+{:#renew-an-existing-domain-next}
+
+當網域續約後，會依所選取的時間量來保留它。當網域需要續約時，請重複這些步驟。
