@@ -1,17 +1,24 @@
 ---
+
 copyright:
-  years: 1994, 2017
-lastupdated: "2017-10-12"
+  years: 1994, 2017-2019
+lastupdated: "2019-03-07"
+
+keywords: Transfer Existing Domain, Transfer tab
+
+subcollection: dns
+
 ---
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
 # Vorhandene Domäne in IBM Cloud übertragen
+{:#transfer-an-existing-domain-to-ibm-cloud}
 
 Nachdem eine Domäne registriert wurde, kann sie jederzeit übertragen werden. Durch das Übertragen einer Domäne von einem anderen Registrator auf {{site.data.keyword.BluSoftlayer_notm}} kann der Prozess für Domänenmanagement optimiert werden. Die Übertragung einer Domäne hat keine Auswirkungen auf die Website, die E-Mail-Zustellung oder das DNS. Dabei wird lediglich der Registrator geändert, der die Domänendatensätze verwaltet. Führen Sie die im vorliegenden Abschnitt beschriebenen Schritte aus, um eine vorhandene Domäne auf {{site.data.keyword.BluSoftlayer_notm}} zu übertragen.
 
-* Navigieren Sie zur Anzeige **Domänenregistrierung** im [Kundenportal ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/). Weitere Informationen finden Sie unter [Anzeige 'Domänenregistrierung' aufrufen](access-domain-registration-screen.html){:new_window}.
+* Navigieren Sie zur Anzeige **Domänenregistrierung** im [Kundenportal ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/). Weitere Informationen finden Sie unter [Anzeige 'Domänenregistrierung' aufrufen](/docs/infrastructure/dns?topic=dns-how-to-use-the-domain-registration-screen).
 * Wählen Sie die Registerkarte **Übertragen** aus.
 * Geben Sie den Namen der vorhandenen Domäne in das Feld **Domänenname** ein.
 * Wählen Sie den Domänentyp in der Dropdown-Liste **Domänentyp** aus.
@@ -20,5 +27,6 @@ Nachdem eine Domäne registriert wurde, kann sie jederzeit übertragen werden. D
 * Wählen Sie die Schaltfläche **Weiter** aus, um die Domäne zu übertragen.
 
 ## Weitere Schritte
+{:#transfer-an-existing-domain-to-ibm-cloud-next}
 
-Nachdem Sie eine Domäne übertragen haben, können Sie die Domäne im [Kundenportal ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/) verwalten. Wenn das Ablaufdatum einer Domänenregistrierung beinahe erreicht ist, kann die Registrierung über die Anzeige **Domänenmanagement** [erneuert](renew-existing-domain.html) werden.
+Nachdem Sie eine Domäne übertragen haben, können Sie die Domäne im [Kundenportal ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://control.softlayer.com/) verwalten. Wenn das Ablaufdatum einer Domänenregistrierung beinahe erreicht ist, kann die Registrierung über die Anzeige **Domänenmanagement** [erneuert](/docs/infrastructure/dns?topic=dns-renew-an-existing-domain) werden.
