@@ -73,7 +73,7 @@ You can modify an entire subnet by clicking **Edit RDNS for all IPs in this Subn
 <!--## Propagation Check
 
 * Navigate to the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/).
-* Select **Network > Tools**
+* Select **Network >Tools**
 
 On the page that loads, you can select from multiple tools; To check the propagation of your domain name through the DNS servers, use the bottom option.
 
