@@ -27,7 +27,7 @@ Embora o conceito de DNS seja simples, gerenciar e armazenar registros para os s
 
 O DNS do IBM Cloud oferece aos clientes um local central por meio do qual visualizar e gerenciar os seus domínios, usando nossa interface de gerenciamento de DNS básica. Ele também fornece aos usuários a opção para gerenciar DNS reverso e secundário no mesmo local, livre de encargos.
 
-O IBM Cloud também oferece um conjunto de [ferramentas de rede](/docs/infrastructure/network-tools?topic=network-tools-getting-started-with-network-tools) adicionais. Para obter instruções específicas sobre o uso de nossa interface do DNS por meio do [Portal do Cliente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/), consulte [Como usar a interface do DNS](/docs/infrastructure/dns?topic=dns-how-to-use-the-dns-interface).
+O IBM Cloud também oferece um conjunto de [ferramentas de rede](/docs/infrastructure/network-tools?topic=network-tools-gettingstarted-with-network-tools#gettingstarted-with-network-tools) adicionais. Para obter instruções específicas sobre o uso de nossa interface do DNS por meio do [Portal do Cliente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/), consulte [Como usar a interface do DNS](/docs/infrastructure/dns?topic=dns-how-to-use-the-dns-interface).
 
 ## Como ele funciona
 {:#how-dns-works}
@@ -41,6 +41,6 @@ Como um serviço adicional, o {{site.data.keyword.BluSoftlayer_notm}} oferece zo
 
 A maioria dos usuários gerencia o DNS primário, reverso e secundário usando o [Portal do cliente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/). O Portal é o nosso ponto e clique em interface para gerenciar todo o DNS de coisas.
 
-Você também tem a opção de usar o IBM Cloud SoftLayer API (SLAPI) para interações de DNS. A funcionalidade da API em comparação com a nossa UI do Portal é quase idêntica. No entanto, se você estiver editando registros de DNS em massa, o Portal do cliente fornecerá armazenamento em massa configurado até um máximo de 20, enquanto a API oferecerá mais flexibilidade. Para obter mais informações sobre como interagir com DNS usando o SLAPI, consulte [esta documentação da API](/docs/infrastructure/dns?topic=dns-getting-started-with-the-dns-api-).
+Você também tem a opção de usar o IBM Cloud SoftLayer API (SLAPI) para interações de DNS. A funcionalidade da API em comparação com a nossa UI do Portal é quase idêntica. No entanto, se você estiver editando registros de DNS em massa, o Portal do cliente fornecerá armazenamento em massa configurado até um máximo de 20, enquanto a API oferecerá mais flexibilidade. Para obter mais informações sobre como interagir com DNS usando o SLAPI, consulte [esta documentação da API](/docs/infrastructure/dns?topic=dns-getting-started-with-the-dns-api).
 
 
