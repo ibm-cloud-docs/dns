@@ -27,7 +27,7 @@ DNS の概念は単純ですが、ご使用の各種ドメインについてレ�
 
 IBM Cloud DNS は、お客様が当社の基本 DNS 管理インターフェースを使用して 1 カ所でドメインを表示したり管理したりできるようにします。 また、同一の場所でリバース DNS と 2 次 DNS を管理するオプションも無料で提供されています。
 
-さらに、IBM Cloud は、追加[ネットワーク・ツール](/docs/infrastructure/network-tools?topic=network-tools-getting-started-with-network-tools)も一式提供しています。 [カスタマー・ポータル ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/) からの当社 DNS インターフェースの使用に関する具体的な説明については、[DNS インターフェースの使用法](/docs/infrastructure/dns?topic=dns-how-to-use-the-dns-interface)を参照してください。
+さらに、IBM Cloud は、追加[ネットワーク・ツール](/docs/infrastructure/network-tools?topic=network-tools-gettingstarted-with-network-tools#gettingstarted-with-network-tools)も一式提供しています。 [カスタマー・ポータル ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/) からの当社 DNS インターフェースの使用に関する具体的な説明については、[DNS インターフェースの使用法](/docs/infrastructure/dns?topic=dns-how-to-use-the-dns-interface)を参照してください。
 
 ## 機能説明
 {:#how-dns-works}
@@ -41,6 +41,6 @@ IBM Cloud DNS は、お客様が当社の基本 DNS 管理インターフェー�
 
 多くのユーザーは、[カスタマー・ポータル ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/) を使用して 1 次 DNS、リバース DNS、および 2 次 DNS を管理します。 このポータルは DNS に関するすべての物事を管理するための当社のポイント・アンド・クリック・インターフェースです。
 
-また、IBM Cloud SoftLayer API (SLAPI) を使用して DNS と対話することもできます。 この API の機能は、当社のポータル UI とほとんど同じです。 ただし、DNS レコードを一括編集する場合、カスタマー・ポータルで一括処理できるレコードは 20 セットまでですが、API では、これより柔軟な仕様となっています。 SLAPI を使用した DNS との対話について詳しくは、[この API 資料](/docs/infrastructure/dns?topic=dns-getting-started-with-the-dns-api-)を参照してください。
+また、IBM Cloud SoftLayer API (SLAPI) を使用して DNS と対話することもできます。 この API の機能は、当社のポータル UI とほとんど同じです。 ただし、DNS レコードを一括編集する場合、カスタマー・ポータルで一括処理できるレコードは 20 セットまでですが、API では、これより柔軟な仕様となっています。 SLAPI を使用した DNS との対話について詳しくは、[この API 資料](/docs/infrastructure/dns?topic=dns-getting-started-with-the-dns-api)を参照してください。
 
 
