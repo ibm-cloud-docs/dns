@@ -27,7 +27,7 @@ Bien que le concept de DNS soit simple, la gestion et le stockage des enregistre
 
 Le DNS IBM Cloud permet à ses clients de centraliser l'affichage et la gestion de leurs domaines à l'aide de l'interface de gestion DNS de base. Il permet également aux utilisateurs de gérer le DNS en amont et le DNS secondaire au même emplacement, gratuitement.
 
-IBM Cloud propose également une suite d'[outils réseau](/docs/infrastructure/network-tools?topic=network-tools-getting-started-with-network-tools) supplémentaires. Pour obtenir des instructions spécifiques sur l'utilisation de l'interface DNS via le [portail client![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/), voir [Comment utiliser l'interface DNS](/docs/infrastructure/dns?topic=dns-how-to-use-the-dns-interface).
+IBM Cloud propose également une suite d'[outils réseau](/docs/infrastructure/network-tools?topic=network-tools-gettingstarted-with-network-tools#gettingstarted-with-network-tools) supplémentaires. Pour obtenir des instructions spécifiques sur l'utilisation de l'interface DNS via le [portail client![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/), voir [Comment utiliser l'interface DNS](/docs/infrastructure/dns?topic=dns-how-to-use-the-dns-interface).
 
 ## Fonctionnement
 {:#how-dns-works}
@@ -41,6 +41,6 @@ En outre, {{site.data.keyword.BluSoftlayer_notm}} offre gratuitement des zones D
 
 La plupart des utilisateurs gèrent leur DNS principal, en amont et secondaire à l'aide de notre [portail client ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/). A partir de ce portail, vous pouvez gérer tous vos éléments DNS.
 
-Vous avez également la possibilité d'utiliser l'API IBM Cloud SoftLayer (SLAPI) pour les interactions DNS. La fonctionnalité de l'API est presque identique à l'interface utilisateur du portail. Toutefois, si vous modifiez des enregistrements DNS en masse, le portail client fournit un maximum de 20 ensembles, tandis que l'API offre plus de flexibilité. Pour plus d'informations sur l'interaction avec DNS à l'aide de SLAPI, reportez-vous à la [documentation de cette API](/docs/infrastructure/dns?topic=dns-getting-started-with-the-dns-api-).
+Vous avez également la possibilité d'utiliser l'API IBM Cloud SoftLayer (SLAPI) pour les interactions DNS. La fonctionnalité de l'API est presque identique à l'interface utilisateur du portail. Toutefois, si vous modifiez des enregistrements DNS en masse, le portail client fournit un maximum de 20 ensembles, tandis que l'API offre plus de flexibilité. Pour plus d'informations sur l'interaction avec DNS à l'aide de SLAPI, reportez-vous à la [documentation de cette API](/docs/infrastructure/dns?topic=dns-getting-started-with-the-dns-api).
 
 
