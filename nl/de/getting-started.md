@@ -27,7 +27,7 @@ Obwohl der grundlegende Ansatz von DNS recht einfach ist, kann die Verwaltung un
 
 IBM Cloud DNS bietet den Kunden einen zentralen Standort zum Anzeigen und Verwalten ihrer Domänen durch eine grundlegende DNS-Managementschnittstelle sowie die Option zum Verwalten von Reverse DNS und sekundärem DNS an einer zentralen Position, ganze ohne Kosten für den Kunden.
 
-Darüber hinaus stellt IBM Cloud eine Suite mit zusätzlichen [Netztools](/docs/infrastructure/network-tools?topic=network-tools-getting-started-with-network-tools) bereit. Spezielle Anweisungen für die Verwendung der DNS-Schnittstelle im [Kundenportal ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/) finden Sie im Abschnitt zur [Verwendung der DNS-Schnittstelle](/docs/infrastructure/dns?topic=dns-how-to-use-the-dns-interface).
+Darüber hinaus stellt IBM Cloud eine Suite mit zusätzlichen [Netztools](/docs/infrastructure/network-tools?topic=network-tools-gettingstarted-with-network-tools#gettingstarted-with-network-tools) bereit. Spezielle Anweisungen für die Verwendung der DNS-Schnittstelle im [Kundenportal ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/) finden Sie im Abschnitt zur [Verwendung der DNS-Schnittstelle](/docs/infrastructure/dns?topic=dns-how-to-use-the-dns-interface).
 
 ## Funktionsweise
 {:#how-dns-works}
@@ -41,6 +41,6 @@ Als zusätzlichen Service stellt {{site.data.keyword.BluSoftlayer_notm}} den ber
 
 Die meisten Benutzer verwalten Ihre primäre DNS, Reverse DNS und sekundäre DNS in unserem [Kundenportal ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/). Unser Portal ermöglicht die Steuerung aller DNS-Managementaktionen per Mausklick.
 
-Alternativ können Sie DNS-Interaktionen mit der IBM Cloud SoftLayer-API (SLAPI) ausführen. Die Funktionsweisen der API und der Portalbenutzerschnittstelle sind nahezu identisch. Wenn Sie jedoch mehrere DNS-Datensätze auf einmal bearbeiten möchten, gilt im Kundenportal eine Begrenzung auf maximal 20 Datensätze, während die API mehr Flexibilität bietet. Weitere Informationen zur Interaktion mit DNS über die SLAPI finden Sie [in dieser API-Dokumentation](/docs/infrastructure/dns?topic=dns-getting-started-with-the-dns-api-).
+Alternativ können Sie DNS-Interaktionen mit der IBM Cloud SoftLayer-API (SLAPI) ausführen. Die Funktionsweisen der API und der Portalbenutzerschnittstelle sind nahezu identisch. Wenn Sie jedoch mehrere DNS-Datensätze auf einmal bearbeiten möchten, gilt im Kundenportal eine Begrenzung auf maximal 20 Datensätze, während die API mehr Flexibilität bietet. Weitere Informationen zur Interaktion mit DNS über die SLAPI finden Sie [in dieser API-Dokumentation](/docs/infrastructure/dns?topic=dns-getting-started-with-the-dns-api).
 
 
