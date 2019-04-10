@@ -27,7 +27,7 @@ subcollection: dns
 
 IBM Cloud DNS 为客户提供了一个集中位置，在其中可使用基本 DNS 管理界面来查看和管理自己的域。它还为用户提供了一个选项，用于在同一位置免费管理逆向和辅助 DNS。
 
-IBM Cloud 还提供了一套额外的[网络工具](/docs/infrastructure/network-tools?topic=network-tools-getting-started-with-network-tools)。有关通过[客户门户网站 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/) 使用 DNS 界面的具体指示信息，请参阅[如何使用 DNS 界面](/docs/infrastructure/dns?topic=dns-how-to-use-the-dns-interface)。
+IBM Cloud 还提供了一套额外的[网络工具](/docs/infrastructure/network-tools?topic=network-tools-gettingstarted-with-network-tools#gettingstarted-with-network-tools)。有关通过[客户门户网站 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/) 使用 DNS 界面的具体指示信息，请参阅[如何使用 DNS 界面](/docs/infrastructure/dns?topic=dns-how-to-use-the-dns-interface)。
 
 ## 工作方式
 {:#how-dns-works}
@@ -41,6 +41,6 @@ IBM Cloud 还提供了一套额外的[网络工具](/docs/infrastructure/network
 
 大多数用户使用[客户门户网站 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/) 来管理其主 DNS、逆向 DNS 和辅助 DNS。该门户网站是即指即点界面，用于管理所有 DNS 相关操作。
 
-您还可以选择使用 IBM Cloud SoftLayer API (SLAPI) 进行 DNS 交互。该 API 的功能与门户网站 UI 的功能几乎完全相同。但是，如果是批量编辑 DNS 记录，那么客户门户网站一批最多处理 20 个记录，而 API 的灵活性更大。有关使用 SLAPI 与 DNS 进行交互的更多信息，请参阅[此 API 文档](/docs/infrastructure/dns?topic=dns-getting-started-with-the-dns-api-)。
+您还可以选择使用 IBM Cloud SoftLayer API (SLAPI) 进行 DNS 交互。该 API 的功能与门户网站 UI 的功能几乎完全相同。但是，如果是批量编辑 DNS 记录，那么客户门户网站一批最多处理 20 个记录，而 API 的灵活性更大。有关使用 SLAPI 与 DNS 进行交互的更多信息，请参阅[此 API 文档](/docs/infrastructure/dns?topic=dns-getting-started-with-the-dns-api)。
 
 
