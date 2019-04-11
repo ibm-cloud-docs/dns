@@ -108,7 +108,7 @@ Nos clients disposent de services DNS gratuits entièrement gérés via le [port
 {:#how-do-i-setup-reverse-dns}
 {: faq}
 
-La configuration DNS en amont s'effectue à l'aide de notre [portail client ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/). Pour obtenir des instructions sur la configuration de votre DNS en amont, reportez-vous à la section [Mettre à jour un enregistrement DNS en amont](/docs/infrastructure/dns?topic=dns-update-a-reverse-dns-record).
+La configuration DNS en amont s'effectue à l'aide de notre [portail client ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/). Pour obtenir des instructions sur la configuration de votre DNS en amont, reportez-vous à la section [Mettre à jour un enregistrement DNS en amont](/docs/infrastructure/dns?topic=dns-update-reverse-dns-record).
 
 
 ## Combien de temps faut-il pour que les changements DNS se propagent ?
