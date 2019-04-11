@@ -108,7 +108,7 @@ Bare Metal Server를 사용할 때 이름 서버에 대한 다음 4가지 옵션
 {:#how-do-i-setup-reverse-dns}
 {: faq}
 
-역방향 DNS 설정은 [고객 포털 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/)에서 발생합니다. 역방향 DNS를 설정하는 방법에 대한 지시사항은 [역방향 DNS 레코드 업데이트](/docs/infrastructure/dns?topic=dns-update-a-reverse-dns-record)를 참조하십시오.
+역방향 DNS 설정은 [고객 포털 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/)에서 발생합니다. 역방향 DNS를 설정하는 방법에 대한 지시사항은 [역방향 DNS 레코드 업데이트](/docs/infrastructure/dns?topic=dns-update-reverse-dns-record)를 참조하십시오.
 
 
 ## DNS 변경이 전파하는 데 얼마나 걸립니까?
