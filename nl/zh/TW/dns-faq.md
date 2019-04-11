@@ -108,7 +108,7 @@ subcollection: dns
 {:#how-do-i-setup-reverse-dns}
 {: faq}
 
-反向 DNS 設定是使用我們的[客戶入口網站 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/) 來進行。如需有關如何設定「反向 DNS」的指示，請參閱[更新反向 DNS 記錄](/docs/infrastructure/dns?topic=dns-update-a-reverse-dns-record)。
+反向 DNS 設定是使用我們的[客戶入口網站 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/) 來進行。如需有關如何設定「反向 DNS」的指示，請參閱[更新反向 DNS 記錄](/docs/infrastructure/dns?topic=dns-update-reverse-dns-record)。
 
 
 ## 傳播 DNS 變更需要多久的時間？
