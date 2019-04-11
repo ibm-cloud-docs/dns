@@ -108,7 +108,7 @@ Nossos clientes têm livres serviços de DNS que são completamente gerenciados 
 {:#how-do-i-setup-reverse-dns}
 {: faq}
 
-A configuração do DNS reverso ocorre usando o nosso [Portal do cliente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/). Para obter instruções sobre como configurar o seu DNS reverso, consulte [Atualizar um registro de DNS reverso](/docs/infrastructure/dns?topic=dns-update-a-reverse-dns-record).
+A configuração do DNS reverso ocorre usando o nosso [Portal do cliente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/). Para obter instruções sobre como configurar o seu DNS reverso, consulte [Atualizar um registro de DNS reverso](/docs/infrastructure/dns?topic=dns-update-reverse-dns-record).
 
 
 ## Quanto tempo leva para as mudanças de DNS se propagarem?
