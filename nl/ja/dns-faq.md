@@ -108,7 +108,7 @@ subcollection: dns
 {:#how-do-i-setup-reverse-dns}
 {: faq}
 
-リバース DNS は、[カスタマー・ポータル![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/) を使用してセットアップします。リバース DNS をセットアップする方法については、 [『リバース DNS レコードの更新』](/docs/infrastructure/dns?topic=dns-update-a-reverse-dns-record)を参照してください。
+リバース DNS は、[カスタマー・ポータル![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/) を使用してセットアップします。リバース DNS をセットアップする方法については、 [『リバース DNS レコードの更新』](/docs/infrastructure/dns?topic=dns-update-reverse-dns-record)を参照してください。
 
 
 ## DNS の変更が伝搬するまでの時間は?
