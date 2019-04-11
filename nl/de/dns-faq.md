@@ -108,7 +108,7 @@ Für unsere Kunden stehen kostenlose DNS-Services zur Verfügung, die vollständ
 {:#how-do-i-setup-reverse-dns}
 {: faq}
 
-Reverse DNS kann in unserem [Kundenportal ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/) eingerichtet werden. Anweisungen zum Einrichten Ihres Reverse DNS finden Sie im Abschnitt [Reverse DNS-Datensatz aktualisieren](/docs/infrastructure/dns?topic=dns-update-a-reverse-dns-record).
+Reverse DNS kann in unserem [Kundenportal ![Symbol für externen Link](../../icons/launch-glyph.svg "Symbol für externen Link")](https://{DomainName}/) eingerichtet werden. Anweisungen zum Einrichten Ihres Reverse DNS finden Sie im Abschnitt [Reverse DNS-Datensatz aktualisieren](/docs/infrastructure/dns?topic=dns-update-reverse-dns-record).
 
 
 ## Wie lange dauert die Weitergabe von DNS-Änderungen?
