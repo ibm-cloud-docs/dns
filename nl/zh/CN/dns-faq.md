@@ -108,7 +108,7 @@ subcollection: dns
 {:#how-do-i-setup-reverse-dns}
 {: faq}
 
-使用[客户门户网站 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/) 可执行逆向 DNS 设置。有关如何设置逆向 DNS 的指示信息，请参阅[更新逆向 DNS 记录](/docs/infrastructure/dns?topic=dns-update-a-reverse-dns-record)。
+使用[客户门户网站 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/) 可执行逆向 DNS 设置。有关如何设置逆向 DNS 的指示信息，请参阅[更新逆向 DNS 记录](/docs/infrastructure/dns?topic=dns-update-reverse-dns-record)。
 
 
 ## 传播 DNS 更改需要多长时间？
