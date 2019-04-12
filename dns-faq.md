@@ -2,14 +2,13 @@
 
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-03-13"
+lastupdated: "2019-04-10"
 
 keywords: DNS servers, fast domain name resolution, DNS FAQ
 
 subcollection: dns
 
 ---
-
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
@@ -108,7 +107,7 @@ Our customers have free DNS services that are fully managed through the [Custome
 {:#how-do-i-setup-reverse-dns}
 {: faq}
 
-Reverse DNS setup takes place using our [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/)  For instructions on how to set up your Reverse DNS, refer to [Update a Reverse DNS Record](/docs/infrastructure/dns?topic=dns-update-a-reverse-dns-record).
+Reverse DNS setup takes place using our [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/)  For instructions on how to set up your Reverse DNS, refer to [Update a Reverse DNS Record](/docs/infrastructure/dns?topic=dns-update-reverse-dns-record).
 
 
 ## How long does it take for DNS changes to propagate?

@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-03-07"
+lastupdated: "2019-04-11"
 
 keywords: Transfer Multiple Domains, IBM Cloud Domains
 
@@ -43,4 +43,4 @@ Select the **Add Another** option to populate additional blank fields for more d
 ## What Happens Next
 {:#transfer-multiple-existing-domains-to-ibm-cloud-next}
 
-After you transfer the domains, you can manage them within the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). When a domain's registration is approaching expiration, it may be [renewed](/docs/infrastructure/dns?topic=dns-renew-multiple-existing-domains) from the **Domain Management** screen.
+After you transfer the domains, you can manage them within the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). When a domain's registration is approaching expiration, it may be [renewed](/docs/infrastructure/dns?topic=dns-rewew-multiple-existing-domains#rewew-multiple-existing-domains) from the **Domain Management** screen.
