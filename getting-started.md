@@ -18,7 +18,7 @@ subcollection: dns
 {:deprecated: .deprecated}
 {:generic: data-hd-programlang="generic"}
 
-# Getting started tutorial 
+# Getting started with DNS 
 {: #getting-started}
 
 The internet's Domain Name System (DNS) is a method of translating IP addresses that servers and routers recognize into user-friendly, given names called _domain names_ (for example, `ibm.com`).
