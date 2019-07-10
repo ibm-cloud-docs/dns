@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-06-11"
 
 subcollection: dns
 
@@ -21,7 +21,7 @@ keywords: DNS interface, new records, Add DNS Zone button
 # Comment utiliser l'interface DNS
 {:#how-to-use-the-dns-interface}
 
-Effectuez les étapes ci-dessous pour utiliser l'interface DNS via le portail client IBM Cloud :
+Effectuez les étapes ci-dessous pour utiliser l'interface DNS via le portail client d'infrastructure {{site.data.keyword.cloud}} :
 
 * Accédez au [portail client ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/).
 * Sélectionnez **Infrastructure classique** dans le menu de navigation
@@ -43,7 +43,7 @@ En accédant à l'interface DNS du portail, vous êtes directement redirigé ver
 ## DNS Secondaire
 {:#secondary-dns}
 
-* Accédez à l'[Infrastructure classique du portail client ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/).
+* Accédez au [portail client ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/).
 * Sélectionnez **Infrastructure classique** dans le menu de navigation
 * Sélectionnez **Réseau->DNS->Zones secondaires**
 
@@ -57,7 +57,7 @@ A partir de cet écran, vous pouvez ajouter ou modifier les paramètres DNS seco
 
 Effectuez les étapes ci-dessous pour utiliser l'interface DNS via la navigation du portail :
 
-* Accédez à l'[Infrastructure classique du portail client ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/).
+* Accédez au [portail client ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/).
 * Sélectionnez **Infrastructure classique** dans le menu de navigation
 * Sélectionnez **Réseau->DNS->Enregistrements en amont**
 * Dans le menu déroulant, sélectionnez ou tapez l'adresse IP pour laquelle vous souhaitez modifier le DNS en amont, puis sélectionnez **Afficher IP**
@@ -72,8 +72,8 @@ Vous pouvez modifier un sous-réseau entier en cliquant sur **Editer le RDNS pou
 
 <!--## Propagation Check
 
-* Navigate to the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/).
-* Select **Network > Tools**
+* Navigate to the [customer portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/).
+* Select **Network >Tools**
 
 On the page that loads, you can select from multiple tools; To check the propagation of your domain name through the DNS servers, use the bottom option.
 

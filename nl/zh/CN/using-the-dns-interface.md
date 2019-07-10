@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-06-11"
 
 subcollection: dns
 
@@ -21,7 +21,7 @@ keywords: DNS interface, new records, Add DNS Zone button
 # 如何使用 DNS 界面
 {:#how-to-use-the-dns-interface}
 
-执行以下步骤，以通过 IBM Cloud 客户门户网站使用 DNS 界面：
+执行以下步骤，以通过 {{site.data.keyword.cloud}} 基础架构客户门户网站来利用 DNS 界面：
 
 * 导航至[客户门户网站 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/)。
 * 从导航菜单中，选择**经典基础架构**
@@ -43,7 +43,7 @@ keywords: DNS interface, new records, Add DNS Zone button
 ## 辅助 DNS
 {:#secondary-dns}
 
-* 导航至[客户门户网站经典基础架构 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/)。
+* 导航至[客户门户网站 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/)。
 * 从导航菜单中，选择**经典基础架构**
 * 选择**网络 -> DNS -> 辅助区域**
 
@@ -57,7 +57,7 @@ keywords: DNS interface, new records, Add DNS Zone button
 
 执行以下步骤，以通过门户网站导航来使用 DNS 界面：
 
-* 导航至[客户门户网站经典基础架构 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/)。
+* 导航至[客户门户网站 ![外部链接图标](../../icons/launch-glyph.svg "外部链接图标")](https://{DomainName}/)。
 * 从导航菜单中，选择**经典基础架构**
 * 选择**网络 -> DNS -> 逆向记录**
 * 在下拉菜单中，选择或输入要更改其逆向 DNS 的 IP 地址，然后选择**查看 IP**
@@ -72,8 +72,8 @@ keywords: DNS interface, new records, Add DNS Zone button
 
 <!--## Propagation Check
 
-* Navigate to the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/).
-* Select **Network > Tools**
+* Navigate to the [customer portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/).
+* Select **Network >Tools**
 
 On the page that loads, you can select from multiple tools; To check the propagation of your domain name through the DNS servers, use the bottom option.
 

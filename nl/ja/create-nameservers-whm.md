@@ -34,7 +34,7 @@ subcollection: dns
 
  * 完了したら、「Save」ボタンを選択します。
 
-2. 次に、サーバーに `awesomeserverhosting.com` のゾーン・ファイルを作成します。この作業を行うには、以下の 2 つの方法があります。
+2. 次に、サーバーに `awesomeserverhosting.com` のゾーン・ファイルを作成します。 この作業を行うには、以下の 2 つの方法があります。
 
 1 番目の方法: 「awesomeserverhosting.com」のドメイン・アカウントを作成します。 これについての説明は、この記事の内容の範囲外です。詳しくは、[cPanel 資料](http://www.cpanel.net/support/docs/11//whm/account_functions_creatnewacct.html)を参照してください。 
 

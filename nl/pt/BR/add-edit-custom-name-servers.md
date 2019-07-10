@@ -30,7 +30,7 @@ Os domínios executados na rede do {{site.data.keyword.BluSoftlayer_notm}} podem
 3. Selecione o **Nome de domínio** desejado para expandir o domínio em sua visualização de captura instantânea.
 4. Selecione **Desbloqueado** no **Domínio de bloqueio**
 5. Selecione a opção **Incluir/editar NS** na seção **Servidores de nomes customizados** da tela. Uma caixa pop-up aparecerá.
-6. Consulte a tabela abaixo para concluir a ação apropriada com base na tarefa desejada:<br/><br/><table border="1"><tbody><tr><th>Tarefa</th><th>Ações</th></tr><tr><td>Incluir um servidor de nomes customizados</td><td>Insira o nome do host para o Servidor de nomes no campo vazio.</td></tr><tr><td>Exclua um servidor de nomes customizados</td><td>Exclua as informações do campo para o Servidor de nomes apropriado.</td></tr><tr><td>Edite um servidor de nomes customizados</td><td>Edite os detalhes no campo correspondente para o Servidor de nomes apropriado.</td></tr></tbody></table>
+6. Consulte a tabela a seguir para concluir a ação apropriada com base na tarefa desejada:<br/><br/><table border="1"><tbody><tr><th>Tarefa</th><th>Ações</th></tr><tr><td>Incluir um servidor de nomes customizados</td><td>Insira o nome do host para o Servidor de nomes no campo vazio.</td></tr><tr><td>Exclua um servidor de nomes customizados</td><td>Exclua as informações do campo para o Servidor de nomes apropriado.</td></tr><tr><td>Edite um servidor de nomes customizados</td><td>Edite os detalhes no campo correspondente para o Servidor de nomes apropriado.</td></tr></tbody></table>
 7. Selecione o botão **Associar** para salvar as mudanças ou selecione **Cancelar** para cancelar a ação.
 
 ## O que acontece depois

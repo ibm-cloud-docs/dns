@@ -47,5 +47,5 @@ Los servidores DNS de IBM Cloud llevan a cabo la recurrencia de forma predetermi
   * /etc/bind/named.conf
   * /etc/named.conf
 * Abra el archivo named.conf el editor que prefiera.
-* Añada los siguientes detalles en la sección de **Opciones**:<br/>`allow-transfer {"none";};`<br/>`allow-recursion {"none";};`<br/>`recursion no;`
+* Añada los siguientes detalles en la sección **Opciones**:<br/>`allow-transfer {"none";};`<br/>`allow-recursion {"none";};`<br/>`recursion no;`
 * Reinicie el dispositivo.

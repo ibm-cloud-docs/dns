@@ -47,5 +47,5 @@ Les serveurs DNS IBM Cloud effectuent la récursivité par défaut La récursivi
   * /etc/bind/named.conf
   * /etc/named.conf
 * Ouvrez le fichier named.conf dans votre éditeur préféré.
-* Ajoutez les détails suivants à la section **Options** :<br/>`allow-transfer {"none";};`<br/>`allow-recursion {"none";};`<br/>`recursion no;`
+* Ajoutez les détails suivants dans la section **Options** :<br/>`allow-transfer {"none";};`<br/>`allow-recursion {"none";};`<br/>`recursion no;`
 * Redémarrez l'unité.

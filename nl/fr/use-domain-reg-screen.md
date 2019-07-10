@@ -20,7 +20,7 @@ subcollection: dns
 # Comment utiliser l'écran d'enregistrement de domaine
 {:#how-to-use-the-domain-registration-screen}
 
-Utilisez l'écran Enregistrement de domaine pour enregistrer ou renouveler des domaines. Effectuez les étapes ci-dessous pour l'ouvrir : 
+Utilisez l'écran Enregistrement de domaine pour enregistrer ou renouveler des domaines. Effectuez les étapes ci-dessous pour l'ouvrir :
 
 1. Connectez-vous au [portail client ![Icône de lien externe](../../icons/launch-glyph.svg "Icône de lien externe")](https://{DomainName}/){:new_window} à l'aide de vos identifiants uniques.
 1. Sélectionnez **Infrastructure classique** dans le menu de navigation.

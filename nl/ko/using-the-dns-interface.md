@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-06-11"
 
 subcollection: dns
 
@@ -21,7 +21,7 @@ keywords: DNS interface, new records, Add DNS Zone button
 # DNS 인터페이스 사용 방법
 {:#how-to-use-the-dns-interface}
 
-IBM Cloud 고객 포털을 통해 DNS 인터페이스를 이용하려면 다음 단계를 수행하십시오.
+{{site.data.keyword.cloud}} 인프라 고객 포털을 통해 DNS 인터페이스를 이용하려면 다음 단계를 따르십시오.
 
 * [고객 포털 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/)로 이동하십시오.
 * 탐색 메뉴에서 **클래식 인프라**를 선택하십시오.
@@ -30,7 +30,7 @@ IBM Cloud 고객 포털을 통해 DNS 인터페이스를 이용하려면 다음 
 
 ## DNS 인터페이스 개요
 {:#dns-interface-overview}
-고객 포털의 DNS 인터페이스에서 작업하면 DNS의 모든 측면을 관리할 수 있습니다. 화면 맨 위에 있는 정적 메뉴 표시줄을 사용하여 인터페이스에 있는 임의의 화면에서 모든 유형의 DNS 관리를 수행할 수 있습니다.
+고객 포털의 DNS 인터페이스에서 작업하면 DNS의 모든 측면을 관리할 수 있는 전체 기능이 제공됩니다. 화면 맨 위에 있는 정적 메뉴 표시줄을 사용하여 인터페이스에 있는 임의의 화면에서 모든 유형의 DNS 관리를 수행할 수 있습니다.
 
 ## DNS 관리
 {:#manage-dns}
@@ -43,7 +43,7 @@ IBM Cloud 고객 포털을 통해 DNS 인터페이스를 이용하려면 다음 
 ## 보조 DNS
 {:#secondary-dns}
 
-* [고객 포털 클래식 인프라 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/)로 이동하십시오.
+* [고객 포털 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/)로 이동하십시오.
 * 탐색 메뉴에서 **클래식 인프라**를 선택하십시오.
 * **네트워크->DNS->보조 구역**을 선택하십시오.
 
@@ -57,7 +57,7 @@ IBM Cloud 고객 포털을 통해 DNS 인터페이스를 이용하려면 다음 
 
 포털 탐색을 통해 DNS 인터페이스를 이용하려면 다음 단계를 수행하십시오.
 
-* [고객 포털 클래식 인프라 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/)로 이동하십시오.
+* [고객 포털 ![외부 링크 아이콘](../../icons/launch-glyph.svg "외부 링크 아이콘")](https://{DomainName}/)로 이동하십시오.
 * 탐색 메뉴에서 **클래식 인프라**를 선택하십시오.
 * **네트워크->DNS->역방향 레코드**를 선택하십시오.
 * 드롭 다운 메뉴에서, 역방향 DNS를 변경하려는 IP 주소를 선택하거나 입력한 후 **IP 보기**를 선택하십시오.
@@ -72,8 +72,8 @@ IBM Cloud 고객 포털을 통해 DNS 인터페이스를 이용하려면 다음 
 
 <!--## Propagation Check
 
-* Navigate to the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/).
-* Select **Network > Tools**
+* Navigate to the [customer portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/).
+* Select **Network >Tools**
 
 On the page that loads, you can select from multiple tools; To check the propagation of your domain name through the DNS servers, use the bottom option.
 

@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-06-11"
 
 subcollection: dns
 
@@ -21,16 +21,18 @@ keywords: DNS interface, new records, Add DNS Zone button
 # Como usar a interface de DNS
 {:#how-to-use-the-dns-interface}
 
-Siga estas etapas para utilizar a interface de DNS através do portal do cliente do IBM Cloud:
+Siga estas etapas para utilizar a interface de DNS por meio do portal do cliente de
+infraestrutura do {{site.data.keyword.cloud}}:
 
-* Navegue para o [Portal do cliente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/).
+* Navegue para o [portal do cliente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/).
 * Selecione **Infraestrutura clássica** no Menu de Navegação
 * Selecione **Rede->DNS->Encaminhar Zonas**
 * Selecione o Domínio que deseja gerenciar ou selecione o botão **Incluir Zona de DNS** no lado direito da página.
 
 ## Visão geral da interface de DNS
 {:#dns-interface-overview}
-Trabalhar na interface de DNS no Portal do cliente lhe dá recursos integrais para gerenciar todos os aspectos de seu DNS. É possível executar cada tipo de gerenciamento de DNS de qualquer tela na interface, usando a barra de menus estática na parte superior de sua tela.
+Trabalhar na Interface de DNS no portal do cliente fornece recursos integrais para gerenciar todos
+os aspectos de seu DNS. É possível executar cada tipo de gerenciamento de DNS de qualquer tela na interface, usando a barra de menus estática na parte superior de sua tela.
 
 ## Gerenciar DNS
 {:#manage-dns}
@@ -43,7 +45,7 @@ Após atingir a interface de DNS no Portal, você será encaminhado diretamente 
 ## DNS Secundário
 {:#secondary-dns}
 
-* Navegue até a [Infraestrutura clássica do Portal do Cliente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/).
+* Navegue para o [portal do cliente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/).
 * Selecione **Infraestrutura clássica** no Menu de Navegação
 * Selecione **Rede->DNS->Zonas secundárias**
 
@@ -57,7 +59,7 @@ Nessa tela é possível incluir ou modificar as configurações de DNS secundár
 
 Siga estas etapas para utilizar a interface de DNS através da navegação do Portal:
 
-* Navegue até a [Infraestrutura clássica do Portal do Cliente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/).
+* Navegue para o [portal do cliente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/).
 * Selecione **Infraestrutura clássica** no Menu de Navegação
 * Selecione **Rede->DNS->Registros reversos**
 * No menu suspenso, selecione ou digite o endereço IP para o qual você deseja mudar o DNS reverso e, em seguida, selecione **Visualizar IP**
@@ -72,8 +74,8 @@ Siga estas etapas para utilizar a interface de DNS através da navegação do Po
 
 <!--## Propagation Check
 
-* Navigate to the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/).
-* Select **Network > Tools**
+* Navigate to the [customer portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/).
+* Select **Network >Tools**
 
 On the page that loads, you can select from multiple tools; To check the propagation of your domain name through the DNS servers, use the bottom option.
 

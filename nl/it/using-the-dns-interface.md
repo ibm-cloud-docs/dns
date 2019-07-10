@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-06-11"
 
 subcollection: dns
 
@@ -21,16 +21,16 @@ keywords: DNS interface, new records, Add DNS Zone button
 # Come utilizzare l'interfaccia DNS
 {:#how-to-use-the-dns-interface}
 
-Attieniti alla seguente procedura per utilizzare l'interfaccia DNS tramite il Portale del cliente di IBM Cloud:
+Attieniti alla seguente procedura per utilizzare l'interfaccia DNS tramite il portale del cliente dell'infrastruttura {{site.data.keyword.cloud}}_
 
-* Vai al [Portale del client ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/).
+* Vai al [portale del cliente ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/).
 * Seleziona **Classic Infrastructure** (Infrastruttura classica) dal menu di navigazione
 * Seleziona **Network->DNS->Forward Zones** (Rete - DNS - Zone di inoltro)
 * Seleziona il dominio che vuoi gestire oppure seleziona il pulsante **Add DNS Zone** (Aggiungi zona DNS) sul lato destro della pagina.
 
 ## Panoramica dell'interfaccia DNS
 {:#dns-interface-overview}
-Operare nell'interfaccia DNS nel Portale del cliente ti offre le piene funzionalità per gestire tutti gli aspetti del tuo DNS. Puoi eseguire ogni tipo di gestione di DNS da qualsiasi schermata nell'interfaccia utilizzando la barra dei menu statica nella parte superiore dello schermo.
+Operare nell'interfaccia DNS nel portale del cliente ti offre le piene funzionalità per gestire tutti gli aspetti del tuo DNS. Puoi eseguire ogni tipo di gestione di DNS da qualsiasi schermata nell'interfaccia utilizzando la barra dei menu statica nella parte superiore dello schermo.
 
 ## Manage DNS (Gestisci DNS)
 {:#manage-dns}
@@ -43,7 +43,7 @@ Quando raggiungi l'interfaccia DNS nel Portale, verrai instradato direttamente a
 ## Secondary DNS (DNS secondario)
 {:#secondary-dns}
 
-* Vai all'[Infrastruttura classica del portale del cliente ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/).
+* Vai al [portale del cliente ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/).
 * Seleziona **Classic Infrastructure** (Infrastruttura classica) dal menu di navigazione
 * Seleziona **Network->DNS->Secondary Zones** (Rete - DNS - Zone secondarie)
 
@@ -57,7 +57,7 @@ Da questa schermata, puoi aggiungere o modificare impostazioni DNS secondarie.
 
 Attieniti alla seguente procedura per utilizzare l'interfaccia DNS tramite la navigazione del Portale:
 
-* Vai all'[Infrastruttura classica del portale del cliente ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/).
+* Vai al [portale del cliente ![Icona link esterno](../../icons/launch-glyph.svg "Icona link esterno")](https://{DomainName}/).
 * Seleziona **Classic Infrastructure** (Infrastruttura classica) dal menu di navigazione
 * Seleziona **Network->DNS->Reverse Records** (Rete - DNS - Record inversi)
 * Nel menu a discesa, seleziona o immetti l'indirizzo IP per cui desideri modificare il DNS inverso e seleziona quindi **View IP** (Visualizza IP)
@@ -72,8 +72,8 @@ Puoi modificare un'intera sottorete facendo clic su **Edit RDNS for all IPs in t
 
 <!--## Propagation Check
 
-* Navigate to the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/).
-* Select **Network > Tools**
+* Navigate to the [customer portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/).
+* Select **Network >Tools**
 
 On the page that loads, you can select from multiple tools; To check the propagation of your domain name through the DNS servers, use the bottom option.
 

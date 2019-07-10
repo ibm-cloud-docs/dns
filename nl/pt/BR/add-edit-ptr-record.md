@@ -29,7 +29,7 @@ Registros de PTR ou ponteiro resolvem endereços IP em nomes de host. Os usuári
 * Selecione **Rede > DNS > DNS Reverso** no menu de navegação Infraestrutura Clássica.
 * Insira o **Endereço IP público** recuperado da Lista de dispositivos no campo **Visualizar IP**.
 * Clique em qualquer lugar na linha que contém os detalhes de **Registro reverso** para abrir a linha para edições.
-* Preencha ou atualize os campos para o Registro com base na tabela abaixo:<br/><br/><table border="1"><tbody><tr><th>Campo</th><th>Entrada</th></tr><tr><td>DNS reverso</td><td>O nome do host para o qual o Endereço IP resolverá.</td></tr><tr><td>TTL reverso</td><td>O tempo de vida (TTL) para o novo Registro</td></tr><tr><td>Notas</td><td>Qualquer nota aplicável relativa ao Registro</td></tr></tbody></table><br/>
+* Conclua ou atualize os campos para o Registro com base na tabela abaixo:<br/><br/><table border="1"><tbody><tr><th>Campo</th><th>Entrada</th></tr><tr><td>DNS reverso</td><td>O nome do host para o qual o Endereço IP resolverá.</td></tr><tr><td>TTL reverso</td><td>O tempo de vida (TTL) para o novo Registro</td></tr><tr><td>Notas</td><td>Qualquer nota aplicável relativa ao Registro</td></tr></tbody></table><br/>
 * Clique no botão **Atualizar** para atualizar o registro. Clique em **Cancelar** para cancelar a ação.
 
 ## O que acontece em seguida

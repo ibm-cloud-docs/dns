@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-03-08"
+lastupdated: "2019-06-05"
 
 keywords: support ticket, IBM support ticket
 
@@ -15,6 +15,7 @@ subcollection: dns
 {:tsCauses: .tsCauses} 
 {:tsResolve: .tsResolve} 
 {:new_window: target="_blank"}
+{:external: target="_blank" .external}
 {:shortdesc: .shortdesc}
 {:DomainName: data-hd-keyref="DomainName"}
 
@@ -33,17 +34,15 @@ subcollection: dns
 # Obtendo Ajuda e Suporte 
 {: #gettinghelp-with-dns}
 
-Se você tiver problemas ou perguntas ao usar DNS, poderá obter ajuda procurando informações ou fazendo perguntas por meio de um dos fóruns listados abaixo. Também é possível abrir um
-chamado de suporte no [Portal do Cliente
-![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/).
+Se você tiver problemas ou perguntas ao usar DNS, poderá obter ajuda procurando informações ou fazendo perguntas por meio de um dos fóruns listados abaixo. Também é possível abrir um chamado de suporte no [Portal do Cliente](https://{DomainName}/){:external}.
 {:shortdesc}
 
 Ao usar os fóruns para fazer uma pergunta, identifique sua pergunta para que ela seja vista pelas equipes de desenvolvimento
 {{site.data.keyword.Bluemix_notm}}.
 <!--Insert the appropriate Stack Overflow tag for your service for <block-storage> in URL and text below:  -->
-* Se você tiver questões técnicas sobre DNS, poste a sua pergunta no [Estouro de pilha ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://stackoverflow.com/search?q=dns+ibm-cloud){:new_window} e identifique a sua pergunta com "dns" e "ibm-cloud".
+* Se você tiver perguntas técnicas sobre DNS, poste sua pergunta no [Stack Overflow](https://stackoverflow.com/search?q=dns+ibm-cloud){:external}{:new_window} e identifique sua pergunta com "dns" e "ibm-cloud".
 <!--Insert the appropriate dW Answers tag for your service for <service_keyword> in URL below:  -->
-* Para perguntas sobre o serviço e instruções de introdução, use o fórum [IBM developerWorks dW Answers ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://developer.ibm.com/answers/topics/dns.html?smartspace=ibm-cloud){:new_window}. Inclua as tags "dns" e "ibm-cloud".
+* Para perguntas sobre o serviço e instruções de introdução, use o fórum [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/dns.html?smartspace=ibm-cloud){:external}{:new_window}. Inclua as tags "dns" e "ibm-cloud".
 
 Consulte
 [Obtendo

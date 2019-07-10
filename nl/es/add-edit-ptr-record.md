@@ -29,7 +29,7 @@ Los registros PTR, o puntero, resuelven direcciones IP en nombres de host. Los u
 * Seleccione **Red > DNS > DNS inverso** en el menú de navegación de Infraestructura clásica.
 * Escriba la **Dirección IP pública** recuperada desde la lista de dispositivos en el campo **Ver IP**.
 * Pulse en cualquier lugar de la fila que contiene los detalles del **Registro inverso** para abrir la fila que desea editar.
-* Complete o actualice los campos del registro según la tabla siguiente:<br/><br/><table border="1"><tbody><tr><th>Campo</th><th>Entrada</th></tr><tr><td>DNS inverso</td><td>El nombre de host en el que se resolverá la dirección IP.</td></tr><tr><td>TTL inverso</td><td>El tiempo de duración (TTL) del nuevo registro</td></tr><tr><td>Notas</td><td>Cualquier nota aplicable correspondiente al registro</td></tr></tbody></table><br/>
+* Complete o actualice los campos del registro en base a la tabla siguiente:<br/><br/><table border="1"><tbody><tr><th>Campo</th><th>Entrada</th></tr><tr><td>DNS inverso</td><td>El nombre de host en el que se resolverá la dirección IP.</td></tr><tr><td>TTL inverso</td><td>El tiempo de duración (TTL) del nuevo registro</td></tr><tr><td>Notas</td><td>Cualquier nota aplicable correspondiente al registro</td></tr></tbody></table><br/>
 * Pulse el botón **Actualizar** para actualizar el registro. Pulse **Cancelar** para cancelar la acción.
 
 ## Qué sucede a continuación

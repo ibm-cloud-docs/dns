@@ -47,5 +47,5 @@ IBM Cloud DNS 서버는 기본적으로 순환(recursion)을 수행합니다. �
   * /etc/bind/named.conf
   * /etc/named.conf
 * 원하는 편집기에서 named.conf 파일을 여십시오.
-* 다음 세부사항을 **옵션** 섹션에 추가하십시오.<br/>`allow-transfer {"none";};`<br/>`allow-recursion {"none";};`<br/>`recursion no;`
+* **옵션** 섹션에 다음 세부사항을 추가하십시오. <br/>`allow-transfer {"none";};`<br/>`allow-recursion {"none";};`<br/>`recursion no;`
 * 디바이스를 다시 시작하십시오.

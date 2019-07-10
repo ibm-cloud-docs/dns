@@ -2,14 +2,13 @@
 
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-03-13"
+lastupdated: "2019-04-10"
 
 keywords: DNS servers, fast domain name resolution, DNS FAQ
 
 subcollection: dns
 
 ---
-
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}

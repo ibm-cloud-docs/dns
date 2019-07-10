@@ -29,7 +29,7 @@ I record PTR, o puntatore, risolvono gli indirizzi IP in nomi host. Gli utenti p
 * Seleziona **Network > DNS > Reverse DNS** (Rete - DNS - DNS inverso) dal menu di navigazione dell'infrastruttura classica.
 * Immetti l'**indirizzo IP pubblico** richiamato dall'elenco dispositivi nel campo **View IP** (Visualizza IP).
 * Fai clic in qualsiasi punto della riga che contiene i dettagli del **record inverso** per aprire la riga per le modifiche.
-* Completa o aggiorna i campi per il record in base alla tabella che segue:<br/><br/><table border="1"><tbody><tr><th>Campo</th><th>Immissione</th></tr><tr><td>Reverse DNS (DNS inverso)</td><td>Il nome host in cui verrà risolto l'indirizzo IP.</td></tr><tr><td>Reverse TTL (TTL inverso)</td><td>Il TTL (Time-to-live) per il nuovo record</td></tr><tr><td>Notes (Note)</td><td>Qualsiasi nota applicabile relativa al record</td></tr></tbody></table><br/>
+* Completa o aggiorna i campi per il Record in base alla tabella seguente:<br/><br/><table border="1"><tbody><tr><th>Campo</th><th>Immissione</th></tr><tr><td>Reverse DNS (DNS inverso)</td><td>Il nome host in cui verrà risolto l'indirizzo IP.</td></tr><tr><td>Reverse TTL (TTL inverso)</td><td>Il TTL (Time-to-live) per il nuovo record</td></tr><tr><td>Notes (Note)</td><td>Qualsiasi nota applicabile relativa al record</td></tr></tbody></table><br/>
 * Fai clic sul pulsante **Update** (Aggiorna) per aggiornare il record. Fai clic su **Cancel** (Annulla) per annullare l'azione.
 
 ## Cosa succede poi

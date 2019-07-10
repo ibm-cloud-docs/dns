@@ -2,14 +2,13 @@
 
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-03-13"
+lastupdated: "2019-04-10"
 
 keywords: DNS servers, fast domain name resolution, DNS FAQ
 
 subcollection: dns
 
 ---
-
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
@@ -126,7 +125,7 @@ DNS 變更傳播時間視 DNS 記錄的存活時間 (TTL) 設定而定。
 所列出的 TTL 是以秒為單位。除以 60 是將 TTL 轉換為分鐘，或除以 3600 來轉換為小時。
 
 
-## 傳送網域之後，網域及進行的變更需要多久的時間才看得見？
+## 傳送網域之後，網域及所進行的變更需要多久的時間才看得見？
 {:#how-long-transfer-change-visiblity}
 {: faq}
 

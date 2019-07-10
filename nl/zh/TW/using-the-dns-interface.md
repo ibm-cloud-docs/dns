@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-06-11"
 
 subcollection: dns
 
@@ -21,7 +21,7 @@ keywords: DNS interface, new records, Add DNS Zone button
 # 如何使用 DNS 介面
 {:#how-to-use-the-dns-interface}
 
-請遵循下列步驟，透過 IBM Cloud 客戶入口網站使用 DNS 介面：
+請遵循下列步驟，透過 {{site.data.keyword.cloud}} 基礎架構客戶入口網站使用 DNS 介面：
 
 * 導覽至[客戶入口網站 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/)。
 * 從導覽功能表選取**標準基礎架構**。
@@ -30,7 +30,7 @@ keywords: DNS interface, new records, Add DNS Zone button
 
 ## DNS 介面概觀
 {:#dns-interface-overview}
-在「客戶入口網站」的「DNS 介面」中工作，您將具備管理 DNS 所有層面的全部能力。您可以使用畫面頂端的靜態功能表列，從介面的任何畫面中執行每種類型的 DNS 管理。
+在客戶入口網站的「DNS 介面」中工作，您將具備管理 DNS 所有層面的全部能力。您可以使用畫面頂端的靜態功能表列，從介面的任何畫面中執行每種類型的 DNS 管理。
 
 ## 管理 DNS
 {:#manage-dns}
@@ -43,7 +43,7 @@ keywords: DNS interface, new records, Add DNS Zone button
 ## 次要 DNS
 {:#secondary-dns}
 
-* 導覽至[客戶入口網站標準基礎架構 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/)。
+* 導覽至[客戶入口網站 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/)。
 * 從導覽功能表選取**標準基礎架構**。
 * 選取**網路->DNS->次要區域**
 
@@ -57,7 +57,7 @@ keywords: DNS interface, new records, Add DNS Zone button
 
 請遵循下列步驟，透過「入口網站」導覽來使用 DNS 介面：
 
-* 導覽至[客戶入口網站標準基礎架構 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/)。
+* 導覽至[客戶入口網站 ![外部鏈結圖示](../../icons/launch-glyph.svg "外部鏈結圖示")](https://{DomainName}/)。
 * 從導覽功能表選取**標準基礎架構**。
 * 選取**網路->DNS->反向記錄**
 * 在下拉功能表中，選取或輸入您要變更其「反向 DNS」的 IP 位址，然後選取**檢視 IP**
@@ -72,8 +72,8 @@ keywords: DNS interface, new records, Add DNS Zone button
 
 <!--## Propagation Check
 
-* Navigate to the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/).
-* Select **Network > Tools**
+* Navigate to the [customer portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/).
+* Select **Network >Tools**
 
 On the page that loads, you can select from multiple tools; To check the propagation of your domain name through the DNS servers, use the bottom option.
 

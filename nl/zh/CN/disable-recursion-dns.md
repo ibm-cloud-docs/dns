@@ -47,5 +47,5 @@ subcollection: dns
   * /etc/bind/named.conf
   * /etc/named.conf
 * 在首选编辑器中打开 named.conf 文件。
-* 将以下详细信息添加到 **Options** 部分：<br/>`allow-transfer {"none";};`<br/>`allow-recursion {"none";};`<br/>`recursion no;`
+* 将以下详细信息添加到**选项**部分：<br/>`allow-transfer {"none";};`<br/>`allow-recursion {"none";};`<br/>`recursion no;`
 * 重新启动设备。

@@ -26,7 +26,8 @@ Uma lista de todos os domínios ativos associados à conta é exibida na tela **
 1. Em seu navegador, abra o [Portal do cliente ![Ícone de link externo](../../icons/launch-glyph.svg "Ícone de link externo")](https://{DomainName}/){: new_window} e efetue login em sua conta.
 1. Selecione **Infraestrutura clássica** no menu de Navegação.
 2. Selecione **Serviços > Registro de Domínio** e selecione a guia **Filtro**.
-3. Determine se os domínios devem ser filtrados pelo Nome de domínio, Data de expiração ou Status do bloqueio:<br/><br/><table border="1"><tbody><tr><th>Se filtrando por...</th><th>Então...</th></tr><tr><td>Nome de domínio</td><td>Insira todo ou parte do nome de domínio no campo <strong>Nome de domínio</strong> ou selecione o nome de domínio na lista suspensa.</td></tr><tr><td>Data de expiração</td><td>Selecione o período de tempo em que o domínio expirará na lista suspensa <strong>Expira</strong>.</td></tr><tr><td>Status do bloqueio</td><td>Selecione o status do bloqueio aplicável na lista suspensa <strong>Status do bloqueio</strong>.</td></tr></tbody></table>
+3. Determine se os domínios devem ser filtrados por Nome de domínio, Data de expiração
+ou Status do bloqueio:<br/><br/><table border="1"><tbody><tr><th>Se filtrando por...</th><th>Então...</th></tr><tr><td>Nome de domínio</td><td>Insira todo ou parte do nome de domínio no campo <strong>Nome de domínio</strong> ou selecione o nome de domínio na lista suspensa.</td></tr><tr><td>Data de expiração</td><td>Selecione o período de tempo em que o domínio expirará na lista suspensa <strong>Expira</strong>.</td></tr><tr><td>Status do bloqueio</td><td>Selecione o status do bloqueio aplicável na lista suspensa <strong>Status do bloqueio</strong>.</td></tr></tbody></table>
 
 4. Escolha o botão **Filtro** para filtrar os domínios listados ou selecione **Cancelar** para cancelar as opções de filtro.
 

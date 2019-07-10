@@ -1,7 +1,7 @@
 ---
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-02-01"
+lastupdated: "2019-06-11"
 
 subcollection: dns
 
@@ -21,16 +21,16 @@ keywords: DNS interface, new records, Add DNS Zone button
 # DNS インターフェースの使用法
 {:#how-to-use-the-dns-interface}
 
-IBM Cloud カスタマー・ポータルで DNS インターフェースを使用するには、以下の手順に従ってください。
+{{site.data.keyword.cloud}} インフラストラクチャー・カスタマー・ポータルで DNS インターフェースを使用するには、以下の手順に従ってください。
 
-* [カスタマー・ポータル ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/) にナビゲートします。
+* [カスタマー・ポータル ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/) に移動します。
 * ナビゲーション・メニューから**「クラシック・インフラストラクチャー」**を選択します
 * **「ネットワーク」->「DNS」->「前方ゾーン (Forward Zones)」**を選択します。
 * 管理するドメインを選択するか、またはページの右側にある**「DNS ゾーンの追加 (Add DNS Zone)」**ボタンを選択します。
 
 ## DNS インターフェースの概説
 {:#dns-interface-overview}
-カスタマー・ポータルにある DNS インターフェースを操作することによって、ご使用の DNS におけるすべての側面を管理するためのすべての機能が得られます。 インターフェースのどの画面でも、その画面の上部にある静的メニュー・バーによって、すべてのタイプの DNS 管理を実行できます。
+カスタマー・ポータルにある DNS インターフェースを操作することにより、ご使用の DNS のすべての側面を管理するためのすべての機能が得られます。インターフェースのどの画面でも、その画面の上部にある静的メニュー・バーによって、すべてのタイプの DNS 管理を実行できます。
 
 ## DNS の管理
 {:#manage-dns}
@@ -43,7 +43,7 @@ IBM Cloud カスタマー・ポータルで DNS インターフェースを使�
 ## 2 次 DNS
 {:#secondary-dns}
 
-* [カスタマー・ポータルのクラシック・インフラストラクチャー ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/) にナビゲートします。
+* [カスタマー・ポータル ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/) に移動します。
 * ナビゲーション・メニューから**「クラシック・インフラストラクチャー」**を選択します
 * **「ネットワーク」->「DNS」->「2 次ゾーン (Secondary Zones)」**を選択します。
 
@@ -57,7 +57,7 @@ IBM Cloud カスタマー・ポータルで DNS インターフェースを使�
 
 ポータル・ナビゲーションで DNS インターフェースを使用するには、以下の手順に従ってください。
 
-* [カスタマー・ポータルのクラシック・インフラストラクチャー ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/) にナビゲートします。
+* [カスタマー・ポータル ![外部リンク・アイコン](../../icons/launch-glyph.svg "外部リンク・アイコン")](https://{DomainName}/) に移動します。
 * ナビゲーション・メニューから**「クラシック・インフラストラクチャー」**を選択します
 * **「ネットワーク」->DNS->「レコードの逆引き (Reverse Records)」**を選択します。
 * ドロップダウン・メニューで、リバース DNS を変更する対象の IP アドレスを選択または入力して、**「IP の表示 (View IP)**を選択します。
@@ -72,8 +72,8 @@ IBM Cloud カスタマー・ポータルで DNS インターフェースを使�
 
 <!--## Propagation Check
 
-* Navigate to the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/).
-* Select **Network > Tools**
+* Navigate to the [customer portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/).
+* Select **Network >Tools**
 
 On the page that loads, you can select from multiple tools; To check the propagation of your domain name through the DNS servers, use the bottom option.
 

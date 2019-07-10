@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="dns" audience="service" arm="3662738" href="/docs/infrastructure/dns?topic=infrastructure/dns-getting-started-with-dns" path="infrastructure/dns"}
+{: .toc subcollection="dns" category="network" audience="service" arm="3662738" href="/docs/infrastructure/dns?topic=dns-getting-started" path="infrastructure/dns"}
 DNS
 
     {: .navgroup id="learn"}
@@ -18,33 +18,26 @@ DNS
     add-edit-custom-name-servers.md
    
     {: .topicgroup}
-    Enregistrement de domaine
+    Enregistrement de Domaine
         filter-view-existing-domains.md
         use-domain-reg-screen.md
-        register-new-domain.md
-        register-multiple-new-domains.md
-        renew-existing-domain.md
-        renew-multiple-domains.md
-        transfer-existing-domain.md
-        transfer-multiple-domains.md
+        register-domains.md
+        renew-domains.md
+        transfer-domains.md
     
     {: .topicgroup}
-    Gestion DNS
+    Gestion du DNS
         dns-records-overview.md
         use-dns-zones-screen.md
-        add-dns-zone.md
-        add-dns-zone-record.md
-        edit-dns-zone-record.md
-        delete-dns-zone.md
+        manage-dns-zones.md
+        manage-dns-zone-records.md
         update-reverse-dns.md
         add-edit-ptr-record.md
         disable-recursion-dns.md
     
     {: .topicgroup}
     DNS secondaire
-        add-secondary-dns-zone.md
-        edit-secondary-dns-zone.md
-        delete-secondary-dns-zone.md
+        manage-secondary-dns-zones.md
         search-secondary-filter-zone.md
         view-secondary-dns-error-messages.md
         manual-zone-transfer-secondary-dns.md
