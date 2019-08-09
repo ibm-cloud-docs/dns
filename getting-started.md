@@ -15,6 +15,7 @@ subcollection: dns
 {:DomainName: data-hd-keyref="DomainName"}
 {:note: .note}
 {:important: .important}
+{:external: target="_blank" .external}
 {:deprecated: .deprecated}
 {:generic: data-hd-programlang="generic"}
 
@@ -27,7 +28,7 @@ While the concept of DNS is simple, managing and storing records for your variou
 
 IBM Cloud DNS offers customers a central location from which to view and manage their domains, by using our basic DNS management interface. It also gives users the option to manage reverse and secondary DNS in the same location, free of charge.
 
-IBM Cloud also offers a suite of additional [network tools](/docs/infrastructure/network-tools?topic=network-tools-gettingstarted-with-network-tools#gettingstarted-with-network-tools). For specific instructions about using our DNS interface through the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/), see [How to use the DNS interface](/docs/infrastructure/dns?topic=dns-how-to-use-the-dns-interface).
+IBM Cloud also offers a suite of additional [network tools](/docs/infrastructure/network-tools?topic=network-tools-getting-started). For specific instructions about using our DNS interface through the [customer portal](https://{DomainName}/){:external}, see [How to use the DNS interface](/docs/infrastructure/dns?topic=dns-how-to-use-the-dns-interface).
 
 ## How it Works
 {: #how-dns-works}
@@ -39,7 +40,7 @@ As an additional service, {{site.data.keyword.BluSoftlayer_notm}} offers seconda
 ## How to Manage DNS
 {: #how-to-manage-dns}
 
-Most users manage their primary, reverse and secondary DNS using our [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). The Portal is our point and click interface to manage all things DNS.
+Most users manage their primary, reverse and secondary DNS using our [customer portal](https://{DomainName}/){:external}. The Portal is our point and click interface to manage all things DNS.
 
 You also have the option to use the IBM Cloud SoftLayer API (SLAPI) for DNS interactions. The functionality of the API compared to our Portal UI is almost identical. However, if you are editing DNS records in bulk, the Customer Portal provides bulking in sets up to a maximum of 20, while the API offers more flexibility. For more information about interacting with DNS using the SLAPI, refer to [this API documentation](/docs/infrastructure/dns?topic=dns-getting-started-with-the-dns-api#getting-started-with-the-dns-api).
 

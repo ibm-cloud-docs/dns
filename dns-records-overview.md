@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-03-08"
+lastupdated: "2019-06-28"
 
 keywords: domain names, Resource Records, host name
 
@@ -55,7 +55,7 @@ The MX section is the area that handles the direction of mail.
 
 **Host field:** You can specify a mail host name here, but in most cases it is not necessary. What is recommended is to create a blank host (use a `@` for the host name) and point it to your mail server.
 
-**Goes to field:** The address of the mail server. What is commonly done here is using the mail hostname you created in the A record section to point your mail.
+**Goes to field:** The address of the mail server. What is commonly done here is using the mail hostname you created in the A record section to point your mail server.
 
 It is highly recommended that you point MX records to a domain name, and that domain name (just like a CNAME record) must end with a dot.
 
