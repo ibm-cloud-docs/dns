@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2017-2019
-lastupdated: "2019-03-08"
+lastupdated: "2019-09-25"
 
 keywords: Domain service, DNS API, resource records
 
@@ -14,7 +14,7 @@ subcollection: dns
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Getting started with the DNS API￼
+# Getting started with the DNS API
 {:#getting-started-with-the-dns-api}
 
 Users can interact with the {{site.data.keyword.BluSoftlayer_notm}} authoritative DNS servers through the `SoftLayer_Dns_Domain` service. 

@@ -19,16 +19,6 @@ subcollection: dns
 {:shortdesc: .shortdesc}
 {:DomainName: data-hd-keyref="DomainName"}
 
-<!-- # {{site.data.keyword.blockstorageshort}} troubleshooting
-{: #ts} -->
-<!-- Provide an appropriate ID above -->
-
-<!-- IN PROGRESS - AUDIENCE BLUE, STAGING ONLY -->
-
-
-<!-- This is the template for troubleshooting topics.  -->
-
-<!-- The short description section should include the service long name and "Bluemix" for search optimization. Example short description: -->
 
 <!-- Add a heading and content for how to get help and support. Use this template for beta and GA services:  -->
 # Getting Help and Support 
