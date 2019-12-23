@@ -23,14 +23,14 @@ subcollection: dns
 
 A new domain may be registered for an account at any time, if there is an active credit card linked to an account, or an available credit on the account. Follow the steps in this article to register a new domain, either one at a time, or multiple domains at one time.
 
-* Navigate to the **Domain Registration** screen on the [{{site.data.keyword.cloud}} Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/) by selecting **Classic Infrastructure** from the navigation menu. 
+* Navigate to the **Domain Registration** screen on the [{{site.data.keyword.cloud}} Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/) by selecting **Classic Infrastructure** from the navigation menu.
 * Select **Services > Domain Registration** from the Classic Infrastructure navigation menu.
 * Choose the **Register** tab.
   * Select the **Register Multiple Domains?** option within the **Register** tab if you are registering multiple domains at one time.
 * Enter the new domain name in the **Domain Name** field.
-* Select the domain type from the **Domain** drop down list.
-* Select the amount of time to reserve the domain from the **Registration Time** drop down list.
-* If registering multiple domains, select the **Add Another** option to populate additional blank fields for more domain entries. 
+* Select the domain type from the **Domain** list.
+* Select the amount of time to reserve the domain from the **Registration Time** list.
+* If registering multiple domains, select the **Add Another** option to populate additional blank fields for more domain entries.
 
   Select the **Delete** icon to delete an entire entry from the screen.
   {:note}
@@ -39,7 +39,7 @@ A new domain may be registered for an account at any time, if there is an active
 
 The price for each time period is displayed next to the amount of time and will be charged to the credit card or deducted from the credit on the account at the point the new domain is registered.
 {:note}
-  
+
 * Choose the **Check Availability** button to determine whether the desired domain names are available.
 
 |If...| Then...|

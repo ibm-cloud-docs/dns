@@ -17,7 +17,7 @@ subcollection: dns
 # Getting started with the DNS API
 {:#getting-started-with-the-dns-api}
 
-Users can interact with the {{site.data.keyword.BluSoftlayer_notm}} authoritative DNS servers through the `SoftLayer_Dns_Domain` service. 
+Users can interact with the {{site.data.keyword.BluSoftlayer_notm}} authoritative DNS servers through the `SoftLayer_Dns_Domain` service.
 
 Each `SoftLayer_Dns_Domain` has a collection of `SoftLayer_DNS_Domain_ResourceRecords` referenced by the `resourceRecords` relational property. It is possible to interact with resource records through the `SoftLayer_Dns_Domain` service; however, it is best to use the `SoftLayer_Dns_Domain_ResourceRecord` service directly after initial zone creation.
 
@@ -25,7 +25,7 @@ Each `SoftLayer_Dns_Domain` has a collection of `SoftLayer_DNS_Domain_Resourc
 {:#dns-api-domains}
 ### Listing domains
 {:#dns-api-listing-domains}
-A list of all domains currently hosted on the {{site.data.keyword.BluSoftlayer_notm}} nameservers can be retrieved with `SoftLayer_Account::getDomains` which returns an array of `SoftLayer_Dns_Domain` template objects. You can extend this call also to pull the records associated with these domains using an object mask.
+A list of all domains currently hosted on the {{site.data.keyword.cloud_notm}} name servers can be retrieved with `SoftLayer_Account::getDomains` which returns an array of `SoftLayer_Dns_Domain` template objects. You can extend this call also to pull the records associated with these domains using an object mask.
 
 ```
 $client = SoftLayer_SoapClient::getClient('SoftLayer_Account', null, $apiUser, $apiKey);
@@ -42,7 +42,7 @@ To create a new zone, a `SoftLayer_Dns_Domain` template object must be created
 The following properties are necessary when creating a `SoftLayer_Dns_Domain` object.
  * name - Domain name including the TDL "example.com"
  * resourceRecords - An array of at least one SoftLayer_Dns_Domain_ResourceRecord
- 
+
 ```
 $client = SoftLayer_SoapClient::getClient('SoftLayer_Dns_Domain', null, $apiUser, $apiKey);
 $template = new stdClass();
@@ -111,7 +111,7 @@ The {{site.data.keyword.BluSoftlayer_notm}} DNS system supports these record typ
 At minimum, the template object must contain:
  * data - value of the record
  * host - label to be added under the zone
-  
+
 ```
 $client = SoftLayer_SoapClient::getClient('SoftLayer_Dns_Domain_ResourceRecord', null, $apiUser, $apiKey);
 $domainId = 123456;
@@ -134,7 +134,7 @@ Edit resource records by passing a template object into `SoftLayer_Dns_Domain_R
  * id - identifier for the `SoftLayer_Dns_Domain_ResourceRecord` to be edited.
  * domainId - identifier of the `SoftLayer_Dns_Domain` to which this resource record is a child record
  * properties to be changed [Note: Domain serial numbers are updated by the API automatically.]
-  
+
 ```
 $domainId = 45567;
 $resourceRecordId = 1234;

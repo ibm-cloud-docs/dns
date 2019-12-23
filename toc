@@ -2,7 +2,7 @@
 {:topicgroup: .topicgroup}
 
 {: .toc subcollection="dns" category="network" audience="service" arm="3662738" href="/docs/infrastructure/dns?topic=dns-getting-started" path="infrastructure/dns"}
-DNS
+Domain Name Registration
 
     {: .navgroup id="learn"}
     getting-started.md

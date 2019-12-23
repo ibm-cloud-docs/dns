@@ -22,10 +22,10 @@ The following images show some common DNS setups. Things to remember:
  * The `A Record` points from a `hostname` (such as `domain.com` or `sub.domain.com`) to an IP address (for example, 123.123.231.1).
  * The `CNAME Record` points from a `hostname` (such as `domain.com` or `sub.domain.com`) to another `hostname`.
 
-## In the IBM Cloud Customer Portal
+## In the IBM Cloud console
 {:#ibm-cloud-customer-portal-example}
 
-![Figure 1: IBM Customer Portal DNS zone example](images/dns1.png)
+![Figure 1: IBM Cloud console DNS zone example](images/dns1.png)
 
 
 ## In cPanel

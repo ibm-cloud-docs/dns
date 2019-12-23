@@ -24,13 +24,19 @@ subcollection: dns
 
 Domains running on the {{site.data.keyword.BluSoftlayer_notm}} network may point to a maximum of five (5) custom name servers. Custom name servers may be added, deleted or changed by the user at any time. Follow these steps to add, edit, or delete custom name servers for a domain:
 
-1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
-2. In the Customer Portal navigation, select **Classic Infrastructure** from the navigation menu.
-1. Select **Services > Domain Registration** from the Classic Infrastructure navigation menu.
+1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log into your account.
+1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
+1. In the Classic Infrastructure navigation, select **Services > Domain Registration**. 
 3. Select the desired **Domain Name** to expand the domain into its snapshot view.
 4. Select **Unlocked** from the **Lock Domain**
 5. Select the **Add/Edit NS** option in the **Custom Name Servers** section of the screen. A pop-up box will appear.
-6. Refer to the table below to complete the appropriate action based on the desired task:<br/><br/><table border="1"><tbody><tr><th>Task</th><th>Action</th></tr><tr><td>Add a custom Name Server</td><td>Enter the hostname for the Name Server in the empty field.</td></tr><tr><td>Delete a custom Name Server</td><td>Delete the information from the field for the appropriate Name Server.</td></tr><tr><td>Edit a custom Name Server</td><td>Edit the details in the corresponding field for the appropriate Name Server.</td></tr></tbody></table>
+6. Refer to the table below to complete the appropriate action based on the desired task:
+  |Task|Action|
+  |:---|:---|
+  |Add a custom Name Server|Enter the hostname for the Name Server in the empty field.|
+  |Delete a custom Name Server|Delete the information from the field for the appropriate Name Server.|
+  |Edit a custom Name Server|Edit the details in the corresponding field for the appropriate Name Server.|
+
 7. Select the **Associate** button to save the changes, or select **Cancel** to cancel the action.
 
 ## What happens next

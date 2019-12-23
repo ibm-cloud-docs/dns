@@ -57,7 +57,7 @@ Not at this time. All AXFR requests are made over the public network.
 ## Are slaves removed after a number of days in which the master is unavailable?
 {:#are-slaves-removed-after-days-master-is-unavailable}
 
-We will stop attempting to transfer a domain if its master is down or misconfigured for a prolonged period.  The portal provides customer feedback (the Error Messages tab) and a method of reactivating  a domain (the Manual Zone Transfer tab) in the event there's issues transferring the zone and it is disabled as a consequence.
+We will stop attempting to transfer a domain if its master is down or misconfigured for a prolonged period.  The console provides customer feedback (the Error Messages tab) and a method of reactivating  a domain (the Manual Zone Transfer tab) in the event there's issues transferring the zone and it is disabled as a consequence.
 
 ## Is 1 minute the lowest transfer frequency?
 {:#is-1minute-lowest-transfer-frequency}

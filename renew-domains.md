@@ -28,9 +28,9 @@ When a new domain is registered, it is reserved for use by the registrant for a 
 
 * Navigate to the **Domain Registration** screen on the [{{site.data.keyword.cloud}} Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). Refer to [Using the Domain Registration Screen](/docs/infrastructure/dns?topic=dns-how-to-use-the-domain-registration-screen).
 * Choose the **Renew** tab.
-* Select or type in the name of the domain requiring renewal from the **Renew Domain** drop down list.
+* Select or type in the name of the domain requiring renewal from the **Renew Domain** list.
 * Click **Continue**.
-* Select the amount of time for which to renew the domain from the **Registration Time** drop down list.
+* Select the amount of time for which to renew the domain from the **Registration Time** list.
 
 The price for each time period is displayed next to the amount of time and will be charged to the credit card or deducted from the credit on the account when the domain is renewed.
 {:note}
@@ -43,10 +43,10 @@ The price for each time period is displayed next to the amount of time and will 
 * Navigate to the **Domain Registration** screen on the [{{site.data.keyword.cloud_notm}} Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). Refer to [Using the Domain Registration Screen](/docs/infrastructure/dns?topic=dns-how-to-use-the-domain-registration-screen).
 * Choose the **Renew** tab.
 * Click the **Renew multiple domains?** link.
-* In the window that appears, select or type in the name of the domain requiring renewal from the **Multiple Domain Renewal** drop down list.
+* In the window that appears, select or type in the name of the domain requiring renewal from the **Multiple Domain Renewal** list.
   * There are two fields by default. If you need to renew more than two domains, click **Add Another** to create as many entries as needed.
   * Click the **Remove** icon at the end of any entry to delete that domain from the renewal selection.
-* Select the amount of time for which to renew each domain from the **Registration Time** drop down list. This option only appears after a domain is selected.
+* Select the amount of time for which to renew each domain from the **Registration Time** list. This option only appears after a domain is selected.
 * Click **Continue** to renew the domains, or click **Cancel** to end the action.
 
 

@@ -13,18 +13,24 @@ subcollection: dns
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
+{:codeblock: .codeblock}
+{:pre: .pre}
+{:screen: .screen}
+{:term: .term}
 {:tip: .tip}
+{:note: .note}
 {:important: .important}
 {:deprecated: .deprecated}
+{:external: target="_blank" .external}
 {:generic: data-hd-programlang="generic"}
+{:download: .download}
+{:DomainName: data-hd-keyref="DomainName"}
 
 
 # Manage Secondary DNS zones
 {: #manage-secondary-dns-zones}
 
-{{site.data.keyword.cloud}} provides Secondary DNS to all customers as a means to cache primary DNS Zones in the event of a loss of data. Maintaining a Secondary DNS Zone is not mandatory, but it is strongly encouraged for users with multiple domains. 
+{{site.data.keyword.cloud}} provides Secondary DNS to all customers as a means to cache primary DNS Zones in the event of a loss of data. Maintaining a Secondary DNS Zone is not mandatory, but it is strongly encouraged for users with multiple domains.
 
 
 ## Add a Secondary DNS Zone
@@ -32,13 +38,14 @@ subcollection: dns
 
 Follow the steps below to add a Secondary DNS Zone:
 
-* Navigate to the **Secondary DNS Zones** screen in the [{{site.data.keyword.cloud_notm}} Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/) by selecting **Classic Infrastructure** from the navigation menu. 
-* Select **Network > DNS > Secondary Zones** from the Classic Infrastructure navigation menu.
-* Select the **Add Zone** tab.
-* Enter the **Domain for the Zone** in the **Zone** field.
-* Enter the **Master Name Server's IP Address** in the **Master Nameserver** field.
-* Enter the **transfer time** (in minutes) for which the primary DNS Zone will transfer to the Secondary DNS Zone in the **Transfer Interval** field.
-* Select the **Add** button to add the Zone, or select **Cancel** to cancel the action.
+1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
+1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
+1. In the Classic Infrastructure navigation, select **Network > DNS > Secondary Zones**.
+1. Select the **Add Zone** tab.
+1. Enter the **Domain for the Zone** in the **Zone** field.
+1. Enter the **Master Name Server's IP Address** in the **Master name server** field.
+1. Enter the **transfer time** (in minutes) for which the primary DNS Zone will transfer to the Secondary DNS Zone in the **Transfer Interval** field.
+1. Select the **Add** button to add the Zone, or select **Cancel** to cancel the action.
 
 ### What happens after adding
 {:#add-a-secondary-dns-zone-next}
@@ -48,32 +55,34 @@ After you create a Secondary DNS Zone, it appears in the list of Zones on the Se
 ## Edit a Secondary DNS Zone
 {:#edit-a-secondary-dns-zone}
 
-Secondary DNS Zones may be edited at any time to update the Master Nameserver or Transfer Interval. Follow the steps below to edit a Secondary DNS Zone.
+Secondary DNS Zones may be edited at any time to update the master name server or Transfer Interval. Follow the steps below to edit a Secondary DNS Zone.
 
-* Navigate to the **Secondary DNS Zones** screen in the [{{site.data.keyword.cloud_notm}} Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/) by selecting **Classic Infrastructure** from the navigation menu. 
-* Select **Network > DNS > Secondary Zones** from the Classic Infrastructure navigation menu.
-* Click anywhere on the **row containing the Secondary DNS Zone** to open the Zone for edits.
+1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
+1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
+1. In the Classic Infrastructure navigation, select **Network > DNS > Secondary Zones**.
+1. Click anywhere on the **row containing the Secondary DNS Zone** to open the Zone for edits.
   If multiple Secondary Zones exist, the view can be filtered to locate the Zone requiring edits.
   {:note}  
-* Update the **Master Nameserver** and **Transfer Interval** fields as necessary.
-* Select the **Update** button to update the Secondary DNS Zone, or select **Cancel** to cancel the action.
+1. Update the **Master name server** and **Transfer Interval** fields as necessary.
+1. Select the **Update** button to update the Secondary DNS Zone, or select **Cancel** to cancel the action.
 
 ### What happens after editing
 {:#edit-a-secondary-dns-zone-next}
 
-After editing the Secondary DNS Zone, the **Master Nameserver** and **Transfer Interval** values will reflect the update and the Secondary Zone will begin receiving transfers based on the new information. At any time, the Zone may be edited again by repeating the previous steps.
+After editing the Secondary DNS Zone, the **Master name server** and **Transfer Interval** values will reflect the update and the Secondary Zone will begin receiving transfers based on the new information. At any time, the Zone may be edited again by repeating the previous steps.
 
 ## Delete a Secondary DNS Zone
 {:#delete-a-secondary-dns-zone}
 
 After a Secondary DNS Zone has been created, it can be deleted at any time. Be aware that if a Secondary DNS Zone is deleted, it cannot be retrieved. Follow these steps to delete a Secondary DNS Record.
 
- * Navigate to the **Secondary DNS Zones** screen in the [{{site.data.keyword.cloud_notm}} Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/) by selecting **Classic Infrastructure** from the navigation menu. 
-* Select **Network > DNS > Secondary Zones** from the Classic Infrastructure navigation menu.
-* Select **Delete** from the **Actions** drop down list for the Zone that requires deletion. A pop-up confirmation box will appear.
+1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
+1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
+1. In the Classic Infrastructure navigation, select **Network > DNS > Secondary Zones**.
+1. Select **Delete** from the **Actions** list menu for the Zone that requires deletion. A pop-up confirmation box will appear.
   If multiple Secondary Zones exist, the view can be filtered to locate the Zone for deletion.
   {:note}
-* Select the **Yes** button to confirm the deletion, or select the **No** button to cancel the action.
+1. Select the **Yes** button to confirm the deletion, or select the **No** button to cancel the action.
 
 ### What happens after deleting
 {:#delete-a-secondary-dns-zone-next}

@@ -21,31 +21,35 @@ IBM Cloud DNS servers perform recursion by default. Recursion allows your DNS se
 
 ## Disable Recursion in Plesk
 {:#disable-recursion-in-plesk}
-* Log into the **Plesk Admin Panel**.
-* Select **Tools and Settings**.
-* Click **DNS Template Settings** from the section.
-* Select **Localnets** from the **DNS Recursion** section.
-* Click the **OK** button.
+1. Log into the **Plesk Admin Panel**.
+1. Select **Tools and Settings**.
+1. Click **DNS Template Settings** from the section.
+1. Select **Localnets** from the **DNS Recursion** section.
+1. Click the **OK** button.
 
 ## Disable Recursion in Windows Server 2003 and 2008
 {:#disable-recursion-in-windows-server}
 
-* Use the **DNS Manager** from the **Start** menu:
+1. Use the **DNS Manager** from the **Start** menu:
   * Click the **Start** button.
   * Select **Administrative Tools**.
   * Select **DNS**.
-* Right click on the desired **DNS Server** in the **Console Tree**.
-* Select the **Properties** tab.
-* Click the **Advanced** button in the **Server Options** section.
-* Select the **Disable Recursion** checkbox.
-* Click the **OK** button.
+1. Right click on the desired **DNS Server** in the **Console Tree**.
+1. Select the **Properties** tab.
+1. Click the **Advanced** button in the **Server Options** section.
+1. Select the **Disable Recursion** checkbox.
+1. Click the **OK** button.
 
 ## Disable Recursion in Linux
 {:#disable-recursion-in-linux}
 
- * Locate the BIND configuration file within the operating system. The BIND configuration file is usually located in one of the following paths:
+1. Locate the BIND configuration file within the operating system. The BIND configuration file is usually located in one of the following paths:
   * /etc/bind/named.conf
   * /etc/named.conf
-* Open the named.conf file in your preferred editor.
-* Add the following details to the **Options** section:<br/>`allow-transfer {"none";};`<br/>`allow-recursion {"none";};`<br/>`recursion no;`
-* Restart the device.
+
+1. Open the named.conf file in your preferred editor.
+1.  Add the following details to the **Options** section:
+  * `allow-transfer {"none";};`
+  * `allow-recursion {"none";};`
+  * `recursion no;`
+1. Restart the device.

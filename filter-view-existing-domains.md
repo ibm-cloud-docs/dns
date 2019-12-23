@@ -23,10 +23,15 @@ subcollection: dns
 
 A list of all active domains associated with the account is displayed on the **Domains** screen. For accounts with multiple domains, the view may be filtered to view and interact with selected domains. Follow the steps below to filter the view of existing domains.
 
-1. From your browser, open the [Customer Portal ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/){: new_window} and log into your account.
-1. Select **Classic Infrastructure** from the Navigation Menu.
-2. Select **Services > Domain Registration** and select the **Filter** tab.
-3. Determine whether domains should be filtered by Domain Name, Expiration Date, or Lock Status:<br/><br/><table border="1"><tbody><tr><th>If filtering by...</th><th>Then...</th></tr><tr><td>Domain Name</td><td>Enter all or part of the domain name in the <strong>Domain Name</strong> field or select the domain name from the dropdown list.</td></tr><tr><td>Expiration Date</td><td>Select the period of time when the domain will expire from the <strong>Expires</strong> dropdown list.</td></tr><tr><td>Lock Status</td><td>Select the applicable lock status from the <strong>Lock Status</strong> dropdown list.</td></tr></tbody></table>
+1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
+1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
+1. In the Classic Infrastructure navigation, select **Services > Domain Registration** and select the **Filter** tab.
+1. Determine whether domains should be filtered by Domain Name, Expiration Date, or Lock Status:
+  |If filtering by...|Then...|
+  |:----|:----|
+  |Domain Name|Enter all or part of the domain name in the **Domain Name** field or select the domain name from the **Domain Name** list.|
+  |Expiration Date|Select the period of time when the domain will expire from the **Expires** list.|
+  |Lock Status|Select the applicable lock status from the **Lock Status** list.|
 
 4. Choose the **Filter** button to filter the domains listed, or select **Cancel** to cancel the filter options.
 

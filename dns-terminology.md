@@ -57,4 +57,4 @@ The amount of time in seconds that a domain's resource records are valid. This i
 ### TTL (time to live)
 {:#soa-record-parameters-ttl}
 
-The number of seconds a domain name is cached locally before expiration and return to authoritative nameservers for updated information.
+The number of seconds a domain name is cached locally before expiration and return to authoritative names servers for updated information.
