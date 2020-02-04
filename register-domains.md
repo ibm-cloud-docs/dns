@@ -52,4 +52,4 @@ The price for each time period is displayed next to the amount of time and will 
 ## What Happens Next
 {:#register-a-new-domain-next}
 
-After successfully registering new domain names, they are reserved for the amount of time selected. They may be managed using the [{{site.data.keyword.cloud_notm}} Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). When the registration period expires, the domain name may be [renewed](/docs/infrastructure/dns?topic=dns-renew-an-existing-domain).
+After successfully registering new domain names, they are reserved for the amount of time selected. They may be managed using the [{{site.data.keyword.cloud_notm}} Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). When the registration period expires, the domain name may be [renewed](/docs/dns?topic=dns-renew-an-existing-domain).

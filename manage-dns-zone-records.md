@@ -27,7 +27,7 @@ This section details how to add, edit, and delete DNS Zone Records.
 ## Add a DNS Zone Record
 {: #add-a-dns-zone-record}
 
-After [adding a DNS Zone](/docs/infrastructure/dns?topic=dns-manage-dns-zones#add-a-dns-zone), Records may be added to the zone at any time. These records include:
+After [adding a DNS Zone](/docs/dns?topic=dns-manage-dns-zones#add-a-dns-zone), Records may be added to the zone at any time. These records include:
 
 * A (Host) Records
 * AAAA (Host) Records
@@ -38,7 +38,7 @@ After [adding a DNS Zone](/docs/infrastructure/dns?topic=dns-manage-dns-zones#ad
 
 Follow the steps below to add a DNS Zone Record:
 
-* Navigate to the **DNS Zone** screen. Refer to [Using the DNS Zones Screen](/docs/infrastructure/dns?topic=dns-use-the-dns-zones-screens).
+* Navigate to the **DNS Zone** screen. Refer to [Using the DNS Zones Screen](/docs/dns?topic=dns-use-the-dns-zones-screens).
 * Select the DNS Zone to which the record will be added.
 * Select the desired **resource type** from the **Resource Type** list.
 * Complete the remaining fields for the new Record. Refer to the table below for more information:

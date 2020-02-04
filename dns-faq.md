@@ -114,7 +114,7 @@ Our customers have free DNS services that are fully managed through the [{{site.
 {:#how-do-i-setup-reverse-dns}
 {: faq}
 
-Reverse DNS setup takes place using our [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). For instructions on how to set up your Reverse DNS, refer to [Update a Reverse DNS Record](/docs/infrastructure/dns?topic=dns-update-reverse-dns-record).
+Reverse DNS setup takes place using our [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). For instructions on how to set up your Reverse DNS, refer to [Update a Reverse DNS Record](/docs/dns?topic=dns-update-reverse-dns-record).
 
 
 ## How long does it take for DNS changes to propagate?

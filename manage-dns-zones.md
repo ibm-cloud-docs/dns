@@ -59,7 +59,7 @@ Determine if the domains will be associated with a single IP Address or multiple
 {:#add-a-dns-zone-next}
 
 After successfully adding a single zone, you are automatically redirected to the Zone Edit page.
-New DNS Zones appear in the list of DNS Zones on the [DNS Zones screen](/docs/infrastructure/dns?topic=dns-use-the-dns-zones-screens) within the [IBM Cloud console](https://{DomainName}/). The Zone may be [edited](#edit-a-dns-zone) or [deleted](#delete-a-dns-zone) at any time.
+New DNS Zones appear in the list of DNS Zones on the [DNS Zones screen](/docs/dns?topic=dns-use-the-dns-zones-screens) within the [IBM Cloud console](https://{DomainName}/). The Zone may be [edited](#edit-a-dns-zone) or [deleted](#delete-a-dns-zone) at any time.
 
 ## Edit a DNS Zone
 {: edit-a-dns-zone}

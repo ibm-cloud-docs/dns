@@ -50,7 +50,7 @@ Follow the steps below to add a Secondary DNS Zone:
 ### What happens after adding
 {:#add-a-secondary-dns-zone-next}
 
-After you create a Secondary DNS Zone, it appears in the list of Zones on the Secondary DNS Zones screen. Transfer of data from the Primary to the Secondary Zone occurs in intervals you specify when the zone is created. At any time, you may [edit](#edit-a-secondary-dns-zone), [manually transfer](/docs/infrastructure/dns?topic=dns-make-a-manual-zone-transfer-for-a-secondary-dns-zone), or [convert](/docs/infrastructure/dns?topic=dns-convert-a-secondary-dns-zone-to-a-primary-zone) the Zone to a Primary Zone. The Secondary DNS Zone also may be [deleted](#delete-a-secondary-dns-zone) at any time.
+After you create a Secondary DNS Zone, it appears in the list of Zones on the Secondary DNS Zones screen. Transfer of data from the Primary to the Secondary Zone occurs in intervals you specify when the zone is created. At any time, you may [edit](#edit-a-secondary-dns-zone), [manually transfer](/docs/dns?topic=dns-make-a-manual-zone-transfer-for-a-secondary-dns-zone), or [convert](/docs/dns?topic=dns-convert-a-secondary-dns-zone-to-a-primary-zone) the Zone to a Primary Zone. The Secondary DNS Zone also may be [deleted](#delete-a-secondary-dns-zone) at any time.
 
 ## Edit a Secondary DNS Zone
 {:#edit-a-secondary-dns-zone}

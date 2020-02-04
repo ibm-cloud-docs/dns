@@ -29,4 +29,4 @@ Use the Domain Registration screen for registering or renewing domains. Use the 
 ## What Happens Next
 {:#domain-registration-screen-what-happens-next}
 
-From the Domain Registration screen, you may [register](/docs/infrastructure/dns?topic=dns-register-a-new-domain), [renew](/docs/infrastructure/dns?topic=dns-renew-an-existing-domain), or [transfer](/docs/infrastructure/dns?topic=dns-transfer-an-existing-domain-to-ibm-cloud) domains. You can perform these actions on single or multiple domains.
+From the Domain Registration screen, you may [register](/docs/dns?topic=dns-register-a-new-domain), [renew](/docs/dns?topic=dns-renew-an-existing-domain), or [transfer](/docs/dns?topic=dns-transfer-an-existing-domain-to-ibm-cloud) domains. You can perform these actions on single or multiple domains.

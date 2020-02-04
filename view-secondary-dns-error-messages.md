@@ -31,7 +31,7 @@ subcollection: dns
 
 When an transfer error associated with a Secondary DNS Zone occurs, it is reported within the  [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). Errors may be viewed at any time. Follow these steps to view all error messages associated with a Secondary DNS Zone.
 
-* Navigate to the **Secondary DNS Zones** screen on the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). Refer to [Using the DNS Zones Screen](/docs/infrastructure/dns?topic=dns-use-the-dns-zones-screens#use-the-dns-zones-screens).
+* Navigate to the **Secondary DNS Zones** screen on the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). Refer to [Using the DNS Zones Screen](/docs/dns?topic=dns-use-the-dns-zones-screens#use-the-dns-zones-screens).
 * Choose the link in the **Errors** column for the desired Zone.
   The link in the Errors columns displays the number of errors that occurred over the last 24 hours. It may show a number or errors or the words **No errors**.
   {:note}

@@ -26,7 +26,7 @@ When a new domain is registered, it is reserved for use by the registrant for a 
 ## Renew a single domain
 {: #renew-single-domain}
 
-* Navigate to the **Domain Registration** screen on the [{{site.data.keyword.cloud}} Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). Refer to [Using the Domain Registration Screen](/docs/infrastructure/dns?topic=dns-how-to-use-the-domain-registration-screen).
+* Navigate to the **Domain Registration** screen on the [{{site.data.keyword.cloud}} Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). Refer to [Using the Domain Registration Screen](/docs/dns?topic=dns-how-to-use-the-domain-registration-screen).
 * Choose the **Renew** tab.
 * Select or type in the name of the domain requiring renewal from the **Renew Domain** list.
 * Click **Continue**.
@@ -40,7 +40,7 @@ The price for each time period is displayed next to the amount of time and will 
 ## Renew multiple domains
 {: renew-multiple-domains}
 
-* Navigate to the **Domain Registration** screen on the [{{site.data.keyword.cloud_notm}} Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). Refer to [Using the Domain Registration Screen](/docs/infrastructure/dns?topic=dns-how-to-use-the-domain-registration-screen).
+* Navigate to the **Domain Registration** screen on the [{{site.data.keyword.cloud_notm}} Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). Refer to [Using the Domain Registration Screen](/docs/dns?topic=dns-how-to-use-the-domain-registration-screen).
 * Choose the **Renew** tab.
 * Click the **Renew multiple domains?** link.
 * In the window that appears, select or type in the name of the domain requiring renewal from the **Multiple Domain Renewal** list.

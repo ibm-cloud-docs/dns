@@ -24,7 +24,7 @@ Reverse DNS enables users to identify the domain that's associated with an IP ad
 
 Please note, this tool works only when existing PTRs are associated with the Server or VLAN. If no PTRs exist, no details are listed and attempts to update will result in an error.
 
-To add a Reverse DNS PTR record, refer to [Add and Edit a PTR (Pointer) Record](/docs/infrastructure/dns?topic=dns-add-or-edit-a-ptr-pointer-record). Follow these steps to update a Reverse DNS record:
+To add a Reverse DNS PTR record, refer to [Add and Edit a PTR (Pointer) Record](/docs/dns?topic=dns-add-or-edit-a-ptr-pointer-record). Follow these steps to update a Reverse DNS record:
 
  * Navigate to the [IBM Cloud Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/) using your unique credentials.
  * Select **Classic Infrastructure** from the navigation menu.

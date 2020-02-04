@@ -24,7 +24,7 @@ After a domain has been registered, it may be transferred at any time. Transferr
 ## Transfer a single domain
 {: #transfer-single-domain}
 
-* Navigate to the **Domain Registration** screen in the [{{site.data.keyword.cloud_notm}} Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). Refer to [Access the Domain Registration Screen](/docs/infrastructure/dns?topic=dns-how-to-use-the-domain-registration-screen).
+* Navigate to the **Domain Registration** screen in the [{{site.data.keyword.cloud_notm}} Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). Refer to [Access the Domain Registration Screen](/docs/dns?topic=dns-how-to-use-the-domain-registration-screen).
 * Choose the **Transfer** tab.
 * Enter the existing domain name in the **Domain Name** field.
 * Select the domain type from the **Domain Type** list.
@@ -40,7 +40,7 @@ After a domain has been registered, it may be transferred at any time. Transferr
 
 Domains may be transferred to {{site.data.keyword.cloud_notm}} in bulk at any time, rather than individually, if there is an active credit card or an available credit on the account. Follow these steps to transfer multiple domains for {{site.data.keyword.cloud_notm}}.
 
-1. Navigate to the **Domain Registration** screen in the [{{site.data.keyword.cloud_notm}} Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). Refer to [Access the Domain Registration Screen](/docs/infrastructure/dns?topic=dns-how-to-use-the-domain-registration-screen).
+1. Navigate to the **Domain Registration** screen in the [{{site.data.keyword.cloud_notm}} Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). Refer to [Access the Domain Registration Screen](/docs/dns?topic=dns-how-to-use-the-domain-registration-screen).
 1. Choose the **Transfer** tab.
 1. Select the **Transfer Multiple Domains?** option within the **Transfer** tab.
 1. Enter the existing domain name in the **Domain Name** field.
@@ -60,4 +60,4 @@ Domains may be transferred to {{site.data.keyword.cloud_notm}} in bulk at any ti
 ## What happens next
 {:#transfer-an-existing-domain-to-ibm-cloud-next}
 
-After you transfer a domain, you can manage it within the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). When the domain's registration approaches its expiration date, it may be [renewed](/docs/infrastructure/dns?topic=dns-renew-an-existing-domain) from the **Domain Management** screen.
+After you transfer a domain, you can manage it within the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). When the domain's registration approaches its expiration date, it may be [renewed](/docs/dns?topic=dns-renew-an-existing-domain) from the **Domain Management** screen.

@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="dns" category="network" audience="service" arm="3662738" href="/docs/infrastructure/dns?topic=dns-getting-started" path="infrastructure/dns"}
+{: .toc subcollection="dns" category="network" audience="service" href="/docs/dns?topic=dns-getting-started" path="dns"}
 Domain Name Registration
 
     {: .navgroup id="learn"}
@@ -16,7 +16,7 @@ Domain Name Registration
     {: .navgroup id="howto"}
     using-the-dns-interface.md
     add-edit-custom-name-servers.md
-   
+
     {: .topicgroup}
     Domain Registration
         filter-view-existing-domains.md
@@ -24,7 +24,7 @@ Domain Name Registration
         register-domains.md
         renew-domains.md
         transfer-domains.md
-    
+
     {: .topicgroup}
     DNS Management
         dns-records-overview.md
@@ -34,7 +34,7 @@ Domain Name Registration
         update-reverse-dns.md
         add-edit-ptr-record.md
         disable-recursion-dns.md
-    
+
     {: .topicgroup}
     Secondary DNS
         manage-secondary-dns-zones.md
@@ -42,7 +42,7 @@ Domain Name Registration
         view-secondary-dns-error-messages.md
         manual-zone-transfer-secondary-dns.md
         convert-secondary-dns-primary.md
-        
+
     {: .topicgroup}
     Commonly Used Tools
         create-nameservers-whm.md
