@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 1994, 2017-2019
-lastupdated: "2019-05-14"
+  years: 1994, 2020
+lastupdated: "2020-03-26"
 
-keywords: DNS Zone, DNS management, Add DNS Zone, Edit DNS Zone, Delete DNS Zone
+keywords: dns zone, dns management, add dns zone, edit dns zone, delete dns zone
 
 subcollection: dns
 
@@ -20,73 +20,44 @@ subcollection: dns
 {:deprecated: .deprecated}
 {:generic: data-hd-programlang="generic"}
 
-# Manage DNS zones
+# Managing DNS zones
 {: #manage-dns-zones}
 
-## Add a DNS Zone
+DNS management by {{site.data.keyword.cloud}} extends to DNS zones that might not be on the {{site.data.keyword.cloud_notm}} network. Using the DNS Forward Zones page, you can add, edit, and delete DNS zones.
+
+To get to the DNS Forward Zones page:
+
+1. From your browser, open the [{{site.data.keyword.cloud}} console](https://{DomainName}/){: external} and log in to your account.
+1. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg), then click **Classic Infrastructure**.
+1. From the Classic Infrastructure menu, select **Network > DNS  > Forward Zones** to open the DNS Forward Zones page.
+
+## Add a DNS zone
 {: #add-a-dns-zone}
 
-DNS management by {{site.data.keyword.cloud}} extends to DNS Zones that may not be on the {{site.data.keyword.cloud_notm}} network. Using our interface, you may add DNS Zones at any time, as a single domain or in bulk. The addition of DNS Zones currently takes place in the [IBM Cloud Console](https://{DomainName}/). Follow the steps below to add one or more DNS Zones.
+Follow these steps to add a DNS zone in the DNS Forward Zones page:
 
-* Log in to the [IBM Cloud Console](https://{DomainName}/) using your unique credentials.
-* Select **Classic Infrastructure** from the Navigation Menu
-* Select **DNS** from the **Network** list menu.
-* Select **Forward Zones**.
-* Select the **Add DNS Zone** tab on the top right.
-* Determine whether you are adding a single domain or multiple domains:
+1. Select the **Add DNS Zone** tab.
+1. Enter the domains and IPs (optional) in the **Domains** field.
+1. Enter the default IP address in the **Default IP** field.
+1. Click the **Add Zone** button to add the DNS zone.
 
-### Adding a single Domain
-{: #add-single-DomainName}
+After you added the DNS zone, you can [add records](/docs/dns?topic=dns-manage-dns-zone-records#add-a-dns-zone-record) to the zone.
 
-Complete the following steps in the  **Add single domain** section of the screen:
-* Enter the **Domain Name** in the **Domain Name** field.
-* Enter the **IP Address** that the domain name will point to in the **IP Address** field.
-* Click the **Add Zone** button to add the domain.
-
-### Adding multiple Domains
-{: #add-multiple-domains}
-Determine if the domains will be associated with a single IP Address or multiple IPs:
-* If domains will be associated with a single IP address,
-  * Enter **each domain** in the **Domains** text box.
-  * Enter the **IP Address** in the **Default IP Address** field.
-  * Click the **Add Zone** button to add the domains in bulk.
-* If domains will be associated with multiple IP Addresses,
-  * Enter **each domain** and its corresponding **IP Address** as a single line item in the **Domains** text box.
-  * Click the **Add Zone** button to add the domains in bulk.
-
-
-### What Happens Next
-{:#add-a-dns-zone-next}
-
-After successfully adding a single zone, you are automatically redirected to the Zone Edit page.
-New DNS Zones appear in the list of DNS Zones on the [DNS Zones screen](/docs/dns?topic=dns-use-the-dns-zones-screens) within the [IBM Cloud console](https://{DomainName}/). The Zone may be [edited](#edit-a-dns-zone) or [deleted](#delete-a-dns-zone) at any time.
-
-## Edit a DNS Zone
+## Edit a DNS zone
 {: edit-a-dns-zone}
-Select the DNS Zone you want to edit from the list of zones in the DNS Zones screen by clicking on the name of the zone. This opens the DNS Edit Zone page. From here, you can make changes to the DNS Zone, and click **Update SOA** to commit the changes.
 
-The **Edit a DNS Zone** screen allows you to add new records and edit existing records for the zone you're editing. You may also export or delete the zone from this screen.
+Select the DNS zone you want to edit from the list of zones in the DNS Forward Zones page by clicking on the name of the zone. This opens the DNS Edit Zone page. From here, you can make changes to the DNS zone, and click **Update SOA** to commit the changes.
 
-### What Happens Next
-{:#edit-a-dns-zone-next}
-
-Click **View ALl DNS Zones** to return to the list of DNS Zones.
+The **DNS Edit Zone** page allows you to add new records and edit existing records for the zone. You can also export or delete the zone from this page.
 
 
-## Delete a DNS Zone
+## Delete a DNS zone
 {: #delete-a-dns-zone}
 
-After a DNS Zone has been added, it may be deleted at any time. DNS Zone deletions are permanent; they cannot be undone. Follow these steps to delete a DNS Zone:
+After a DNS zone is added, it can be deleted at any time. DNS zone deletions are permanent; they cannot be undone. Follow these steps to delete a DNS zone in the DNS Forward Zones page:
 
-* Navigate to the desired **DNS Zone** screen by selecting **Classic Infrastructure** from the navigation menu.
-* Select **Network > DNS** from the Classic Infrastructure navigation menu and choose the type of zone you need.
-* Select the **Delete** icon at then end of the row containing the desired DNS Zone. A pop-up confirmation box will appear.
-* Select the **Yes** button to confirm the deletion, or select the **No** button to cancel the action.
+1. Select the **Delete** icon at the end of the row containing the DNS zone. A confirmation dialog appears.
+1. Click the **Yes** button to confirm the deletion, or click the **No** button to cancel the action.
 
-Zones may also be deleted from within the Edit DNS Zones screen.
-{:tip}
-
-### What Happens Next
-{:#delete-a-dns-zone-next}
-
-After deleting a DNS Zone, it may no longer be managed using the [IBM Cloud console](https://{DomainName}/). To manage the deleted zone in the Dashboard again, it must be [added as a new Zone](#add-a-dns-zone).
+Zones can also be deleted from within the Edit DNS Zones page.
+{: tip}

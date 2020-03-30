@@ -1,62 +1,43 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="dns" category="network" audience="service" href="/docs/dns?topic=dns-getting-started" path="dns"}
+{: .toc subcollection="dns" category="network" audience="service" href="/docs/dns?topic=dns-getting-started" console-page="/classic/network/dns/forwardzones" product-page="https://www.ibm.com/cloud/dns" path="dns"}
 Domain Name Registration
 
     {: .navgroup id="learn"}
     getting-started.md
-    about-dns-tool.md
-    about-reverse-dns.md
     about-domains.md
-    about-secondary-domains.md
+    dns-records-overview.md
+    pricing.md
     dns-terminology.md
+    [What is DNS?](https://www.ibm.com/cloud/learn/dns)
     {: .navgroup-end}
 
     {: .navgroup id="howto"}
-    using-the-dns-interface.md
+    register-domains.md
+    renew-domains.md
+    transfer-domains.md
     add-edit-custom-name-servers.md
+    filter-view-existing-domains.md
 
     {: .topicgroup}
-    Domain Registration
-        filter-view-existing-domains.md
-        use-domain-reg-screen.md
-        register-domains.md
-        renew-domains.md
-        transfer-domains.md
-
-    {: .topicgroup}
-    DNS Management
-        dns-records-overview.md
-        use-dns-zones-screen.md
+    DNS management
+        using-the-dns-interface.md
         manage-dns-zones.md
         manage-dns-zone-records.md
-        update-reverse-dns.md
         add-edit-ptr-record.md
         disable-recursion-dns.md
-
-    {: .topicgroup}
-    Secondary DNS
-        manage-secondary-dns-zones.md
-        search-secondary-filter-zone.md
-        view-secondary-dns-error-messages.md
-        manual-zone-transfer-secondary-dns.md
-        convert-secondary-dns-primary.md
-
-    {: .topicgroup}
-    Commonly Used Tools
-        create-nameservers-whm.md
-        create-private-nameservers-whm.md
-    {: .navgroup-end}
-
-    {: .navgroup id="help"}
-    dns-faq.md
-    nameserver-faq.md
-    secondary-domain-faq.md
-    getting-help.md
+        manage-secondary-dns-zones.md 
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     example-dns-config-images.md
     dns-api.md
     {: .navgroup-end}
+
+    {: .navgroup id="help"}
+    dns-faq.md
+    getting-help.md
+    {: .navgroup-end}
+
+    

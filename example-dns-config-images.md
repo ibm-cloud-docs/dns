@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 1994, 2017-2019
-lastupdated: "2019-03-08"
+  years: 1994, 2020
+lastupdated: "2020-03-26"
 
-keywords: Record points, Example DNS configurations, CNAME Record points
+keywords: record points, example dns configurations, cname record points
 
 subcollection: dns
 
@@ -13,14 +13,14 @@ subcollection: dns
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 
-# Example DNS configurations for reference
+# Example DNS configurations
 {:#example-dns-configurations-for-reference}
 
-The following images show some common DNS setups. Things to remember:
+The following screen captures show some common DNS configurations. Things to remember:
 
  * The `@` symbol is shorthand for the domain itself.
- * The `A Record` points from a `hostname` (such as `domain.com` or `sub.domain.com`) to an IP address (for example, 123.123.231.1).
- * The `CNAME Record` points from a `hostname` (such as `domain.com` or `sub.domain.com`) to another `hostname`.
+ * The `A`record points from a hostname (such as `domain.com` or `sub.domain.com`) to an IP address (for example, `123.123.231.1`).
+ * The `CNAME` record points from a hostname (such as `domain.com` or `sub.domain.com`) to another hostname.
 
 ## In the IBM Cloud console
 {:#ibm-cloud-customer-portal-example}
@@ -37,4 +37,4 @@ The following images show some common DNS setups. Things to remember:
 ## In Plesk
 {:#plesk-example}
 
-![Figure 3: Plesk DNS Example](images/plesk2dns.png)
+![Figure 3: Plesk DNS example](images/plesk2dns.png)

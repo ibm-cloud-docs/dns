@@ -1,15 +1,14 @@
 ---
 
 copyright:
-  years: 1994, 2017-2019
-lastupdated: "2019-03-08"
+  years: 1994, 2020
+lastupdated: "2020-03-26"
 
-keywords: Record PTR, IP addresses, Reverse DNS feature
+keywords: record ptr, ip addresses, reverse dns feature, ptr, pointer records
 
 subcollection: dns
 
 ---
-
 
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
@@ -19,28 +18,21 @@ subcollection: dns
 {:deprecated: .deprecated}
 {:generic: data-hd-programlang="generic"}
 
-# Add or Edit a PTR (Pointer) Record
+# Managing reverse or PTR (Pointer) records
 {:#add-or-edit-a-ptr-pointer-record}
 
-PTR, or pointer, records resolve IP addresses into hostnames. Users may add PTR Records to be associated with an IP address by using the Reverse DNS feature on the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){:new_window}. Also, PTR Records may be edited in the same way they are added. Follow the steps below to add or edit a PTR Record for a device:
+PTR, or pointer, records resolve IP addresses into hostnames. Users can add PTR records to be associated with an IP address by using **Reverse Records**. Also, PTR records can be edited in the same way they are added. Follow these steps to add or edit a PTR record for a device.
 
-1. Retrieve the **Public IP Address** for the device that will receive the PTR Record from the **Device List**.
-1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log in to your account.
-1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
-1. In the Classic Infrastructure navigation, select **Network > DNS > Reverse DNS Records**.
-1. Enter the **Public IP Address** retrieved from the Device List in the **View IP** field.
-1. Click anywhere on the row containing the **Reverse Record** details to open the row for edits.
-1. Complete or update the fields for the Record based on the table below:
+Have the **public IP address** for the device that will receive the PTR record ready.
+{: important}
 
-  |Field|Entry|
-  |:---|:---|
-  |Reverse DNS|The hostname to which the IP Address will resolve.|
-  |Reverse TTL|The time to live (TTL) for the new Record|
-  |Notes|Any applicable notes regarding the Record|
+1. From your browser, open the [{{site.data.keyword.cloud}} console](https://{DomainName}/){: external} and log in to your account.
+1. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg), then click **Classic Infrastructure**.
+1. From the Classic Infrastructure menu, select **Network > DNS  > Reverse Records** to open the Reverse DNS Records page.
+1. Enter the public IP address of the device in the **View IP** field.
+1. Complete or update the fields for the record based on the following:    
+    * **Hostname**: The hostname to which the IP address resolves.
+    * **Reverse TTL**: The time to live (TTL) for the new record.
+1. Click the **Save** button to save the record.
 
-1. Click the **Update** button to update the record. Click **Cancel** to cancel the action.
-
-## What Happens Next
-{:#add-or-edit-a-ptr-pointer-record-next}
-
-After a PTR Record is added, the Public IP Address associated with that record will resolve to the hostname specified in the record. The record may be edited at any time. To remove details from the PTR Record, delete all information from the fields using the **Edit** process.
+You can also choose **Edit RDNS for all IPs in this Subnet** to make changes across the entire subnet. To remove details from the PTR record, delete all information from the fields and click the **Save** button.

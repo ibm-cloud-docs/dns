@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 1994, 2017-2019
-lastupdated: "2019-06-05"
+  years: 1994, 2020
+lastupdated: "2020-03-26"
 
-keywords: support ticket, IBM support ticket
+keywords: dns help, domain help, domain registration help
 
 subcollection: dns
 
@@ -24,15 +24,6 @@ subcollection: dns
 # Getting help and support
 {: #gettinghelp-with-dns}
 
-If you have problems or questions when using DNS, you can get help by searching for information or by asking questions through one of the forums listed below. You can also open a support case in the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){:external}.
-{:shortdesc}
-
-When using the forums to ask a question, tag your question so that it is seen by the {{site.data.keyword.cloud_notm}} development teams.
-
-* If you have technical questions about DNS, post your question on [Stack Overflow](https://stackoverflow.com/search?q=dns+ibm-cloud){:external}{:new_window} and tag your question with "dns" and "ibm-cloud".
-
-* For questions about the service and getting started instructions, use the [IBM developerWorks dW Answers](https://developer.ibm.com/answers/topics/dns.html?smartspace=ibm-cloud){:external}{:new_window} forum. Include the  "dns" and "ibm-cloud" tags.
-
-See [Getting help](/docs/get-support?topic=get-support-getting-customer-support) for more details about using the forums.
+If you have problems or questions when using {{site.data.keyword.cloud}} Domain Name Registration, you can get help on our [support center](https://{DomainName}/unifiedsupport/supportcenter){:external} or by post your question on [Stack Overflow](https://stackoverflow.com/search?q=dns+ibm-cloud){:external}. When using the forums to ask a question, tag your question with "ibm-cloud" and "dns" so that it is seen by the {{site.data.keyword.cloud_notm}} development teams.
 
 For information about opening an IBM Support case, or about support levels and case severities, see [Contacting support](/docs/get-support?topic=get-support-getting-customer-support).

@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 1994, 2017-2019
-lastupdated: "2019-03-08"
+  years: 1994, 2020
+lastupdated: "2020-03-26"
 
-keywords: Delete Custom Name Servers, Lock Domain Select, Domain Domains
+keywords: delete custom name servers, custom name servers, name servers
 
 subcollection: dns
 
@@ -18,28 +18,29 @@ subcollection: dns
 {:important: .important}
 {:deprecated: .deprecated}
 {:generic: data-hd-programlang="generic"}
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
-# Add, edit, or delete custom name servers for a domain
+# Managing custom name servers for a domain
 {:#add-edit-or-delete-custom-name-servers-for-a-domain}
+{: help}
+{: support}
 
-Domains running on the {{site.data.keyword.BluSoftlayer_notm}} network may point to a maximum of five (5) custom name servers. Custom name servers may be added, deleted or changed by the user at any time. Follow these steps to add, edit, or delete custom name servers for a domain:
+Domains running on the {{site.data.keyword.cloud}} network can point to a maximum of five (5) custom name servers. Custom name servers can be added, deleted, or changed at any time. Follow these steps to add, edit, or delete custom name servers for a domain:
 
-1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/){: new_window} and log into your account.
-1. From the dashboard, click the Menu icon ![Menu icon](../../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
-1. In the Classic Infrastructure navigation, select **Services > Domain Registration**. 
-3. Select the desired **Domain Name** to expand the domain into its snapshot view.
-4. Select **Unlocked** from the **Lock Domain**
-5. Select the **Add/Edit NS** option in the **Custom Name Servers** section of the screen. A pop-up box will appear.
-6. Refer to the table below to complete the appropriate action based on the desired task:
-  |Task|Action|
-  |:---|:---|
-  |Add a custom Name Server|Enter the hostname for the Name Server in the empty field.|
-  |Delete a custom Name Server|Delete the information from the field for the appropriate Name Server.|
-  |Edit a custom Name Server|Edit the details in the corresponding field for the appropriate Name Server.|
+1. From your browser, open the [{{site.data.keyword.cloud}} console](https://{DomainName}/){: external} and log in to your account.
+1. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg), then click **Classic Infrastructure**.
+1. From the Classic Infrastructure menu, select **Services > Domain Registration** to open the Domains page.
+1. Select the **Domain Name** to expand the domain into its snapshot view.
+1. Select **Unlocked** from the **Lock Domain**.
+1. Select the **Add/Edit NS** option in the **Custom Name Servers** section of the page. A dialog appears.
+1. Refer to the bullets below to complete the appropriate action based on the task:
+    * To add a custom name server, enter the hostname for the name server in the empty field.
+    * To delete a custom name server, delete the information from the field for the appropriate name server.
+    * To edit a custom name server, edit the details in the corresponding field for the appropriate name server.
+1. Click the **Associate** button to save the changes, or click **Cancel** to cancel the action.
 
-7. Select the **Associate** button to save the changes, or select **Cancel** to cancel the action.
-
-## What happens next
+## Next steps
 {:#add-edit-or-delete-custom-name-servers-for-a-domain-next}
 
-After you update the name server details, they appear under the **Custom Name Servers** section of the domain. You may update the details at any time.
+After you update the name server details, they appear under the **Custom Name Servers** section of the domain. You can update the details at any time.

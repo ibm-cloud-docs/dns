@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 1994, 2017-2019
-lastupdated: "2019-05-14"
+  years: 1994, 2020
+lastupdated: "2020-03-26"
 
-keywords: DNS Zone Record, Update DNS Zone Record, edit dns zone record, add dns zone record, delete dns zone record
+keywords: dns zone record, update dns zone record, edit dns zone record, add dns zone record, delete dns zone record
 
 subcollection: dns
 
@@ -20,14 +20,22 @@ subcollection: dns
 {:deprecated: .deprecated}
 {:generic: data-hd-programlang="generic"}
 
-# Managing DNS Zone Records
+# Managing DNS zone records
 {: #manage-dns-zone-records}
-This section details how to add, edit, and delete DNS Zone Records.
 
-## Add a DNS Zone Record
+After [adding a DNS zone](/docs/dns?topic=dns-manage-dns-zones#add-a-dns-zone), records can be added to the zone at any time.
+
+To get to the DNS Edit Zone page:
+
+1. From your browser, open the [{{site.data.keyword.cloud}} console](https://{DomainName}/){: external} and log in to your account.
+1. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg), then click **Classic Infrastructure**.
+1. From the Classic Infrastructure menu, select **Network > DNS  > Forward Zones** to open the DNS Forward Zones page.
+1. Click on the DNS zone to open the DNS Edit Zone page.
+
+## Add a DNS zone record
 {: #add-a-dns-zone-record}
 
-After [adding a DNS Zone](/docs/dns?topic=dns-manage-dns-zones#add-a-dns-zone), Records may be added to the zone at any time. These records include:
+The type of records that can be added to a DNS zone include:
 
 * A (Host) Records
 * AAAA (Host) Records
@@ -36,65 +44,73 @@ After [adding a DNS Zone](/docs/dns?topic=dns-manage-dns-zones#add-a-dns-zone), 
 * TXT (Text) Records
 * SRV (Service) Records
 
-Follow the steps below to add a DNS Zone Record:
+To add a record to a DNS Zone from the DNS Edit Zone page, select the resource type from the **Resource Type** list,
+complete the requested fields, and click the **Add Record** button. Refer to the following table for information on which
+fields are required for the record type.
 
-* Navigate to the **DNS Zone** screen. Refer to [Using the DNS Zones Screen](/docs/dns?topic=dns-use-the-dns-zones-screens).
-* Select the DNS Zone to which the record will be added.
-* Select the desired **resource type** from the **Resource Type** list.
-* Complete the remaining fields for the new Record. Refer to the table below for more information:
+| Field | Description |
+|-----------|----------|
+| Host | Enter the hostname. |
+| Points To | Enter the IP address to which the host record points. |
+| TTL | Select the Time to Live (TTL) from the list menu. TTL defaults to 15 minutes. |
+{: caption="Table 1. Fields required for A, AAAA, or CNAME records" caption-side="top"}
+{: #a-aaaa-cname-record-fields}
+{: tab-title="A, AAAA, CNAME"}
+{: tab-group="recordfields"}
+{: class="simple-tab-table"}
+{: summary="Use the buttons before the table to change the context of the table. The column headers identify the fields required and their description."}
 
-| Record Type|Field|Entry|
-|:-----|:-----|:-----|
-|A (Host), AAAA (Host) or CNAME (Alias) |Host|Enter the **Host Name**.|
-|A (Host), AAAA (Host) or CNAME (Alias) | Points To|Enter the **IP Address** to which the Host Record points.|
-|A (Host), AAAA (Host) or CNAME (Alias) |TTL|Select the Time to Live (TTL) from the list menu. TTL defaults to 15 minutes.|
-|MX (Mail Exchange) |Priority|Enter the **Priority** of the target host. The lower the number, the higher the priority.|
-|MX (Mail Exchange) |Host|Enter the **Host Name**.|
-|MX (Mail Exchange) |Goes|Enter the **CNAME** of the mail server. This is usually represented as `mail.example.com`.|
-|MX (Mail Exchange) |TTL|Select the Time to Live (TTL) from the list menu. TTL defaults to 15 minutes.|
-|TXT (Text) |Name|Enter the **@** or the **Domain Name**.|
-|TXT (Text) |Value|Enter the **record** to verify appropriate email ending rights for a domain or IP.|
-|TXT (Text) |TTL|Select the Time to Live (TTL) from the list menu. TTL defaults to 15 minutes.|
-|SRV (Service Record) |Service|Enter the **Symbolic Name** of the desired service.|
-|SRV (Service Record) |Protocol|Select the **Protocol** being used from the list menu.|
-|SRV (Service Record) |Priority|Enter the **Priority** of the target host. The lower the number, the higher the priority.|
-|SRV (Service Record) |Weight|Enter the *Relative Weight* for records with the same priority.|
-|SRV (Service Record) |Port|Enter the **TCP or UPD Port** on which the service is to be found.|
-|SRV (Service Record) |Host (optional)|Enter the **Host Name** for the service.|
-|SRV (Service Record) |Target|Enter the **Canonical Host Name** of the machine providing the service.|
-|SRV (Service Record) |TTL|Select the Time to Live (TTL) from the list menu. TTL defaults to 15 minutes.|
+| Field | Description |
+|-----------|----------|
+| Priority | Enter the priority of the target host. The lower the number, the higher the priority. |
+| Host | Enter the hostname. |
+| Goes | Enter the `CNAME` of the mail server. This is usually represented as `mail.example.com`.|
+| TTL | Select the Time to Live (TTL) from the list menu. TTL defaults to 15 minutes.|
+{: caption="Table 1. Fields required for MX records" caption-side="top"}
+{: #mx-fields}
+{: tab-title="MX"}
+{: tab-group="recordfields"}
+{: class="simple-tab-table"}
+{: summary="Use the buttons before the table to change the context of the table. The column headers identify the fields required and their description."}
 
-* Select the **Add Record** button to add the new Zone Record.
+| Field | Description |
+|-----------|----------|
+| Name | Enter `@` or the domain name. |
+| Value | Enter the record to verify appropriate email ending rights for a domain or IP. |
+| TTL | Select the Time to Live (TTL) from the list menu. TTL defaults to 15 minutes. |
+{: caption="Table 1. Fields required for TXT records" caption-side="top"}
+{: #txt-fields}
+{: tab-title="TXT"}
+{: tab-group="recordfields"}
+{: class="simple-tab-table"}
+{: summary="Use the buttons before the table to change the context of the table. The column headers identify the fields required and their description."}
 
-### What Happens Next
-{:#add-a-dns-zone-record-next}
+| Field | Description |
+|-----------|----------|
+| Service | Enter the symbolic name of the service. |
+| Protocol | Select the protocol being used from the list menu. |
+| Priority | Enter the priority of the target host. The lower the number, the higher the priority. |
+| Weight | Enter the relative weight for records with the same priority. |
+| Port | Enter the TCP or UPD Port on which the service is to be found. |
+| Host (optional) | Enter the hostname for the service. |
+| Target | Enter the canonical hostname of the machine providing the service. |
+| TTL | Select the Time to Live (TTL) from the list menu. TTL defaults to 15 minutes. |
+{: caption="Table 1. Fields required for SRV records" caption-side="top"}
+{: #srv-fields}
+{: tab-title="SRV"}
+{: tab-group="recordfields"}
+{: class="simple-tab-table"}
+{: summary="Use the buttons before the table to change the context of the table. The column headers identify the fields required and their description."}
 
-After adding the Zone Record, it appears in the **Existing Records** section of the screen. You may [edit](#edit-a-dns-zone-record) or [delete](#delete-a-dns-zone-record) the Zone Record at any time.
-
-## Edit a DNS Zone Record
+## Edit a DNS zone record
 {: #edit-a-dns-zone-record}
 
-Existing DNS Zone Records may be edited by a user to update various areas, such as Time to Live (TTL), Pointer (PTR) records and Host Names. Multiple hosts and aliases may be associated with a DNS Zone Record at any time. Follow the steps below to edit an existing DNS Zone Record.
+Existing DNS zone records can be edited by a user to update various areas, such as Time to Live (TTL), Pointer (PTR) records and hostnames. Multiple hosts and aliases can be associated with a DNS zone record at any time. A DNS Zone record can be edited from the DNS Edit Zone page. Click the fields of the record you want to update. After updating the details of the record, click the **Update** button to update the record.
 
-* Navigate to the desired **DNS Zone** screen by selecting **Classic Infrastructure** from the navigation menu.
-* Select **Network > DNS > Forward Zones** from the Classic Infrastructure navigation menu.
-* Click on the **row** containing any existing record.
+Records that are italicized cannot be edited. These are generally limited to NS (name server) records.
+{: note}
 
-  Records that are italicized cannot be edited. These are generally limited to NS (name server) records.
-  {: note}
-
-* Update the details of the record as necessary.
-* Select the **Update** button to update the record, or select **Cancel** to cancel the action.
-
-### What Happens Next
-{: #edit-a-dns-zone-record-next}
-
-Upon updating the record, its details will display the new entry automatically. Records may be updated at any time, existing records may be deleted, and new records may be [added](#add-a-dns-zone-record).
-
-## Delete a DNS Zone Record
+## Delete a DNS zone record
 {: #delete-a-dns-zone-record}
 
-Deleting a DNS Zone Record is done through the **DNS Edit Zone** screen. Deleting a DNS Zone Record cannot be undone.
-* Select the DNS Zone that has the record you want to delete by clicking the name in the list of DNS Zones.
-* Select the Delete icon at then end of the row containing the desired record. A pop-up confirmation box appears.
-* Select the **Yes** button to confirm the deletion, or select the **No** button to cancel the action.
+Deleting a DNS zone record is done through the DNS Edit Zone page. To delete a DNS zone record, click the Delete icon at the end of the row containing the record. A confirmation dialog appears. Click the **Yes** button to confirm the deletion or on **No** to cancel the action. Deleting a DNS zone record cannot be undone.

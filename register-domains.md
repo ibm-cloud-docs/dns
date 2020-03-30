@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 1994, 2017-2019
-lastupdated: "2019-05-14"
+  years: 1994, 2020
+lastupdated: "2020-03-26"
 
-keywords: New Domain, register new domain, register multiple new domains
+keywords: new domain, register new domain, register multiple new domains
 
 subcollection: dns
 
@@ -15,41 +15,44 @@ subcollection: dns
 {:DomainName: data-hd-keyref="DomainName"}
 {:note: .note}
 {:important: .important}
+{:tip: .tip}
 {:deprecated: .deprecated}
 {:generic: data-hd-programlang="generic"}
+{:external: target="_blank" .external}
+{:help: data-hd-content-type='help'}
+{:support: data-reuse='support'}
 
-# Register New Domains
+# Registering new domains
 {:#register-a-new-domain}
+{: help}
+{: support}
 
-A new domain may be registered for an account at any time, if there is an active credit card linked to an account, or an available credit on the account. Follow the steps in this article to register a new domain, either one at a time, or multiple domains at one time.
+Follow these steps to register a new domain, either one at a time, or multiple domains at one time.
 
-* Navigate to the **Domain Registration** screen on the [{{site.data.keyword.cloud}} Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/) by selecting **Classic Infrastructure** from the navigation menu.
-* Select **Services > Domain Registration** from the Classic Infrastructure navigation menu.
-* Choose the **Register** tab.
-  * Select the **Register Multiple Domains?** option within the **Register** tab if you are registering multiple domains at one time.
-* Enter the new domain name in the **Domain Name** field.
-* Select the domain type from the **Domain** list.
-* Select the amount of time to reserve the domain from the **Registration Time** list.
-* If registering multiple domains, select the **Add Another** option to populate additional blank fields for more domain entries.
+1. From your browser, open the [{{site.data.keyword.cloud}} console](https://{DomainName}/){: external} and log in to your account.
+1. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg), then click **Classic Infrastructure**.
+1. From the Classic Infrastructure menu, select **Services > Domain Registration** to open the Domains page.
+1. Choose the **Register** tab.
 
-  Select the **Delete** icon to delete an entire entry from the screen.
-  {:note}
+   Select the **Register Multiple Domains?** option within the **Register** tab if you are registering multiple domains at one time.
+   {:tip}
 
-* Click **Continue**.
+1. Enter the new domain name in the **Domain Name** field.
+1. Select the domain type from the **Domain** list.
+1. Select the amount of time to reserve the domain from the **Registration Time** list.
 
-The price for each time period is displayed next to the amount of time and will be charged to the credit card or deducted from the credit on the account at the point the new domain is registered.
-{:note}
+    The price for each time period is displayed next to the amount of time and will be charged to the account when the new domain is registered.
+    {:note}
 
-* Choose the **Check Availability** button to determine whether the desired domain names are available.
+1. If registering multiple domains, select the **Add Another** option to populate additional blank fields for more domain entries.
 
-|If...| Then...|
-|----|----|
-| All desired domains are available | Proceed to the next step. |
-| One or more domains are not available | Repeat the previous steps to check the availability of an alternate domain. |
+   Select the **Delete** icon to delete an entire entry from the page.
+   {:note}
 
-* Select the **Continue** button to register the domain.
+1. Click the **Check Availability** button to check whether the domain names are available. If all domains are available, proceed to the next step. If one or more domains are not available, try again with another domain.
+1. Click the **Continue** button to register the domain.
 
-## What Happens Next
+## Next steps
 {:#register-a-new-domain-next}
 
-After successfully registering new domain names, they are reserved for the amount of time selected. They may be managed using the [{{site.data.keyword.cloud_notm}} Console ![External link icon](../../icons/launch-glyph.svg "External link icon")](https://{DomainName}/). When the registration period expires, the domain name may be [renewed](/docs/dns?topic=dns-renew-an-existing-domain).
+After you register a domain, you can use the [DNS interface](/docs/dns?topic=dns-how-to-use-the-dns-interface) to manage it. When the domain's registration approaches its expiration date, you can [renew the domain](/docs/dns?topic=dns-renew-an-existing-domain).
