@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2020
 lastupdated: "2020-03-26"
 
-keywords: dns help, domain help, domain registration help
+keywords: 
 
 subcollection: dns
 
@@ -24,6 +24,6 @@ subcollection: dns
 # Getting help and support
 {: #gettinghelp-with-dns}
 
-If you have problems or questions when using {{site.data.keyword.cloud}} Domain Name Registration, you can get help on our [support center](https://{DomainName}/unifiedsupport/supportcenter){:external} or by post your question on [Stack Overflow](https://stackoverflow.com/search?q=dns+ibm-cloud){:external}. When using the forums to ask a question, tag your question with "ibm-cloud" and "dns" so that it is seen by the {{site.data.keyword.cloud_notm}} development teams.
+If you have problems or questions when using {{site.data.keyword.cloud}} Domain Name Registration, you can get help on our [IBM Support center](https://{DomainName}/unifiedsupport/supportcenter){:external} or by post your question on [Stack Overflow](https://stackoverflow.com/search?q=dns+ibm-cloud){:external}. When using the forums to ask a question, tag your question with "ibm-cloud" and "dns" so that it is seen by the {{site.data.keyword.cloud_notm}} development teams.
 
-For information about opening an IBM Support case, or about support levels and case severities, see [Contacting support](/docs/get-support?topic=get-support-getting-customer-support).
+For information about opening an IBM Support case, or about support levels and case severities, see [Contacting support](/docs/get-support?topic=get-support-using-avatar#using-avatar).

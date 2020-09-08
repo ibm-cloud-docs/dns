@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2020
-lastupdated: "2020-03-26"
+lastupdated: "2020-04-23"
 
 keywords: domain names, resource records, host name
 
@@ -39,7 +39,7 @@ Common **A** records include: `www.domain.com`, `ftp.domain.com`, `mail.domain.c
 
 For example, you own `domain.com` and you also own `domain.net`, and you want the records to point to the same IP address. You can create `CNAME` records for the _www_ host of `domain.net` that point to `www.domain.com`. Then, to change the _www_ host of `domain.net` all you do is modify the **A** record of `www.domain.com` to point to its new IP address, and `www.domain.net` is automatically updated.
 
-A common mistake to using this method is that you can accidentally modify the records for several domains when you intend to only change one. That is, you _must_ make a note of which domains point to each other.
+A common mistake when using this method is that you can accidentally modify the records for several domains when you intend to change only one. That is, you _must_ make a note of which domains point to each other. Also, a record cannot be created with same name as an existing CNAME record.
 
 **Host field:** The hostname for that particular `CNAME` record. The hostname should be what precedes the _.domain.com_ in your FQDN. For instance, on `www.domain.com`, `www` is the host. Whatever is listed here, the lookup automatically appends `.domain.com` to the query. A blank **A** record (`domain.com` rather than `host.domain.com`) is created by putting a `@` sign in the hostname field.
 
