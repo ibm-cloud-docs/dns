@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2020
 lastupdated: "2020-03-26"
 
-keywords: record points, example dns configurations, cname record points
+keywords: 
 
 subcollection: dns
 
@@ -16,7 +16,10 @@ subcollection: dns
 # Example DNS configurations
 {:#example-dns-configurations-for-reference}
 
-The following screen captures show some common DNS configurations. Things to remember:
+The following screen captures show some common DNS configurations.
+{:shortdesc} 
+
+Things to remember:
 
  * The `@` symbol is shorthand for the domain itself.
  * The `A`record points from a hostname (such as `domain.com` or `sub.domain.com`) to an IP address (for example, `123.123.231.1`).

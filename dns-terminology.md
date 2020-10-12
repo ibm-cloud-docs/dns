@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2020
 lastupdated: "2020-03-26"
 
-keywords: dns terminology, caching, individual dns servers, dns resolver
+keywords: 
 
 subcollection: dns
 
@@ -16,6 +16,9 @@ subcollection: dns
 
 # DNS terminology
 {:#dns-terminology}
+
+Review the following terms to help you understand and use DNS.
+{:shortdesc}
 
 ## Caching and time to live
 {:#caching-and-time-to-live}

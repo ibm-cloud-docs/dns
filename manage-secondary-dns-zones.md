@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2020
 lastupdated: "2020-03-26"
 
-keywords: secondary dns zone, ibm cloud, add secondary zone, edit secondary zone, delete secondary zone, primary dns zones
+keywords: 
 
 subcollection: dns
 
@@ -31,6 +31,7 @@ subcollection: dns
 {: #manage-secondary-dns-zones}
 
 {{site.data.keyword.cloud}} provides secondary DNS to all customers as a means to cache primary DNS zones in the event of a loss of data. Maintaining a secondary DNS zone is not mandatory, but it is strongly encouraged for users with multiple domains.
+{:shortdesc}
 
 Using the DNS Secondary Zones page, you can add, edit, and delete secondary DNS zones. You can also force a transfer to the zone, convert the zone from secondary to primary, and view errors associated with the secondary DNS zone.
 

@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2020
 lastupdated: "2020-03-26"
 
-keywords: dns, domain name registration, registration, domains, ip addresses, dnr, dns
+keywords: dns, domain name registration, dnr
 
 subcollection: dns
 
@@ -23,7 +23,10 @@ subcollection: dns
 # Getting started with Domain Name Registration 
 {: #getting-started}
 
-Domain name registration is the process of registering a user-friendly domain name, which identifies one or more IP addresses. {{site.data.keyword.cloud}} Domain Name Registration offers customers a central location from which to view and manage their domains. As an additional service, {{site.data.keyword.cloud_notm}} offers secondary domain zones to our customers free of charge, allowing users to back up their primary domain records in the event of data loss or node failure.
+Domain name registration is the process of registering a user-friendly domain name, which identifies one or more IP addresses. {{site.data.keyword.cloud}} Domain Name Registration offers customers a central location from which to view and manage their domains. 
+{:shortdesc}
+
+As an additional service, {{site.data.keyword.cloud_notm}} offers secondary domain zones to our customers free of charge, allowing users to back up their primary domain records in the event of data loss or node failure.
 
 {{site.data.keyword.cloud_notm}} domain service functions similarly to any Domain Name System (DNS) management tool that you would use. You have the ability to interact with and edit existing domain records, add new records, and update information about reverse records. The primary benefit of using {{site.data.keyword.cloud_notm}} over another DNS management service, or even managing it yourself, is that you have a central, reliable location in which all of your data is stored.
 

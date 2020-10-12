@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2020
 lastupdated: "2020-03-26"
 
-keywords: delete custom name servers, custom name servers, name servers
+keywords: 
 
 subcollection: dns
 
@@ -26,7 +26,8 @@ subcollection: dns
 {: help}
 {: support}
 
-Domains running on the {{site.data.keyword.cloud}} network can point to a maximum of five (5) custom name servers. Custom name servers can be added, deleted, or changed at any time. Follow these steps to add, edit, or delete custom name servers for a domain:
+Domains running on the {{site.data.keyword.cloud}} network can point to a maximum of five (5) custom name servers. Custom name servers can be added, deleted, or changed at any time. Follow these steps to add, edit, or delete custom name servers for a domain.
+{:shortdesc}
 
 1. From your browser, open the [{{site.data.keyword.cloud}} console](https://{DomainName}/){: external} and log in to your account.
 1. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg), then click **Classic Infrastructure**.

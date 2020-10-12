@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2020
 lastupdated: "2020-03-26"
 
-keywords: dns zone record, update dns zone record, edit dns zone record, add dns zone record, delete dns zone record
+keywords: 
 
 subcollection: dns
 
@@ -24,6 +24,7 @@ subcollection: dns
 {: #manage-dns-zone-records}
 
 After [adding a DNS zone](/docs/dns?topic=dns-manage-dns-zones#add-a-dns-zone), records can be added to the zone at any time.
+{:shortdesc}
 
 To get to the DNS Edit Zone page:
 
@@ -44,9 +45,7 @@ The type of records that can be added to a DNS zone include:
 * TXT (Text) Records
 * SRV (Service) Records
 
-To add a record to a DNS Zone from the DNS Edit Zone page, select the resource type from the **Resource Type** list,
-complete the requested fields, and click the **Add Record** button. Refer to the following table for information on which
-fields are required for the record type.
+To add a record to a DNS Zone from the DNS Edit Zone page, select the resource type from the **Resource Type** list, complete the requested fields, and click the **Add Record** button. Refer to the following table for information on which fields are required for the record type.
 
 | Field | Description |
 |-----------|----------|

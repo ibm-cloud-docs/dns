@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2020
 lastupdated: "2020-03-26"
 
-keywords: domains, domain registration, dns
+keywords: 
 
 subcollection: dns
 
@@ -23,6 +23,7 @@ subcollection: dns
 {:#about-domains}
 
 {{site.data.keyword.cloud}} offers domain management for all customers, by using the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). There is no need to register, renew, and manage your domains with a third party. You can register, renew, transfer, and manage a domain using the same tool.
+{:shortdesc}
 
 ## Reverse DNS
 {:#about-reverse-dns}

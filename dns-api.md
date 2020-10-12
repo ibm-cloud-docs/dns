@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2020
 lastupdated: "2020-03-26"
 
-keywords: domain service, dns api, resource records
+keywords: 
 
 subcollection: dns
 
@@ -20,6 +20,7 @@ subcollection: dns
 {:#getting-started-with-the-dns-api}
 
 Users can interact with the {{site.data.keyword.BluSoftlayer_notm}} authoritative DNS servers through the `SoftLayer_Dns_Domain` service.
+{:shortdesc}
 
 Each `SoftLayer_Dns_Domain` has a collection of `SoftLayer_DNS_Domain_ResourceRecords` referenced by the `resourceRecords` relational property. It is possible to interact with resource records through the `SoftLayer_Dns_Domain` service; however, it is best to use the `SoftLayer_Dns_Domain_ResourceRecord` service directly after initial zone creation.
 

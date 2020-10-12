@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2020
 lastupdated: "2020-03-26"
 
-keywords: disable recursion, dns ibm cloud dns servers, bind configuration file
+keywords: 
 
 subcollection: dns
 
@@ -18,6 +18,7 @@ subcollection: dns
 {:#disable-recursion-for-dns}
 
 {{site.data.keyword.cloud}} DNS servers perform recursion by default. Recursion allows your DNS server to contact other DNS servers to assist in resolving domain names when it cannot resolve the domain itself. Recursion can prove to be useful when necessary; however, it also opens the DNS server open to attack, which could take down the DNS server altogether. System administrators generally identify a need for recursion and act accordingly. Otherwise, it is best to disable recursion. Follow these steps based on your operating system or control panel to disable DNS recursion.
+{:shortdesc}
 
 ## Disable recursion in Plesk
 {:#disable-recursion-in-plesk}

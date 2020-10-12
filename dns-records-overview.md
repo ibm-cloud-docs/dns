@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2020
 lastupdated: "2020-04-23"
 
-keywords: domain names, resource records, host name
+keywords: 
 
 subcollection: dns
 
@@ -20,6 +20,9 @@ subcollection: dns
 
 # About resource records
 {:#dns-overview-resource-records}
+
+Resource records provide information about the components that support your domain, and are used to resolve all DNS queries.  
+{:shortdesc}
 
 ## `A` records
 {:#the-a-record-section}

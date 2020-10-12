@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2020
 lastupdated: "2020-03-26"
 
-keywords: new domain, register new domain, register multiple new domains
+keywords: 
 
 subcollection: dns
 
@@ -28,9 +28,10 @@ subcollection: dns
 {: support}
 
 Follow these steps to register a new domain, either one at a time, or multiple domains at one time.
+{:shortdesc}
 
 1. From your browser, open the [{{site.data.keyword.cloud}} console](https://{DomainName}/){: external} and log in to your account.
-1. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg), then click **Classic Infrastructure**.
+1. Select the Menu icon ![Menu icon](../icons/icon_hamburger.svg), then click **Classic Infrastructure**.
 1. From the Classic Infrastructure menu, select **Services > Domain Registration** to open the Domains page.
 1. Choose the **Register** tab.
 

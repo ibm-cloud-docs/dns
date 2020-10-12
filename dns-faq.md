@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2020
 lastupdated: "2020-03-26"
 
-keywords: dns servers, fast domain name resolution, dns faq
+keywords: 
 
 subcollection: dns
 
@@ -30,6 +30,9 @@ subcollection: dns
 
 # DNS FAQs
 {:#dns-faq}
+
+Have a question about DNS? Review frequently asked questions, which provide answers to provisioning concerns, application access, and other common inquiries.
+{:shortdesc}
 
 ## What are the DNS servers?
 {:#what-are-dns-servers}

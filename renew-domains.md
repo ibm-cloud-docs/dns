@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2020
 lastupdated: "2020-03-26"
 
-keywords: renew existing domain, renew multiple domains, renew multiple existing domains
+keywords: 
 
 subcollection: dns
 
@@ -26,13 +26,17 @@ subcollection: dns
 {: help}
 {: support}
 
-When a new domain is registered, it is reserved for use by the registrant for a pre-determined amount of time that is chosen at the time the domain is registered. When that time period expires, the domain becomes inactive and is available for purchase by any person or entity. To keep a registered domain active, it must be renewed before its expiration date. Domains can be renewed one at a time, or multiple domains at a time. Follow these steps to renew a registration for an existing domain.
+When a new domain is registered, it is reserved for use by the registrant for a pre-determined amount of time that is chosen at the time the domain is registered. When that time period expires, the domain becomes inactive and is available for purchase by any person or entity. To keep a registered domain active, it must be renewed before its expiration date. 
+{:shortdesc}
+
+
+Domains can be renewed one at a time, or multiple domains at a time. Follow these steps to renew a registration for an existing domain.
 
 ## Renew a single domain
 {: #renew-single-domain}
 
 1. From your browser, open the [{{site.data.keyword.cloud}} console](https://{DomainName}/){: external} and log in to your account.
-1. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg), then click **Classic Infrastructure**.
+1. Select the Menu icon ![Menu icon](../icons/icon_hamburger.svg), then click **Classic Infrastructure**.
 1. From the Classic Infrastructure menu, select **Services > Domain Registration** to open the Domains page.
 1. Choose the **Renew** tab.
 1. Select or type in the name of the domain requiring renewal from the **Renew Domain** list.
