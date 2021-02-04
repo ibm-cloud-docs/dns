@@ -33,6 +33,7 @@ Domain Name Registration
     {: .navgroup id="reference"}
     example-dns-config-images.md
     dns-api.md
+    [Terraform](https://cloud.ibm.com/docs/terraform?topic=terraform-getting-started)
     {: .navgroup-end}
 
     {: .navgroup id="help"}
