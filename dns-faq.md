@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2020
-lastupdated: "2020-03-26"
+  years: 1994, 2021
+lastupdated: "2021-02-05"
 
 keywords: 
 
@@ -31,7 +31,7 @@ subcollection: dns
 # DNS FAQs
 {:#dns-faq}
 
-Have a question about DNS? Review frequently asked questions, which provide answers to provisioning concerns, application access, and other common inquiries.
+Frequently asked questions for DNS and Domain Name Registration might include questions about server addresses, name server options, and other common inquiries. To find all FAQs for {{site.data.keyword.cloud}}, see our [FAQ library](/docs/faqs).
 {:shortdesc}
 
 ## What are the DNS servers?
@@ -115,7 +115,22 @@ With a bare metal server there are four typical options for name servers:
 
 For the first three options, you will use name servers of the third party (for example, `ns1.softlayer.com` and `ns2.softlayer.com`). The last option uses your domain as the name server (for example, `ns1.yourdomain.com` and `ns2.yourdomain.com`), and it requires you to run DNS services on your server. You must also register your domain as a name server with your registrar. Name server registration is usually free, but it requires an additional step beyond the basic domain name registration process.
 
-Our customers have free DNS services that are fully managed through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). We highly recommend allowing {{site.data.keyword.cloud_notm}} to manage your DNS and your name servers, due to our redundant systems, ease of management, and ability to troubleshoot DNS-related issues quickly.
+Our customers have free DNS services that are fully managed through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). It is highly recommend that you allow {{site.data.keyword.cloud_notm}} to manage your DNS and your name servers, due to our redundant systems, ease of management, and ability to troubleshoot DNS-related issues quickly.
+
+## How do I renew my domain name?
+{#renew-domain}
+{: faq}
+{: support}
+
+To renew a registration for an existing domain, select [**Classic Infrastructure**](https://{DomainName}/gen1/infrastructure/devices) from the menu in the {{site.data.keyword.cloud_notm}} console, and then go to **Services > Domain Registration**. See [Renewing existing domains](/docs/dns?topic=dns-renew-an-existing-domain).
+
+## How do I manage DNS zones?
+{#manage-domain}
+{: faq}
+{: support}
+
+Using the DNS interface, you can manage Forward Zones, Secondary Zones, and Reverse Records. To use this interface, select [**Classic Infrastructure**](https://{DomainName}/gen1/infrastructure/devices) from the the menu in the {{site.data.keyword.cloud_notm}} console, and then go to **Network > DNS**.
+
 
 ## How do I set up my reverse DNS?
 {:#how-do-i-setup-reverse-dns}
