@@ -118,14 +118,14 @@ For the first three options, you will use name servers of the third party (for e
 Our customers have free DNS services that are fully managed through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). It is highly recommend that you allow {{site.data.keyword.cloud_notm}} to manage your DNS and your name servers, due to our redundant systems, ease of management, and ability to troubleshoot DNS-related issues quickly.
 
 ## How do I renew my domain name?
-{#renew-domain}
+{:#renew-domain}
 {: faq}
 {: support}
 
 To renew a registration for an existing domain, select [**Classic Infrastructure**](https://{DomainName}/gen1/infrastructure/devices) from the menu in the {{site.data.keyword.cloud_notm}} console, and then go to **Services > Domain Registration**. See [Renewing existing domains](/docs/dns?topic=dns-renew-an-existing-domain).
 
 ## How do I manage DNS zones?
-{#manage-domain}
+{:#manage-domain}
 {: faq}
 {: support}
 
