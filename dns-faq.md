@@ -58,7 +58,7 @@ These local resolving name servers are on our private network, so they don't use
 {: faq}
 {: support}
 
-We have two addresses for authoritative name servers and two addresses for resolving name servers. These local resolving name servers are on our private network, so they don't use up public bandwidth.
+IBM has two addresses for authoritative name servers and two addresses for resolving name servers. These local resolving name servers are on the IBM private network, so they don't use up public bandwidth.
 
 **Authoritative name servers**
 
@@ -115,7 +115,7 @@ With a bare metal server there are four typical options for name servers:
 
 For the first three options, you will use name servers of the third party (for example, `ns1.softlayer.com` and `ns2.softlayer.com`). The last option uses your domain as the name server (for example, `ns1.yourdomain.com` and `ns2.yourdomain.com`), and it requires you to run DNS services on your server. You must also register your domain as a name server with your registrar. Name server registration is usually free, but it requires an additional step beyond the basic domain name registration process.
 
-Our customers have free DNS services that are fully managed through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). It is highly recommend that you allow {{site.data.keyword.cloud_notm}} to manage your DNS and your name servers, due to our redundant systems, ease of management, and ability to troubleshoot DNS-related issues quickly.
+Our customers have free DNS services that are fully managed through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). It is highly recommended that you allow {{site.data.keyword.cloud_notm}} to manage your DNS and your name servers, due to our redundant systems, ease of management, and ability to troubleshoot DNS-related issues quickly.
 
 ## How do I renew my domain name?
 {:#renew-domain}
@@ -129,7 +129,7 @@ To renew a registration for an existing domain, select [**Classic Infrastructure
 {: faq}
 {: support}
 
-Using the DNS interface, you can manage Forward Zones, Secondary Zones, and Reverse Records. To use this interface, select [**Classic Infrastructure**](https://{DomainName}/gen1/infrastructure/devices) from the the menu in the {{site.data.keyword.cloud_notm}} console, and then go to **Network > DNS**.
+Using the DNS interface, you can manage Forward Zones, Secondary Zones, and Reverse Records. To use this interface, select [**Classic Infrastructure**](https://{DomainName}/gen1/infrastructure/devices) from the menu in the {{site.data.keyword.cloud_notm}} console, and then go to **Network > DNS**.
 
 
 ## How do I set up my reverse DNS?
@@ -194,7 +194,7 @@ All AXFR requests are made over the public network at this time.
 {:#are-slaves-removed-after-days-master-is-unavailable}
 {: faq}
 
-We stop attempting to transfer a domain if its master is down or misconfigured for a prolonged period. You can view errors in the IBM Cloud console and force a manual transfer.
+IBM stops attempting to transfer a domain if its master is down or misconfigured for a prolonged period. You can view errors in the IBM Cloud console and force a manual transfer.
 
 ## Is 1 minute the lowest transfer frequency for secondary DNS zones?
 {:#is-1minute-lowest-transfer-frequency}
@@ -206,4 +206,4 @@ The lowest transfer frequency is 1 minute.
 {:#frequency-change-expiration-effects}
 {: faq}
 
-The system calculates the retransfer queue by taking the time of our last transfer attempt and adding the frequency to it.  So, if you have frequency set to 1920 and you then change it to 10 minutes, as long as it's been at least 10 minutes since we last tried to transfer, we retry immediately and then every 10 minutes thereafter.
+The system calculates the retransfer queue by taking the time of our last transfer attempt and adding the frequency to it.  So, if you have frequency set to 1920 and you then change it to 10 minutes, as long as it's been at least 10 minutes since the system last tried to transfer, it retries immediately and then every 10 minutes thereafter.
