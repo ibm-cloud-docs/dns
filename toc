@@ -27,18 +27,17 @@ Domain Name Registration
         manage-dns-zone-records.md
         add-edit-ptr-record.md
         disable-recursion-dns.md
-        manage-secondary-dns-zones.md 
+        manage-secondary-dns-zones.md
     {: .navgroup-end}
 
     {: .navgroup id="reference"}
     example-dns-config-images.md
     dns-api.md
     [Terraform](https://cloud.ibm.com/docs/terraform?topic=terraform-getting-started)
+    domain-registration-agreement.md
     {: .navgroup-end}
 
     {: .navgroup id="help"}
     dns-faq.md
     getting-help.md
     {: .navgroup-end}
-
-    
