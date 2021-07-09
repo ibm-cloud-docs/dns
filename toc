@@ -1,7 +1,7 @@
 {:navgroup: .navgroup}
 {:topicgroup: .topicgroup}
 
-{: .toc subcollection="dns" category="dev_ops" audience="service" href="/docs/dns?topic=dns-getting-started" console-page="/classic/network/dns/forwardzones" product-page="https://www.ibm.com/cloud/dns" path="dns"}
+{: .toc subcollection="dns" category="dev_ops" audience="service" href="/docs/dns?topic=dns" console-page="/classic/network/dns/forwardzones" product-page="https://www.ibm.com/cloud/dns" path="dns"}
 Domain Name Registration
 
     {: .navgroup id="learn"}

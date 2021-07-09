@@ -1,0 +1,32 @@
+{
+    "title": "Domain Name Registration docs",
+    "lastupdated": "2021-07-08",
+    "introduction": "Domain name registration is the process of registering a user-friendly domain name, which identifies one or more IP addresses. Leverage the docs and API reference to plan for, register, and renew domains.",
+    "section_devtools": {
+      "api": "/docs/dns?topic=dns-getting-started-with-the-dns-api",
+      "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/data-sources/dns_domain_registration"
+    },
+    "section_recommended": [
+      {
+        "title": "Registering new domains",
+        "description": "Register a new domain - either one at a time, or multiple domains at one time.",
+        "href": "/docs/dns?topic=dns-register-a-new-domain"
+      },
+      {
+        "title": "Renewing existing domains",
+        "description": "To keep a registered domain active, it must be renewed before its expiration date.",
+        "href": "/docs/dns?topic=dns-renew-an-existing-domain"
+      },
+      {
+        "title": "Transferring an existing domain",
+        "description": "After a domain has been registered, it can be transferred at any time.",
+        "href": "/docs/dns?topic=dns-transfer-domains"
+      }
+    ],
+    "section_learn": {
+      "developer": "https://developer.ibm.com/depmodels/cloud/",
+      "architecture": "https://www.ibm.com/cloud/architecture",
+      "training": "https://www.ibm.com/training/cloud",
+      "community": "https://community.ibm.com/community"
+    }
+  }
