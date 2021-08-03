@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 1994, 2020
-lastupdated: "2020-03-26"
+  years: 1994, 2021
+lastupdated: "2021-08-02"
 
-keywords: 
+keywords:
 
 subcollection: dns
 
@@ -24,7 +24,7 @@ subcollection: dns
 # Getting help and support
 {: #gettinghelp-with-dns}
 
-If you have problems or questions when using {{site.data.keyword.cloud}} Domain Name Registration, you can get help on our [IBM Support center](https://{DomainName}/unifiedsupport/supportcenter){:external} or by posting your question on [Stack Overflow](https://stackoverflow.com/search?q=dns+ibm-cloud){:external}. 
+If you have problems or questions when using {{site.data.keyword.cloud}} Domain Name Registration, you can get help on our [IBM Support center](https://{DomainName}/unifiedsupport/supportcenter){:external} or by posting your question on [Stack Overflow](https://stackoverflow.com/search?q=dns+ibm-cloud){:external}.
 {:shortdesc}
 
 When using the forums to ask a question, tag your question with "ibm-cloud" and "dns" so that it is seen by the {{site.data.keyword.cloud_notm}} development teams.
@@ -36,7 +36,7 @@ When using the forums to ask a question, tag your question with "ibm-cloud" and 
 
 **Mailing Address**
 14001 Dallas Parkway
-Suite M100 
+Suite M100
 Dallas, Texas 75240
 
 **E-mail Contacts**
