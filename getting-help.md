@@ -29,4 +29,19 @@ If you have problems or questions when using {{site.data.keyword.cloud}} Domain 
 
 When using the forums to ask a question, tag your question with "ibm-cloud" and "dns" so that it is seen by the {{site.data.keyword.cloud_notm}} development teams.
 
+**Domain Name Registration Reseller Information**
+(IANA) - Registrar
+842 - Softlayer Inc.
+925 - Everyone's Internet
+
+**Mailing Address**
+14001 Dallas Parkway
+Suite M100 
+Dallas, Texas 75240
+
+**E-mail Contacts**
+DNR Operations: doman_admin-sl-ww@wwpdl.vnet.ibm.com
+Legal: iaaslegal@us.ibm.com
+Abuse: Abusemgmt-SL-WW@wwpdl.vnet.ibm.com
+
 For information about opening an IBM Support case, or about support levels and case severities, see [Contacting support](/docs/get-support?topic=get-support-using-avatar#using-avatar).
