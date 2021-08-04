@@ -27,11 +27,11 @@ subcollection: dns
 
 Depending on how many domains you are managing, Tucows and IBM Cloud will automatically migrate your domains and reseller accounts over to Tucows’ retail domain platform, [Hover](https://hover.com/){:external} or the [OpenSRS](https://manage.opensrs.com/){:external} reseller platform.
 
-Before checking out the migration options, read [Common FAQs](/docs/dns?topic=dns-resellone-common-faq).
+Before checking out the migration options, read [Common FAQs](/docs/dns?topic=dns-resellone-migration#resellone-common-faq).
 
-* Under 100 domains - Hover is the default migration option. Alternatively, you can choose OpenSRS. For more information, see [If you have 100 domains](/docs/dns?topic=dns-resellone-basic-tier) and [specific FAQs](/docs/dns?topic=dns-resellone-basic-tier-faq).
-* 100 - 499 domains - OpenSRS is the default option. Alternatively, you can choose Hover. For more information, see [If you have more than 100 domains](/docs/dns?topic=dns-resellone-startup-tier) and [specific FAQs](/docs/dns?topic=dns-resellone-startip-tier-faq).
-* 500+ domains - OpenSRS is the default migration option. For more information, see [If you have more than 100 domains](/docs/dns?topic=dns-resellone-startup-tier) and [specific FAQs](/docs/dns?topic=dns-resellone-growth-tier-faq).
+* Under 100 domains - Hover is the default migration option. Alternatively, you can choose OpenSRS. For more information, see [If you have fewer than 100 domains](/docs/dns?topic=dns-resellone-migration#resellone-basic-tier) and [specific FAQs](/docs/dns?topic=dns-resellone-migration#resellone-basic-tier-faq).
+* 100 - 499 domains - OpenSRS is the default option. Alternatively, you can choose Hover. For more information, see [If you have more than 100 domains](/docs/dns?topic=dns-resellone-migration#resellone-startup-tier) and [specific FAQs](/docs/dns?topic=dns-resellone-migration#resellone-startup-tier-faq).
+* 500+ domains - OpenSRS is the default migration option. For more information, see [If you have more than 100 domains](/docs/dns?topic=dns-resellone-migration#resellone-startup-tier) and [specific FAQs](/docs/dns?topic=dns-resellone-migration#resellone-growth-tier-faq).
 
 ## Common FAQs
 {: #resellone-common-faq}
