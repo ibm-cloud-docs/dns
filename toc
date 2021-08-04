@@ -10,6 +10,12 @@ Domain Name Registration
     dns-records-overview.md
     pricing.md
     dns-terminology.md
+
+    {: .topicgroup}
+    Migrating from IBM ResellOne to Tucows platforms
+        ro-eos-announcement.md
+        ro-migration.md
+
     [What is DNS?](https://www.ibm.com/cloud/learn/dns)
     {: .navgroup-end}
 
