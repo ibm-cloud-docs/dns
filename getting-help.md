@@ -44,6 +44,6 @@ DNR Operations: doman_admin-sl-ww@wwpdl.vnet.ibm.com
 Legal: iaaslegal@us.ibm.com
 Abuse: Abusemgmt-SL-WW@wwpdl.vnet.ibm.com
 
-** [Registrant's Rights and Benefits](https://www.icann.org/resources/pages/responsibilities-2014-03-14-en){: external}
+[Registrant's Rights and Benefits](https://www.icann.org/resources/pages/responsibilities-2014-03-14-en){: external}
 
 For information about opening an IBM Support case, or about support levels and case severities, see [Contacting support](/docs/get-support?topic=get-support-using-avatar#using-avatar).

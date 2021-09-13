@@ -48,7 +48,8 @@ subcollection: dns
 
 1. Open the `named.conf` file in your preferred editor.
 1.  Add the following parameters to the **Options** section:
-   * `allow-transfer {"none";};`
-   * `allow-recursion {"none";};`
-   * `recursion no;`
+
+    * `allow-transfer {"none";};`
+    * `allow-recursion {"none";};`
+    * `recursion no;`
 1. Restart the device.

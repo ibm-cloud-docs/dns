@@ -57,8 +57,9 @@ Domains can be renewed one at a time, or multiple domains at a time. Follow thes
 1. Choose the **Renew** tab.
 1. Click the **Renew Multiple Domains?** link.
 1.  In the window that appears, select, or type in the name of the domain requiring renewal from the **Multiple Domain Renewal** list.
-   * There are two fields by default. If you need to renew more than two domains, click **Add Another** to create as many entries as needed.
-   * Click the **Remove** icon at the end of any entry to delete that domain from the renewal selection.
+
+    * There are two fields by default. If you need to renew more than two domains, click **Add Another** to create as many entries as needed.
+    * Click the **Remove** icon at the end of any entry to delete that domain from the renewal selection.
 1. Select the amount of time for which to renew each domain from the **Registration Time** list. This option appears only after a domain is selected.
 1. Click **Continue** to renew the domains, or click **Cancel** to end the action.
 
