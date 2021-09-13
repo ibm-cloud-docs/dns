@@ -20,18 +20,18 @@ subcollection: dns
 {:generic: data-hd-programlang="generic"}
 
 # About domains
-{:#about-domains}
+{: #about-domains}
 
 {{site.data.keyword.cloud}} offers domain management for all customers, by using the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). There is no need to register, renew, and manage your domains with a third party. You can register, renew, transfer, and manage a domain using the same tool.
-{:shortdesc}
+{: shortdesc}
 
 ## Reverse DNS
-{:#about-reverse-dns}
+{: #about-reverse-dns}
 
 Reverse DNS is a method of resolving an IP address into a domain name, just as the domain name system (DNS) resolves domain names into associated IP addresses. One application of reverse DNS is a spam filter. Typically, a spammer uses an invalid IP address that does not match the domain name. A reverse DNS lookup program inputs IP addresses of incoming messages to a DNS database. If no valid name is found to match the IP address, the server blocks the message. Reverse DNS is also used for things like network troubleshooting calls (such as `ping`) and for network monitoring tools.
 
 ## Secondary domains
-{:#about-secondary-domains}
+{: #about-secondary-domains}
 
 A secondary domain is a domain that {{site.data.keyword.cloud_notm}} DNS servers transfer from your server to our authoritative DNS servers, `ns1.softlayer.com` and `ns2.softlayer.com`.  
 

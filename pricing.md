@@ -20,10 +20,10 @@ subcollection: dns
 {:generic: data-hd-programlang="generic"}
  
 # Pricing for Domain Name Registration
-{:#pricing}
+{: #pricing}
 
 {{site.data.keyword.cloud}} offers domain registration services complete with dedicated support staff, knowledgeable customer service and reasonable prices. 
-{:shortdesc}
+{: shortdesc}
 
 You can select from top-level domains, including: .COM, .NET, .ORG, .US, .INFO, and .BIZ with our comprehensive and easy-to-use interface. You also can manage reverse and secondary DNS in the same location free of charge.
 

@@ -24,8 +24,8 @@ subcollection: dns
 # Getting help and support
 {: #gettinghelp-with-dns}
 
-If you have problems or questions when using {{site.data.keyword.cloud}} Domain Name Registration, you can get help on our [IBM Support center](https://{DomainName}/unifiedsupport/supportcenter){:external} or by posting your question on [Stack Overflow](https://stackoverflow.com/search?q=dns+ibm-cloud){:external}.
-{:shortdesc}
+If you have problems or questions when using {{site.data.keyword.cloud}} Domain Name Registration, you can get help on our [IBM Support center](https://{DomainName}/unifiedsupport/supportcenter){: external} or by posting your question on [Stack Overflow](https://stackoverflow.com/search?q=dns+ibm-cloud){: external}.
+{: shortdesc}
 
 When using the forums to ask a question, tag your question with "ibm-cloud" and "dns" so that it is seen by the {{site.data.keyword.cloud_notm}} development teams.
 
@@ -44,6 +44,6 @@ DNR Operations: doman_admin-sl-ww@wwpdl.vnet.ibm.com
 Legal: iaaslegal@us.ibm.com
 Abuse: Abusemgmt-SL-WW@wwpdl.vnet.ibm.com
 
-** [Registrant's Rights and Benefits](https://www.icann.org/resources/pages/responsibilities-2014-03-14-en){:external}
+** [Registrant's Rights and Benefits](https://www.icann.org/resources/pages/responsibilities-2014-03-14-en){: external}
 
 For information about opening an IBM Support case, or about support levels and case severities, see [Contacting support](/docs/get-support?topic=get-support-using-avatar#using-avatar).

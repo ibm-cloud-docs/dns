@@ -21,12 +21,12 @@ subcollection: dns
 {:support: data-reuse='support'}
 
 # Filtering the view of existing domains
-{:#filter-the-view-of-existing-domains}
+{: #filter-the-view-of-existing-domains}
 {: help}
 {: support}
 
 A list of all active domains associated with the account is displayed on the **Domains** page. For accounts with multiple domains, the view may be filtered to view and interact with selected domains. 
-{:shortdesc}
+{: shortdesc}
 
 Follow these steps to filter the view of existing domains.
 

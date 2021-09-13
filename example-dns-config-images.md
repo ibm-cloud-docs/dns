@@ -14,10 +14,10 @@ subcollection: dns
 {:new_window: target="_blank"}
 
 # Example DNS configurations
-{:#example-dns-configurations-for-reference}
+{: #example-dns-configurations-for-reference}
 
 The following screen captures show some common DNS configurations.
-{:shortdesc} 
+{: shortdesc} 
 
 Things to remember:
 
@@ -26,18 +26,18 @@ Things to remember:
  * The `CNAME` record points from a hostname (such as `domain.com` or `sub.domain.com`) to another hostname.
 
 ## In the IBM Cloud console
-{:#ibm-cloud-customer-portal-example}
+{: #ibm-cloud-customer-portal-example}
 
 ![Figure 1: IBM Cloud console DNS zone example](images/dns1.png)
 
 
 ## In cPanel
-{:#cpanel-example}
+{: #cpanel-example}
 
 ![Figure 2: cPanel DNS zone example](images/cpaneldns.png)
 
 
 ## In Plesk
-{:#plesk-example}
+{: #plesk-example}
 
 ![Figure 3: Plesk DNS example](images/plesk2dns.png)

@@ -22,12 +22,12 @@ subcollection: dns
 {:support: data-reuse='support'}
 
 # Managing custom name servers for a domain
-{:#add-edit-or-delete-custom-name-servers-for-a-domain}
+{: #add-edit-or-delete-custom-name-servers-for-a-domain}
 {: help}
 {: support}
 
 Domains running on the {{site.data.keyword.cloud}} network can point to a maximum of five (5) custom name servers. Custom name servers can be added, deleted, or changed at any time. Follow these steps to add, edit, or delete custom name servers for a domain.
-{:shortdesc}
+{: shortdesc}
 
 1. From your browser, open the [{{site.data.keyword.cloud}} console](https://{DomainName}/){: external} and log in to your account.
 1. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg), then click **Classic Infrastructure**.
@@ -42,6 +42,6 @@ Domains running on the {{site.data.keyword.cloud}} network can point to a maximu
 1. Click the **Associate** button to save the changes, or click **Cancel** to cancel the action.
 
 ## Next steps
-{:#add-edit-or-delete-custom-name-servers-for-a-domain-next}
+{: #add-edit-or-delete-custom-name-servers-for-a-domain-next}
 
 After you update the name server details, they appear under the **Custom Name Servers** section of the domain. You can update the details at any time.

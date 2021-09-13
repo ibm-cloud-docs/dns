@@ -24,7 +24,7 @@ subcollection: dns
 {: #manage-dns-zones}
 
 DNS management by {{site.data.keyword.cloud}} extends to DNS zones that might not be on the {{site.data.keyword.cloud_notm}} network. Using the DNS Forward Zones page, you can add, edit, and delete DNS zones.
-{:shortdesc}
+{: shortdesc}
 
 To get to the DNS Forward Zones page:
 

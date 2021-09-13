@@ -26,7 +26,7 @@ subcollection: dns
 Effective 1 November 2021, IBM Cloud will no longer support our ResellOne Domain Resale service, which we offer in partnership with Tucows Inc.
 {: important}
 
-On 1 November 2021, depending on how many domains that you are managing, Tucows and IBM Cloud will automatically migrate your domains and reseller accounts over to Tucows’ retail domain platform, [Hover](https://hover.com/){:external} or the [OpenSRS](https://manage.opensrs.com/){:external} reseller platform.
+On 1 November 2021, depending on how many domains that you are managing, Tucows and IBM Cloud will automatically migrate your domains and reseller accounts over to Tucows’ retail domain platform, [Hover](https://hover.com/){: external} or the [OpenSRS](https://manage.opensrs.com/){: external} reseller platform.
 
 For more information and actions that you must take, see [Migrating from IBM ResellOne to Tucows](/docs/dns?topic=dns-resellone-migration).
 

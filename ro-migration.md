@@ -25,7 +25,7 @@ subcollection: dns
 # Migrating from IBM ResellOne to Tucows
 {: #resellone-migration}
 
-Depending on how many domains you are managing, Tucows and IBM Cloud will automatically migrate your domains and reseller accounts over to Tucows’ retail domain platform, [Hover](https://hover.com/){:external} or the [OpenSRS](https://manage.opensrs.com/){:external} reseller platform.
+Depending on how many domains you are managing, Tucows and IBM Cloud will automatically migrate your domains and reseller accounts over to Tucows’ retail domain platform, [Hover](https://hover.com/){: external} or the [OpenSRS](https://manage.opensrs.com/){: external} reseller platform.
 
 Before checking out the migration options, read [Common FAQs](/docs/dns?topic=dns-resellone-migration#resellone-common-faq).
 
@@ -37,18 +37,21 @@ Before checking out the migration options, read [Common FAQs](/docs/dns?topic=dn
 {: #resellone-common-faq}
 
 ### When will the IBM ResellOne End of Service take effect?
+{: #resellone-eos-date}
 {: faq}
 {: support}
 
 End of Service takes effect on 1 November 2021. For more information, see the [End of Service announcement](/docs/dns?topic=dns-resellone-eos).
 
 ### What are the benefits of migrating to Hover?
+{: #hover-benefits}
 {: faq}
 {: support}
 
 As a Hover customer, you’ll benefit from a clean and intuitive domain management control panel. You'll also get an expanded selection of premium top-level domains, and great customer support.
 
 ### What are the benefits of migrating to OpenSRS?
+{: #opensrs-benefits}
 {: faq}
 {: support}
 
@@ -61,20 +64,23 @@ As a direct OpenSRS reseller, you’ll be able to fully manage your domains with
 * Competitive pricing
 
 ### What service agreement do I follow after migration to Hover?
+{: #hover-service-agreement-after-migration}
 {: faq}
 {: support}
 
-After migration, you are automatically transitioned to Tucows’ retail domains brand Hover's [Terms Of Service](https://www.hover.com/tos){:external}.
+After migration, you are automatically transitioned to Tucows’ retail domains brand Hover's [Terms Of Service](https://www.hover.com/tos){: external}.
 
 ### What service agreement do I follow after migration to a Tucows OpenSRS Reseller account?
+{: #opensrs-service-agreement-after-migration}
 {: faq}
 {: support}
 
-After migration, you are automatically transitioned to the OpenSRS/Tucows’ Inc. Master Services Agreement. You can find this from the [OpenSRS website](https://opensrs.com/wp-content/uploads/Master_Services_Agreement.html){:external}.
+After migration, you are automatically transitioned to the OpenSRS/Tucows’ Inc. Master Services Agreement. You can find this from the [OpenSRS website](https://opensrs.com/wp-content/uploads/Master_Services_Agreement.html){: external}.
 
-Additional resources can be found in [OpenSRS Documentation](https://opensrs.com/resources/documentation/){:external}.
+Additional resources can be found in [OpenSRS Documentation](https://opensrs.com/resources/documentation/){: external}.
 
 ### If I have more questions, who can I contact?
+{: #additional-questions}
 {: faq}
 {: support}
 
@@ -98,24 +104,28 @@ Tucows will move all domains with the same registrant/owner email address into t
 {: #resellone-basic-tier-faq}
 
 #### What if I don't want all domains transferred to a single account?
+{: #decline-transfer}
 {: faq}
 {: support}
 
 If you want to have all your domains transferred to multiple accounts, ensure that all domains in your IBM account have the same registrant/owner email address. If you do not perform this step, domains are moved into independent retail accounts.
 
 #### What if I don't want to move to Hover?
+{: #decline-move-hover}
 {: faq}
 {: support}
 
 If you don’t think Hover is a suitable option, and you’d rather be set up with a reseller account, Tucows can migrate you to their OpenSRS reseller platform instead. To migrate your account to OpenSRS, reach out to [IBM Cloud Support](/docs/dns?topic=dns-gettinghelp-with-dns) by 1 October 2021. If you don’t take action, your domains are automatically moved to Hover retail accounts.
 
 #### By what date do I need to notify IBM to be switched to a Tucows’ OpenSRS Reseller account?
+{: #date-to-notify}
 {: faq}
 {: support}
 
 You must notify IBM by 1 October 2021 to switch to a Tucows’ OpenSRS Reseller account.
 
 #### What happens if I don’t respond to the email from Hover?
+{: #no-response}
 {: faq}
 {: support}
 
@@ -133,22 +143,24 @@ On 1 November 2021, you’ll be able to log in to your OpenSRS account. Here’s
 3.	You’ll be prompted for your username. Your OpenSRS username is your IBM username followed by `_srs` (for example, `username_srs`).
 4.	After you’re logged in, you’ll want to add funding to your account and set up your branding preferences.
 
-For more information on how to get started, see the [OpenSRS Reseller Quickstart Guide](https://help.opensrs.com/hc/en-us/articles/115005518768-Reseller-Quickstart-Guide){:external}.
+For more information on how to get started, see the [OpenSRS Reseller Quickstart Guide](https://help.opensrs.com/hc/en-us/articles/115005518768-Reseller-Quickstart-Guide){: external}.
 
 ### Specific FAQs (for 100-499 domains)
 {: #resellone-startup-tier-faq}
 
 #### Can I opt out of being migrated to OpenSRS?
+{: #100-499-opt-out}
 {: faq}
 {: support}
 
-Yes, you can choose to be migrated to Tucows’ retail domain platform, Hover. You must contact IBM Cloud Support (https://cloud.ibm.com/unifiedsupport/supportcenter) before 1 October 2021.
+Yes, you can choose to be migrated to Tucows’ retail domain platform, Hover. You must contact [IBM Cloud Support](https://cloud.ibm.com/unifiedsupport/supportcenter) before 1 October 2021.
 
 #### What pricing tier will I be set at?
+{: #100-499-pricing-tier}
 {: faq}
 {: support}
 
-To view your set pricing tier, you can log in to your [Reseller Control Panel](https://manage.opensrs.com/){:external} and navigate to **Billing & Payments**. There, you'll see the tier listed under **Pricing Tier Plan**. You can also see the OpenSRS Pricing page located here.
+To view your set pricing tier, you can log in to your [Reseller Control Panel](https://manage.opensrs.com/){: external} and navigate to **Billing & Payments**. There, you'll see the tier listed under **Pricing Tier Plan**. You can also see the OpenSRS Pricing page located here.
 
 #### Are all my brand settings carried over from the ResellOne reseller account?
 {: faq}
@@ -157,18 +169,21 @@ To view your set pricing tier, you can log in to your [Reseller Control Panel](h
 Yes, all your branding settings, along with any customized messaging content, are carried over to your new account at OpenSRS.
 
 #### Can I migrate to OpenSRS before the End of Service date?
+{: #100-499-migrate-before-eos}
 {: faq}
 {: support}
 
 Yes, you can migrate to OpenSRS before the End of Service date. However, we recommend waiting for your account to be automatically migrated, as all your customizations are copied over. Allow us to do the heavy lifting for you.
 
 #### What happens if I don’t respond to any of the emails?
+{: #100-499-no-response-email}
 {: faq}
 {: support}
 
 Your reseller account automatically moves to the Tucows’ OpenSRS reseller platform if you don't respond to the emails. A password reset email is triggered, which remains active for 24 hours.
 
 #### If I choose to migrate to OpenSRS, when can I access my account and add funding in the new Tucows’ OpenSRS Reseller account?
+{: #100-499-when-to-access}
 {: faq}
 {: support}
 
@@ -178,39 +193,45 @@ Accounts are provisioned in October 2021 at OpenSRS. You will be able to access 
    {: note}
 
 #### If I choose to migrate to OpenSRS, will my funds be transferred to OpenSRS?
+{: #100-499-funds-transferred}
 {: faq}
 {: support}
 
 Reach out to [IBM Cloud Support](/docs/dns?topic=dns-gettinghelp-with-dns) for details. In your OpenSRS Reseller account, you are required to add your funding on activation.
 
 #### How do I connect to OpenSRS’ API?
+{: #100-499-how-to-connect}
 {: faq}
 {: support}
 
-You can find information about OpenSRS’ API in the [OpenSRS API guide](https://domains.opensrs.guide/docs/overview){:external}, located in the Connection Information section.
+You can find information about OpenSRS’ API in the [OpenSRS API guide](https://domains.opensrs.guide/docs/overview){: external}, located in the Connection Information section.
 
 ### Specific FAQs (for 500 domains or more)
 {: #resellone-growth-tier-faq}
 
 #### What pricing tier will I be set at?
+{: #500-pricing-tier}
 {: faq}
 {: support}
 
 To view your set pricing tier, you can log in to your Reseller Control Panel and navigate to “Billing & Payments”. There you will see the tier listed in the Pricing Tier Plan section. You can also see the OpenSRS Pricing page located here.
 
 #### Will all my brand settings be carried over from the ResellOne reseller account?
+{: #500-settings-carried-over}
 {: faq}
 {: support}
 
 Yes, all your branding settings, along with any customized messaging content, are carried over to your new account at OpenSRS.
 
 #### Can I migrate to OpenSRS before the End of Service date?
+{: #500-migrate-before-eos}
 {: faq}
 {: support}
 
 Yes, you can migrate to OpenSRS before the End of Service date. However, we recommend waiting for your account to be automatically migrated, as all your customizations are copied over. Allow us to do the heavy lifting for you.
 
 #### When can I access my account and add funding in the new Tucows’ OpenSRS Reseller account?
+{: #500-when-to-access}
 {: faq}
 {: support}
 
@@ -220,7 +241,8 @@ Accounts are provisioned in October 2021 at OpenSRS. You will be able to access 
    {: note}
 
 #### How do I connect to OpenSRS’ API?
+{: #500-how-to-connect}
 {: faq}
 {: support}
 
-You can find information about OpenSRS’ API in the [OpenSRS API guide](https://domains.opensrs.guide/docs/overview){:external}, located in the Connection Information section.
+You can find information about OpenSRS’ API in the [OpenSRS API guide](https://domains.opensrs.guide/docs/overview){: external}, located in the Connection Information section.

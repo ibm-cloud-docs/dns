@@ -24,7 +24,7 @@ subcollection: dns
 {: #manage-dns-zone-records}
 
 After [adding a DNS zone](/docs/dns?topic=dns-manage-dns-zones#add-a-dns-zone), records can be added to the zone at any time.
-{:shortdesc}
+{: shortdesc}
 
 To get to the DNS Edit Zone page:
 

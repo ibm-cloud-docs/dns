@@ -25,7 +25,7 @@ subcollection: dns
 {: support}
 
 After a domain has been registered, it can be transferred at any time. Transferring a domain from a third-party registrar to {{site.data.keyword.cloud}} can streamline the domain management process. Transferring a domain does not affect the website, email, or DNS. It only changes the registrar that manages the domain records.
-{:shortdesc}
+{: shortdesc}
 
 
 Follow these steps to transfer an existing domain to {{site.data.keyword.cloud_notm}}.
@@ -41,8 +41,8 @@ Follow these steps to transfer an existing domain to {{site.data.keyword.cloud_n
 1. Select the domain type from the **Domain Type** list.
 1. Select the amount of time for which the domain will remain active from the **Registration Time** list.
 
-  The price for each time period is displayed next to the amount of time and is charged to the account when the new domain is transferred.
-  {:note}
+    The price for each time period is displayed next to the amount of time and is charged to the account when the new domain is transferred.
+    {: note}
 
 1. Click the **Continue** button to transfer the domain.
 
@@ -61,16 +61,16 @@ Domains can be transferred to {{site.data.keyword.cloud_notm}} in bulk as well. 
 1. Select the amount of time for which the transferred domain remains active from the **Registration Time** list.
 
    The price for each time period is displayed next to the amount of time and will be charged to the account when the new domain is transferred.
-   {:note}
+   {: note}
 
 1. Repeat for each additional domain to be transferred.
 
    Select the **Add Another** option to populate additional blank fields for more domain entries. Select the **Delete** icon to delete an entire entry from the page.
-   {:note}
+   {: note}
 
 1. Click the **Continue** button to transfer the domains.
 
 ## Next steps
-{:#transfer-an-existing-domain-to-ibm-cloud-next}
+{: #transfer-an-existing-domain-to-ibm-cloud-next}
 
 After you transfer a domain, you can use the [DNS interface](/docs/dns?topic=dns-how-to-use-the-dns-interface) to manage it. When the domain's registration approaches its expiration date, you can [renew the domain](/docs/dns?topic=dns-renew-an-existing-domain).

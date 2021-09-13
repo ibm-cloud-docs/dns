@@ -24,7 +24,7 @@ subcollection: dns
 {: #getting-started}
 
 Domain name registration is the process of registering a user-friendly domain name, which identifies one or more IP addresses. {{site.data.keyword.cloud}} Domain Name Registration offers customers a central location from which to view and manage their domains. 
-{:shortdesc}
+{: shortdesc}
 
 As an additional service, {{site.data.keyword.cloud_notm}} offers secondary domain zones to our customers free of charge, allowing users to back up their primary domain records in the event of data loss or node failure.
 
@@ -46,12 +46,12 @@ As an additional service, {{site.data.keyword.cloud_notm}} offers secondary doma
 1. Select the amount of time to reserve the domain from the **Registration Time** list.
 
     The price for each time period is displayed next to the amount of time and will be charged to the account when the new domain is registered.
-    {:note}
+    {: note}
 
 1. If registering multiple domains, select the **Add Another** option to populate additional blank fields for more domain entries.
 
    Select the **Delete** icon to delete an entire entry from the page.
-   {:note}
+   {: note}
 
 1. Click the **Check Availability** button to check whether the domain names are available. If all domains are available, proceed to the next step. If one or more domains are not available, try again with another domain.
 1. Click the **Continue** button to register the domain.

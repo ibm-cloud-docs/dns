@@ -29,12 +29,12 @@ subcollection: dns
 {:support: data-reuse='support'}
 
 # Using the DNS interface
-{:#how-to-use-the-dns-interface}
+{: #how-to-use-the-dns-interface}
 {: help}
 {: support}
 
 In the DNS interface, you have the ability to manage **Forward Zones**, **Secondary Zones**, and **Reverse Records**.
-{:shortdesc}
+{: shortdesc}
 
 ## Forward zones
 {: #forward-zones}
@@ -47,7 +47,7 @@ To manage forward zones:
 1. Select the domain you want to manage, or select the **Add DNS zone** button on the right side of the page.
 
 ## Secondary zones
-{:#secondary-dns}
+{: #secondary-dns}
 
 To manage secondary zones:
 
@@ -58,7 +58,7 @@ To manage secondary zones:
 1. To remove a Secondary DNS record, or convert it to a primary record, use the **Actions** list menu on the right of the page and choose the appropriate option.
 
 ## Reverse records
-{:#reverse-dns}
+{: #reverse-dns}
 
 To manage reverse records:
 
