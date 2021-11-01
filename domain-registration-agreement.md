@@ -180,10 +180,12 @@ You agree that, with the exception of notices concerning breach of this Agreemen
 You agree to be bound by the rules, policies, and agreements of each Registry from which You purchase a domain registration, which may include, but are not limited to, Top Level Domain Registries and Second Level Domain Registries.
 
 ## Provisions Specific to .COM, and .NET Registrations Indemnification
+{: #provisions-specific-to-com-net-registrations}
 
 You agree to indemnify, defend and hold harmless the .COM, .NET and .NAME Registry Operator, VeriSign, Inc., and its directors, officers, employees, agents, and affiliates from and against any and all claims, damages, liabilities, costs and expenses, including reasonable legal fees and expenses arising out of or relating to the Registered Name holder's domain name registration.
 
 ## Provisions Specific to .ORG Registrations Indemnification
+{: #provisions-specific-to-org-registration}
 
 You agree to indemnify, defend and hold harmless the .ORG Registry Operator, Public Interest Registry Co. and its directors, officers, employees, agents, and affiliates from and against any and all claims, damages, liabilities, costs and expenses, including reasonable legal fees and expenses arising out of or relating to the Registered Name holder's domain name registration.
 

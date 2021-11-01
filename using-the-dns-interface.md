@@ -41,7 +41,7 @@ In the DNS interface, you have the ability to manage **Forward Zones**, **Second
 
 To manage forward zones:
 
-1. From your browser, open the [{{site.data.keyword.cloud}} console](https://{DomainName}/){: new_window} and log in to your account.
+1. From your browser, open the [{{site.data.keyword.cloud}} console](https://{DomainName}/) and log in to your account.
 1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
 1. In the Classic Infrastructure navigation, select **Network > DNS > Forward Zones**
 1. Select the domain you want to manage, or select the **Add DNS zone** button on the right side of the page.
@@ -51,7 +51,7 @@ To manage forward zones:
 
 To manage secondary zones:
 
-1. From your browser, open the [{{site.data.keyword.cloud}} console](https://{DomainName}/){: new_window} and log in to your account.
+1. From your browser, open the [{{site.data.keyword.cloud}} console](https://{DomainName}/) and log in to your account.
 1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
 1. In the Classic Infrastructure navigation, select **Network > DNS > Secondary Zones**. From this page you can add or modify secondary DNS settings.
 1. To add a new record, select **Add Zone**, complete the fields and select **Add**.
@@ -62,7 +62,7 @@ To manage secondary zones:
 
 To manage reverse records:
 
-1. From your browser, open the [{{site.data.keyword.cloud}} console](https://{DomainName}/){: new_window} and log in to your account.
+1. From your browser, open the [{{site.data.keyword.cloud}} console](https://{DomainName}/) and log in to your account.
 1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
 1. In the Classic Infrastructure navigation, select **Network > DNS > Reverse Records**.
 1. In the list menu, either select or type the IP address for which you wish to change reverse DNS, then select **View IP**

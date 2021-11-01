@@ -45,7 +45,7 @@ Follow these steps to add a DNS zone in the DNS Forward Zones page:
 After you added the DNS zone, you can [add records](/docs/dns?topic=dns-manage-dns-zone-records#add-a-dns-zone-record) to the zone.
 
 ## Edit a DNS zone
-{: edit-a-dns-zone}
+{: #edit-a-dns-zone}
 
 Select the DNS zone you want to edit from the list of zones in the DNS Forward Zones page by clicking on the name of the zone. This opens the DNS Edit Zone page. From here, you can make changes to the DNS zone, and click **Update SOA** to commit the changes.
 

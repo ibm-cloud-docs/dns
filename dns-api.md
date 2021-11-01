@@ -14,7 +14,18 @@ subcollection: dns
 {:shortdesc: .shortdesc}
 {:new_window: target="_blank"}
 {:codeblock: .codeblock}
+{:pre: .pre}
+{:screen: .screen}
+{:term: .term}
+{:tip: .tip}
 {:note: .note}
+{:important: .important}
+{:deprecated: .deprecated}
+{:table: .aria-labeledby="caption"}
+{:external: target="_blank" .external}
+{:generic: data-hd-programlang="generic”}
+{:download: .download}
+{:DomainName: data-hd-keyref="DomainName"}
 
 # DNS API
 {: #getting-started-with-the-dns-api}
@@ -29,9 +40,10 @@ Each `SoftLayer_Dns_Domain` has a collection of `SoftLayer_DNS_Domain_Resourc
 
 ### List domains
 {: #dns-api-listing-domains}
+
 A list of all domains currently hosted on the {{site.data.keyword.cloud_notm}} name servers can be retrieved with `SoftLayer_Account::getDomains` returns an array of `SoftLayer_Dns_Domain` template objects. You can extend this call to also pull the records that are associated with these domains using an object mask.
 
-```
+```sh
 $client = SoftLayer_SoapClient::getClient('SoftLayer_Account', null, $apiUser, $apiKey);
 $objectMask = "mask.resourceRecords";
 $client->setObjectMask($objectMask);
@@ -42,13 +54,14 @@ print_r($domains);
 
 ### Create domains
 {: #dns-api-creating-domains}
+
 To create a new zone, a `SoftLayer_Dns_Domain` template object must be created and passed into `SoftLayer_Dns_Domain::createObject`. NS records for `ns1.softlayer.com` and `ns2.softlayer.com` are automatically added during creation. Include at least one `A` or `AAAA` record with the template object for successful creation. Domain serial numbers are added or updated by the API so there is no need to include them in the template object.
 
 The following properties are necessary when creating a `SoftLayer_Dns_Domain` object.
- * **name**: Domain name including the TDL
- * **resourceRecords**: An array of at least one `SoftLayer_Dns_Domain_ResourceRecord`
+* **name**: Domain name including the TDL
+* **resourceRecords**: An array of at least one `SoftLayer_Dns_Domain_ResourceRecord`
 
-```
+```sh
 $client = SoftLayer_SoapClient::getClient('SoftLayer_Dns_Domain', null, $apiUser, $apiKey);
 $template = new stdClass();
 $template->name = "createexample.com";
@@ -71,9 +84,10 @@ Modifying existing `SoftLayer_Dns_Domain` entries is not possible. Changes to 
 
 ### Delete domains
 {: #dns-api-deleting-domains}
+
 Removal of a zone is accomplished with `SoftLayer_Dns_Domain::deleteObject`. This method requires only an init parameter to be provided.
 
-```
+```sh
 $domainId = 1545925;
  
 $client = SoftLayer_SoapClient::getClient('SoftLayer_Dns_Domain', $domainId, $apiUser, $apiKey);
@@ -93,7 +107,7 @@ print_r($result);
 
 In addition to the method mentioned, domain resource records can be retrieved with `SoftLayer_Dns_Domain::getResourceRecords`, which returns an array of `SoftLayer_Dns_DomainResourceRecord` objects.
 
-```
+```sh
 $domainId = 12345;
 $client = SoftLayer_SoapClient::getClient('SoftLayer_Dns_Domain', $domainId, $apiUser, $apiKey);
  
@@ -108,22 +122,22 @@ print_r($result);
 Creating records directly through the `SoftLayer_Dns_Domain_ResourceRecord` service is accomplished by creating a `SoftLayer_Dns_Domain_ResourceRecord` template object and passing it into `SoftLayer_Dns_Domain_ResourceRecord::createObject`. The use of `@` in the host property denotes a wildcard hostname.
 
 The {{site.data.keyword.BluSoftlayer_notm}} DNS system supports these record types:
- * a
- * aaaa
- * cname
- * mx
- * ns
- * ptr
- * soa
- * spf
- * srv
- * txt
+* a
+* aaaa
+* cname
+* mx
+* ns
+* ptr
+* soa
+* spf
+* srv
+* txt
 
 At minimum, the template object must contain:
- * **data**: Value of the record
- * **host**: Label to be added under the zone
+* **data**: Value of the record
+* **host**: Label to be added under the zone
 
-```
+```sh
 $client = SoftLayer_SoapClient::getClient('SoftLayer_Dns_Domain_ResourceRecord', null, $apiUser, $apiKey);
 $domainId = 123456;
  
@@ -143,14 +157,14 @@ print_r($result);
 
 Edit resource records by passing a template object into `SoftLayer_Dns_Domain_ResourceRecord::editObject`. The template object must contain:
 
- * **id**: Identifier for the `SoftLayer_Dns_Domain_ResourceRecord` to be edited.
- * **domainId**: Identifier of the `SoftLayer_Dns_Domain` to which this resource record is a child record
- * **properties**: To be changed
+* **id**: Identifier for the `SoftLayer_Dns_Domain_ResourceRecord` to be edited.
+* **domainId**: Identifier of the `SoftLayer_Dns_Domain` to which this resource record is a child record
+* **properties**: To be changed
 
 Domain serial numbers are updated by the API automatically.
 {: note}
 
-```
+```sh
 $domainId = 45567;
 $resourceRecordId = 1234;
 $client = SoftLayer_SoapClient::getClient('SoftLayer_Dns_Domain_ResourceRecord', $resourceRecordId, $apiUser, $apiKey);
@@ -173,7 +187,7 @@ It is also necessary to populate the init params with the resource record ID p
 
 Removal of a record is accomplished with `SoftLayer_Dns_Domain_ResourceRecord::deleteObject`. This method requires only an init parameter to be provided.
 
-```
+```sh
 $recordId = 1545925;
  
 $client = SoftLayer_SoapClient::getClient('SoftLayer_Dns_Domain_ResourceRecord', $recordId, $apiUser, $apiKey);

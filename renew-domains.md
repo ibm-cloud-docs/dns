@@ -49,7 +49,7 @@ Domains can be renewed one at a time, or multiple domains at a time. Follow thes
 1. Click the **Continue** button to renew the domain.
 
 ## Renew multiple domains
-{: renew-multiple-domains}
+{: #renew-multiple-domains}
 
 1. From your browser, open the [{{site.data.keyword.cloud}} console](https://{DomainName}/){: external} and log in to your account.
 1. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg), then click **Classic Infrastructure**.

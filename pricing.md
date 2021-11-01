@@ -18,7 +18,7 @@ subcollection: dns
 {:important: .important}
 {:deprecated: .deprecated}
 {:generic: data-hd-programlang="generic"}
- 
+
 # Pricing for Domain Name Registration
 {: #pricing}
 
@@ -27,11 +27,12 @@ subcollection: dns
 
 You can select from top-level domains, including: .COM, .NET, .ORG, .US, .INFO, and .BIZ with our comprehensive and easy-to-use interface. You also can manage reverse and secondary DNS in the same location free of charge.
 
-| Domain Fees |	Registration |	Renewal |	Transfer |	Redemption |
+| Domain Fees | Registration | Renewal | Transfer | Redemption |
 |----|----|----|----|----|
-|.com |	$9.94 |	$9.94 |	$9.94 |	$100 |
-|.org |	$10.00 |	$10.00 |	$10.00 |	$100 |
-|.net |	$11.00 |	$11.00 |	$11.00 |	$100 |
-|.info |	$9.62 |	$9.62 |	$9.62 |	$100 |
-|.biz |	$11.00 |	$11.00 |	$11.00 |	$100 |
-|.us |	$8.19 |	$8.19 |	$8.19 |	$100 |
+|.com | $9.94 | $9.94 | $9.94 | $100 |
+|.org | $10.00 | $10.00 | $10.00 | $100 |
+|.net | $11.00 | $11.00 | $11.00 | $100 |
+|.info | $9.62 | $9.62 | $9.62 | $100 |
+|.biz | $11.00 | $11.00 | $11.00 | $100 |
+|.us | $8.19 | $8.19 | $8.19 | $100 |
+{: caption="Table 1. Pricing for Domain Name Registration" caption-side="bottom"}

@@ -60,15 +60,13 @@ These local resolving name servers are on our private network, so they don't use
 
 IBM has two addresses for authoritative name servers and two addresses for resolving name servers. These local resolving name servers are on the IBM private network, so they don't use up public bandwidth.
 
-**Authoritative name servers**
+* **Authoritative name servers**
+    * `ns1.softlayer.com 67.228.254.4`
+    * `ns2.softlayer.com 67.228.255.5`
 
-* `ns1.softlayer.com 67.228.254.4`
-* `ns2.softlayer.com 67.228.255.5`
-
-**Resolving name servers**
-
-* `rs1.service.softlayer.com 10.0.80.11`
-* `rs2.service.softlayer.com 10.0.80.12`
+* **Resolving name servers**
+    * `rs1.service.softlayer.com 10.0.80.11`
+    * `rs2.service.softlayer.com 10.0.80.12`
 
 ## What IBM Cloud DNS servers will answer for my secondary domains?
 {: #what-ibm-cloud-dns-server-answers-for-secondary-domain}

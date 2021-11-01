@@ -2,7 +2,7 @@
 
 copyright:
   years: 2021
-lastupdated: "2021-08-03"
+lastupdated: "2021-11-01"
 
 keywords: dnr, ResellOne, migrate
 
@@ -25,7 +25,10 @@ subcollection: dns
 # Migrating from IBM ResellOne to Tucows
 {: #resellone-migration}
 
-Depending on how many domains you are managing, Tucows and IBM Cloud will automatically migrate your domains and reseller accounts over to Tucows’ retail domain platform, [Hover](https://hover.com/){: external} or the [OpenSRS](https://manage.opensrs.com/){: external} reseller platform.
+In the period between 2 November 2021 - 10 November 2021, for the purpose of migration, your domains will be in a frozen state. No transfer, renewal, or other actions can happen during this period. If any of your domains are about to expire, complete renewal actions immediately (before the 1 November 2021 deadline).
+{: important}
+
+On *8 November 2021*, depending on how many domains you are managing, Tucows and IBM Cloud will automatically migrate your domains and reseller account(s) over to Tucows’ retail domain platform, [Hover](https://hover.com/){: external} or the [OpenSRS](https://manage.opensrs.com/){: external} reseller platform.
 
 Before checking out the migration options, read [Common FAQs](/docs/dns?topic=dns-resellone-migration#resellone-common-faq).
 
@@ -63,6 +66,9 @@ As a direct OpenSRS reseller, you’ll be able to fully manage your domains with
 * Flexible integration
 * Competitive pricing
 
+If you choose to migrate to Tucows' (OpenSRS platform) before 2 November 2021, or migrate the domains away to other registrars outside of OpenSRS, you will incur a fee for the additional year renewal cost for every domain that is transferred. As part of the IBM Cloud to OpenSRS migration, you will not incur any transfer fees.
+{: tip} 
+
 ### What service agreement do I follow after migration to Hover?
 {: #hover-service-agreement-after-migration}
 {: faq}
@@ -79,6 +85,20 @@ After migration, you are automatically transitioned to the OpenSRS/Tucows’ Inc
 
 Additional resources can be found in [OpenSRS Documentation](https://opensrs.com/resources/documentation/){: external}.
 
+### What will happen to my balance with IBM ResellOne?
+{: #balance}
+{: faq}
+{: support}
+
+Starting 2 November 2021, all credit balances in the ResellOne portal will be captured and transferred to our billing team for refunds. These credit balances will be processed in one of the following ways:
+
+* Credit balances more than $100.00 as of 2 November 2021 where the customer has processed a payment with us in the last 6 months will be refunded automatically.
+* Credit balances more than $100.00 as of 2 November 2021 where the customer has _not_ processed a payment with us in the last 6 months will require the customer to open a ticket and provide ACH details for a refund to be processed.
+* Credit balances of less than $100.00 as of 2 November 2021 will be credited to the customer account for future use.
+
+Refunds are expected to take 1 to 7 days to be processed within billing, with up to 10 additional days depending on any delays in place in the customer’s financial institution. Requests for refund will be honored throughout the month of November. Cash refund will not happen for those accounts with an IBM-provided credit.
+{: note} 
+
 ### If I have more questions, who can I contact?
 {: #additional-questions}
 {: faq}
@@ -90,7 +110,7 @@ If you have questions, contact [IBM Cloud Support](/docs/dns?topic=dns-gettinghe
 ## If you have fewer than 100 domains
 {: #resellone-basic-tier}
 
-If you have fewer than 100 domains under management, on 1 November 2021 your domains are automatically migrated to a retail account on Hover, Tucows’ retail domains brand. On the day of migration, the registrant/owner email address will receive an email from Hover that contains:  
+If you have fewer than 100 domains under management,  your domains are automatically migrated to a retail account on Hover, Tucows’ retail domains brand in the period between 2 November 2021 - 10 November 2021. On the day of migration, the registrant/owner email address will receive an email from Hover that contains:  
 
 * A welcome message
 * Login instructions
@@ -134,9 +154,9 @@ If you don't respond to the email from Hover, your domains are moved to Tucows�
 ## If you have more than 100 domains
 {: #resellone-startup-tier}
 
-For now, just sit tight! By default, Tucows and IBM Cloud will move your domains from your Softlayer ResellOne account into the pre-provisioned OpenSRS Reseller account between 1 November 2021 and 4 November 2021. Your domains will remain available within the Softlayer ResellOne account until this time.
+By default, Tucows and IBM Cloud will move your domains from your Softlayer ResellOne account into the pre-provisioned OpenSRS Reseller account between 2 November 2021 - 10 November 2021. Your domains will remain available within the Softlayer ResellOne account until this time.
 
-On 1 November 2021, you’ll be able to log in to your OpenSRS account. Here’s how:
+On 11 November 2021, you’ll be able to log in to your OpenSRS account. Here’s how:
 
 1.	Head to https://manage.opensrs.com/.
 2.	Select the **Forgot Password** option.
@@ -163,6 +183,7 @@ Yes, you can choose to be migrated to Tucows’ retail domain platform, Hover. Y
 To view your set pricing tier, you can log in to your [Reseller Control Panel](https://manage.opensrs.com/){: external} and navigate to **Billing & Payments**. There, you'll see the tier listed under **Pricing Tier Plan**. You can also see the OpenSRS Pricing page located here.
 
 #### Are all my brand settings carried over from the ResellOne reseller account?
+{: #are-brand-settings-carried-over}
 {: faq}
 {: support}
 
