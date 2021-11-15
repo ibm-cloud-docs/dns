@@ -10,15 +10,7 @@ subcollection: dns
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:tip: .tip}
-{:external: target="_blank" .external}
-{:deprecated: .deprecated}
-{:generic: data-hd-programlang="generic"}
+{{site.data.keyword.attribute-definition-list}}
  
 # Getting started with Domain Name Registration 
 {: #getting-started}

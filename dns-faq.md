@@ -10,23 +10,7 @@ subcollection: dns
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:term: .term}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:generic: data-hd-programlang="generic"}
-{:download: .download}
-{:DomainName: data-hd-keyref="DomainName"}
-{:faq: data-hd-content-type='faq'}
-{:support: data-reuse='support'}
-
+{{site.data.keyword.attribute-definition-list}}
 
 # DNS FAQs
 {: #dns-faq}

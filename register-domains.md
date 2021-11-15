@@ -10,17 +10,7 @@ subcollection: dns
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:tip: .tip}
-{:deprecated: .deprecated}
-{:generic: data-hd-programlang="generic"}
-{:external: target="_blank" .external}
-{:help: data-hd-content-type='help'}
-{:support: data-reuse='support'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Registering new domains
 {: #register-a-new-domain}

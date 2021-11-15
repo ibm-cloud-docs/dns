@@ -10,23 +10,7 @@ subcollection: dns
 
 ---
 
-
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:codeblock: .codeblock}
-{:pre: .pre}
-{:screen: .screen}
-{:term: .term}
-{:tip: .tip}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:external: target="_blank" .external}
-{:generic: data-hd-programlang="generic"}
-{:download: .download}
-{:DomainName: data-hd-keyref="DomainName"}
-{:help: data-hd-content-type='help'}
-{:support: data-reuse='support'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Using the DNS interface
 {: #how-to-use-the-dns-interface}

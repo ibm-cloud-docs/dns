@@ -10,15 +10,7 @@ subcollection: dns
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:DomainName: data-hd-keyref="DomainName"}
-{:note: .note}
-{:important: .important}
-{:deprecated: .deprecated}
-{:generic: data-hd-programlang="generic"}
-{:help: data-hd-content-type='help'}
-{:support: data-reuse='support'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Filtering the view of existing domains
 {: #filter-the-view-of-existing-domains}

@@ -10,16 +10,7 @@ subcollection: dns
 
 ---
 
-
-{:tsSymptoms: .tsSymptoms}
-{:tsCauses: .tsCauses}
-{:tsResolve: .tsResolve}
-{:new_window: target="_blank"}
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:DomainName: data-hd-keyref="DomainName"}
-
-
+{{site.data.keyword.attribute-definition-list}}
 
 # Getting help and support
 {: #gettinghelp-with-dns}

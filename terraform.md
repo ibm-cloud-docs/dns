@@ -8,15 +8,7 @@ subcollection: dns
 
 ---
 
-{:external: target="_blank" .external}
-{:shortdesc: .shortdesc}
-{:screen: .screen}
-{:pre: .pre}
-{:note: .note}
-{:table: .aria-labeledby="caption"}
-{:codeblock: .codeblock}
-{:tip: .tip}
-
+{{site.data.keyword.attribute-definition-list}}
 
 # Setting up Terraform for Domain Name Registration
 {: #terraform-setup-dns}

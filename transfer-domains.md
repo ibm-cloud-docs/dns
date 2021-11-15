@@ -10,14 +10,7 @@ subcollection: dns
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
-{:external: target="_blank" .external}
-{:note: .note}
-{:important: .important}
-{:tip: .tip}
-{:help: data-hd-content-type='help'}
-{:support: data-reuse='support'}
+{{site.data.keyword.attribute-definition-list}}
 
 # Transferring an existing domain
 {: #transfer-domains}

@@ -10,8 +10,7 @@ subcollection: dns
 
 ---
 
-{:shortdesc: .shortdesc}
-{:new_window: target="_blank"}
+{{site.data.keyword.attribute-definition-list}}
 
 # Example DNS configurations
 {: #example-dns-configurations-for-reference}
