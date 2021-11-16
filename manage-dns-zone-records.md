@@ -44,7 +44,7 @@ To add a record to a DNS Zone from the DNS Edit Zone page, select the resource t
 | Host | Enter the hostname. |
 | Points To | Enter the IP address to which the host record points. |
 | TTL | Select the Time to Live (TTL) from the list menu. TTL defaults to 15 minutes. |
-{: caption="Table 1. Fields required for A, AAAA, or CNAME records" caption-side="top"}
+{: caption="Table 1. Fields required for A, AAAA, or CNAME records" caption-side="bottom}
 {: #a-aaaa-cname-record-fields}
 {: tab-title="A, AAAA, CNAME"}
 {: tab-group="recordfields"}
@@ -57,7 +57,7 @@ To add a record to a DNS Zone from the DNS Edit Zone page, select the resource t
 | Host | Enter the hostname. |
 | Goes | Enter the `CNAME` of the mail server. This is usually represented as `mail.example.com`.|
 | TTL | Select the Time to Live (TTL) from the list menu. TTL defaults to 15 minutes.|
-{: caption="Table 1. Fields required for MX records" caption-side="top"}
+{: caption="Table 1. Fields required for MX records" caption-side="bottom"}
 {: #mx-fields}
 {: tab-title="MX"}
 {: tab-group="recordfields"}
@@ -69,7 +69,7 @@ To add a record to a DNS Zone from the DNS Edit Zone page, select the resource t
 | Name | Enter `@` or the domain name. |
 | Value | Enter the record to verify appropriate email ending rights for a domain or IP. |
 | TTL | Select the Time to Live (TTL) from the list menu. TTL defaults to 15 minutes. |
-{: caption="Table 1. Fields required for TXT records" caption-side="top"}
+{: caption="Table 1. Fields required for TXT records" caption-side="bottom"}
 {: #txt-fields}
 {: tab-title="TXT"}
 {: tab-group="recordfields"}
@@ -86,7 +86,7 @@ To add a record to a DNS Zone from the DNS Edit Zone page, select the resource t
 | Host (optional) | Enter the hostname for the service. |
 | Target | Enter the canonical hostname of the machine providing the service. |
 | TTL | Select the Time to Live (TTL) from the list menu. TTL defaults to 15 minutes. |
-{: caption="Table 1. Fields required for SRV records" caption-side="top"}
+{: caption="Table 1. Fields required for SRV records" caption-side="bottom"}
 {: #srv-fields}
 {: tab-title="SRV"}
 {: tab-group="recordfields"}
