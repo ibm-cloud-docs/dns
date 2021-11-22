@@ -172,12 +172,6 @@ After clicking the transfer now button, the domain will be transferred at the be
 
 All AXFR requests are made over the public network at this time.
 
-## Are slaves removed after a number of days in which the master is unavailable?
-{: #are-slaves-removed-after-days-master-is-unavailable}
-{: faq}
-
-IBM stops attempting to transfer a domain if its master is down or misconfigured for a prolonged period. You can view errors in the IBM Cloud console and force a manual transfer.
-
 ## Is 1 minute the lowest transfer frequency for secondary DNS zones?
 {: #is-1minute-lowest-transfer-frequency}
 {: faq}
