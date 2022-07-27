@@ -1,6 +1,6 @@
 {
     "title": "Domain Name Registration docs",
-    "lastupdated": "2021-07-08",
+    "lastupdated": "2021-07-27",
     "introduction": "Domain name registration is the process of registering a user-friendly domain name, which identifies one or more IP addresses. Leverage the docs and API reference to plan for, register, and renew domains.",
     "section_devtools": {
       "api": "/docs/dns?topic=dns-getting-started-with-the-dns-api",
@@ -28,5 +28,25 @@
       "architecture": "https://www.ibm.com/cloud/architecture",
       "training": "https://www.ibm.com/training/cloud",
       "community": "https://community.ibm.com/community"
+    },
+    "section_updates": {
+      "view_more": "/docs/dns?topic=dns-release-notes",
+      "tiles": [
+        {
+          "date": "1 November 2021",
+          "title": "Domain freeze",
+          "description": "Domains frozen from 2 November 2021 - 10 November 2021."
+        },
+        {
+          "date": "23 September 2021",
+          "title": "Abuse policy",
+          "description": "Added information about reporting violations of the Acceptable Use Policy."
+        },
+        {
+          "date": "27 July 2021",
+          "title": "ResellOne end of service",
+          "description": "Effective 1 November 2021, IBM Cloud no longer supports the ResellOne Domain Resale service, which was offered in partnership with Tucows Inc."
+        }
+      ]
     }
   }
