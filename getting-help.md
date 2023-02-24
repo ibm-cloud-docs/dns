@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2021
-lastupdated: "2021-09-23"
+  years: 1994, 2023
+lastupdated: "2023-02-24"
 
 keywords:
 
@@ -22,7 +22,7 @@ When using the forums to ask a question, tag your question with "ibm-cloud" and 
 
 For information about opening an IBM Support case, or about support levels and case severities, see [Contacting support](/docs/get-support?topic=get-support-using-avatar#using-avatar).
 
-## Domain Name Registration Reseller Information
+## Domain Name Registration reseller information
 {: #dnr-reseller-info}
 
 * Basic information
@@ -34,19 +34,18 @@ For information about opening an IBM Support case, or about support levels and c
     {: caption="Table 1. Basic information" caption-side="bottom"}
     
 
-* Mailing Address
+* Mailing address
 
     ```text
     14001 Dallas Parkway 
     Suite M100
     Dallas, Texas 75240
     ```
-* E-mail Contacts
+* E-mail contacts
     * DNR Operations: doman_admin-sl-ww@wwpdl.vnet.ibm.com
-    * Legal: iaaslegal@us.ibm.com
     * Abuse: abuse@softlayer.com
 
-## Registrant's Rights and Benefits
+## Registrant's rights and benefits
 {: #registrant-rights-benefits}
 
 See the [Registrant's Rights and Benefits](https://www.icann.org/resources/pages/responsibilities-2014-03-14-en){: external} page for more information.
