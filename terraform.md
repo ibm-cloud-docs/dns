@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-08-25"
+  years: 2021, 2023
+lastupdated: "2023-02-09"
 
 subcollection: dns
 
@@ -24,13 +24,14 @@ Looking for a managed Terraform on {{site.data.keyword.cloud}} solution? Try out
 
 To install Terraform and configure resources for domain resources:
 
-1. Follow the [Terraform on {{site.data.keyword.cloud}} getting started tutorial](/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-getting-started) to install the Terraform CLI and configure the {{site.data.keyword.cloud}} Provider plug-in for Terraform. The plug-in abstracts the {{site.data.keyword.cloud}} APIs that are used to provision, update, or delete domain resources.
+- Follow the [Terraform on {{site.data.keyword.cloud}} getting started tutorial](/docs/ibm-cloud-provider-for-terraform?topic=ibm-cloud-provider-for-terraform-getting-started) to install the Terraform CLI and configure the {{site.data.keyword.cloud}} Provider plug-in for Terraform. The plug-in abstracts the {{site.data.keyword.cloud}} APIs that are used to provision, update, or delete domain resources.
 
-1. Create a Terraform configuration file that is named `main.tf`. In this file, you add the configuration to create a domain resource. For more information, see the [Terraform documentation](https://www.terraform.io/docs/language/index.html){: external}.
+- Create a Terraform configuration file that is named `main.tf`. In this file, you add the configuration to create a domain resource. For more information, see the [Terraform documentation](https://www.terraform.io/docs/language/index.html){: external}.
 
+1. Create a {{site.data.keyword.cis_short_notm}} instance by using the `ibm_resource_instance` resource argument in your `main.tf` file.
    The following example creates an `ibm_dns_domain_registration_nameservers` resource with an ID of `data.ibm_dns_domain_registration.dns-domain-test.id` and two name servers called `ns006.name.ibm.cloud.com` and `ns017.name.ibm.cloud.com`. The name of the domain resource is `test-domain.com`.
    
-      For more information, see the [ibm_dns_domain_registration_nameservers](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dns_domain_registration_nameservers){: external} usage example.
+      For more information, see the [`ibm_dns_domain_registration_nameservers`](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dns_domain_registration_nameservers){: external} usage example.
       {: note}
 
    ```terraform
@@ -45,25 +46,33 @@ To install Terraform and configure resources for domain resources:
    ```
    {: codeblock}
 
-1. Initialize the Terraform CLI.
+1. After you finish building your configuration file, initialize the Terraform CLI. For more information, see [Initializing Working Directories](https://www.terraform.io/cli/init){: external}.
 
    ```terraform
    terraform init
    ```
    {: pre}
 
-1. Create a Terraform execution plan. The Terraform execution plan summarizes all the actions that need to be run to create the domain resource in your account.
+1. Provision the resources from the `main.tf` file. For more information, see [Provisioning Infrastructure with Terraform](https://www.terraform.io/cli/run){: external}.
 
-   ```terraform
-   terraform plan
-   ```
-   {: pre}
+   1. Run `terraform plan` to generate a Terraform execution plan to preview the proposed actions.
 
-1. Create the domain resource in {{site.data.keyword.cloud_notm}}.
+      ```terraform
+      terraform plan
+      ```
+      {: pre}
 
-   ```terraform
-   terraform apply
-   ```
-   {: pre}
+   1. Run `terraform apply` to create the resources that are defined in the plan.
+
+      ```terraform
+      terraform apply
+      ```
+      {: pre}
 
 1. From the [{{site.data.keyword.cloud_notm}} resource list](/resources){: external}, select the domain resource that you created and note the resource ID.
+1. Verify that the access policy is successfully assigned. For more information, see [Reviewing assigned access in the console](/docs/account?topic=account-assign-access-resources#review-your-access-console).
+
+## What's next?
+{: #terraform-setup-next}
+
+Now that you have successfully created your DNS domain registration with Terraform on {{site.data.keyword.cloud_notm}}, you can visit the [Domain Name Registration Terraform registry](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dns_domain_registration_nameservers){: external} to perform additional tasks using Terraform.

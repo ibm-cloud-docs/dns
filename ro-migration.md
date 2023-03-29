@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2021
-lastupdated: "2021-11-01"
+  years: 2021, 2023
+lastupdated: "2023-03-29"
 
 keywords: dnr, ResellOne, migrate
 
@@ -54,10 +54,6 @@ As a direct OpenSRS reseller, you’ll be able to fully manage your domains with
 * Scalability
 * Exceptional reliability
 * Flexible integration
-* Competitive pricing
-
-If you choose to migrate to Tucows' (OpenSRS platform) before 2 November 2021, or migrate the domains away to other registrars outside of OpenSRS, you will incur a fee for the additional year renewal cost for every domain that is transferred. As part of the IBM Cloud to OpenSRS migration, you will not incur any transfer fees.
-{: tip} 
 
 ### What service agreement do I follow after migration to Hover?
 {: #hover-service-agreement-after-migration}
@@ -75,27 +71,12 @@ After migration, you are automatically transitioned to the OpenSRS/Tucows’ Inc
 
 Additional resources can be found in [OpenSRS Documentation](https://opensrs.com/resources/documentation/){: external}.
 
-### What will happen to my balance with IBM ResellOne?
-{: #balance}
-{: faq}
-{: support}
-
-Starting 2 November 2021, all credit balances in the ResellOne portal will be captured and transferred to our billing team for refunds. These credit balances will be processed in one of the following ways:
-
-* Credit balances more than $100.00 as of 2 November 2021 where the customer has processed a payment with us in the last 6 months will be refunded automatically.
-* Credit balances more than $100.00 as of 2 November 2021 where the customer has _not_ processed a payment with us in the last 6 months will require the customer to open a ticket and provide ACH details for a refund to be processed.
-* Credit balances of less than $100.00 as of 2 November 2021 will be credited to the customer account for future use.
-
-Refunds are expected to take 1 to 7 days to be processed within billing, with up to 10 additional days depending on any delays in place in the customer’s financial institution. Requests for refund will be honored throughout the month of November. Cash refund will not happen for those accounts with an IBM-provided credit.
-{: note} 
-
 ### If I have more questions, who can I contact?
 {: #additional-questions}
 {: faq}
 {: support}
 
 If you have questions, contact [IBM Cloud Support](/docs/dns?topic=dns-gettinghelp-with-dns).
-
 
 ## If you have fewer than 100 domains
 {: #resellone-basic-tier}
@@ -165,13 +146,6 @@ For more information on how to get started, see the [OpenSRS Reseller Quickstart
 
 Yes, you can choose to be migrated to Tucows’ retail domain platform, Hover. You must contact [IBM Cloud Support](https://cloud.ibm.com/unifiedsupport/supportcenter) before 1 October 2021.
 
-#### What pricing tier will I be set at?
-{: #100-499-pricing-tier}
-{: faq}
-{: support}
-
-To view your set pricing tier, you can log in to your [Reseller Control Panel](https://manage.opensrs.com/){: external} and navigate to **Billing & Payments**. There, you'll see the tier listed under **Pricing Tier Plan**. You can also see the OpenSRS Pricing page located here.
-
 #### Are all my brand settings carried over from the ResellOne reseller account?
 {: #are-brand-settings-carried-over}
 {: faq}
@@ -193,7 +167,7 @@ Yes, you can migrate to OpenSRS before the End of Service date. However, we reco
 
 Your reseller account automatically moves to the Tucows’ OpenSRS reseller platform if you don't respond to the emails. A password reset email is triggered, which remains active for 24 hours.
 
-#### If I choose to migrate to OpenSRS, when can I access my account and add funding in the new Tucows’ OpenSRS Reseller account?
+#### If I choose to migrate to OpenSRS, when can I access my account in the new Tucows’ OpenSRS Reseller account?
 {: #100-499-when-to-access}
 {: faq}
 {: support}
@@ -202,13 +176,6 @@ Accounts are provisioned in October 2021 at OpenSRS. You will be able to access 
 
    If you reset your password, the same email address is used from your previous account.
    {: note}
-
-#### If I choose to migrate to OpenSRS, will my funds be transferred to OpenSRS?
-{: #100-499-funds-transferred}
-{: faq}
-{: support}
-
-Reach out to [IBM Cloud Support](/docs/dns?topic=dns-gettinghelp-with-dns) for details. In your OpenSRS Reseller account, you are required to add your funding on activation.
 
 #### How do I connect to OpenSRS’ API?
 {: #100-499-how-to-connect}
@@ -219,13 +186,6 @@ You can find information about OpenSRS’ API in the [OpenSRS API guide](https:/
 
 ### Specific FAQs (for 500 domains or more)
 {: #resellone-growth-tier-faq}
-
-#### What pricing tier will I be set at?
-{: #500-pricing-tier}
-{: faq}
-{: support}
-
-To view your set pricing tier, you can log in to your Reseller Control Panel and navigate to “Billing & Payments”. There you will see the tier listed in the Pricing Tier Plan section. You can also see the OpenSRS Pricing page located here.
 
 #### Will all my brand settings be carried over from the ResellOne reseller account?
 {: #500-settings-carried-over}
@@ -239,9 +199,9 @@ Yes, all your branding settings, along with any customized messaging content, ar
 {: faq}
 {: support}
 
-Yes, you can migrate to OpenSRS before the End of Service date. However, we recommend waiting for your account to be automatically migrated, as all your customizations are copied over. Allow us to do the heavy lifting for you.
+Yes, you can migrate to OpenSRS before the End of Service date. However, we recommend waiting for your account to be automatically migrated, when all your customizations are copied over. Allow us to do the heavy lifting for you.
 
-#### When can I access my account and add funding in the new Tucows’ OpenSRS Reseller account?
+#### When can I access my account in the new Tucows’ OpenSRS Reseller account?
 {: #500-when-to-access}
 {: faq}
 {: support}

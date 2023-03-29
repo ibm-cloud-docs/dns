@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2021
-lastupdated: "2021-02-05"
+  years: 1994, 2023
+lastupdated: "2023-03-29"
 
 keywords:
 
@@ -106,6 +106,13 @@ Our customers have free DNS services that are fully managed through the [{{site.
 
 To renew a registration for an existing domain, select [**Classic Infrastructure**](https://{DomainName}/gen1/infrastructure/devices) from the menu in the {{site.data.keyword.cloud_notm}} console, and then go to **Services > Domain Registration**. See [Renewing existing domains](/docs/dns?topic=dns-renew-an-existing-domain).
 
+## Where do I find cost estimates for domain name registration?
+{: #where-do-i-find-cost-estimates-for-dnr}
+{: faq}
+{: support}
+
+You can estimate the cost of a service using the cost estimator on the provisioning pages for domain name registration. For example, log in to the [Domain Name Service](/catalog/infrastructure/domain-registration) console and click **Create** in the Summary panel. In the _Domains_ page, click the **Register** list menu. Pricing for registering domains is shown in a list menu in the _Register New Domain_ section.
+
 ## How do I manage DNS zones?
 {: #manage-domain}
 {: faq}
@@ -135,7 +142,7 @@ TTL is listed in seconds. Divide by 60 to convert TTL to minutes, or by 3600 to 
 
 
 ## After transferring a domain, how long does it take for the domain and the changes made to become visible?
-{: #how-long-transfer-change-visiblity}
+{: #how-long-transfer-change-visibility}
 {: faq}
 
 Your domain and/or changes to it are visible on IBM Cloud DNS servers immediately after the transfer completes. Due to the propagation nature of DNS, there will be a delay before changes are visible on other DNS servers.
