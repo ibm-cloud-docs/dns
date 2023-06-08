@@ -2,15 +2,11 @@
     "title": "Domain Name Registration docs",
     "lastupdated": "2023-06-08",
     "introduction": "Deprecated: Effective 30 June 2023, IBM Cloud will no longer support our Domain Name Registration service, which we offer in partnership with Tucows Inc.",
-    "section_devtools": {
-      "api": "/docs/dns?topic=dns-getting-started-with-the-dns-api",
-      "terraform": "https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/data-sources/dns_domain_registration"
-    },
     "section_recommended": [
       {
         "title": "Domain Name Registration domain transfer",
         "description": "During the week of 26th – 30th June 2023, Tucows and IBM Cloud will automatically migrate your domains over to Tucows' retail domain platform, Hover. For more information, click this tile.",
-        "href": "/docs/dns?topic=dns-register-a-new-domain"
+        "href": "/docs/dns?topic=dns-domain-name-registration-domain-transfer"
       }
     ],
     "section_updates": {
