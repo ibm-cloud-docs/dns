@@ -26,6 +26,6 @@ During the week of 26th – 30th June 2023, Tucows and IBM Cloud will automatica
 * Steps to double check your account information
 * Hover's contact information and support hours
 
-As a Hover customer, you'll benefit from a clean and intuitive domain management control panel. You'll also get an expanded selection of premium top-level domains, and great customer support. After migration, you are automatically transitioned to Tucows' retail domains brand Hover's [Terms Of Service](https://www.hover.com/tos){: external}.
+As a Hover customer, you'll benefit from a clean and intuitive domain management control panel. You'll also get an expanded selection of premium top-level domains, and great customer support. After migration, you are automatically transitioned to Tucows' retail domains brand Hover's [Terms of Service](https://www.hover.com/tos){: external}.
 
 Tucows will move all domains with the same registrant's email address into the same Hover account. If all the domains that you manage have the same registrant email, these domains migrate to a single Hover account. If you manage domains for multiple registrants, and therefore have multiple registrant emails on file, Tucows creates multiple Hover accounts, one for each unique registrant email.
