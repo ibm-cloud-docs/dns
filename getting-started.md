@@ -1,8 +1,8 @@
 ---
 
-copyright: 
-  years: 1994, 2020
-lastupdated: "2020-03-26"
+copyright:
+  years: 1994, 2023
+lastupdated: "2023-06-08"
 
 keywords: dns, domain name registration, dnr
 
@@ -11,11 +11,14 @@ subcollection: dns
 ---
 
 {{site.data.keyword.attribute-definition-list}}
- 
-# Getting started with Domain Name Registration 
+
+# Getting started with Domain Name Registration
 {: #getting-started}
 
-Domain name registration is the process of registering a user-friendly domain name, which identifies one or more IP addresses. {{site.data.keyword.cloud}} Domain Name Registration offers customers a central location from which to view and manage their domains. 
+Effective 30 June 2023, IBM Cloud will no longer support the Domain Name Registration service, which is offered in partnership with Tucows Inc. For more information, see [Domain Name Registration domain transfer](/docs/dns?topic=dns-domain-name-registration-domain-transfer).
+{: deprecated}
+
+Domain name registration is the process of registering a user-friendly domain name, which identifies one or more IP addresses. {{site.data.keyword.cloud}} Domain Name Registration offers customers a central location from which to view and manage their domains.
 {: shortdesc}
 
 As an additional service, {{site.data.keyword.cloud_notm}} offers secondary domain zones to our customers free of charge, allowing users to back up their primary domain records in the event of data loss or node failure.

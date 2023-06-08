@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2020
-lastupdated: "2020-03-26"
+  years: 1994, 2023
+lastupdated: "2023-06-08"
 
 keywords:
 
@@ -25,6 +25,9 @@ subcollection: dns
 {: #renew-an-existing-domain}
 {: help}
 {: support}
+
+Effective 30 June 2023, IBM Cloud will no longer support the Domain Name Registration service, which is offered in partnership with Tucows Inc. For more information, see [Domain Name Registration domain transfer](/docs/dns?topic=dns-domain-name-registration-domain-transfer).
+{: deprecated}
 
 When a new domain is registered, it is reserved for use by the registrant for a pre-determined amount of time that is chosen at the time the domain is registered. When that time period expires, the domain becomes inactive and is available for purchase by any person or entity. To keep a registered domain active, it must be renewed before its expiration date.
 {: shortdesc}

@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 1994, 2020
-lastupdated: "2020-03-26"
+  years: 1994, 2023
+lastupdated: "2023-06-08"
 
-keywords: 
+keywords:
 
 subcollection: dns
 
@@ -16,6 +16,9 @@ subcollection: dns
 {: #register-a-new-domain}
 {: help}
 {: support}
+
+Effective 30 June 2023, IBM Cloud will no longer support the Domain Name Registration service, which is offered in partnership with Tucows Inc. For more information, see [Domain Name Registration domain transfer](/docs/dns?topic=dns-domain-name-registration-domain-transfer).
+{: deprecated}
 
 Follow these steps to register a new domain, either one at a time, or multiple domains at one time.
 {: shortdesc}

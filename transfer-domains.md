@@ -1,10 +1,10 @@
 ---
 
 copyright:
-  years: 1994, 2020
-lastupdated: "2020-03-26"
+  years: 1994, 2023
+lastupdated: "2023-06-08"
 
-keywords: 
+keywords:
 
 subcollection: dns
 
@@ -17,9 +17,11 @@ subcollection: dns
 {: help}
 {: support}
 
+Effective 30 June 2023, IBM Cloud will no longer support the Domain Name Registration service, which is offered in partnership with Tucows Inc. For more information, see [Domain Name Registration domain transfer](/docs/dns?topic=dns-domain-name-registration-domain-transfer).
+{: deprecated}
+
 After a domain has been registered, it can be transferred at any time. Transferring a domain from a third-party registrar to {{site.data.keyword.cloud}} can streamline the domain management process. Transferring a domain does not affect the website, email, or DNS. It only changes the registrar that manages the domain records.
 {: shortdesc}
-
 
 Follow these steps to transfer an existing domain to {{site.data.keyword.cloud_notm}}.
 
