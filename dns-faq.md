@@ -111,7 +111,7 @@ To renew a registration for an existing domain, select [**Classic Infrastructure
 {: faq}
 {: support}
 
-You can estimate the cost of a service using the cost estimator on the provisioning pages for domain name registration. For example, log in to the [Domain Name Service](/catalog/infrastructure/domain-registration) console and click **Create** in the Summary panel. In the _Domains_ page, click the **Register** list menu. Pricing for registering domains is shown in a list menu in the _Register New Domain_ section.
+You can estimate the cost of a service using the cost estimator on the provisioning pages for domain name registration. For example, log in to the [Domain Name Service](/catalog) console and click **Create** in the Summary panel. In the _Domains_ page, click the **Register** list menu. Pricing for registering domains is shown in a list menu in the _Register New Domain_ section.
 
 ## How do I manage DNS zones?
 {: #manage-domain}

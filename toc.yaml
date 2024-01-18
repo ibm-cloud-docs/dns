@@ -8,7 +8,7 @@ toc:
     audience: service
     href: /docs/dns
     console-page: /classic/network/dns/forwardzones
-    product-page: https://www.ibm.com/cloud/dns
+    product-page: https://www.ibm.com/products/dns
     path: dns
     label: Domain Name Registration
     release-level: deprecated
@@ -28,7 +28,7 @@ toc:
       topics:
         - link:
             label: What is DNS
-            href: https://www.ibm.com/cloud/learn/dns
+            href: https://www.ibm.com/topics/dns
 
   - navgroup:
       id: howto

@@ -67,7 +67,7 @@ After migration, you are automatically transitioned to Tucows’ retail domains 
 {: faq}
 {: support}
 
-After migration, you are automatically transitioned to the OpenSRS/Tucows’ Inc. Master Services Agreement. You can find this from the [OpenSRS website](https://opensrs.com/wp-content/uploads/Master_Services_Agreement.html){: external}.
+After migration, you are automatically transitioned to the OpenSRS/Tucows’ Inc. Master Services Agreement. You can find this from the [OpenSRS website](https://opensrs.com/wp-content/uploads/Master_Domain_Registration_Agreement.html){: external}.
 
 Additional resources can be found in [OpenSRS Documentation](https://opensrs.com/resources/documentation/){: external}.
 
@@ -81,7 +81,7 @@ If you have questions, contact [IBM Cloud Support](/docs/dns?topic=dns-gettinghe
 ## If you have fewer than 100 domains
 {: #resellone-basic-tier}
 
-If you have fewer than 100 domains under management,  your domains are automatically migrated to a retail account on Hover, Tucows’ retail domains brand in the period between 2 November 2021 - 10 November 2021. On the day of migration, the registrant/owner email address will receive an email from Hover that contains:  
+If you have fewer than 100 domains under management,  your domains are automatically migrated to a retail account on Hover, Tucows’ retail domains brand in the period between 2 November 2021 - 10 November 2021. On the day of migration, the registrant/owner email address will receive an email from Hover that contains:
 
 * A welcome message
 * Login instructions
