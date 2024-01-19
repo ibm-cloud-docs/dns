@@ -17,7 +17,7 @@ subcollection: dns
 {: help}
 {: support}
 
-Domains running on the {{site.data.keyword.cloud}} network can point to a maximum of five (5) custom name servers. Custom name servers can be added, deleted, or changed at any time. Follow these steps to add, edit, or delete custom name servers for a domain.
+Domains running on the {{site.data.keyword.cloud}} network can point to a maximum of 5 custom name servers. Custom name servers can be added, deleted, or changed at any time. Follow these steps to add, edit, or delete custom name servers for a domain.
 {: shortdesc}
 
 1. From your browser, open the [{{site.data.keyword.cloud}} console](https://{DomainName}/){: external} and log in to your account.

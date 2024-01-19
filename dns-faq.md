@@ -52,12 +52,12 @@ IBM has two addresses for authoritative name servers and two addresses for resol
     * `rs1.service.softlayer.com 10.0.80.11`
     * `rs2.service.softlayer.com 10.0.80.12`
 
-## What IBM Cloud DNS servers will answer for my secondary domains?
+## What IBM Cloud DNS servers answer for my secondary domains?
 {: #what-ibm-cloud-dns-server-answers-for-secondary-domain}
 {: faq}
 {: support}
 
-The IBM Cloud Anycast, IPv-enabled authoritative DNS Servers will answer for your secondary domains. These servers are found at the following addresses:
+The IBM Cloud Anycast, IPv-enabled authoritative DNS Servers answer for your secondary domains. These servers are found at the following addresses:
 
 * `ns1.softlayer.com`
 * `ns2.softlayer.com`
@@ -81,7 +81,7 @@ Transfers for your secondary domains come from one of the following four IP addr
 
 Our public name servers act as authoritative name servers for domain names that reside in our DNS servers and are managed through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). These servers answer and resolve domain names to your IP address for the general internet population.
 
-Our resolving name servers are located on the private network and act as DNS resolvers for your server. The private resolvers query the internet's root name servers for domain lookups. For example, sending mail from your server requires an NSlookup of the destination domain name. The private DNS servers resolve this information over the private network to keep your bandwidth usage down, reduce the load on the authoritative servers, and offer quick resolution. Private network resolvers are a convenience service for our customers.
+Our resolving name servers are on the private network and act as DNS resolvers for your server. The private resolvers query the internet's root name servers for domain lookups. For example, sending mail from your server requires an NSlookup of the destination domain name. The private DNS servers resolve this information over the private network to keep your bandwidth usage down, reduce the load on the authoritative servers, and offer quick resolution. Private network resolvers are a convenience service for our customers.
 
 ## What are my name server options?
 {: #what-are-my-name-server-options-faq}
@@ -95,7 +95,7 @@ With a bare metal server there are four typical options for name servers:
 * Use a third-party DNS service to manage your domain names.
 * Run your own name servers on your server to manage your domain names.
 
-For the first three options, you will use name servers of the third party (for example, `ns1.softlayer.com` and `ns2.softlayer.com`). The last option uses your domain as the name server (for example, `ns1.yourdomain.com` and `ns2.yourdomain.com`), and it requires you to run DNS services on your server. You must also register your domain as a name server with your registrar. Name server registration is usually free, but it requires an additional step beyond the basic domain name registration process.
+For the first three options, you use name servers of the third party (for example, `ns1.softlayer.com` and `ns2.softlayer.com`). The last option uses your domain as the name server (for example, `ns1.yourdomain.com` and `ns2.yourdomain.com`), and it requires you to run DNS services on your server. You must also register your domain as a name server with your registrar. Name server registration is usually free, but it requires an additional step beyond the basic domain name registration process.
 
 Our customers have free DNS services that are fully managed through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). It is highly recommended that you allow {{site.data.keyword.cloud_notm}} to manage your DNS and your name servers, due to our redundant systems, ease of management, and ability to troubleshoot DNS-related issues quickly.
 
@@ -111,7 +111,7 @@ To renew a registration for an existing domain, select [**Classic Infrastructure
 {: faq}
 {: support}
 
-You can estimate the cost of a service using the cost estimator on the provisioning pages for domain name registration. For example, log in to the [Domain Name Service](/catalog) console and click **Create** in the Summary panel. In the _Domains_ page, click the **Register** list menu. Pricing for registering domains is shown in a list menu in the _Register New Domain_ section.
+You can estimate the cost of a service by using the cost estimator on the provisioning pages for domain name registration. For example, log in to the [Domain Name Service](/catalog) console and click **Create** in the Summary window. In the _Domains_ page, click the **Register** list menu. Pricing for registering domains is shown in a list menu in the _Register New Domain_ section.
 
 ## How do I manage DNS zones?
 {: #manage-domain}
@@ -125,14 +125,14 @@ Using the DNS interface, you can manage Forward Zones, Secondary Zones, and Reve
 {: #how-do-i-setup-reverse-dns}
 {: faq}
 
-Reverse DNS setup takes place using our [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). For instructions on how to set up your reverse DNS, refer to [Managing reverse DNS records](/docs/dns?topic=dns-add-or-edit-a-ptr-pointer-record).
+Reverse DNS setup takes place by using our [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). For instructions on how to set up your reverse DNS, refer to [Managing reverse DNS records](/docs/dns?topic=dns-add-or-edit-a-ptr-pointer-record).
 
 
 ## How long does it take for DNS changes to propagate?
 {: #how-long-for-dns-changes-propagate}
 {: faq}
 
-DNS change propagation times depend on the time-to-live (TTL) setting for the DNS record. The default TTL is one day, which means any modifications to a domain name take one day to propagate throughout the entire internet. TTL can be lowered if you plan to make changes frequently; however, the lower the TTL is, the higher the load becomes on the name server. Higher loads have a potential to increase the response time to end users, which could impact their overall satisfaction.
+DNS change propagation times depend on the time-to-live (TTL) setting for the DNS record. The default TTL is one day, which means any modifications to a domain name take one day to propagate throughout the entire internet. TTL can be lowered if you plan to make changes frequently; however, the lower the TTL is, the higher the load becomes on the name server. Higher loads have a potential to increase the response time to users, which might impact their overall satisfaction.
 
 The higher the TTL setting, the higher DNS performance is due to local ISP caching. The lower the TTL setting, the lower DNS performance is due to increased name resolution.
 
@@ -141,7 +141,7 @@ To verify TTL, check the Start of Authority (SOA) record for the domain. A great
 TTL is listed in seconds. Divide by 60 to convert TTL to minutes, or by 3600 to convert to hours.
 
 
-## After transferring a domain, how long does it take for the domain and the changes made to become visible?
+## After transferring a domain, how long does it take for the domain and the changes that are made to become visible?
 {: #how-long-transfer-change-visibility}
 {: faq}
 
@@ -157,7 +157,7 @@ Currently, {{site.data.keyword.cloud_notm}} does not support AXFR request on the
 {: #how-can-i-run-my-own-nameservers}
 {: faq}
 
-The easiest way to run and manage your own name servers is to use a control panel tool such as **Plesk** or **cPanel**. Both of these products have built in domain name servers that allow you to add, modify, or delete domain names.
+The easiest way to run and manage your own name servers is to use a control panel tool such as **Plesk** or **cPanel**. Both of these products have built-in domain name servers that allow you to add, modify, or delete domain names.
 
 To begin, register your domain name as a name server with your domain name registrar and assign two IP addresses from your server IP ranges.
 
@@ -165,19 +165,19 @@ To begin, register your domain name as a name server with your domain name regis
 {: #are-zone-update-notifies-supported}
 {: faq}
 
-Zone update notifies are not supported at this time.
+Zone update notifies are not supported currently.
 
 ## How immediate is the transfer now button for secondary DNS zones?
 {: #how-immediate-is-the-transfer-now-button}
 {: faq}
 
-After clicking the transfer now button, the domain will be transferred at the beginning of the next minute.
+After you click the transfer now button, the domain will be transferred at the beginning of the next minute.
 
 ## Can a master be configured on the private network or does it have to go through the public?
 {: #can-a-master-be-configured-on-private-network}
 {: faq}
 
-All AXFR requests are made over the public network at this time.
+All AXFR requests are made over the public network currently.
 
 ## Is 1 minute the lowest transfer frequency for secondary DNS zones?
 {: #is-1minute-lowest-transfer-frequency}
@@ -189,4 +189,4 @@ The lowest transfer frequency is 1 minute.
 {: #frequency-change-expiration-effects}
 {: faq}
 
-The system calculates the retransfer queue by taking the time of our last transfer attempt and adding the frequency to it.  So, if you have frequency set to 1920 and you then change it to 10 minutes, as long as it's been at least 10 minutes since the system last tried to transfer, it retries immediately and then every 10 minutes thereafter.
+The system calculates the retransfer queue by taking the time of our last transfer attempt and adding the frequency to it. So, if you have the frequency set to 1920 and you then change it to 10 minutes, as long as it has been at least 10 minutes since the system last tried to transfer, it retries immediately and then every 10 minutes thereafter.

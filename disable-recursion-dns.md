@@ -15,7 +15,7 @@ subcollection: dns
 # Disabling recursion for DNS
 {: #disable-recursion-for-dns}
 
-{{site.data.keyword.cloud}} DNS servers perform recursion by default. Recursion allows your DNS server to contact other DNS servers to assist in resolving domain names when it cannot resolve the domain itself. Recursion can prove to be useful when necessary; however, it also opens the DNS server open to attack, which could take down the DNS server altogether. System administrators generally identify a need for recursion and act accordingly. Otherwise, it is best to disable recursion. Follow these steps based on your operating system or control panel to disable DNS recursion.
+{{site.data.keyword.cloud}} DNS servers perform recursion by default. Recursion allows your DNS server to contact other DNS servers to help resolve domain names when it cannot resolve the domain itself. Recursion can prove to be useful when necessary; however, it also opens the DNS server open to attack, which might take down the DNS server altogether. System administrators generally identify a need for recursion and act accordingly. Otherwise, it is best to disable recursion. Follow these steps based on your operating system or control panel to disable DNS recursion.
 {: shortdesc}
 
 ## Disable recursion in Plesk
@@ -40,7 +40,7 @@ subcollection: dns
 ## Disable recursion in Linux
 {: #disable-recursion-in-linux}
 
-1. Locate the BIND configuration file within the operating system. The BIND configuration file is usually located in one of the following paths:
+1. Locate the BIND configuration file within the operating system. The BIND configuration file is located in one of the following paths:
    * `/etc/bind/named.conf`
    * `/etc/named.conf`
 

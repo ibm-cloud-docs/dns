@@ -18,7 +18,7 @@ subcollection: dns
 PTR, or pointer, records resolve IP addresses into hostnames. Users can add PTR records to be associated with an IP address by using **Reverse Records**. Also, PTR records can be edited in the same way they are added. Follow these steps to add or edit a PTR record for a device.
 {: shortdesc}
 
-Have the **public IP address** for the device that will receive the PTR record ready.
+Have the **public IP address** for the device that receives the PTR record ready.
 {: important}
 
 1. From your browser, open the [{{site.data.keyword.cloud}} console](https://{DomainName}/){: external} and log in to your account.
