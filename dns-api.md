@@ -26,7 +26,7 @@ Each `SoftLayer_Dns_Domain` has a collection of `SoftLayer_DNS_Domain_Resourc
 ### List domains
 {: #dns-api-listing-domains}
 
-A list of all domains that are currently hosted on the {{site.data.keyword.cloud_notm}} name servers can be retrieved with `SoftLayer_Account::getDomains` returns an array of `SoftLayer_Dns_Domain` template objects. You can extend this call to also pull the records that are associated with these domains by using an object mask.
+A list of all domains that are hosted on the {{site.data.keyword.cloud_notm}} name servers can be retrieved with `SoftLayer_Account::getDomains` returns an array of `SoftLayer_Dns_Domain` template objects. You can extend this call to also pull the records that are associated with these domains by using an object mask.
 
 ```sh
 $client = SoftLayer_SoapClient::getClient('SoftLayer_Account', null, $apiUser, $apiKey);
@@ -40,7 +40,7 @@ print_r($domains);
 ### Create domains
 {: #dns-api-creating-domains}
 
-To create a new zone, a `SoftLayer_Dns_Domain` template object must be created and passed into `SoftLayer_Dns_Domain::createObject`. NS records for `ns1.softlayer.com` and `ns2.softlayer.com` are automatically added during creation. Include at least one `A` or `AAAA` record with the template object for successful creation. Domain serial numbers are added or updated by the API so there is no need to include them in the template object.
+To create a new zone, a `SoftLayer_Dns_Domain` template object must be created and passed into `SoftLayer_Dns_Domain::createObject`. NS records for `ns1.softlayer.com` and `ns2.softlayer.com` are automatically added during creation. Include at least one `A` or `AAAA` record with the template object for successful creation. The API adds or updates the Domain serial numbers so there is no need to include them in the template object.
 
 The following properties are necessary when you create a `SoftLayer_Dns_Domain` object.
 * **name**: Domain name including the TDL
@@ -146,7 +146,7 @@ Edit resource records by passing a template object into `SoftLayer_Dns_Domain_R
 * **domainId**: Identifier of the `SoftLayer_Dns_Domain` to which this resource record is a child record
 * **properties**: To be changed
 
-Domain serial numbers are updated by the API automatically.
+The API updates the Domain serial numbers automatically.
 {: note}
 
 ```sh
@@ -165,7 +165,7 @@ print_r($result);
 ```
 {: codeblock}
 
-It is also necessary to populate the init params with the resource record ID property. A Boolean is returned by `SoftLayer_Dns_Domain_ResourceRecord::editObject`
+It is also necessary to populate the init params with the resource record ID property. A Boolean is returned by `SoftLayer_Dns_Domain_ResourceRecord::editObject`.
 
 ### Delete records
 {: #dns-api-deleting-records}
