@@ -15,7 +15,7 @@ subcollection: dns
 # DNS FAQs
 {: #dns-faq}
 
-Frequently asked questions for DNS and Domain Name Registration might include questions about server addresses, name server options, and other common inquiries. To find all FAQs for {{site.data.keyword.cloud}}, see our [FAQ library](/docs/faqs).
+Frequently asked questions for DNS and Domain Name Registration might include questions about server addresses, name server options, and other common inquiries. To find all FAQs for {{site.data.keyword.cloud}}, see the [FAQ library](/docs/faqs).
 {: shortdesc}
 
 ## What are the DNS servers?
@@ -35,7 +35,7 @@ The local resolving name servers on the {{site.data.keyword.cloud_notm}} private
 * `rs1.service.softlayer.com 10.0.80.11`
 * `rs2.service.softlayer.com 10.0.80.12`
 
-These local resolving name servers are on our private network, so they don't use up public bandwidth.
+These local resolving name servers are on IBM's private network, so they don't use up public bandwidth.
 
 ## What are the IBM Cloud name server addresses?
 {: #what-are-name-server-addresses}
@@ -79,16 +79,16 @@ Transfers for your secondary domains come from one of the following four IP addr
 {: faq}
 {: support}
 
-Our public name servers act as authoritative name servers for domain names that reside in our DNS servers and are managed through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). These servers answer and resolve domain names to your IP address for the general internet population.
+IBM's public name servers act as authoritative name servers for domain names that reside in our DNS servers and are managed through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). These servers answer and resolve domain names to your IP address for the general internet population.
 
-Our resolving name servers are on the private network and act as DNS resolvers for your server. The private resolvers query the internet's root name servers for domain lookups. For example, sending mail from your server requires an NSlookup of the destination domain name. The private DNS servers resolve this information over the private network to keep your bandwidth usage down, reduce the load on the authoritative servers, and offer quick resolution. Private network resolvers are a convenience service for our customers.
+IBM's resolving name servers are on the private network and act as DNS resolvers for your server. The private resolvers query the internet's root name servers for domain lookups. For example, sending mail from your server requires an NSlookup of the destination domain name. The private DNS servers resolve this information over the private network to keep your bandwidth usage down, reduce the load on the authoritative servers, and offer quick resolution. Private network resolvers are a convenience service.
 
 ## What are my name server options?
 {: #what-are-my-name-server-options-faq}
 {: faq}
 {: support}
 
-With a bare metal server there are four typical options for name servers:
+With a bare metal server, you have our typical options for name servers:
 
 * Use your domain name registrar's name servers to manage your domain names.
 * Use {{site.data.keyword.cloud_notm}} name servers to manage your domain names.
@@ -136,16 +136,16 @@ DNS change propagation times depend on the time-to-live (TTL) setting for the DN
 
 The higher the TTL setting, the higher DNS performance is due to local ISP caching. The lower the TTL setting, the lower DNS performance is due to increased name resolution.
 
-To verify TTL, check the Start of Authority (SOA) record for the domain. A great tool for reviewing domain information is offered by [CentralOps.net](http://centralops.net/co/){: external}
+To verify TTL, check the Start of Authority (SOA) record for the domain. [CentralOps.net](http://centralops.net/co/){: external} is a great tool for reviewing domain information.
 
 TTL is listed in seconds. Divide by 60 to convert TTL to minutes, or by 3600 to convert to hours.
 
 
-## After transferring a domain, how long does it take for the domain and the changes that are made to become visible?
+## After a domain is transferred, how long does it take for the domain and the changes that are made to become visible?
 {: #how-long-transfer-change-visibility}
 {: faq}
 
-Your domain and/or changes to it are visible on IBM Cloud DNS servers immediately after the transfer completes. Due to the propagation nature of DNS, there will be a delay before changes are visible on other DNS servers.
+Your domain or changes to it are visible on IBM Cloud DNS servers immediately after the transfer completes. Due to the propagation nature of DNS, there is a delay before changes are visible on other DNS servers.
 
 ## Can I complete AXFR requests on the private network?
 {: #axfr-request-private-network}
@@ -157,7 +157,7 @@ Currently, {{site.data.keyword.cloud_notm}} does not support AXFR request on the
 {: #how-can-i-run-my-own-nameservers}
 {: faq}
 
-The easiest way to run and manage your own name servers is to use a control panel tool such as **Plesk** or **cPanel**. Both of these products have built-in domain name servers that allow you to add, modify, or delete domain names.
+You can run and manage your own name servers by using a control panel tool, such as **Plesk** or **cPanel**. Both of these products have built-in domain name servers that allow you to add, modify, or delete domain names.
 
 To begin, register your domain name as a name server with your domain name registrar and assign two IP addresses from your server IP ranges.
 
@@ -165,15 +165,15 @@ To begin, register your domain name as a name server with your domain name regis
 {: #are-zone-update-notifies-supported}
 {: faq}
 
-Zone update notifies are not supported currently.
+Currently, zone update notifies are not supported.
 
 ## How immediate is the transfer now button for secondary DNS zones?
 {: #how-immediate-is-the-transfer-now-button}
 {: faq}
 
-After you click the transfer now button, the domain will be transferred at the beginning of the next minute.
+After you click the transfer now button, the domain is transferred at the beginning of the next minute.
 
-## Can a master be configured on the private network or does it have to go through the public?
+## Can a master be configured on the private network or must it go through the public?
 {: #can-a-master-be-configured-on-private-network}
 {: faq}
 
@@ -185,8 +185,8 @@ All AXFR requests are made over the public network currently.
 
 The lowest transfer frequency is 1 minute.
 
-## If frequency is set to 1920 minutes, then back to 10, will the 1920 minutes expire before the new frequency goes into effect?
+## If frequency is set to 1920 minutes, then back to 10, do the 1920 minutes expire before the new frequency goes into effect?
 {: #frequency-change-expiration-effects}
 {: faq}
 
-The system calculates the retransfer queue by taking the time of our last transfer attempt and adding the frequency to it. So, if you have the frequency set to 1920 and you then change it to 10 minutes, as long as it has been at least 10 minutes since the system last tried to transfer, it retries immediately and then every 10 minutes thereafter.
+The system calculates the retransfer queue by taking the time of our last transfer attempt and adding the frequency to it. So, if you have the frequency set to 1920 and you then change it to 10 minutes, as long as at least 10 minutes has elapsed since the system last tried to transfer, it retries immediately and then every 10 minutes thereafter.
