@@ -16,7 +16,7 @@ subcollection: dns
 # About domains
 {: #about-domains}
 
-{{site.data.keyword.cloud}} offers domain management for all customers, by using the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). You don't need to register, renew, and manage your domains with a third party. You can register, renew, transfer, and manage a domain that uses the same tool.
+{{site.data.keyword.cloud}} offers domain management for all customers, by using the [{{site.data.keyword.cloud_notm}} console](/login). You don't need to register, renew, and manage your domains with a third party. You can register, renew, transfer, and manage a domain that uses the same tool.
 {: shortdesc}
 
 ## Reverse DNS
@@ -27,8 +27,8 @@ Reverse DNS is a method of resolving an IP address into a domain name, just as t
 ## Secondary domains
 {: #about-secondary-domains}
 
-A secondary domain is a domain that {{site.data.keyword.cloud_notm}} DNS servers transfer from your server to our authoritative DNS servers, `ns1.softlayer.com` and `ns2.softlayer.com`.  
+A secondary domain is a domain that {{site.data.keyword.cloud_notm}} DNS servers transfer from your server to the IBM authoritative DNS servers: `ns1.softlayer.com` and `ns2.softlayer.com`.  
 
-To set up a secondary domain, you need three pieces of information: the domain, the *IP address of the main DNS server* we're transferring from and how often, in minutes, you want the domain that is transferred.
+To set up a secondary domain, you need three pieces of information: the domain, the IP address of the main DNS server being transferred from, and how often, in minutes, you want the domain that is transferred.
 
-After a secondary domain is configured, you'll be able to change the main server's IP address and the transfer interval. You are also able to view the domain as we're transferring, request a manual transfer, convert your secondary domain to a primary domain, and view any error messages we logged during the transfer process.
+After a secondary domain is configured, you'll be able to change the main server's IP address and the transfer interval. You are also able to view the domain being transferred, request a manual transfer, convert your secondary domain to a primary domain, and view any error messages that are logged during the transfer process.

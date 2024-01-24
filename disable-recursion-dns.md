@@ -35,7 +35,7 @@ subcollection: dns
 1. Select the **Properties** tab.
 1. Click the **Advanced** button in the **Server Options** section.
 1. Select the **Disable Recursion** checkbox.
-1. Click the **OK** button.
+1. Click **OK**.
 
 ## Disable recursion in Linux
 {: #disable-recursion-in-linux}

@@ -25,9 +25,9 @@ Have the **public IP address** for the device that receives the PTR record ready
 1. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg), then click **Classic Infrastructure**.
 1. From the Classic Infrastructure menu, select **Network > DNS  > Reverse Records** to open the Reverse DNS Records page.
 1. Enter the public IP address of the device in the **View IP** field.
-1. Complete or update the fields for the record based on the following:    
+1. Complete or update the fields for the record:    
     * **Hostname**: The hostname to which the IP address resolves.
     * **Reverse TTL**: The time to live (TTL) for the new record.
-1. Click the **Save** button to save the record.
+1. Click **Save** to save the record.
 
-You can also choose **Edit RDNS for all IPs in this Subnet** so that you can make changes across the entire subnet. To remove details from the PTR record, delete all information from the fields and click the **Save** button.
+You can also choose **Edit RDNS for all IPs in this Subnet** so that you can make changes across the entire subnet. To remove details from the PTR record, delete all information from the fields and click **Save**.
