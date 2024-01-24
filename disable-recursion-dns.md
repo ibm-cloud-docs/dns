@@ -25,7 +25,7 @@ subcollection: dns
 1. Select **Tools and Settings**.
 1. Click **DNS Template Settings** from the section.
 1. Select **Localnets** from the **DNS Recursion** section.
-1. Click the **OK** button.
+1. Click **OK**.
 
 ## Disable recursion in Windows Server 2003 and 2008
 {: #disable-recursion-in-windows-server}
@@ -33,7 +33,7 @@ subcollection: dns
 1. Open **DNS Manager** from the **Start** menu by clicking **Start > Administrative Tools > DNS**.
 1. Right-click on the **DNS Server** in the **Console Tree**.
 1. Select the **Properties** tab.
-1. Click the **Advanced** button in the **Server Options** section.
+1. Click **Advanced** in the **Server Options** section.
 1. Select the **Disable Recursion** checkbox.
 1. Click **OK**.
 

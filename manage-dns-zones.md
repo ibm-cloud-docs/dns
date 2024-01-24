@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2020
 lastupdated: "2020-03-26"
 
-keywords: 
+keywords:
 
 subcollection: dns
 
@@ -32,7 +32,7 @@ Follow these steps to add a DNS zone in the DNS Forward Zones page:
 1. Select the **Add DNS Zone** tab.
 1. Enter the domains and IPs (optional) in the **Domains** field.
 1. Enter the default IP address in the **Default IP** field.
-1. Click the **Add Zone** button to add the DNS zone.
+1. Click **Add Zone** to add the DNS zone.
 
 After you added the DNS zone, you can [add records](/docs/dns?topic=dns-manage-dns-zone-records#add-a-dns-zone-record) to the zone.
 
@@ -50,7 +50,7 @@ The **DNS Edit Zone** page allows you to add new records and edit existing recor
 After a DNS zone is added, it can be deleted at any time. DNS zone deletions are permanent; they cannot be undone. Follow these steps to delete a DNS zone in the DNS Forward Zones page:
 
 1. Select the **Delete** icon at the end of the row containing the DNS zone. A confirmation dialog appears.
-1. Click the **Yes** button to confirm the deletion, or click the **No** button to cancel the action.
+1. Click **Yes** to confirm the deletion, or click **No** to cancel the action.
 
 Zones can also be deleted from within the Edit DNS Zones page.
 {: tip}

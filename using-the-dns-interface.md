@@ -28,7 +28,7 @@ To manage forward zones:
 1. From your browser, open the [{{site.data.keyword.cloud}} console](https://{DomainName}/) and log in to your account.
 1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
 1. In the Classic Infrastructure navigation, select **Network > DNS > Forward Zones**
-1. Select the domain you want to manage, or select the **Add DNS zone** button on the right side of the page.
+1. Select the domain you want to manage, or select **Add DNS zone** on the right side of the page.
 
 ## Secondary zones
 {: #secondary-dns}

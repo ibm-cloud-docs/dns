@@ -39,7 +39,7 @@ Follow these steps to transfer an existing domain to {{site.data.keyword.cloud_n
     The price for each time period is displayed next to the amount of time and is charged to the account when the new domain is transferred.
     {: note}
 
-1. Click the **Continue** button to transfer the domain.
+1. Click **Continue** to transfer the domain.
 
 ## Transfer multiple domains
 {: #transfer-multiple-domains}
@@ -63,7 +63,7 @@ Domains can be transferred to {{site.data.keyword.cloud_notm}} in bulk as well. 
    Select the **Add Another** option to populate additional blank fields for more domain entries. Select the **Delete** icon to delete an entire entry from the page.
    {: note}
 
-1. Click the **Continue** button to transfer the domains.
+1. Click **Continue** to transfer the domains.
 
 ## Next steps
 {: #transfer-an-existing-domain-to-ibm-cloud-next}

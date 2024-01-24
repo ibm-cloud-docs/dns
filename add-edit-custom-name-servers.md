@@ -33,7 +33,7 @@ Domains running on the {{site.data.keyword.cloud}} network can point to a maximu
     * To add a custom name server, enter the hostname for the name server in the empty field.
     * To delete a custom name server, delete the information from the field for the appropriate name server.
     * To edit a custom name server, edit the details in the corresponding field for the appropriate name server.
-1. Click the **Associate** button to save the changes, or click **Cancel** to cancel the action.
+1. Click **Associate** to save the changes, or click **Cancel** to cancel the action.
 
 ## Next steps
 {: #add-edit-or-delete-custom-name-servers-for-a-domain-next}

@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2020
 lastupdated: "2020-03-26"
 
-keywords: 
+keywords:
 
 subcollection: dns
 
@@ -35,7 +35,7 @@ Follow these steps to add a secondary DNS zone from the DNS Secondary Zones page
 1. Enter the domains, IPs (optional), and frequency (optional) in the **Domains** section.
 1. Enter the default IP address in the **Default IP** field.
 1. Enter the default transfer frequency (in minutes) for which the primary DNS zone will transfer to the secondary DNS zone in the **Default Transfer Frequency** field.
-1. Click the **Add Zone** button to add the zone.
+1. Click **Add Zone** to add the zone.
 
 ## Edit a secondary DNS zone
 {: #edit-a-secondary-dns-zone}
@@ -44,7 +44,7 @@ Secondary DNS zones can be edited at any time to update the master name server o
 
 1. Locate the row pertaining to the zone you want to edit.
 1. Click the cells of the row to update the **Master Nameserver** and **Transfer Interval** fields as necessary.
-1. Click the **Update** button to update the secondary DNS zone, or select **Cancel** to cancel the action.
+1. Click **Update** to update the secondary DNS zone, or select **Cancel** to cancel the action.
 
 ## Delete a secondary DNS zone
 {: #delete-a-secondary-dns-zone}
@@ -53,7 +53,7 @@ A secondary DNS zone can be deleted at any time. Once a secondary DNS zone is de
 
 1. Locate the row pertaining to the zone you want to delete.
 1. Click the **Actions** menu at the end of the row and select **Delete**. A confirmation dialog appears.
-1. Click the **Yes** button to confirm the deletion, or click the **No** button to cancel the action.
+1. Click **Yes** to confirm the deletion, or click **No** to cancel the action.
 
 ## Force a zone transfer for a secondary DNS zone
 {: #make-a-manual-zone-transfer-for-a-secondary-dns-zone}
@@ -72,7 +72,7 @@ When you convert a secondary DNS zone to primary, {{site.data.keyword.cloud_notm
 
 1. Locate the row pertaining to the zone you want to convert.
 1. Click the **Actions** menu at the end of the row and select **Convert to Primary**. A confirmation dialog appears.
-1. Click the **Yes** button to convert the zone, or click **No** to cancel the action.
+1. Click **Yes** to convert the zone, or click **No** to cancel the action.
 
 ## View errors for a secondary DNS zone
 {: #view-error-messages-secondary-dns-zone}
@@ -81,4 +81,4 @@ You can view any transfer errors associated with a secondary DNS zone from the D
 
 1. Locate the row pertaining to the zone you want to edit.
 1. Click the **Actions** menu at the end of the row and select **View Errors**. A dialog appears with the errors.
-1. Click the **Close** button to close the errors dialog.
+1. Click **Close** to close the errors dialog.

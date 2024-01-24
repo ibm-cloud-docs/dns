@@ -43,8 +43,8 @@ Follow these steps to register a new domain, either one at a time, or multiple d
    Select the **Delete** icon to delete an entire entry from the page.
    {: note}
 
-1. Click the **Check Availability** button to check whether the domain names are available. If all domains are available, proceed to the next step. If one or more domains are not available, try again with another domain.
-1. Click the **Continue** button to register the domain.
+1. Click **Check Availability** to check whether the domain names are available. If all domains are available, proceed to the next step. If one or more domains are not available, try again with another domain.
+1. Click **Continue** to register the domain.
 
 ## Next steps
 {: #register-a-new-domain-next}

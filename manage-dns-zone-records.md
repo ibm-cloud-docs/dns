@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2020
 lastupdated: "2020-03-26"
 
-keywords: 
+keywords:
 
 subcollection: dns
 
@@ -37,7 +37,7 @@ The type of records that can be added to a DNS zone include:
 * TXT (Text) Records
 * SRV (Service) Records
 
-To add a record to a DNS Zone from the DNS Edit Zone page, select the resource type from the **Resource Type** list, complete the requested fields, and click the **Add Record** button. Refer to the following table for information on which fields are required for the record type.
+To add a record to a DNS Zone from the DNS Edit Zone page, select the resource type from the **Resource Type** list, complete the requested fields, and click **Add Record**. Refer to the following table for information on which fields are required for the record type.
 
 | Field | Description |
 |-----------|----------|
@@ -96,7 +96,7 @@ To add a record to a DNS Zone from the DNS Edit Zone page, select the resource t
 ## Edit a DNS zone record
 {: #edit-a-dns-zone-record}
 
-Existing DNS zone records can be edited by a user to update various areas, such as Time to Live (TTL), Pointer (PTR) records and hostnames. Multiple hosts and aliases can be associated with a DNS zone record at any time. A DNS Zone record can be edited from the DNS Edit Zone page. Click the fields of the record you want to update. After updating the details of the record, click the **Update** button to update the record.
+Existing DNS zone records can be edited by a user to update various areas, such as Time to Live (TTL), Pointer (PTR) records and hostnames. Multiple hosts and aliases can be associated with a DNS zone record at any time. A DNS Zone record can be edited from the DNS Edit Zone page. Click the fields of the record you want to update. After updating the details of the record, click **Update** to update the record.
 
 Records that are italicized cannot be edited. These are generally limited to NS (name server) records.
 {: note}
@@ -104,4 +104,4 @@ Records that are italicized cannot be edited. These are generally limited to NS 
 ## Delete a DNS zone record
 {: #delete-a-dns-zone-record}
 
-Deleting a DNS zone record is done through the DNS Edit Zone page. To delete a DNS zone record, click the Delete icon at the end of the row containing the record. A confirmation dialog appears. Click the **Yes** button to confirm the deletion or on **No** to cancel the action. Deleting a DNS zone record cannot be undone.
+Deleting a DNS zone record is done through the DNS Edit Zone page. To delete a DNS zone record, click the Delete icon at the end of the row containing the record. A confirmation dialog appears. Click **Yes** to confirm the deletion or on **No** to cancel the action. Deleting a DNS zone record cannot be undone.

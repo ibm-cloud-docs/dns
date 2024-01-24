@@ -4,7 +4,7 @@ copyright:
   years: 1994, 2020
 lastupdated: "2020-03-26"
 
-keywords: 
+keywords:
 
 subcollection: dns
 
@@ -17,7 +17,7 @@ subcollection: dns
 {: help}
 {: support}
 
-A list of all active domains associated with the account is displayed on the **Domains** page. For accounts with multiple domains, the view may be filtered to view and interact with selected domains. 
+A list of all active domains associated with the account is displayed on the **Domains** page. For accounts with multiple domains, the view may be filtered to view and interact with selected domains.
 {: shortdesc}
 
 Follow these steps to filter the view of existing domains.
@@ -30,4 +30,4 @@ Follow these steps to filter the view of existing domains.
     * **Domain Name**: Enter all or part of the domain name in the **Domain Name** field or select the domain name from the **Domain Name** list.
     * **Expiration Date**: Select the period of time when the domain will expire from the **Expires** list.
     * **Lock Status**: Select the applicable lock status from the **Lock Status** list.
-1. Click the **Filter** button to filter the domains listed, or click **Cancel** to cancel the filter options.
+1. Click **Filter** to filter the domains listed, or click **Cancel** to cancel the filter options.

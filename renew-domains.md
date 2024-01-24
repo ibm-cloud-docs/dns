@@ -49,7 +49,7 @@ Domains can be renewed one at a time, or multiple domains at a time. Follow thes
     The price for each time period is displayed next to the amount of time and will be charged to the account when the new domain is renewed.
     {: note}
 
-1. Click the **Continue** button to renew the domain.
+1. Click **Continue** to renew the domain.
 
 ## Renew multiple domains
 {: #renew-multiple-domains}

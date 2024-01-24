@@ -99,7 +99,7 @@ Tucows will move all domains with the same registrant/owner email address into t
 {: faq}
 {: support}
 
-If you want to have all your domains transferred to multiple accounts, ensure that all domains in your IBM account have the same registrant/owner email address. If you do not perform this step, domains are moved into independent retail accounts.
+If you want to have all your domains transferred to multiple accounts, ensure that all domains in your IBM account have the same registrant/owner email address. If you do not complete this step, domains are moved into independent retail accounts.
 
 #### What if I don't want to move to Hover?
 {: #decline-move-hover}
