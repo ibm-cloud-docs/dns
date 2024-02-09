@@ -17,7 +17,7 @@ subcollection: dns
 {: help}
 {: support}
 
-In the DNS interface, you have the ability to manage **Forward Zones**, **Secondary Zones**, and **Reverse Records**.
+In the DNS interface, you can manage **Forward Zones**, **Secondary Zones**, and **Reverse Records**.
 {: shortdesc}
 
 ## Forward zones
@@ -28,7 +28,7 @@ To manage forward zones:
 1. From your browser, open the [{{site.data.keyword.cloud}} console](https://{DomainName}/) and log in to your account.
 1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
 1. In the Classic Infrastructure navigation, select **Network > DNS > Forward Zones**
-1. Select the domain you want to manage, or select **Add DNS zone** on the right side of the page.
+1. Select the domain that you want to manage, or select **Add DNS zone** on the right side of the page.
 
 ## Secondary zones
 {: #secondary-dns}
@@ -37,7 +37,7 @@ To manage secondary zones:
 
 1. From your browser, open the [{{site.data.keyword.cloud}} console](https://{DomainName}/) and log in to your account.
 1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
-1. In the Classic Infrastructure navigation, select **Network > DNS > Secondary Zones**. From this page you can add or modify secondary DNS settings.
+1. In the Classic Infrastructure navigation, select **Network > DNS > Secondary Zones**. From this page, you can add or modify secondary DNS settings.
 1. To add a new record, select **Add Zone**, complete the fields and select **Add**.
 1. To remove a Secondary DNS record, or convert it to a primary record, use the **Actions** list menu on the right of the page and choose the appropriate option.
 
@@ -49,8 +49,8 @@ To manage reverse records:
 1. From your browser, open the [{{site.data.keyword.cloud}} console](https://{DomainName}/) and log in to your account.
 1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
 1. In the Classic Infrastructure navigation, select **Network > DNS > Reverse Records**.
-1. In the list menu, either select or type the IP address for which you wish to change reverse DNS, then select **View IP**
-1. To add the record, enter the Hostname you want to use for the reverse DNS entry.
+1. In the list menu, either select or type the IP address for which you want to change reverse DNS, then select **View IP**
+1. To add the record, enter the Hostname that you want to use for the reverse DNS entry.
 1. Set the TTL (Time to Live) for the record.
 1. After you are certain of the information, select **Save**.
 

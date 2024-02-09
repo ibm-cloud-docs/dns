@@ -15,15 +15,15 @@ subcollection: dns
 # Managing DNS zone records
 {: #manage-dns-zone-records}
 
-After [adding a DNS zone](/docs/dns?topic=dns-manage-dns-zones#add-a-dns-zone), records can be added to the zone at any time.
+After you [add a DNS zone](/docs/dns?topic=dns-manage-dns-zones#add-a-dns-zone), records can be added to the zone at any time.
 {: shortdesc}
 
 To get to the DNS Edit Zone page:
 
-1. From your browser, open the [{{site.data.keyword.cloud}} console](https://{DomainName}/){: external} and log in to your account.
+1. From your browser, open the [{{site.data.keyword.cloud}} console](/login){: external} and log in to your account.
 1. Select the Menu icon ![Menu icon](../../icons/icon_hamburger.svg), then click **Classic Infrastructure**.
 1. From the Classic Infrastructure menu, select **Network > DNS  > Forward Zones** to open the DNS Forward Zones page.
-1. Click on the DNS zone to open the DNS Edit Zone page.
+1. Click the DNS zone to open the DNS Edit Zone page.
 
 ## Add a DNS zone record
 {: #add-a-dns-zone-record}
@@ -55,7 +55,7 @@ To add a record to a DNS Zone from the DNS Edit Zone page, select the resource t
 |-----------|----------|
 | Priority | Enter the priority of the target host. The lower the number, the higher the priority. |
 | Host | Enter the hostname. |
-| Goes | Enter the `CNAME` of the mail server. This is usually represented as `mail.example.com`.|
+| Goes | Enter the `CNAME` of the mail server. For example, `mail.example.com`.|
 | TTL | Select the Time to Live (TTL) from the list menu. TTL defaults to 15 minutes.|
 {: caption="Table 1. Fields required for MX records" caption-side="bottom"}
 {: #mx-fields}
@@ -79,12 +79,12 @@ To add a record to a DNS Zone from the DNS Edit Zone page, select the resource t
 | Field | Description |
 |-----------|----------|
 | Service | Enter the symbolic name of the service. |
-| Protocol | Select the protocol being used from the list menu. |
+| Protocol | Select the protocol that is being used from the list menu. |
 | Priority | Enter the priority of the target host. The lower the number, the higher the priority. |
 | Weight | Enter the relative weight for records with the same priority. |
 | Port | Enter the TCP or UPD Port on which the service is to be found. |
 | Host (optional) | Enter the hostname for the service. |
-| Target | Enter the canonical hostname of the machine providing the service. |
+| Target | Enter the canonical hostname of the machine that provides the service. |
 | TTL | Select the Time to Live (TTL) from the list menu. TTL defaults to 15 minutes. |
 {: caption="Table 1. Fields required for SRV records" caption-side="bottom"}
 {: #srv-fields}
@@ -96,12 +96,12 @@ To add a record to a DNS Zone from the DNS Edit Zone page, select the resource t
 ## Edit a DNS zone record
 {: #edit-a-dns-zone-record}
 
-Existing DNS zone records can be edited by a user to update various areas, such as Time to Live (TTL), Pointer (PTR) records and hostnames. Multiple hosts and aliases can be associated with a DNS zone record at any time. A DNS Zone record can be edited from the DNS Edit Zone page. Click the fields of the record you want to update. After updating the details of the record, click **Update** to update the record.
+A user can edit existing DNS zone records to update various areas, such as Time to Live (TTL), Pointer (PTR) records and hostnames. Multiple hosts and aliases can be associated with a DNS zone record at any time. A DNS Zone record can be edited from the DNS Edit Zone page. Click the fields of the record that you want to update. After you update the details of the record, click **Update** to update the record.
 
-Records that are italicized cannot be edited. These are generally limited to NS (name server) records.
+Records that are italicized cannot be edited. These records are generally limited to NS (name server) records.
 {: note}
 
 ## Delete a DNS zone record
 {: #delete-a-dns-zone-record}
 
-Deleting a DNS zone record is done through the DNS Edit Zone page. To delete a DNS zone record, click the Delete icon at the end of the row containing the record. A confirmation dialog appears. Click **Yes** to confirm the deletion or on **No** to cancel the action. Deleting a DNS zone record cannot be undone.
+Deleting a DNS zone record is done through the DNS Edit Zone page. To delete a DNS zone record, click the Delete icon at the end of the row that contains the record. A confirmation dialog appears. Click **Yes** to confirm the deletion or on **No** to cancel the action. Deleting a DNS zone record cannot be undone.

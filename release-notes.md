@@ -18,7 +18,7 @@ content-type: release-note
 # Release notes for Domain Name Registration
 {: #release-notes}
 
-Use these release notes to learn about the latest updates to Domain Name Registration that are grouped by date.
+Use these release notes to learn about the latest updates to Domain Name Registration.
 {: shortdesc}
 
 ## 1 November 2021
@@ -26,7 +26,7 @@ Use these release notes to learn about the latest updates to Domain Name Registr
 {: release-note}
 
 Domain freeze
-:   In the period between 2 November 2021 - 10 November 2021, for the purpose of migration, your domains will be in a frozen state.
+:   In the period between 2 November 2021 - 10 November 2021, for the purpose of migration, your domains are in a frozen state.
 
 ## 23 September 2021
 {: #dns-sep2321}
@@ -47,4 +47,4 @@ ResellOne end of service
 {: release-note}
 
 Rename collection
-:   Documentation collection name changed from "Domain Name Service" to "Domain Name Registration".
+:   The documentation collection name changed from "Domain Name Service" to "Domain Name Registration".

@@ -13,7 +13,7 @@ subcollection: dns
 # Setting up Terraform for Domain Name Registration
 {: #terraform-setup-dns}
 
-Terraform on {{site.data.keyword.cloud}} enables predictable and consistent provisioning of {{site.data.keyword.cloud_notm}} services so that you can rapidly build complex, multi-tier cloud environments following Infrastructure as Code (IaC) principles. Similar to using the {{site.data.keyword.cloud_notm}} CLI or API and SDKs, you can automate the provisioning, update, and deletion of your domain resources by using HashiCorp Configuration Language (HCL).
+Terraform on {{site.data.keyword.cloud}} enables predictable and consistent provisioning of {{site.data.keyword.cloud_notm}} services so that you can rapidly build complex, multitier cloud environments following Infrastructure as Code (IaC) principles. Similar to using the {{site.data.keyword.cloud_notm}} CLI or API and SDKs, you can automate the provisioning, update, and deletion of your domain resources by using HashiCorp Configuration Language (HCL).
 {: shortdesc}
 
 Looking for a managed Terraform on {{site.data.keyword.cloud}} solution? Try out [{{site.data.keyword.bplong}}](/docs/schematics?topic=schematics-getting-started). With {{site.data.keyword.bpshort}}, you can use the Terraform scripting language that you are familiar with, but you don't have to worry about setting up and maintaining the Terraform command line and the {{site.data.keyword.cloud}} Provider plug-in. {{site.data.keyword.bpshort}} also provides pre-defined Terraform templates that you can easily install from the {{site.data.keyword.cloud}} catalog.
@@ -29,7 +29,7 @@ To install Terraform and configure resources for domain resources:
 - Create a Terraform configuration file that is named `main.tf`. In this file, you add the configuration to create a domain resource. For more information, see the [Terraform documentation](https://developer.hashicorp.com/terraform/language){: external}.
 
 1. Create a {{site.data.keyword.cis_short_notm}} instance by using the `ibm_resource_instance` resource argument in your `main.tf` file.
-   The following example creates an `ibm_dns_domain_registration_nameservers` resource with an ID of `data.ibm_dns_domain_registration.dns-domain-test.id` and two name servers called `ns006.name.ibm.cloud.com` and `ns017.name.ibm.cloud.com`. The name of the domain resource is `test-domain.com`.
+   The following example creates a `ibm_dns_domain_registration_nameservers` resource with an ID of `data.ibm_dns_domain_registration.dns-domain-test.id` and two name servers that are called `ns006.name.ibm.cloud.com` and `ns017.name.ibm.cloud.com`. The name of the domain resource is `test-domain.com`.
 
       For more information, see the [`ibm_dns_domain_registration_nameservers`](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dns_domain_registration_nameservers){: external} usage example.
       {: note}
@@ -75,4 +75,4 @@ To install Terraform and configure resources for domain resources:
 ## What's next?
 {: #terraform-setup-next}
 
-Now that you have successfully created your DNS domain registration with Terraform on {{site.data.keyword.cloud_notm}}, you can visit the [Domain Name Registration Terraform registry](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dns_domain_registration_nameservers){: external} to perform additional tasks using Terraform.
+Now that you have successfully created your DNS domain registration with Terraform on {{site.data.keyword.cloud_notm}}, you can visit the [Domain Name Registration Terraform registry](https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dns_domain_registration_nameservers){: external} to perform more tasks that use Terraform.

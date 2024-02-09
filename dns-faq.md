@@ -44,11 +44,11 @@ These local resolving name servers are on IBM's private network, so they don't u
 
 IBM has two addresses for authoritative name servers and two addresses for resolving name servers. These local resolving name servers are on the IBM private network, so they don't use up public bandwidth.
 
-* **Authoritative name servers**
+* Authoritative name servers
     * `ns1.softlayer.com 67.228.254.4`
     * `ns2.softlayer.com 67.228.255.5`
 
-* **Resolving name servers**
+* Resolving name servers
     * `rs1.service.softlayer.com 10.0.80.11`
     * `rs2.service.softlayer.com 10.0.80.12`
 
@@ -95,9 +95,9 @@ With a bare metal server, you have our typical options for name servers:
 * Use a third-party DNS service to manage your domain names.
 * Run your own name servers on your server to manage your domain names.
 
-For the first three options, you use name servers of the third party (for example, `ns1.softlayer.com` and `ns2.softlayer.com`). The last option uses your domain as the name server (for example, `ns1.yourdomain.com` and `ns2.yourdomain.com`), and it requires you to run DNS services on your server. You must also register your domain as a name server with your registrar. Name server registration is usually free, but it requires an additional step beyond the basic domain name registration process.
+For the first three options, you use name servers of the third party (for example, `ns1.softlayer.com` and `ns2.softlayer.com`). The last option uses your domain as the name server (for example, `ns1.yourdomain.com` and `ns2.yourdomain.com`), and it requires you to run DNS services on your server. You must also register your domain as a name server with your registrar. Name server registration is usually free, but it requires an extra step beyond the basic domain name registration process.
 
-Our customers have free DNS services that are fully managed through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). It is highly recommended that you allow {{site.data.keyword.cloud_notm}} to manage your DNS and your name servers, due to our redundant systems, ease of management, and ability to troubleshoot DNS-related issues quickly.
+Our customers have free DNS services that are fully managed through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). It is recommended that you allow {{site.data.keyword.cloud_notm}} to manage your DNS and your name servers, due to our redundant systems, ease of management, and ability to troubleshoot DNS-related issues quickly.
 
 ## How do I renew my domain name?
 {: #renew-domain}
@@ -157,15 +157,15 @@ Currently, {{site.data.keyword.cloud_notm}} does not support AXFR request on the
 {: #how-can-i-run-my-own-nameservers}
 {: faq}
 
-You can run and manage your own name servers by using a control panel tool, such as **Plesk** or **cPanel**. Both of these products have built-in domain name servers that allow you to add, modify, or delete domain names.
+You can run and manage your own name servers by using a control page tool, such as **Plesk** or **cPanel**. Both of these products have built-in domain name servers that allow you to add, modify, or delete domain names.
 
 To begin, register your domain name as a name server with your domain name registrar and assign two IP addresses from your server IP ranges.
 
-## Are zone update notifies supported for secondary DNS zones?
+## Are zone update notifiers supported for secondary DNS zones?
 {: #are-zone-update-notifies-supported}
 {: faq}
 
-Currently, zone update notifies are not supported.
+Currently, zone update notifiers are not supported.
 
 ## How immediate is the transfer now button for secondary DNS zones?
 {: #how-immediate-is-the-transfer-now-button}
@@ -189,4 +189,4 @@ The lowest transfer frequency is 1 minute.
 {: #frequency-change-expiration-effects}
 {: faq}
 
-The system calculates the retransfer queue by taking the time of our last transfer attempt and adding the frequency to it. So, if you have the frequency set to 1920 and you then change it to 10 minutes, as long as at least 10 minutes has elapsed since the system last tried to transfer, it retries immediately and then every 10 minutes thereafter.
+The system calculates the retransfer queue by taking the time of our last transfer attempt and adding the frequency to it. So, if you have the frequency set to 1920 and you then change it to 10 minutes, as long as at least 10 minutes elapsed since the system last tried to transfer, it retries immediately and then every 10 minutes thereafter.

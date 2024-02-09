@@ -40,10 +40,10 @@ print_r($domains);
 ### Create domains
 {: #dns-api-creating-domains}
 
-To create a new zone, a `SoftLayer_Dns_Domain` template object must be created and passed into `SoftLayer_Dns_Domain::createObject`. NS records for `ns1.softlayer.com` and `ns2.softlayer.com` are automatically added during creation. Include at least one `A` or `AAAA` record with the template object for successful creation. The API adds or updates the Domain serial numbers so there is no need to include them in the template object.
+To create a new zone, a `SoftLayer_Dns_Domain` template object must be created and passed into `SoftLayer_Dns_Domain::createObject`. NS records for `ns1.softlayer.com` and `ns2.softlayer.com` are automatically added during creation. Include at least one `A` or `AAAA` record with the template object for successful creation. The API adds or updates the Domain serial numbers. You do not need to include the serial numbers in the template object.
 
 The following properties are necessary when you create a `SoftLayer_Dns_Domain` object.
-* **name**: Domain name including the TDL
+* **name**: Domain name, which includes the TDL
 * **resourceRecords**: An array of at least one `SoftLayer_Dns_Domain_ResourceRecord`
 
 ```sh
@@ -142,7 +142,7 @@ print_r($result);
 
 Edit resource records by passing a template object into `SoftLayer_Dns_Domain_ResourceRecord::editObject`. The template object must contain:
 
-* **id**: Identifier for the `SoftLayer_Dns_Domain_ResourceRecord` to be edited.
+* **ID**: Identifier for the `SoftLayer_Dns_Domain_ResourceRecord` to be edited.
 * **domainId**: Identifier of the `SoftLayer_Dns_Domain` to which this resource record is a child record
 * **properties**: To be changed
 
@@ -165,7 +165,7 @@ print_r($result);
 ```
 {: codeblock}
 
-It is also necessary to populate the init params with the resource record ID property. A Boolean is returned by `SoftLayer_Dns_Domain_ResourceRecord::editObject`.
+It is also necessary to populate the init params with the resource record ID property. `SoftLayer_Dns_Domain_ResourceRecord::editObject` returns a Boolean value.
 
 ### Delete records
 {: #dns-api-deleting-records}

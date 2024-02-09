@@ -18,12 +18,12 @@ subcollection: dns
 Effective 30 June 2023, IBM Cloud will no longer support the Domain Name Registration service, which is offered in partnership with Tucows Inc. For more information, see [Domain Name Registration domain transfer](/docs/dns?topic=dns-domain-name-registration-domain-transfer).
 {: deprecated}
 
-Domain name registration is the process of registering a user-friendly domain name, which identifies one or more IP addresses. {{site.data.keyword.cloud}} Domain Name Registration offers customers a central location from which to view and manage their domains.
+Domain name registration is the process of registering a domain name, which identifies one or more IP addresses. {{site.data.keyword.cloud}} Domain Name Registration offers customers a central location from which to view and manage their domains.
 {: shortdesc}
 
-As an additional service, {{site.data.keyword.cloud_notm}} offers secondary domain zones to our customers free of charge, allowing users to back up their primary domain records in the event of data loss or node failure.
+As an extra service, {{site.data.keyword.cloud_notm}} offers secondary domain zones to our customers free of charge. Secondary domain zones allow users to back up their primary domain records in the event of data loss or node failure.
 
-{{site.data.keyword.cloud_notm}} domain service functions similarly to any Domain Name System (DNS) management tool that you would use. You have the ability to interact with and edit existing domain records, add new records, and update information about reverse records. The primary benefit of using {{site.data.keyword.cloud_notm}} over another DNS management service, or even managing it yourself, is that you have a central, reliable location in which all of your data is stored.
+{{site.data.keyword.cloud_notm}} domain service functions similarly to any Domain Name System (DNS) management tool that you use. You can interact with and edit existing domain records, add new records, and update information about reverse records. The primary benefit of using {{site.data.keyword.cloud_notm}} over another DNS management service, or even managing it yourself, is that you have a central, reliable location in which all of your data is stored.
 
 ## Registering a new domain
 {: #registering-domain}
@@ -40,10 +40,10 @@ As an additional service, {{site.data.keyword.cloud_notm}} offers secondary doma
 1. Select the domain type from the **Domain** list.
 1. Select the amount of time to reserve the domain from the **Registration Time** list.
 
-    The price for each time period is displayed next to the amount of time and will be charged to the account when the new domain is registered.
+    The price for each time period is displayed next to the amount of time and is charged to the account when the new domain is registered.
     {: note}
 
-1. If registering multiple domains, select the **Add Another** option to populate additional blank fields for more domain entries.
+1. If you register multiple domains, select the **Add Another** option to populate more blank fields for more domain entries.
 
    Select the **Delete** icon to delete an entire entry from the page.
    {: note}
@@ -54,5 +54,5 @@ As an additional service, {{site.data.keyword.cloud_notm}} offers secondary doma
 ## Next steps
 {: #getting-started-next-steps}
 
-* Manage your primary, secondary, reverse domains using the [DNS interface](/docs/dns?topic=dns-how-to-use-the-dns-interface).
+* Manage your primary, secondary, and reverse domains by using the [DNS interface](/docs/dns?topic=dns-how-to-use-the-dns-interface).
 * Learn more about the [Domains API](/docs/dns?topic=dns-getting-started-with-the-dns-api).

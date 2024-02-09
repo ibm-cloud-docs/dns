@@ -35,10 +35,10 @@ Follow these steps to register a new domain, either one at a time, or multiple d
 1. Select the domain type from the **Domain** list.
 1. Select the amount of time to reserve the domain from the **Registration Time** list.
 
-    The price for each time period is displayed next to the amount of time and will be charged to the account when the new domain is registered.
+    The price for each time period is displayed next to the amount of time and is charged to the account when the new domain is registered.
     {: note}
 
-1. If registering multiple domains, select the **Add Another** option to populate additional blank fields for more domain entries.
+1. If you register multiple domains, select the **Add Another** option to populate more blank fields for more domain entries.
 
    Select the **Delete** icon to delete an entire entry from the page.
    {: note}

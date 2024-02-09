@@ -17,7 +17,7 @@ subcollection: dns
 {: help}
 {: support}
 
-A list of all active domains associated with the account is displayed on the **Domains** page. For accounts with multiple domains, the view may be filtered to view and interact with selected domains.
+A list of all active domains that are associated with the account is displayed on the **Domains** page. For accounts with multiple domains, the view can be filtered to view and interact with selected domains.
 {: shortdesc}
 
 Follow these steps to filter the view of existing domains.
@@ -26,8 +26,8 @@ Follow these steps to filter the view of existing domains.
 1. Select the Menu icon ![Menu icon](../icons/icon_hamburger.svg), then click **Classic Infrastructure**.
 1. From the Classic Infrastructure menu, select **Services > Domain Registration** to open the Domains page.
 1. Select the **Filter** tab.
-1. Determine whether domains should be filtered by Domain Name, Expiration Date, or Lock Status. If filtering by:
+1. Determine whether domains should be filtered by Domain Name, Expiration Date, or Lock Status. If you filter by:
     * **Domain Name**: Enter all or part of the domain name in the **Domain Name** field or select the domain name from the **Domain Name** list.
-    * **Expiration Date**: Select the period of time when the domain will expire from the **Expires** list.
+    * **Expiration Date**: Select the time when the domain expires from the **Expires** list.
     * **Lock Status**: Select the applicable lock status from the **Lock Status** list.
 1. Click **Filter** to filter the domains listed, or click **Cancel** to cancel the filter options.

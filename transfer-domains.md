@@ -20,7 +20,7 @@ subcollection: dns
 Effective 30 June 2023, IBM Cloud will no longer support the Domain Name Registration service, which is offered in partnership with Tucows Inc. For more information, see [Domain Name Registration domain transfer](/docs/dns?topic=dns-domain-name-registration-domain-transfer).
 {: deprecated}
 
-After a domain has been registered, it can be transferred at any time. Transferring a domain from a third-party registrar to {{site.data.keyword.cloud}} can streamline the domain management process. Transferring a domain does not affect the website, email, or DNS. It only changes the registrar that manages the domain records.
+After you register a domain, it can be transferred at any time. Transferring a domain from a third-party registrar to {{site.data.keyword.cloud}} can streamline the domain management process. Transferring a domain does not affect the website, email, or DNS. It changes only the registrar that manages the domain records.
 {: shortdesc}
 
 Follow these steps to transfer an existing domain to {{site.data.keyword.cloud_notm}}.
@@ -34,7 +34,7 @@ Follow these steps to transfer an existing domain to {{site.data.keyword.cloud_n
 1. Choose the **Transfer** tab.
 1. Enter the existing domain name in the **Domain Name** field.
 1. Select the domain type from the **Domain Type** list.
-1. Select the amount of time for which the domain will remain active from the **Registration Time** list.
+1. Select the amount of time for which the domain remains active from the **Registration Time** list.
 
     The price for each time period is displayed next to the amount of time and is charged to the account when the new domain is transferred.
     {: note}
@@ -55,7 +55,7 @@ Domains can be transferred to {{site.data.keyword.cloud_notm}} in bulk as well. 
 1. Select the domain type from the **Domain Type** list.
 1. Select the amount of time for which the transferred domain remains active from the **Registration Time** list.
 
-   The price for each time period is displayed next to the amount of time and will be charged to the account when the new domain is transferred.
+   The price for each time period is displayed next to the amount of time and is charged to the account when the new domain is transferred.
    {: note}
 
 1. Repeat for each additional domain to be transferred.
