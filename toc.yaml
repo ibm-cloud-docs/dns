@@ -4,7 +4,6 @@ toc:
   properties:
     subcollection: dns
     version: 2
-    category: dev_ops
     audience: service
     href: /docs/dns
     console-page: /classic/network/dns/forwardzones
