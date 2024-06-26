@@ -1,4 +1,3 @@
-
 ---
 toc:
   properties:
@@ -11,7 +10,6 @@ toc:
     path: dns
     label: Domain Name Registration
     release-level: deprecated
-
   entries:
   - navgroup:
       id: learn
@@ -21,14 +19,12 @@ toc:
       - dns-records-overview.md
       - dns-terminology.md
       - release-notes.md
-
   - navgroup:
       id: tutorial
       topics:
         - link:
             label: What is DNS
             href: https://www.ibm.com/topics/dns
-
   - navgroup:
       id: howto
       topics:
@@ -53,7 +49,6 @@ toc:
           - disable-recursion-dns.md
           - manage-secondary-dns-zones.md
       - terraform.md
-
   - navgroup:
       id: reference
       topics:
@@ -63,7 +58,6 @@ toc:
       - example-dns-config-images.md
       - dns-api.md
       - domain-registration-agreement.md
-
   - navgroup:
       id: help
       topics:
