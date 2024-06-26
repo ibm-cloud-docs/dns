@@ -2,14 +2,13 @@
 toc:
   properties:
     subcollection: dns
-    version: 2
+    category: network_classic
     audience: service
     href: /docs/dns
     console-page: /classic/network/dns/forwardzones
     product-page: https://www.ibm.com/products/dns
     path: dns
-    label: Domain Name Registration
-    release-level: deprecated
+    label: Domain Name Service
   entries:
   - navgroup:
       id: learn
