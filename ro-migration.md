@@ -134,7 +134,7 @@ On 11 November 2021, you’ll be able to log in to your OpenSRS account. Here’
 3.	You are prompted for your username. Your OpenSRS username is your IBM username followed by `_srs` (for example, `username_srs`).
 4.	After you’re logged in, you’ll want to add funding to your account and set up your branding preferences.
 
-For more information, see the [OpenSRS Reseller Quickstart Guide](https://help.opensrs.com/hc/en-us/articles/115005518768-Reseller-Quickstart-Guide){: external}.
+For more information, see the [OpenSRS Reseller Quickstart Guide](https://support.opensrs.com/support/solutions/articles/201000063205){: external}.
 
 ### Specific FAQs (for 100-499 domains)
 {: #resellone-startup-tier-faq}
