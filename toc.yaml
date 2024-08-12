@@ -60,6 +60,6 @@ toc:
   - navgroup:
       id: help
       topics:
-      - topic: dnsfaq.md
+      - topic: dns-faq.md
         navtitle: FAQs
       - getting-help.md
