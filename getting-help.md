@@ -31,7 +31,7 @@ For more information, see [Contacting support](/docs/get-support?topic=get-suppo
     | --- | ----------- |
     | 842 | Softlayer Inc. |
     | 925 | Everyone's Internet |
-    {: caption="Table 1. Basic information" caption-side="bottom"}
+    {: caption="Basic information" caption-side="bottom"}
     
 
 * Mailing address

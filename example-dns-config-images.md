@@ -27,16 +27,16 @@ Things to remember:
 ## In the IBM Cloud console
 {: #ibm-cloud-customer-portal-example}
 
-![Figure 1: IBM Cloud console DNS zone example](images/dns1.png "IBM Cloud console DNS zone example "){: caption="Figure 1. IBM Cloud console DNS zone example" caption-side="bottom"}
+![Figure 1: IBM Cloud console DNS zone example](images/dns1.png "IBM Cloud console DNS zone example "){: caption="IBM Cloud console DNS zone example" caption-side="bottom"}
 
 
 ## In cPanel
 {: #cpanel-example}
 
-![Figure 2: cPanel DNS zone example](images/cpaneldns.png "cPanel DNS zone example"){: caption="Figure 2. cPanel DNS zone examplee" caption-side="bottom"}
+![Figure 2: cPanel DNS zone example](images/cpaneldns.png "cPanel DNS zone example"){: caption="cPanel DNS zone examplee" caption-side="bottom"}
 
 
 ## In Plesk
 {: #plesk-example}
 
-![Figure 3: Plesk DNS example](images/plesk2dns.png "Plesk DNS example"){: caption="Figure 3. Plesk DNS example" caption-side="bottom"}
+![Figure 3: Plesk DNS example](images/plesk2dns.png "Plesk DNS example"){: caption="Plesk DNS example" caption-side="bottom"}
