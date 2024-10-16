@@ -26,8 +26,8 @@ Domains running on the {{site.data.keyword.cloud}} network can point to a maximu
 1. Select the **Domain Name** to expand the domain into its snapshot view.
 1. Select **Unlocked** from the **Lock Domain**.
 1. Click the `>` character to expand the domain and configure name servers.
-    ![Sample domains collapsed image](images/custom-name-server-collapsed.png "Image of the Domains page with the domain collapsed"){: caption="Figure 1. Domains page with the domain collapsed" caption-side="bottom}
-    ![Sample domains expanded image](images/custom-name-server-expanded.png "Image of the Domains page with the domain expanded"){: caption="Figure 2. Domains page with the domain expanded" caption-side="bottom}
+    ![Sample domains collapsed image](images/custom-name-server-collapsed.png "Image of the Domains page with the domain collapsed"){: caption="Domains page with the domain collapsed" caption-side="bottom}
+    ![Sample domains expanded image](images/custom-name-server-expanded.png "Image of the Domains page with the domain expanded"){: caption="Domains page with the domain expanded" caption-side="bottom}
 1. Select the **Add/Edit NS** option in the **Custom Name Servers** section of the page. A dialog appears.
 1. To complete the appropriate action based on the task, refer to one of the following bullets:
     * To add a custom name server, enter the hostname for the name server in the empty field.
