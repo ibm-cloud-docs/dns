@@ -1,9 +1,8 @@
 ---
 
 copyright:
-  years: 2021, 2023
-lastupdated: "2023-02-09"
-
+  years: 2021, 2025
+lastupdated: "2025-01-29"
 subcollection: dns
 
 ---

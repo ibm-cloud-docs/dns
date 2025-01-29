@@ -1,9 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2020
-lastupdated: "2020-03-26"
-
+  years: 1994, 2025
+lastupdated: "2025-01-29"
 keywords:
 
 subcollection: dns
