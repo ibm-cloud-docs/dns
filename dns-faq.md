@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2023
-lastupdated: "2023-03-29"
+  years: 1994, 2025
+lastupdated: "2025-01-29"
 
 keywords:
 
@@ -12,7 +12,7 @@ subcollection: dns
 
 {{site.data.keyword.attribute-definition-list}}
 
-# DNS FAQs
+# DNS FAQ
 {: #dns-faq}
 
 Frequently asked questions for DNS and Domain Name Registration might include questions about server addresses, name server options, and other common inquiries. To find all FAQs for {{site.data.keyword.cloud}}, see the [FAQ library](/docs/faqs).
@@ -120,7 +120,6 @@ You can estimate the cost of a service by using the cost estimator on the provis
 
 Using the DNS interface, you can manage Forward Zones, Secondary Zones, and Reverse Records. To use this interface, select [**Classic Infrastructure**](https://{DomainName}/gen1/infrastructure/devices) from the menu in the {{site.data.keyword.cloud_notm}} console, and then go to **Network > DNS**.
 
-
 ## How do I set up my reverse DNS?
 {: #how-do-i-setup-reverse-dns}
 {: faq}
@@ -190,3 +189,9 @@ The lowest transfer frequency is 1 minute.
 {: faq}
 
 The system calculates the retransfer queue by taking the time of our last transfer attempt and adding the frequency to it. So, if you have the frequency set to 1920 and you then change it to 10 minutes, as long as at least 10 minutes elapsed since the system last tried to transfer, it retries immediately and then every 10 minutes thereafter.
+
+## Can I make multiple PTR records for one IP address?
+{: #multiple-ptr-records-ip-address}
+{: faq}
+
+No, you cannot make multiple PTR (pointer) records for a single IP address.
