@@ -27,15 +27,7 @@ toc:
   - navgroup:
       id: howto
       topics:
-      - domain-transfer.md
-      - topicgroup:
-          label: Migrating from IBM ResellOne to Tucows platforms
-          topics:
-          - ro-eos-announcement.md
-          - ro-migration.md
-      - register-domains.md
-      - renew-domains.md
-      - transfer-domains.md
+      - ro-migration.md
       - add-edit-custom-name-servers.md
       - filter-view-existing-domains.md
       - topicgroup:
@@ -56,7 +48,6 @@ toc:
           href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dns_domain_registration_nameservers
       - example-dns-config-images.md
       - dns-api.md
-      - domain-registration-agreement.md
   - navgroup:
       id: help
       topics:
