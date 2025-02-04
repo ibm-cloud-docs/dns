@@ -21,14 +21,8 @@
     "section_highlights": [
       {
         "title": "What is DNS?",
-        "description": "The Domain Name System (DNS) is the component of the internet standard protocol responsible for converting human-friendly domain names into IP addresses.",
-        "href": "/docs/dns?topic=dns-domain-name-registration-domain-transfer",
-        "type": "video"
-      },
-      {
-        "title": "Deprecation of Domain Name Registration",
-        "description": "During the week of 26 – 30 June 2023, Tucows and IBM Cloud will automatically migrate your domains over to Tucows' retail domain platform, Hover.",
-        "href": "/docs/dns?topic=dns-domain-name-registration-domain-transfer",
+        "description": "The Domain Name System is the part of the internet standard protocol responsible for converting human-friendly domain names into IP addresses.",
+        "href": "https://www.ibm.com/think/topics/dns",
         "type": "article"
       }
     ], 
