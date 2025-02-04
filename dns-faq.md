@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-01-29"
+lastupdated: "2025-02-04"
 
 keywords:
 
@@ -126,6 +126,11 @@ Using the DNS interface, you can manage Forward Zones, Secondary Zones, and Reve
 
 Reverse DNS setup takes place by using our [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). For instructions on how to set up your reverse DNS, refer to [Managing reverse DNS records](/docs/dns?topic=dns-add-or-edit-a-ptr-pointer-record).
 
+## Am I able to multiple reverse or PTR records for the same IP address?
+{: #multiple-reverse-PTR-same-IP}
+{: faq}
+
+Only one single reverse or PTR record can be created for each IP address.
 
 ## How long does it take for DNS changes to propagate?
 {: #how-long-for-dns-changes-propagate}

@@ -1,31 +1,41 @@
 {
+  "version": 2,
     "title": "Domain Name Registration docs",
-    "lastupdated": "2023-06-08",
-    "introduction": "Deprecated: Effective 30 June 2023, IBM Cloud will no longer support our Domain Name Registration service, which we offer in partnership with Tucows Inc.",
-    "section_recommended": [
+    "introduction": "Deprecated: Effective 30 June 2023, IBM Cloud will no longer support our Domain Name Registration service, which we offer in partnership with Tucows Inc.", 
+    "section_topics": {
+      "links": [
+        {
+          "title": "About domains",
+          "href": "/docs/dns?topic=dns-about-domains"
+        },
+        {
+          "title": "Using the DNS interface",
+          "href": "/docs/dns?topic=dns-how-to-use-the-dns-interface"
+        },
+        {
+          "title": "Managing DNS zones",
+          "href": "/docs/dns?topic=dns-manage-dns-zones"
+        }
+      ]
+    },
+    "section_highlights": [
       {
-        "title": "Domain Name Registration domain transfer",
-        "description": "During the week of 26th – 30th June 2023, Tucows and IBM Cloud will automatically migrate your domains over to Tucows' retail domain platform, Hover. For more information, click this tile.",
-        "href": "/docs/dns?topic=dns-domain-name-registration-domain-transfer"
+        "title": "What is DNS?",
+        "description": "The Domain Name System is the part of the internet standard protocol responsible for converting human-friendly domain names into IP addresses.",
+        "href": "https://www.ibm.com/think/topics/dns",
+        "type": "article"
       }
-    ],
+    ], 
     "section_updates": {
-      "view_more": "/docs/dns?topic=dns-release-notes",
+      "view_more": "/docs/dl?topic=dl-direct-link-release-notes",
       "tiles": [
         {
-          "date": "1 November 2021",
-          "title": "Domain freeze",
-          "description": "Domains frozen from 2 November 2021 - 10 November 2021."
+          "date": "01 Nov 2021",
+          "title": "Domain freeze: In the period between 2 November 2021 - 10 November 2021, for the purpose of migration, your domains are in a frozen state."
         },
         {
-          "date": "23 September 2021",
-          "title": "Abuse policy",
-          "description": "Added information about reporting violations of the Acceptable Use Policy."
-        },
-        {
-          "date": "27 July 2021",
-          "title": "ResellOne end of service",
-          "description": "Effective 1 November 2021, IBM Cloud no longer supports the ResellOne Domain Resale service, which was offered in partnership with Tucows Inc."
+          "date": "23 Sept 2021",
+          "title": "Add abuse policy: Added information about reporting violations of the Acceptable Use Policy."
         }
       ]
     }
