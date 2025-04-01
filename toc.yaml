@@ -33,12 +33,13 @@ toc:
       - topicgroup:
           label: Managing DNS
           topics:
-          - using-the-dns-interface.md
-          - manage-dns-zones.md
-          - manage-dns-zone-records.md
-          - add-edit-ptr-record.md
-          - disable-recursion-dns.md
-          - manage-secondary-dns-zones.md
+          - create-zones.md
+          - update-zones.md
+          - export-zones.md
+          - convert-zones.md
+          - transfer-zones.md
+          - delete-zones.md
+          - add-edit-reverse-records.md
       - terraform.md
   - navgroup:
       id: reference
