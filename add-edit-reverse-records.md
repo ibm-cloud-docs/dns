@@ -12,26 +12,23 @@ subcollection: dns
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Add or edit reverse or PTR (Pointer) records
+# Managing reverse or PTR (pointer) records
 {: #add-or-edit-reverse-records}
 
-PTR, or pointer, records resolve IP addresses into hostnames. Users can add PTR records to be associated with an IP address by using **Reverse Records**. Also, PTR records can be edited in the same way they are added. Follow these steps to add or edit a PTR record for a device.
+PTR, or pointer, records resolve IP addresses into hostnames. You can add, edit, and delete these records via the **Reverse DNS** feature within each of your public subnets.
 {: shortdesc}
 
-Have the **public IP address** for the device that receives the PTR record ready.
-{: important}
+To manage reverse DNS records:
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/) and log in to your account.
-1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
-1. Select **Network > IP Management > Subnets**.
-1. Click the subnet link to view the subnet's details.
-1. On the the **Subnet Details** page, select the **Reserved IPs** tab.
-1. Select **Edit reverse DNS** from the overflow menu ![overflow menu](images/overflow.png).
-1. Enter the Reverse DNS in the field provided.
-1. Select a Reverse TTL from the list.
+1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure** to get to the Classic Infrastructure landing page.
+1. In the Classic Infrastructure navigation, select **Network > IP Management > Subnets**.
+1. In the Subnets table, locate the public subnet containing the IP address whose reverse records you want to update, then click on the identifier of the subnet. 
+1. On the subnet details page, in the IP addresses table, locate the IP address whose reverse record you want to edit, then click **Edit reverse DNS** in the Actions menu ![Actions menu](images/actions-icon-vertical.svg).
 1. Complete or update the fields for the record:    
-    * **Hostname**: The hostname to which the IP address resolves.
-    * **Reverse TTL**: The time to live (TTL) for the new record.
-1. Click **Update** to save your changes.
+    * **Domain name**: The hostname to which the IP address resolves.
+    * **Time to live (TTL)**: The time to live (TTL) for the record.
+1. Click **Confirm** to save your changes.
 
-You can also choose **Edit RDNS for all IPs in this Subnet** so that you can make changes across the entire subnet. To remove details from the PTR record, delete all information from the fields and click **Save**.
+To remove a reverse record, delete all text from the **Domain name** field and click **Confirm**.
+{: tip}

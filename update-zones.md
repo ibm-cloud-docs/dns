@@ -41,4 +41,4 @@ To update secondary zones:
 1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
 1. In the Classic Infrastructure navigation, select **Network > DNS**.
 1. In the Secondary zones table, locate the secondary zone that you want to update, then click on the name of the zone. 
-1. On the zone details page, click the pencil icon beside the secondary zone details you want to edit. In the Records table, locate the Record that you want to edit, then click **Edit** in the Actions menu ![Actions menu](images/actions-icon-vertical.svg).
+1. On the zone details page, click the pencil icon beside the secondary zone details you want to edit.
