@@ -39,6 +39,7 @@ toc:
           - convert-zones.md
           - transfer-zones.md
           - delete-zones.md
+          - manage-dns-zone-records.md
           - add-edit-reverse-records.md
       - terraform.md
   - navgroup:
