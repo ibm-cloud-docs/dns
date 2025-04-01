@@ -35,10 +35,9 @@ To update primary zones:
 ## Updating secondary zones
 {: #update-dns-secondary-zones}
 
-To update secondary zones:
+You can only edit secondary zone records in your primary provider's interface. 
+{: important}
 
-1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](/login) and log in to your account.
-1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
-1. In the Classic Infrastructure navigation, select **Network > DNS**.
-1. In the Secondary zones table, locate the secondary zone that you want to update, then click on the name of the zone. 
-1. On the zone details page, click the pencil icon beside the secondary zone details you want to edit.
+Unlike primary zones, secondary zone records are read-only. You cannot edit secondary zone records in your IBM Cloud account, because the zone is primarily hosted elsewhere. If you want to edit secondary zone records, you must do so on the primary provider. These changes reflect in your IBM Cloud account after the next zone transfer refresh.
+
+If you want your IBM Cloud account to act as a primary provider rather than a secondary provider for your record, see [Converting DNS Zones](/docs/dns?topic=dns-how-to-convert-dns-zones).
