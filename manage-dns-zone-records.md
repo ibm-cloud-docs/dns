@@ -34,8 +34,9 @@ The type of records that you can add to a DNS zone include:
 * AAAA (Host) Records
 * CNAME (Alias) Records
 * MX (Mail Exchange) Records
-* TXT (Text) Records
+* NS (Name Server) Records
 * SRV (Service) Records
+* TXT (Text) Records
 
 To add a Primary zone record to a DNS Zone:
 
