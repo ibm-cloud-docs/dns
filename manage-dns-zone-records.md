@@ -41,8 +41,8 @@ The type of records that you can add to a DNS zone include:
 To add a Primary zone record to a DNS Zone:
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](/login) and log in to your account.
-1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
-1. In the Classic Infrastructure navigation, select **Network > DNS**.
+1. Click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
+1. Select **Network > DNS**.
 1. In the Primary zones table, locate the primary zone that you want to update, then click on the name of the zone.
 1. On the Primary zone details page, click **Create** in the Records table. 
 1. Enter a name for your record, select a record type, and complete the other requested fields, then click **Confirm**.
@@ -134,8 +134,8 @@ You can edit existing DNS zone records to update their name, target, and time to
 To edit a Primary zone record:
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](/login) and log in to your account.
-1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
-1. In the Classic Infrastructure navigation, select **Network > DNS**.
+1. Click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
+1. Select **Network > DNS**.
 1. In the Primary zones table, locate the primary zone that you want to update, then click on the name of the zone.
 1. On the Primary zone details page, locate the Record that you want to edit in the Records table, then click **Edit** in the Actions menu ![Actions menu](images/overflow.png).
 1. Update the name, target, time to live (TTL), or other details of the record.
@@ -149,8 +149,8 @@ You can delete a DNS zone record through the DNS Zone details page.
 To delete a Primary zone record:
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](/login) and log in to your account.
-1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
-1. In the Classic Infrastructure navigation, select **Network > DNS**.
+1. Click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
+1. Select **Network > DNS**.
 1. In the Primary zones table, locate the primary zone that you want to update, then click on the name of the zone.
 1. On the Primary zone details page, locate the Record that you want to delete in the Records table, then click **Delete** in the Actions menu ![Actions menu](images/overflow.png).
 1. Click **Confirm** to delete the record.
