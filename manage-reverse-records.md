@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-04-01"
+lastupdated: "2025-04-02"
 
 keywords: 
 
@@ -13,7 +13,7 @@ subcollection: dns
 {{site.data.keyword.attribute-definition-list}}
 
 # Managing reverse or PTR (pointer) records
-{: #add-or-edit-reverse-records}
+{: #manage-reverse-records}
 
 PTR, or pointer, records resolve IP addresses into hostnames. You can add, edit, and delete these records via the **Reverse DNS** feature within each of your public subnets.
 {: shortdesc}
