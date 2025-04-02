@@ -1,7 +1,7 @@
 {
   "version": 2,
-    "title": "Domain Name Registration docs",
-    "introduction": "Deprecated: Effective 30 June 2023, IBM Cloud will no longer support our Domain Name Registration service, which we offer in partnership with Tucows Inc.", 
+    "title": "Domain Name Service docs",
+    "introduction": "{{site.data.keyword.cloud}} offers domain name service (DNS) management for all customers on the {{site.data.keyword.cloud_notm}} console.", 
     "section_topics": {
       "links": [
         {
@@ -9,12 +9,12 @@
           "href": "/docs/dns?topic=dns-about-domains"
         },
         {
-          "title": "Using the DNS interface",
-          "href": "/docs/dns?topic=dns-how-to-use-the-dns-interface"
+          "title": "Creating DNS zones",
+          "href": "/docs/dns?topic=dns-how-to-create-dns-zones"
         },
         {
-          "title": "Managing DNS zones",
-          "href": "/docs/dns?topic=dns-manage-dns-zones"
+          "title": "Managing DNS zone records",
+          "href": "/docs/dns?topic=dns-manage-dns-zone-records"
         }
       ]
     },
@@ -25,18 +25,5 @@
         "href": "https://www.ibm.com/think/topics/dns",
         "type": "article"
       }
-    ], 
-    "section_updates": {
-      "view_more": "/docs/dl?topic=dl-direct-link-release-notes",
-      "tiles": [
-        {
-          "date": "01 Nov 2021",
-          "title": "Domain freeze: In the period between 2 November 2021 - 10 November 2021, for the purpose of migration, your domains are in a frozen state."
-        },
-        {
-          "date": "23 Sept 2021",
-          "title": "Add abuse policy: Added information about reporting violations of the Acceptable Use Policy."
-        }
-      ]
-    }
-  }
+    ]
+}
