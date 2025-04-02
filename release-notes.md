@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 2022
-lastupdated: "2021-07-27"
+  years: 2022, 2025
+lastupdated: "2025-04-02"
 
 keywords:
 
@@ -15,11 +15,18 @@ content-type: release-note
 {{site.data.keyword.attribute-definition-list}}
 
 
-# Release notes for Domain Name Registration
+# Release notes for Domain Name Service
 {: #release-notes}
 
 Use these release notes to learn about the latest updates to Domain Name Registration.
 {: shortdesc}
+
+## 1 April 2025
+{: #dns-apr0125}
+{: release-note}
+
+Rename collection
+:   The documentation collection name changed from "Domain Name Registration" to "Domain Name Service".
 
 ## 1 November 2021
 {: #dns-nov0121}
