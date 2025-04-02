@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-02-04"
+lastupdated: "2025-04-02"
 
 keywords:
 
@@ -15,7 +15,7 @@ subcollection: dns
 # DNS FAQ
 {: #dns-faq}
 
-Frequently asked questions for DNS and Domain Name Registration might include questions about server addresses, name server options, and other common inquiries. To find all FAQs for {{site.data.keyword.cloud}}, see the [FAQ library](/docs/faqs).
+Frequently asked questions for DNS might include questions about server addresses, name server options, and other common inquiries. To find all FAQs for {{site.data.keyword.cloud}}, see the [FAQ library](/docs/faqs).
 {: shortdesc}
 
 ## What are the DNS servers?
@@ -99,20 +99,6 @@ For the first three options, you use name servers of the third party (for exampl
 
 Our customers have free DNS services that are fully managed through the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). It is recommended that you allow {{site.data.keyword.cloud_notm}} to manage your DNS and your name servers, due to our redundant systems, ease of management, and ability to troubleshoot DNS-related issues quickly.
 
-## How do I renew my domain name?
-{: #renew-domain}
-{: faq}
-{: support}
-
-To renew a registration for an existing domain, select [**Classic Infrastructure**](https://{DomainName}/gen1/infrastructure/devices) from the menu in the {{site.data.keyword.cloud_notm}} console, and then go to **Services > Domain Registration**. See [Renewing existing domains](/docs/dns?topic=dns-renew-an-existing-domain).
-
-## Where do I find cost estimates for domain name registration?
-{: #where-do-i-find-cost-estimates-for-dnr}
-{: faq}
-{: support}
-
-You can estimate the cost of a service by using the cost estimator on the provisioning pages for domain name registration. For example, log in to the [Domain Name Service](/catalog) console and click **Create** in the Summary window. In the _Domains_ page, click the **Register** list menu. Pricing for registering domains is shown in a list menu in the _Register New Domain_ section.
-
 ## How do I manage DNS zones?
 {: #manage-domain}
 {: faq}
@@ -124,7 +110,7 @@ Using the DNS interface, you can manage Forward Zones, Secondary Zones, and Reve
 {: #how-do-i-setup-reverse-dns}
 {: faq}
 
-Reverse DNS setup takes place by using our [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). For instructions on how to set up your reverse DNS, refer to [Managing reverse DNS records](/docs/dns?topic=dns-add-or-edit-a-ptr-pointer-record).
+Reverse DNS setup takes place by using our [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/). For instructions on how to set up your reverse DNS, refer to [Managing reverse DNS records](/docs/dns?topic=dns-manage-reverse-records).
 
 ## Am I able to multiple reverse or PTR records for the same IP address?
 {: #multiple-reverse-PTR-same-IP}

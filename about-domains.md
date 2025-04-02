@@ -1,8 +1,8 @@
 ---
 
 copyright:
-  years: 1994, 2020
-lastupdated: "2020-03-26"
+  years: 1994, 2025
+lastupdated: "2025-04-02"
 
 keywords: 
 
@@ -16,7 +16,7 @@ subcollection: dns
 # About domains
 {: #about-domains}
 
-{{site.data.keyword.cloud}} offers domain management for all customers, by using the [{{site.data.keyword.cloud_notm}} console](/login). You don't need to register, renew, and manage your domains with a third party. You can register, renew, transfer, and manage a domain that uses the same tool.
+{{site.data.keyword.cloud}} offers domain name service (DNS) management for all customers on the [{{site.data.keyword.cloud_notm}} console](/login).
 {: shortdesc}
 
 ## Reverse DNS

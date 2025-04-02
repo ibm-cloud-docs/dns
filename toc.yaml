@@ -13,11 +13,9 @@ toc:
   - navgroup:
       id: learn
       topics:
-      - getting-started.md
       - about-domains.md
       - dns-records-overview.md
       - dns-terminology.md
-      - release-notes.md
   - navgroup:
       id: tutorial
       topics:
@@ -27,30 +25,19 @@ toc:
   - navgroup:
       id: howto
       topics:
-      - ro-migration.md
-      - add-edit-custom-name-servers.md
-      - filter-view-existing-domains.md
-      - topicgroup:
-          label: Managing DNS
-          topics:
-          - using-the-dns-interface.md
-          - manage-dns-zones.md
-          - manage-dns-zone-records.md
-          - add-edit-ptr-record.md
-          - disable-recursion-dns.md
-          - manage-secondary-dns-zones.md
-      - terraform.md
+      - create-zones.md
+      - update-zones.md
+      - export-zones.md
+      - convert-zones.md
+      - transfer-zones.md
+      - delete-zones.md
+      - manage-dns-zone-records.md
+      - manage-reverse-records.md
   - navgroup:
       id: reference
       topics:
-      - link:
-          label: Terraform reference
-          href: https://registry.terraform.io/providers/IBM-Cloud/ibm/latest/docs/resources/dns_domain_registration_nameservers
-      - example-dns-config-images.md
       - dns-api.md
   - navgroup:
       id: help
       topics:
       - topic: dns-faq.md
-        navtitle: FAQs
-      - getting-help.md
