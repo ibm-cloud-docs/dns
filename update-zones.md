@@ -17,7 +17,7 @@ subcollection: dns
 {: help}
 {: support}
 
-In the DNS interface, you can update **Primary Zones** and **Secondary Zones**.
+In the DNS interface, you can update **primary zones** and **secondary zones**.
 {: shortdesc}
 
 ## Updating primary zones
@@ -26,10 +26,10 @@ In the DNS interface, you can update **Primary Zones** and **Secondary Zones**.
 To update primary zones:
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](/login) and log in to your account.
-1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
-1. In the Classic Infrastructure navigation, select **Network > DNS**.
+1. Click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
+1. Select **Network > DNS**.
 1. In the Primary zones table, locate the primary zone that you want to update, then click on the name of the zone. 
-1. On the zone details page, click the pencil icon beside the primary zone details you want to edit. In the Records table, locate the Record that you want to edit, then click **Edit** in the Actions menu ![Actions menu](images/overflow.png).
+1. On the zone details page, click the Edit icon ![Edit icon](/images/edit.png) beside the primary zone details you want to edit. In the Records table, locate the Record that you want to edit, then click **Edit** in the Actions menu ![Actions menu](images/overflow.png).
 
 
 ## Updating secondary zones
