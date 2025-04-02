@@ -25,7 +25,7 @@ Unlike primary zones, secondary zone records are read-only. You cannot edit seco
 
 If you want your IBM Cloud account to act as a primary provider rather than a secondary provider for your record, see [Converting DNS Zones](/docs/dns?topic=dns-how-to-convert-dns-zones).
 
-## Addding a DNS zone record
+## Adding a DNS zone record
 {: #add-a-dns-zone-record}
 
 The type of records that you can add to a DNS zone include:
@@ -45,7 +45,7 @@ To add a Primary zone record to a DNS Zone:
 1. In the Classic Infrastructure navigation, select **Network > DNS**.
 1. In the Primary zones table, locate the primary zone that you want to update, then click on the name of the zone.
 1. On the Primary zone details page, click **Create** in the Records table. 
-1. Enter a name for your record, select a record type, and complete the other requested fields, athen click **Create**.
+1. Enter a name for your record, select a record type, and complete the other requested fields, then click **Confirm**.
 
 Refer to the following tables for information on which fields are required for the record type.
 {: note}
@@ -55,7 +55,7 @@ Refer to the following tables for information on which fields are required for t
 
 | Field | Description |
 |-----------|----------|
-| IPv4 address | Enter an IPv4 address.|
+| IPv4 address | Enter the target IPv4 address.|
 {: caption="Fields required for A records" caption-side="bottom"}
 {: #a-fields}
 {: tab-title="A"}
@@ -65,7 +65,7 @@ Refer to the following tables for information on which fields are required for t
 
 | Field | Description |
 |-----------|----------|
-| IPv6 address | Enter an IPv6 address.|
+| IPv6 address | Enter the target IPv6 address.|
 {: caption="Fields required for AAAA records" caption-side="bottom"}
 {: #aaaa-fields}
 {: tab-title="AAAA"}
@@ -85,7 +85,7 @@ Refer to the following tables for information on which fields are required for t
 
 | Field | Description |
 |-----------|----------|
-| Mail server hostname | Enter the hostname. |
+| Mail server hostname | Enter the hostname of the target mail server. |
 | Priority | Enter the priority of the target host. The lower the number, the higher the priority. |
 {: caption="Fields required for MX records" caption-side="bottom"}
 {: #mx-fields}
@@ -96,7 +96,7 @@ Refer to the following tables for information on which fields are required for t
 
 | Field | Description |
 |-----------|----------|
-| Name server hostname | Enter `@` or the domain name. |
+| Name server hostname | Enter the hostname of the target DNS server. |
 {: caption="Fields required for NS records" caption-side="bottom"}
 {: #ns-fields}
 {: tab-title="NS"}
@@ -106,8 +106,8 @@ Refer to the following tables for information on which fields are required for t
 
 | Field | Description |
 |-----------|----------|
-| Target hostname and port | Enter the canonical hostname of the machine that provides the service, enter a semicolon, then enter the TCP or UPD Port on which the service is to be found. |
-| Weight | Enter the relative weight for records with the same priority. |
+| Target hostname and port | Enter the canonical hostname of the machine that provides the service, enter a semicolon, then enter the TCP or UDP port on which the service is to be found. |
+| Weight | Enter the relative weight for records with the same priority. The higher the number, the higher the priority. |
 | Priority | Enter the priority of the target host. The lower the number, the higher the priority. |
 {: caption="Fields required for SRV records" caption-side="bottom"}
 {: #srv-fields}
@@ -118,7 +118,7 @@ Refer to the following tables for information on which fields are required for t
 
 | Field | Description |
 |-----------|----------|
-| Data | Enter the data in parentheses. |
+| Data | Enter one or more strings wrapped in double quotation marks ("). |
 {: caption="Fields required for TXT records" caption-side="bottom"}
 {: #txt-fields}
 {: tab-title="TXT"}
@@ -129,7 +129,7 @@ Refer to the following tables for information on which fields are required for t
 ## Editing a DNS zone record
 {: #edit-a-dns-zone-record}
 
-You can edit existing DNS zone records to update various areas, such as name, record type, and hostnames. Multiple hosts and aliases can be associated with a DNS zone record at any time.
+You can edit existing DNS zone records to update their name, target, and time to live (TTL).
 
 To edit a Primary zone record:
 
@@ -138,8 +138,8 @@ To edit a Primary zone record:
 1. In the Classic Infrastructure navigation, select **Network > DNS**.
 1. In the Primary zones table, locate the primary zone that you want to update, then click on the name of the zone.
 1. On the Primary zone details page, locate the Record that you want to edit in the Records table, then click **Edit** in the Actions menu ![Actions menu](images/actions-icon-vertical.svg).
-1. Update the name, type, hostname, and other details of the record.
-2. Click **Update** to update the record.
+1. Update the name, target, time to live (TTL), or other details of the record.
+2. Click **Confirm** to update the record.
 
 ## Deleting a DNS zone record
 {: #delete-a-dns-zone-record}
@@ -152,5 +152,5 @@ To delete a Primary zone record:
 1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
 1. In the Classic Infrastructure navigation, select **Network > DNS**.
 1. In the Primary zones table, locate the primary zone that you want to update, then click on the name of the zone.
-1. On the Primary zone details page, locate the Record that you want to edit in the Records table, then click **Delete** in the Actions menu ![Actions menu](images/actions-icon-vertical.svg).
+1. On the Primary zone details page, locate the Record that you want to delete in the Records table, then click **Delete** in the Actions menu ![Actions menu](images/actions-icon-vertical.svg).
 1. Click **Confirm** to delete the record.
