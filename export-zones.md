@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025, 2025
-lastupdated: "2025-04-01"
+lastupdated: "2025-04-02"
 
 keywords: 
 
@@ -12,7 +12,7 @@ subcollection: dns
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Exporting DNS Zones
+# Exporting DNS zones
 {: #how-to-export-dns-zones}
 {: help}
 {: support}

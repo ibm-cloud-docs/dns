@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025, 2025
-lastupdated: "2025-04-01"
+lastupdated: "2025-04-02"
 
 keywords: 
 
@@ -12,7 +12,7 @@ subcollection: dns
 
 {{site.data.keyword.attribute-definition-list}}
 
-# Creating DNS Zones
+# Creating DNS zones
 {: #how-to-create-dns-zones}
 {: help}
 {: support}
@@ -41,13 +41,3 @@ To create secondary zones:
 1. In the Classic Infrastructure navigation, select **Network > DNS**.
 1. In the Secondary zones table, click **Create**.
 1. Enter a name, enter a primary name server, and select a transfer interval for your secondary zone, then click **Confirm**.
-
-## Related links
-{: #create-dns-zone-related-links}
-
-- [Update DNS Zones]()
-- [Export DNS Zones]()
-- [Convert DNS Zones]()
-- [Transfer DNS Zones]() 
-- [Delete DNS Zones]()
-- [Manage reverse or PTR (Pointer) Records]()

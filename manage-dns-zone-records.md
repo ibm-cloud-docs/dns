@@ -137,7 +137,7 @@ To edit a Primary zone record:
 1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
 1. In the Classic Infrastructure navigation, select **Network > DNS**.
 1. In the Primary zones table, locate the primary zone that you want to update, then click on the name of the zone.
-1. On the Primary zone details page, locate the Record that you want to edit in the Records table, then click **Edit** in the Actions menu ![Actions menu](images/actions-icon-vertical.svg).
+1. On the Primary zone details page, locate the Record that you want to edit in the Records table, then click **Edit** in the Actions menu ![Actions menu](images/overflow.png).
 1. Update the name, target, time to live (TTL), or other details of the record.
 2. Click **Confirm** to update the record.
 
@@ -152,5 +152,5 @@ To delete a Primary zone record:
 1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
 1. In the Classic Infrastructure navigation, select **Network > DNS**.
 1. In the Primary zones table, locate the primary zone that you want to update, then click on the name of the zone.
-1. On the Primary zone details page, locate the Record that you want to delete in the Records table, then click **Delete** in the Actions menu ![Actions menu](images/actions-icon-vertical.svg).
+1. On the Primary zone details page, locate the Record that you want to delete in the Records table, then click **Delete** in the Actions menu ![Actions menu](images/overflow.png).
 1. Click **Confirm** to delete the record.
