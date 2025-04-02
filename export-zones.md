@@ -17,7 +17,7 @@ subcollection: dns
 {: help}
 {: support}
 
-In the DNS interface, you can export **Primary Zones** and **Secondary Zones**.
+In the DNS interface, you can export **primary zones** and **secondary zones**.
 {: shortdesc}
 
 ## Exporting primary zones
@@ -26,9 +26,10 @@ In the DNS interface, you can export **Primary Zones** and **Secondary Zones**.
 To export primary zones:
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](/login) and log in to your account.
-1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
-1. In the Classic Infrastructure navigation, select **Network > DNS**.
+1. Click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
+1. Select **Network > DNS**.
 1. In the Primary zones table, locate the primary zone that you want to export, then click **Export** in the Actions menu ![Actions menu](images/overflow.png).
+1. Select **Copy to clipboard** or **Download**.
 
 ## Exporting secondary zones
 {: #dns-secondary-zones-export}
@@ -36,6 +37,7 @@ To export primary zones:
 To export secondary zones:
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](/login) and log in to your account.
-1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
-1. In the Classic Infrastructure navigation, select **Network > DNS**.
+1. Click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
+1. Select **Network > DNS**.
 1. In the Secondary zones table, locate the secondary zone that you want to export, then click **Export** in the Actions menu ![Actions menu](images/overflow.png).
+1. Select **Copy to clipboard** or **Download**.
