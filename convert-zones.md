@@ -17,7 +17,7 @@ subcollection: dns
 {: help}
 {: support}
 
-In the DNS interface, you can convert **Secondary Zones** into **Primary Zones**.
+In the DNS interface, you can convert **secondary zones** into **primary zones**.
 {: shortdesc}
 
 ## Converting secondary zones into primary zones
@@ -26,6 +26,6 @@ In the DNS interface, you can convert **Secondary Zones** into **Primary Zones**
 To convert secondary zones into primary zones:
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](/login) and log in to your account.
-1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
-1. In the Classic Infrastructure navigation, select **Network > DNS**.
+1. Click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
+1. Select **Network > DNS**.
 1. In the Secondary zones table, locate the secondary zone that you want to convert, then click **Convert to primary zone** in the Actions menu ![Actions menu](images/overflow.png).
