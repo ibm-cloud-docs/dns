@@ -1,7 +1,7 @@
 {
   "version": 2,
-    "title": "Domain Name Registration docs",
-    "introduction": "Deprecated: Effective 30 June 2023, IBM Cloud will no longer support our Domain Name Registration service, which we offer in partnership with Tucows Inc.", 
+    "title": "Domain Name Service docs",
+    "introduction": "{{site.data.keyword.cloud}} offers domain name service (DNS) management for all customers on the {{site.data.keyword.cloud_notm}} console.", 
     "section_topics": {
       "links": [
         {
@@ -26,3 +26,5 @@
         "type": "article"
       }
     ]
+  }
+}
