@@ -17,7 +17,7 @@ subcollection: dns
 {: help}
 {: support}
 
-In the DNS interface, you can create **Primary Zones** and **Secondary Zones**.
+In the DNS interface, you can create **primary zones** and **secondary zones**.
 {: shortdesc}
 
 ## Creating primary zones
@@ -26,8 +26,8 @@ In the DNS interface, you can create **Primary Zones** and **Secondary Zones**.
 To create primary zones:
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](/login) and log in to your account.
-1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure** to get to the Classic Infrastructure landing page.
-1. In the Classic Infrastructure navigation, select **Network > DNS**.
+1. Click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
+1. Select **Network > DNS**.
 1. In the Primary zones table, click **Create**.
 1. Enter a name for your primary zone, then click **Confirm.**
 
@@ -38,6 +38,6 @@ To create secondary zones:
 
 1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](/login) and log in to your account.
 1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Classic Infrastructure** to get to the Classic Infrastructure landing page.
-1. In the Classic Infrastructure navigation, select **Network > DNS**.
+1. Select **Network > DNS**.
 1. In the Secondary zones table, click **Create**.
 1. Enter a name, enter a primary name server, and select a transfer interval for your secondary zone, then click **Confirm**.
