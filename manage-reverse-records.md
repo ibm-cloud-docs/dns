@@ -20,9 +20,9 @@ PTR, or pointer, records resolve IP addresses into hostnames. You can add, edit,
 
 To manage reverse DNS records:
 
-1. From your browser, open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/) and log in to your account.
-1. From the dashboard, click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure** to get to the Classic Infrastructure landing page.
-1. In the Classic Infrastructure navigation, select **Network > IP Management > Subnets**.
+1. Open the [{{site.data.keyword.cloud_notm}} console](https://{DomainName}/) and log in to your account.
+1. Click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
+1. Select **Network > IP Management > Subnets**.
 1. In the Subnets table, locate the public subnet containing the IP address whose reverse records you want to update, then click on the identifier of the subnet. 
 1. On the subnet details page, in the IP addresses table, locate the IP address whose reverse record you want to edit, then click **Edit reverse DNS** in the Actions menu ![Actions menu](images/overflow.png).
 1. Complete or update the fields for the record:    
