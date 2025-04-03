@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025, 2025
-lastupdated: "2025-04-02"
+lastupdated: "2025-04-03"
 
 keywords: 
 
@@ -29,8 +29,7 @@ To update primary zones:
 1. Click the Menu icon ![Menu icon](../icons/icon_hamburger.svg) and select **Infrastructure > Classic Infrastructure**.
 1. Select **Network > DNS**.
 1. In the Primary zones table, locate the primary zone that you want to update, then click on the name of the zone. 
-1. On the zone details page, click the Edit icon ![Edit icon](/images/edit.png) beside the primary zone details you want to edit. In the Records table, locate the Record that you want to edit, then click **Edit** in the Actions menu ![Actions menu](images/overflow.png).
-
+1. On the zone details page, click the Edit icon ![Edit icon](images/edit.png) beside the primary zone details you want to edit. In the Records table, locate the Record that you want to edit, then click **Edit** in the Actions menu ![Actions menu](images/overflow.png).
 
 ## Updating secondary zones
 {: #update-dns-secondary-zones}
