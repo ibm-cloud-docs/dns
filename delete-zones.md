@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025, 2025
-lastupdated: "2025-04-02"
+lastupdated: "2025-05-08"
 
 keywords: 
 
@@ -17,7 +17,7 @@ subcollection: dns
 {: help}
 {: support}
 
-In the DNS interface, you can delete **primary zones** and **secondary zones**.
+In the DNS interface, you can delete **primary zones** and **secondary zones**. Carefully consider whether you want to delete your zone before taking action. Once deleted, the zone cannot be restored. 
 {: shortdesc}
 
 ## Deleting primary zones

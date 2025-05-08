@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025, 2025
-lastupdated: "2025-04-02"
+lastupdated: "2025-05-08"
 
 keywords: 
 
@@ -17,7 +17,7 @@ subcollection: dns
 {: help}
 {: support}
 
-In the DNS interface, you can export **primary zones** and **secondary zones**.
+In the DNS interface, you can export **primary zones** and **secondary zones**. You can copy the exported data directly to your clipboard, or download the data in a file to your device. 
 {: shortdesc}
 
 ## Exporting primary zones

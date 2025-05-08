@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-04-02"
+lastupdated: "2025-05-08"
 
 keywords:
 
@@ -71,8 +71,7 @@ Transfers for your secondary domains come from one of the following four IP addr
 
 * `66.228.118.67`
 * `67.228.119.235`
-* `208.43.119.235`
-* `12.96.161.249`
+* `198.23.119.199`
 
 ## What is the difference between the public and private name servers?
 {: #public-v-private-nameservers}

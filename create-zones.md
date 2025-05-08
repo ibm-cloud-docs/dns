@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025, 2025
-lastupdated: "2025-04-03"
+lastupdated: "2025-05-08"
 
 keywords: 
 
@@ -17,7 +17,7 @@ subcollection: dns
 {: help}
 {: support}
 
-In the DNS interface, you can create **primary zones** and **secondary zones**.
+In the DNS interface, you can create **primary zones** and **secondary zones**. When creating DNS zones, it's important to understand the difference between primary and secondary zones. Primary zones can be created and edited directly in your account, while secondary zones are read-only and must be imported from and updated through your primary provider's interface.
 {: shortdesc}
 
 ## Creating primary zones
