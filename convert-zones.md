@@ -2,7 +2,7 @@
 
 copyright:
   years: 2025, 2025
-lastupdated: "2025-04-02"
+lastupdated: "2025-05-08"
 
 keywords: 
 
@@ -17,7 +17,7 @@ subcollection: dns
 {: help}
 {: support}
 
-In the DNS interface, you can convert **secondary zones** into **primary zones**.
+In the DNS interface, you can convert **secondary zones** into **primary zones**. With primary zones, you can edit and update records within your IBM account. Secondary zones are read-only and must be updated through your primary provider's interface.
 {: shortdesc}
 
 ## Converting secondary zones into primary zones
