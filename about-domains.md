@@ -2,7 +2,7 @@
 
 copyright:
   years: 1994, 2025
-lastupdated: "2025-04-02"
+lastupdated: "2025-07-09"
 
 keywords: 
 
@@ -16,13 +16,16 @@ subcollection: dns
 # About domains
 {: #about-domains}
 
+IBM Cloud no longer offers Domain Name Registration (DNR) services. To manage your domains, you can use IBM Cloud's Domain Name Service. For guidance, refer to the instructions for creating DNS zones provided on this website.
+{: attention}
+
 {{site.data.keyword.cloud}} offers domain name service (DNS) management for all customers on the [{{site.data.keyword.cloud_notm}} console](/login).
 {: shortdesc}
 
 ## Reverse DNS
 {: #about-reverse-dns}
 
-Reverse DNS is a method of resolving an IP address into a domain name, just as the domain name system (DNS) resolves domain names into associated IP addresses. One application of reverse DNS is a spam filter. Typically, a spammer uses an invalid IP address that does not match the domain name. A reverse DNS lookup program inputs the IP addresses of incoming messages to a DNS database. If no valid name is found to match the IP address, the server blocks the message. Reverse DNS is also used for things like network troubleshooting calls (such as `ping`) and for network monitoring tools.
+Reverse DNS is a method of resolving an IP address into a domain name, just as the domain name system resolves domain names into associated IP addresses. One application of reverse DNS is a spam filter. Typically, a spammer uses an invalid IP address that does not match the domain name. A reverse DNS lookup program inputs the IP addresses of incoming messages to a DNS database. If no valid name is found to match the IP address, the server blocks the message. Reverse DNS is also used for things like network troubleshooting calls (such as `ping`) and for network monitoring tools.
 
 ## Secondary domains
 {: #about-secondary-domains}
