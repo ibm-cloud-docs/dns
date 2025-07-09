@@ -16,7 +16,7 @@ subcollection: dns
 # About domains
 {: #about-domains}
 
-IBM Cloud no longer offers Domain Name Registration (DNR) services. To manage your domains, you can use IBM Cloud's Domain Name Service. For guidance, refer to the instructions for creating DNS zones provided on this website.
+IBM Cloud no longer offers Domain Name Registration (DNR) services. To manage your domains, you can use IBM Cloud's Domain Name Service. For guidance, see the instructions about [creating DNS zones]/docs/dns?topic=dns-how-to-create-dns-zones).
 {: attention}
 
 {{site.data.keyword.cloud}} offers domain name service (DNS) management for all customers on the [{{site.data.keyword.cloud_notm}} console](/login).
